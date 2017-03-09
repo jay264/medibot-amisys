@@ -1,0 +1,2 @@
+dev: 'http://mtcarmel-wcaa.dstcorp.net:7138/amisys-web/Controller?view=jsp/Pportal.jsp'
+prod: 'http://mtcarmel-wcaa.dstcorp.net/amisys-web/Controller?view=jsp/Pportal.jsp'
