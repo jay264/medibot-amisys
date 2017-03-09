@@ -32,6 +32,16 @@ Dir[File.expand_path('lib/pages/*.rb')].each do |page|
   require page
 end
 
+URLS = {   'PROD' => "http://mtcarmel-wcaa.dstcorp.net/amisys-web/Controller?view=jsp/Pportal.jsp",
+           'DEV' => "http://mtcarmel-wcaa.dstcorp.net:7138/amisys-web/Controller?view=jsp/Pportal.jsp"
+}
+
+if ENV['URL'] == 'PROD'
+  $url = URLS['PROD']
+else
+  $url = URLS['DEV']
+end
+
 Before do
  # Tags (as an array)
  #@scenario_tags = scenario.source_tag_names
@@ -40,7 +50,7 @@ Before do
   Watir::always_locate = false
   $browser = Watir::Browser.new $execution['browser'].to_sym
   $browser.driver.manage.window.maximize
-  $browser.goto($environment)
+  $browser.goto($url)
   $variable_storage = Array.new
 end
 
