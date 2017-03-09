@@ -126,9 +126,9 @@ def save_row_1_info (row)
   row[12] = row[12].to_i.to_s
   row[13] = row[13].to_i.to_s
   row[15] = row[15].to_i.to_s
-  #row[44] = row[44].to_i.to_s
-  #row[51] = row[51].to_i.to_s
-  #row[52] = row[52].to_i.to_s
+  row[35] = row[35].to_i.to_s
+  row[40] = row[40].to_i.to_s
+  row[41] = row[41].to_i.to_s
   if row[23] == 'Denied'
     row[28] = row[22]
     #parsed = DateTime.strptime(row[28].to_s, "%m/%d/%Y")
@@ -152,10 +152,10 @@ end
 def save_row_2_info (row)
   @logfile.write "\n" + "Saving Row 2 Info " + row.to_s
   if @first_auth_status == "YES"
-    @holding_diagnosis_codes = row[4].to_s
+    @holding_diagnosis_codes = row[4].to_i.to_s
     @first_auth_status = "NO"
   else
-    @holding_diagnosis_codes << ", " + row[4].to_s
+    @holding_diagnosis_codes << ", " + row[4].to_i.to_s
   end
   row[4] = @holding_diagnosis_codes
   if !row[7].nil?
