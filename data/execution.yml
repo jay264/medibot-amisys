@@ -1,6 +1,6 @@
 browser: 'ie'
 
-environment: 'prod'
+environment: 'dev'
 
 username: 'MEDIBOTS'
 
