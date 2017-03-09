@@ -1,2 +1,2 @@
 default: --profile html_report --format progress -r features --tags ~@wip --tags ~@dnr --tags ~@client_specific --color
-html_report: --format html "Timestamped::HtmlFormatter" --out test_results/medibot-<%= Time.now.strftime("%Y-%m-%d_%02Hh%02Mm%02Ss") %>.html
+html_report: --format html "Timestamped::HtmlFormatter" --out Y:/CO/CB/Apps/MCHPConfData/essette/MediBot_Essette/test_results/medibot_amisys-<%= Time.now.strftime("%Y-%m-%d_%02Hh%02Mm%02Ss") %>.html
