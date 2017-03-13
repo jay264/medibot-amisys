@@ -353,16 +353,58 @@ File.open("processed_#{@essette_spreadsheet}_urgemerg.feature","w") do |new_feat
         process_urgemerg_template (new_feature_file_urgemerg)
         process_snf_template (new_feature_file_snf)
         process_obs_template (new_feature_file_obs)
-  initalize_spreadsheet_variables
-  @essette_translated.each do |row|
-    @logfile.write "\n\n" + "Processing New Row " + row.to_s
-    check_row_type(row)
-    case @row_type_indicator
-    when "Headers"
-      @logfile.write "\n" + "Processing Header"
-    when "New Auth"
-      @logfile.write "\n" + "First Time Through = " + @first_time_through.to_s
-      if @first_time_through == "NO"
+        initalize_spreadsheet_variables
+        @essette_translated.each do |row|
+          @logfile.write "\n\n" + "Processing New Row " + row.to_s
+          check_row_type(row)
+          case @row_type_indicator
+          when "Headers"
+            @logfile.write "\n" + "Processing Header"
+          when "New Auth"
+            @logfile.write "\n" + "First Time Through = " + @first_time_through.to_s
+            if @first_time_through == "NO"
+              add_care_date_to_feature
+              case @sub_class_code
+              when "SNF"
+                new_feature_file_snf << @new_example
+              when "OBSV"
+                new_feature_file_obs << @new_example
+              else
+                new_feature_file_urgemerg << @new_example
+              end
+              save_row_1_info (row)
+              @first_auth_status = "YES"
+              @first_service_code = "YES"
+              @first_note = "YES"
+              @first_care_date = "YES"
+            else
+              save_row_1_info (row)
+              set_first_time_through_to_false
+            end
+          when "Auth Status"
+            add_auth_info_to_feature
+          when "Service Code"
+            add_auth_status_info_to_feature
+          when "Note"
+            add_service_code_info_to_feature
+            @holding_notes = "NO"
+          when "Care Date"
+            add_notes_to_feature
+          when "Auth Status Detail"
+            save_row_2_info (row)
+            set_first_auth_status_to_false
+          when "Service Code Detail"
+            save_row_3_info (row)
+            set_first_service_code_to_false
+          when "Note Detail"
+            save_row_4_info (row)
+            @first_service_code = "YES"
+            set_first_note_to_false
+          when "Care Date Detail"
+            save_row_5_info (row)
+            set_first_care_date_to_false
+          end
+        end
         add_care_date_to_feature
         case @sub_class_code
         when "SNF"
@@ -372,50 +414,8 @@ File.open("processed_#{@essette_spreadsheet}_urgemerg.feature","w") do |new_feat
         else
           new_feature_file_urgemerg << @new_example
         end
-        save_row_1_info (row)
-        @first_auth_status = "YES"
-        @first_service_code = "YES"
-        @first_note = "YES"
-        @first_care_date = "YES"
-      else
-        save_row_1_info (row)
-        set_first_time_through_to_false
-      end
-    when "Auth Status"
-      add_auth_info_to_feature
-    when "Service Code"
-      add_auth_status_info_to_feature
-    when "Note"
-      add_service_code_info_to_feature
-      @holding_notes = "NO"
-    when "Care Date"
-      add_notes_to_feature
-    when "Auth Status Detail"
-      save_row_2_info (row)
-      set_first_auth_status_to_false
-    when "Service Code Detail"
-      save_row_3_info (row)
-      set_first_service_code_to_false
-    when "Note Detail"
-      save_row_4_info (row)
-      @first_service_code = "YES"
-      set_first_note_to_false
-    when "Care Date Detail"
-      save_row_5_info (row)
-      set_first_care_date_to_false
+      @logfile.write "\n" + "Just appended new example"
+      @logfile.write "\n" + @new_example.to_s + "\n"
     end
   end
-  add_care_date_to_feature
-  case @sub_class_code
-  when "SNF"
-    new_feature_file_snf << @new_example
-  when "OBSV"
-    new_feature_file_obs << @new_example
-  else
-    new_feature_file_urgemerg << @new_example
-  end
-  @logfile.write "\n" + "Just appended new example"
-  @logfile.write "\n" + @new_example.to_s + "\n"
-end
-end
 end
