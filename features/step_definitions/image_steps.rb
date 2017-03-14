@@ -31,6 +31,25 @@ When /^in the "([^"]*)" page I enter "([^"]*)" into the "([^"]*)" image$/ do |pa
   end
 end
 
+When /^in the "([^"]*)" page I enter the first element from "([^"]*)" into the "([^"]*)" image$/ do |page, value, element|
+  element_array = value.split(', ')
+  #element_array = element_array.reject(&:blank?)
+  first_element_array = element_array.first
+  screen_image = "#{$image_directory}" + "#{page}" + "\\" + "#{element}" + ".PNG"
+  begin
+    @screen.wait "#{screen_image}", 30
+    if @screen.exists "#{screen_image}"
+      @screen.click "#{screen_image}"
+      sleep (1)
+      value_array = first_element_array.scan(/./)
+      value_array.each do |character|
+        @screen.type character
+        sleep (0.15)
+      end
+    end
+  end
+end
+
 When /^in the "([^"]*)" page I enter the first service code into the "([^"]*)" image$/ do |page, element|
   if $first_service_code
     screen_image = "#{$image_directory}" + "#{page}" + "\\" + "#{element}" + ".PNG"
