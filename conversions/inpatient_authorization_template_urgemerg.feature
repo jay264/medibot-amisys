@@ -13,21 +13,19 @@
 	And the test pauses for "10" seconds
 	And in the "Certification" page I should see the "Initial Date" element
 	And I press "Control + N"
-	#And the test pauses for "3" seconds
 	And in the "certification" page I should see the "red_and_yellow_boxes" image
 	And in the "Certification" page I enter "<requested_date>" into the "Initial Date" field
 	And in the "Certification" page I enter "<requested_date>" into the "Req Dates 1" field
 	And in the "Certification" page I enter "<member_id>" into the "Member Number" field
 	And in the "Certification" page I use the source "<source>" to determine what to enter into the "Source" field
 	And in the "Certification" page I enter the primary "<diagnosis_code>" into the "Primary Diag Dt 1" field and save the variable
-	And in the "Certification" page I enter "OB" into the "Auth Type" field
+	And in the "Certification" page I use the sub-class "<sub_class>" to determine what to enter into the "Auth Type" field
 	And the test pauses for "2" seconds
 	And in the "Certification" page I use the status reason "<status_reason>" to determine what to enter into the "EX" field
 	And the test pauses for "3" seconds
 	And I press "Control + S"
 
-	#And in the "certification" page I should see the "red_header" image
-	And in the "certification" page I should see the "loaded_blue_sidebar" image
+	And in the "certification" page I should see the "medibots" image
 	And the test pauses for "3" seconds
 
 	And in the "Functions Menu" page I click on "Hospital Svcs"
@@ -156,9 +154,20 @@
 	And I press "Control + S"
 	And the test pauses for "3" seconds
 
-	And in the "Certification" page I enter the updated auth type code into the "Auth Type" field
-	And I press "Control + S"
+	And in the "Functions Menu" page I click on "Remarks"
+	And in the "remarks_maintenance" page I should see the "remarks_maintenance" image
+	And I press "Control + N"
 	And the test pauses for "3" seconds
+	And in the "remarks_maintenance" page I enter "UM" into the "sub_type" image
+	And in the "remarks_maintenance" page I enter "Authorization Numbers" into the "remark_summary" image
+	And in the "remarks_maintenance" page I enter "<auth_number>" into the "remark_text_1" image
+	And I press "Tab"
+	And I enter the "<other_reference_#>" text
+	And in the "remarks_maintenance" page I click on the "save" image
+	And the test pauses for "4" seconds
+	And I press "F8"
+	And the test pauses for "4" seconds
+
 	And in the "Certification" page I should see the "Auth Number" authorization number and print it to the error report
 
 	And I press "Control + Q"
@@ -166,10 +175,6 @@
 	And I press ENTER graphically
 	And the test pauses for "5" seconds
 	And I close "Internet Explorer"
-
-
-
-
 
 	Examples:
 		| requested_date  | military_date      | other_reference_# |	member_id | member_first_name |	member_last_name | practice_name | requesting_provider_id  |	requesting_provider_first_name  | requesting_provider_last_name  | requesting_provider_npi_# |	facility_name  | servicing_provider_id |	provider_facility_npi |	servicing_provider_name	| servicing_provider_npi_# |	sub_class  | sub_class_code | type  |	type_code |	servicing_provider_first_name |	servicing_provider_last_name  | status_date |	status   |	health_plan                | source     |	status_reason        |  auth_class | authorized_date | expiration_date | priority | aco_type_and_payment | eis_aa | adm | auth_for_payment | days_used_prior | dc | denc_date | mds_date | nomnc_date | total_days | total_skilled_days | auth_type      | auth_status    |	auth_number |	diagnosis_code     |	diagnosis                                          			|	diagnosis_type |	auth_modified_date | service_code       | service_description                                                    | service_type |	qty_appr |	qty_reqd  |	determination |	auth_approval_days | service_type   |	service_type_code  | notes                  | care_date | actual_level_of_care | approved_level_of_care | determination | auth_approval_days |
