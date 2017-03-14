@@ -10,24 +10,55 @@ def open_files
   @logfile.write "\n" + "Opened spreadsheet " + @essette_spreadsheet.to_s
   @essette_translated = book1.worksheet 'NEWEssetteDailyExtractReport-In'
   @logfile.write "\n" + "Added the spreadsheet to a book in the worksheet"
-  #@new_feature_file_essette = File.open("processed_essette_#{@essette_spreadsheet}.feature","w")
   @logfile.write "\n" + "Opened a new feature file for the spreadsheet data"
-  @old_template_file = File.open("outpatient_authorization_template_sikuli.feature", "r")
+  @template_file_urgemerg = File.open("inpatient_authorization_template_urgemerg.feature", "r")
+  @template_file_snf = File.open("inpatient_authorization_template_snf.feature", "r")
+  @template_file_obs = File.open("inpatient_authorization_template_obs.feature", "r")
 end
 
-def process_template_file (new_feature_file_essette)
+def process_urgemerg_template (new_feature_file)
   line_count = 0
-  @old_template_file.each_line do |line|
+  @template_file_urgemerg.each_line do |line|
     line_count += 1
     case line_count
     when 6
-      line = "Scenario Outline: #{@essette_spreadsheet}" + "\n"
+      line = "Scenario Outline: #{@essette_spreadsheet}_URGEMERG" + "\n"
     when 1
-      line = "Feature: Process Essette Extract #{@essette_spreadsheet}" + "\n"
+      line = "Feature: Process Essette Extract #{@essette_spreadsheet}_URGEMERG" + "\n"
     end
-    new_feature_file_essette.puts line
+    new_feature_file.puts line
   end
-  @old_template_file.close
+  @template_file_urgemerg.close
+end
+
+def process_snf_template (new_feature_file)
+  line_count = 0
+  @template_file_snf.each_line do |line|
+    line_count += 1
+    case line_count
+    when 6
+      line = "Scenario Outline: #{@essette_spreadsheet}_SNF" + "\n"
+    when 1
+      line = "Feature: Process Essette Extract #{@essette_spreadsheet}_SNF" + "\n"
+    end
+    new_feature_file.puts line
+  end
+  @template_file_snf.close
+end
+
+def process_obs_template (new_feature_file)
+  line_count = 0
+  @template_file_obs.each_line do |line|
+    line_count += 1
+    case line_count
+    when 6
+      line = "Scenario Outline: #{@essette_spreadsheet}_OBS" + "\n"
+    when 1
+      line = "Feature: Process Essette Extract #{@essette_spreadsheet}_OBS" + "\n"
+    end
+    new_feature_file.puts line
+  end
+  @template_file_obs.close
 end
 
 def initalize_spreadsheet_variables
@@ -126,6 +157,7 @@ def save_row_1_info (row)
   row[12] = row[12].to_i.to_s
   row[13] = row[13].to_i.to_s
   row[15] = row[15].to_i.to_s
+  @sub_class_code = row[17]
   row[35] = row[35].to_i.to_s
   row[40] = row[40].to_i.to_s
   row[41] = row[41].to_i.to_s
@@ -312,63 +344,78 @@ def add_care_date_to_feature
 end
 
 
-def add_new_example_to_feature (new_feature_file_essette)
-  new_feature_file_essette << @new_example
-  @logfile.write "\n" + "Just appended new example"
-  @logfile.write "\n" + @new_example.to_s + "\n"
-end
-
-
 require 'spreadsheet'
 initialize_variables
-File.open("processed_#{@essette_spreadsheet}.feature","w") do |new_feature_file_essette|
-  open_files
-  process_template_file (new_feature_file_essette)
-  initalize_spreadsheet_variables
-  @essette_translated.each do |row|
-    @logfile.write "\n\n" + "Processing New Row " + row.to_s
-    check_row_type(row)
-    case @row_type_indicator
-    when "Headers"
-      @logfile.write "\n" + "Processing Header"
-    when "New Auth"
-      @logfile.write "\n" + "First Time Through = " + @first_time_through.to_s
-      if @first_time_through == "NO"
+open_files
+File.open("processed_#{@essette_spreadsheet}_urgemerg.feature","w") do |new_feature_file_urgemerg|
+  File.open("processed_#{@essette_spreadsheet}_snf.feature","w") do |new_feature_file_snf|
+    File.open("processed_#{@essette_spreadsheet}_obs.feature","w") do |new_feature_file_obs|
+        process_urgemerg_template (new_feature_file_urgemerg)
+        process_snf_template (new_feature_file_snf)
+        process_obs_template (new_feature_file_obs)
+        initalize_spreadsheet_variables
+        @essette_translated.each do |row|
+          @logfile.write "\n\n" + "Processing New Row " + row.to_s
+          check_row_type(row)
+          case @row_type_indicator
+          when "Headers"
+            @logfile.write "\n" + "Processing Header"
+          when "New Auth"
+            @logfile.write "\n" + "First Time Through = " + @first_time_through.to_s
+            if @first_time_through == "NO"
+              add_care_date_to_feature
+              case @sub_class_code
+              when "SNF"
+                new_feature_file_snf << @new_example
+              when "OBSV"
+                new_feature_file_obs << @new_example
+              else
+                new_feature_file_urgemerg << @new_example
+              end
+              save_row_1_info (row)
+              @first_auth_status = "YES"
+              @first_service_code = "YES"
+              @first_note = "YES"
+              @first_care_date = "YES"
+            else
+              save_row_1_info (row)
+              set_first_time_through_to_false
+            end
+          when "Auth Status"
+            add_auth_info_to_feature
+          when "Service Code"
+            add_auth_status_info_to_feature
+          when "Note"
+            add_service_code_info_to_feature
+            @holding_notes = "NO"
+          when "Care Date"
+            add_notes_to_feature
+          when "Auth Status Detail"
+            save_row_2_info (row)
+            set_first_auth_status_to_false
+          when "Service Code Detail"
+            save_row_3_info (row)
+            set_first_service_code_to_false
+          when "Note Detail"
+            save_row_4_info (row)
+            @first_service_code = "YES"
+            set_first_note_to_false
+          when "Care Date Detail"
+            save_row_5_info (row)
+            set_first_care_date_to_false
+          end
+        end
         add_care_date_to_feature
-        add_new_example_to_feature (new_feature_file_essette)
-        save_row_1_info (row)
-        @first_auth_status = "YES"
-        @first_service_code = "YES"
-        @first_note = "YES"
-        @first_care_date = "YES"
-      else
-        save_row_1_info (row)
-        set_first_time_through_to_false
-      end
-    when "Auth Status"
-      add_auth_info_to_feature
-    when "Service Code"
-      add_auth_status_info_to_feature
-    when "Note"
-      add_service_code_info_to_feature
-      @holding_notes = "NO"
-    when "Care Date"
-      add_notes_to_feature
-    when "Auth Status Detail"
-      save_row_2_info (row)
-      set_first_auth_status_to_false
-    when "Service Code Detail"
-      save_row_3_info (row)
-      set_first_service_code_to_false
-    when "Note Detail"
-      save_row_4_info (row)
-      @first_service_code = "YES"
-      set_first_note_to_false
-    when "Care Date Detail"
-      save_row_5_info (row)
-      set_first_care_date_to_false
+        case @sub_class_code
+        when "SNF"
+          new_feature_file_snf << @new_example
+        when "OBSV"
+          new_feature_file_obs << @new_example
+        else
+          new_feature_file_urgemerg << @new_example
+        end
+      @logfile.write "\n" + "Just appended new example"
+      @logfile.write "\n" + @new_example.to_s + "\n"
     end
   end
-  add_care_date_to_feature
-  add_new_example_to_feature (new_feature_file_essette)
 end
