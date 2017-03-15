@@ -32,7 +32,8 @@
 	And the test pauses for "3" seconds
 	And in the "hospital_services" page I should see the "est_admit" image
 	And the test pauses for "3" seconds
-	And in the "hospital_services" page I enter "<care_date>" into the "est_admit" image
+	#And in the "authorized_services" page I enter "<care_date>" into the "dates_begin_requested" image
+	And in the "authorized_services" page I enter the first element from "<care_date>" into the "dates_begin_requested" image
 	And in the "hospital_services" page I subtract one from the "<auth_approval_days>" days and put the result in the "auth_days" image
 	And in the "hospital_services" page I enter "$" into the "facility_number" image
 	And I press ENTER graphically
