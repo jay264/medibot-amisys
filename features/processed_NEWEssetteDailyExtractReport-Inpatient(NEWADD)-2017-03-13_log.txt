@@ -44,7 +44,7 @@ Initial Row Type Indicator = Auth Status Detail
 Row[2] = Service Code
 Revised Row Type Indicator = Service Code
 Just wrote entire row 2
-["Concurrent Review", "Interim Approval", "A170221003", "0, 0", "Repeated falls", "ICD10", "03132017"]
+["Concurrent Review", "Interim Approval", "A170221003", "I6200, R296", "Repeated falls", "ICD10", "03132017"]
 
 
 Processing New Row [nil, "No child records to display.", nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil]
@@ -257,7 +257,7 @@ Initial Row Type Indicator = Auth Status Detail
 Row[2] = Service Code
 Revised Row Type Indicator = Service Code
 Just wrote entire row 2
-["Concurrent Review", "Interim Approval", "A170310029", "0, 0, 0, 0, 0", "History of falling", "ICD10", "03132017"]
+["Concurrent Review", "Interim Approval", "A170310029", "G9340, I878, N3000, N390, Z9181", "History of falling", "ICD10", "03132017"]
 
 
 Processing New Row [nil, "No child records to display.", nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil]
@@ -472,7 +472,7 @@ Initial Row Type Indicator = Auth Status Detail
 Row[2] = Service Code
 Revised Row Type Indicator = Service Code
 Just wrote entire row 2
-["Concurrent Review", "Interim Approval", "A170310050", "0, 0, 0, 0, 0, 0", "Unspecified fall, sequela", "ICD10", "03132017"]
+["Concurrent Review", "Interim Approval", "A170310050", "I10, I2510, N19, R531, R7989, W19XXXS", "Unspecified fall, sequela", "ICD10", "03132017"]
 
 
 Processing New Row [nil, "No child records to display.", nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil]
@@ -652,7 +652,7 @@ Initial Row Type Indicator = Auth Status Detail
 Row[2] = Service Code
 Revised Row Type Indicator = Service Code
 Just wrote entire row 2
-["Concurrent Review", "Interim Approval", "A170310061", "0", "Aftercare following explantation of hip joint prosthesis", "ICD10", "03132017"]
+["Concurrent Review", "Interim Approval", "A170310061", "Z4732", "Aftercare following explantation of hip joint prosthesis", "ICD10", "03132017"]
 
 
 Processing New Row [nil, "No child records to display.", nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil]
@@ -839,7 +839,7 @@ Initial Row Type Indicator = Auth Status Detail
 Row[2] = Service Code
 Revised Row Type Indicator = Service Code
 Just wrote entire row 2
-["Concurrent Review", "Interim Approval", "A170310064", "0, 0", "Other abnormalities of gait and mobility", "ICD10", "03132017"]
+["Concurrent Review", "Interim Approval", "A170310064", "N390, R2689", "Other abnormalities of gait and mobility", "ICD10", "03132017"]
 
 
 Processing New Row [nil, "No child records to display.", nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil]
@@ -1019,7 +1019,7 @@ Initial Row Type Indicator = Auth Status Detail
 Row[2] = Service Code
 Revised Row Type Indicator = Service Code
 Just wrote entire row 2
-["Concurrent Review", "Interim Approval", "A170310071", "0", "Pneumonia, unspecified organism", "ICD10", "03132017"]
+["Concurrent Review", "Interim Approval", "A170310071", "J189", "Pneumonia, unspecified organism", "ICD10", "03132017"]
 
 
 Processing New Row [nil, "No child records to display.", nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil]
@@ -1206,7 +1206,7 @@ Initial Row Type Indicator = Auth Status Detail
 Row[2] = Service Code
 Revised Row Type Indicator = Service Code
 Just wrote entire row 2
-["Concurrent Review", "Interim Approval", "A170310072", "0, 0", "Presence of left artificial knee joint", "ICD10", "03132017"]
+["Concurrent Review", "Interim Approval", "A170310072", "M86311, Z96652", "Presence of left artificial knee joint", "ICD10", "03132017"]
 
 
 Processing New Row [nil, "No child records to display.", nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil]
@@ -1386,7 +1386,7 @@ Initial Row Type Indicator = Auth Status Detail
 Row[2] = Service Code
 Revised Row Type Indicator = Service Code
 Just wrote entire row 2
-["Concurrent Review", "Interim Approval", "A170310073", "0", "Acute on chronic diastolic (congestive) heart failure", "ICD10", "03132017"]
+["Concurrent Review", "Interim Approval", "A170310073", "I5033", "Acute on chronic diastolic (congestive) heart failure", "ICD10", "03132017"]
 
 
 Processing New Row [nil, "No child records to display.", nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil]
@@ -1566,7 +1566,7 @@ Initial Row Type Indicator = Auth Status Detail
 Row[2] = Service Code
 Revised Row Type Indicator = Service Code
 Just wrote entire row 2
-["Concurrent Review", "Interim Approval", "A170310075", "0", "Oth specific arthropathies, NEC, right shoulder", "ICD10", "03132017"]
+["Concurrent Review", "Interim Approval", "A170310075", "M12811", "Oth specific arthropathies, NEC, right shoulder", "ICD10", "03132017"]
 
 
 Processing New Row [nil, "No child records to display.", nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil]
@@ -1774,7 +1774,7 @@ Initial Row Type Indicator = Auth Status Detail
 Row[2] = Service Code
 Revised Row Type Indicator = Service Code
 Just wrote entire row 2
-["Concurrent Review", "Interim Approval", "A170310076", "0, 0, 0, 0, 0", "Unspecified asthma, uncomplicated", "ICD10", "03132017"]
+["Concurrent Review", "Interim Approval", "A170310076", "E119, F329, H532, I10, J45909", "Unspecified asthma, uncomplicated", "ICD10", "03132017"]
 
 
 Processing New Row [nil, "No child records to display.", nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil]
@@ -1954,7 +1954,7 @@ Initial Row Type Indicator = Auth Status Detail
 Row[2] = Service Code
 Revised Row Type Indicator = Service Code
 Just wrote entire row 2
-["Concurrent Review", "Interim Approval", "A170310077", "0", "Urinary tract infection, site not specified", "ICD10", "03132017"]
+["Concurrent Review", "Interim Approval", "A170310077", "N390", "Urinary tract infection, site not specified", "ICD10", "03132017"]
 
 
 Processing New Row [nil, "No child records to display.", nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil]
@@ -2112,7 +2112,7 @@ Initial Row Type Indicator = Auth Status Detail
 Row[2] = Service Code
 Revised Row Type Indicator = Service Code
 Just wrote entire row 2
-["Concurrent Review", "Interim Approval", "A170313042", "0, 0, 0", "Chronic kidney disease, stage 4 (severe)", "ICD10", "03132017"]
+["Concurrent Review", "Interim Approval", "A170313042", "I872, L03119, N184", "Chronic kidney disease, stage 4 (severe)", "ICD10", "03132017"]
 
 
 Processing New Row [nil, "No child records to display.", nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil]
@@ -2334,7 +2334,7 @@ Initial Row Type Indicator = Auth Status Detail
 Row[2] = Service Code
 Revised Row Type Indicator = Service Code
 Just wrote entire row 2
-["Concurrent Review", "Interim Approval", "A170313062", "0, 0, 0, 0, 0, 0, 0", "Other fall on same level, sequela", "ICD10", "03132017"]
+["Concurrent Review", "Interim Approval", "A170313062", "I10, N390, R42, R52, S32502D, S32502S, W1839XS", "Other fall on same level, sequela", "ICD10", "03132017"]
 
 
 Processing New Row [nil, "No child records to display.", nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil]
@@ -2407,7 +2407,7 @@ Initial Row Type Indicator = Auth Status Detail
 Row[2] = Service Code
 Revised Row Type Indicator = Service Code
 Just wrote entire row 2
-["Concurrent Review", "Interim Approval", "A170313104", "0, 0", "Other malaise", "ICD10", "03132017"]
+["Concurrent Review", "Interim Approval", "A170313104", "J449, R5381", "Other malaise", "ICD10", "03132017"]
 
 
 Processing New Row [nil, "No child records to display.", nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil]
@@ -2530,7 +2530,7 @@ Initial Row Type Indicator = Auth Status Detail
 Row[2] = Service Code
 Revised Row Type Indicator = Service Code
 Just wrote entire row 2
-["Concurrent Review", "Interim Approval", "A170313106", "0, 0, 0, 0", "Dizziness and giddiness", "ICD10", "03132017"]
+["Concurrent Review", "Interim Approval", "A170313106", "I10, I4891, M6281, R42", "Dizziness and giddiness", "ICD10", "03132017"]
 
 
 Processing New Row [nil, "No child records to display.", nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil]
@@ -2710,7 +2710,7 @@ Initial Row Type Indicator = Auth Status Detail
 Row[2] = Service Code
 Revised Row Type Indicator = Service Code
 Just wrote entire row 2
-["Concurrent Review", "Interim Approval", "A170313108", "0", "Unspecified sequelae of unspecified cerebrovascular disease", "ICD10", "03132017"]
+["Concurrent Review", "Interim Approval", "A170313108", "I6990", "Unspecified sequelae of unspecified cerebrovascular disease", "ICD10", "03132017"]
 
 
 Processing New Row [nil, "No child records to display.", nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil]
@@ -2776,7 +2776,7 @@ Initial Row Type Indicator = Auth Status Detail
 Row[2] = Service Code
 Revised Row Type Indicator = Service Code
 Just wrote entire row 2
-["Concurrent Review", "Interim Approval", "A170313123", "0", "Acute and chr resp failure, unsp w hypoxia or hypercapnia", "ICD10", "03132017"]
+["Concurrent Review", "Interim Approval", "A170313123", "J9620", "Acute and chr resp failure, unsp w hypoxia or hypercapnia", "ICD10", "03132017"]
 
 
 Processing New Row [nil, "No child records to display.", nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil]
@@ -2970,7 +2970,7 @@ Initial Row Type Indicator = Auth Status Detail
 Row[2] = Service Code
 Revised Row Type Indicator = Service Code
 Just wrote entire row 2
-["Concurrent Review", "Interim Approval", "A170313125", "0, 0, 0", "Difficulty in walking, not elsewhere classified", "ICD10", "03132017"]
+["Concurrent Review", "Interim Approval", "A170313125", "I5021, R0789, R262", "Difficulty in walking, not elsewhere classified", "ICD10", "03132017"]
 
 
 Processing New Row [nil, "No child records to display.", nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil]
@@ -3178,7 +3178,7 @@ Initial Row Type Indicator = Auth Status Detail
 Row[2] = Service Code
 Revised Row Type Indicator = Service Code
 Just wrote entire row 2
-["Concurrent Review", "Approved", "A170201038", "0, 0, 0, 0, 0", "Gastro-esophageal reflux disease without esophagitis", "ICD10", "03132017"]
+["Concurrent Review", "Approved", "A170201038", "E119, E6601, I10, I872, K219", "Gastro-esophageal reflux disease without esophagitis", "ICD10", "03132017"]
 
 
 Processing New Row [nil, nil, 43644.0, "LAP GASTRIC BYPASS/ROUX-EN-Y", "CPT", 1.0, 1.0, "Approved", 5.0, "CPT", "C4", nil, nil]
@@ -3275,7 +3275,7 @@ Initial Row Type Indicator = Auth Status Detail
 Row[2] = Service Code
 Revised Row Type Indicator = Service Code
 Just wrote entire row 2
-["Concurrent Review", "Approved", "A170202107", "0, 0", "Urinary tract infection, site not specified", "ICD10", "03132017"]
+["Concurrent Review", "Approved", "A170202107", "G40909, N390", "Urinary tract infection, site not specified", "ICD10", "03132017"]
 
 
 Processing New Row [nil, nil, "R0022", "Health Insurance Prospective Payment System (HIPPS), SNF PPS (RUG)", "Revenue", 6011.0, 6011.0, "Approved", 23.0, "Revenue", "RV", nil, nil]
@@ -3480,7 +3480,7 @@ Initial Row Type Indicator = Auth Status Detail
 Row[2] = Service Code
 Revised Row Type Indicator = Service Code
 Just wrote entire row 2
-["Concurrent Review", "Approved", "A170203007", "0", "Poisoning by unsp drug/meds/biol subst, accidental, init", "ICD10", "03132017"]
+["Concurrent Review", "Approved", "A170203007", "T50901A", "Poisoning by unsp drug/meds/biol subst, accidental, init", "ICD10", "03132017"]
 
 
 Processing New Row [nil, "No child records to display.", nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil]
@@ -3601,7 +3601,7 @@ Initial Row Type Indicator = Auth Status Detail
 Row[2] = Service Code
 Revised Row Type Indicator = Service Code
 Just wrote entire row 2
-["Concurrent Review", "Approved", "A170203030", "0", "Unilateral post-traumatic osteoarthritis, left knee", "ICD10", "03132017"]
+["Concurrent Review", "Approved", "A170203030", "M1732", "Unilateral post-traumatic osteoarthritis, left knee", "ICD10", "03132017"]
 
 
 Processing New Row [nil, nil, 27447.0, "ARTHROPLASTY KNEE(TOTAL KNEE)", "CPT", 1.0, 1.0, "Approved", 4.0, "CPT", "C4", nil, nil]
@@ -3720,7 +3720,7 @@ Initial Row Type Indicator = Auth Status Detail
 Row[2] = Service Code
 Revised Row Type Indicator = Service Code
 Just wrote entire row 2
-["Concurrent Review", "Approved", "A170206050", "0", "Nontraumatic intracerebral hemorrhage, unspecified", "ICD10", "03132017"]
+["Concurrent Review", "Approved", "A170206050", "I619", "Nontraumatic intracerebral hemorrhage, unspecified", "ICD10", "03132017"]
 
 
 Processing New Row [nil, "No child records to display.", nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil]
@@ -3853,7 +3853,7 @@ Initial Row Type Indicator = Auth Status Detail
 Row[2] = Service Code
 Revised Row Type Indicator = Service Code
 Just wrote entire row 2
-["Concurrent Review", "Approved", "A170207017", "0", "Disp fx of base of nk of l femr, 7thD", "ICD10", "03132017"]
+["Concurrent Review", "Approved", "A170207017", "S72042D", "Disp fx of base of nk of l femr, 7thD", "ICD10", "03132017"]
 
 
 Processing New Row [nil, nil, "RUB01", "ULTRA HIGH REHAB , ADL INDEX 6-10/STAND-ALONE OBRA SCSA OR SCPA OR CCA.", "RUGS,HHRG", 1.0, 1.0, "Approved", 12.0, "RUGS,HHRG", "HP", nil, nil]
@@ -4033,7 +4033,7 @@ Initial Row Type Indicator = Auth Status Detail
 Row[2] = Service Code
 Revised Row Type Indicator = Service Code
 Just wrote entire row 2
-["Concurrent Review", "Approved", "A170207019", "0", "Monoplg upr lmb fol cerebral infrc aff right dominant side", "ICD10", "03132017"]
+["Concurrent Review", "Approved", "A170207019", "I69331", "Monoplg upr lmb fol cerebral infrc aff right dominant side", "ICD10", "03132017"]
 
 
 Processing New Row [nil, nil, "RUB01", "ULTRA HIGH REHAB , ADL INDEX 6-10/STAND-ALONE OBRA SCSA OR SCPA OR CCA.", "RUGS,HHRG", 1.0, 1.0, "Approved", 14.0, "RUGS,HHRG", "HP", nil, nil]
@@ -4234,7 +4234,7 @@ Initial Row Type Indicator = Auth Status Detail
 Row[2] = Service Code
 Revised Row Type Indicator = Service Code
 Just wrote entire row 2
-["Concurrent Review", "Approved", "A170207021", "0", "Hemiplga following cerebral infrc affecting left nondom side", "ICD10", "03132017"]
+["Concurrent Review", "Approved", "A170207021", "I69354", "Hemiplga following cerebral infrc affecting left nondom side", "ICD10", "03132017"]
 
 
 Processing New Row [nil, nil, "RVA01", "VERY HIGH REHAB , ADL INDEX 0-5/STAND-ALONE OBRA SCSA OR SCPA OR CCA.", "RUGS,HHRG", 1.0, 1.0, "Approved", 5.0, "RUGS,HHRG", "HP", nil, nil]
@@ -4421,7 +4421,7 @@ Initial Row Type Indicator = Auth Status Detail
 Row[2] = Service Code
 Revised Row Type Indicator = Service Code
 Just wrote entire row 2
-["Concurrent Review", "Approved", "A170207117", "0, 0", "Dvtrcli of intest, part unsp, w/o perf or abscess w/o bleed", "ICD10", "03132017"]
+["Concurrent Review", "Approved", "A170207117", "I4891, K5792", "Dvtrcli of intest, part unsp, w/o perf or abscess w/o bleed", "ICD10", "03132017"]
 
 
 Processing New Row [nil, "No child records to display.", nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil]
@@ -4526,7 +4526,7 @@ Initial Row Type Indicator = Auth Status Detail
 Row[2] = Service Code
 Revised Row Type Indicator = Service Code
 Just wrote entire row 2
-["Concurrent Review", "Approved", "A170208104", "0", "Wedge comprsn fx first lum vert, subs for fx w delay heal", "ICD10", "03132017"]
+["Concurrent Review", "Approved", "A170208104", "S32010G", "Wedge comprsn fx first lum vert, subs for fx w delay heal", "ICD10", "03132017"]
 
 
 Processing New Row [nil, nil, "RVA01", "VERY HIGH REHAB , ADL INDEX 0-5/STAND-ALONE OBRA SCSA OR SCPA OR CCA.", "RUGS,HHRG", 1.0, 1.0, "Approved", 7.0, "RUGS,HHRG", "HP", nil, nil]
@@ -4706,7 +4706,7 @@ Initial Row Type Indicator = Auth Status Detail
 Row[2] = Service Code
 Revised Row Type Indicator = Service Code
 Just wrote entire row 2
-["Concurrent Review", "Approved", "A170208106", "0", "Unspecified bacterial pneumonia", "ICD10", "03132017"]
+["Concurrent Review", "Approved", "A170208106", "J159", "Unspecified bacterial pneumonia", "ICD10", "03132017"]
 
 
 Processing New Row [nil, "No child records to display.", nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil]
@@ -4803,7 +4803,7 @@ Initial Row Type Indicator = Auth Status Detail
 Row[2] = Service Code
 Revised Row Type Indicator = Service Code
 Just wrote entire row 2
-["Concurrent Review", "Approved", "A170209083", "0", "Fx unsp part of neck of l femur, subs for clos fx w nonunion", "ICD10", "03132017"]
+["Concurrent Review", "Approved", "A170209083", "S72002K", "Fx unsp part of neck of l femur, subs for clos fx w nonunion", "ICD10", "03132017"]
 
 
 Processing New Row [nil, nil, 27132.0, "CONV PREV HIP TO TOTAL HIP", "CPT", 1.0, 1.0, "Approved", 4.0, "CPT", "C4", nil, nil]
@@ -4887,7 +4887,7 @@ Initial Row Type Indicator = Auth Status Detail
 Row[2] = Service Code
 Revised Row Type Indicator = Service Code
 Just wrote entire row 2
-["Concurrent Review", "Approved", "A170209105", "0", "Incomplete uterovaginal prolapse", "ICD10", "03132017"]
+["Concurrent Review", "Approved", "A170209105", "N812", "Incomplete uterovaginal prolapse", "ICD10", "03132017"]
 
 
 Processing New Row [nil, "No child records to display.", nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil]
@@ -4959,7 +4959,7 @@ Initial Row Type Indicator = Auth Status Detail
 Row[2] = Service Code
 Revised Row Type Indicator = Service Code
 Just wrote entire row 2
-["Concurrent Review", "Approved", "A170213136", "0", "Occlusion and stenosis of left carotid artery", "ICD10", "03132017"]
+["Concurrent Review", "Approved", "A170213136", "I6522", "Occlusion and stenosis of left carotid artery", "ICD10", "03132017"]
 
 
 Processing New Row [nil, nil, 36221.0, "PLACE CATH THORACIC AORTA", "CPT", 1.0, 1.0, "Approved", 3.0, "CPT", "C4", nil, nil]
@@ -5051,7 +5051,7 @@ Initial Row Type Indicator = Auth Status Detail
 Row[2] = Service Code
 Revised Row Type Indicator = Service Code
 Just wrote entire row 2
-["Concurrent Review", "Approved", "A170214008", "0", "Other spondylosis with radiculopathy, cervical region", "ICD10", "03132017"]
+["Concurrent Review", "Approved", "A170214008", "M4722", "Other spondylosis with radiculopathy, cervical region", "ICD10", "03132017"]
 
 
 Processing New Row [nil, nil, 22551.0, "NECK SPINE FUSE&REMOVE ADDL", "CPT", 0.0, 1.0, nil, 2.0, "CPT", "C4", nil, nil]
@@ -5186,7 +5186,7 @@ Initial Row Type Indicator = Auth Status Detail
 Row[2] = Service Code
 Revised Row Type Indicator = Service Code
 Just wrote entire row 2
-["Concurrent Review", "Approved", "A170214032", "0", "Dyspnea, unspecified", "ICD10", "03132017"]
+["Concurrent Review", "Approved", "A170214032", "R0600", "Dyspnea, unspecified", "ICD10", "03132017"]
 
 
 Processing New Row [nil, "No child records to display.", nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil]
@@ -5521,7 +5521,7 @@ Initial Row Type Indicator = Auth Status Detail
 Row[2] = Service Code
 Revised Row Type Indicator = Service Code
 Just wrote entire row 2
-["Concurrent Review", "Approved", "A170214076", "0, 0", "Urinary tract infection, site not specified", "ICD10", "03132017"]
+["Concurrent Review", "Approved", "A170214076", "N179, N390", "Urinary tract infection, site not specified", "ICD10", "03132017"]
 
 
 Processing New Row [nil, nil, "RVC01", "VERY HIGH REHAB , ADL INDEX 11-16/STAND-ALONE OBRA SCSA OR SCPA OR CCA.", "RUGS,HHRG", 1.0, 1.0, "Approved", 12.0, "RUGS,HHRG", "HP", nil, nil]
@@ -5701,7 +5701,7 @@ Initial Row Type Indicator = Auth Status Detail
 Row[2] = Service Code
 Revised Row Type Indicator = Service Code
 Just wrote entire row 2
-["Concurrent Review", "Approved", "A170214089", "0", "Spinal stenosis, lumbar region", "ICD10", "03132017"]
+["Concurrent Review", "Approved", "A170214089", "M4806", "Spinal stenosis, lumbar region", "ICD10", "03132017"]
 
 
 Processing New Row [nil, nil, 22612.0, "ARTHDSIS,POSTERIOR TECH; W GRAFT AND/OR INTERNAL FIXATION; LUMBAR", "CPT", 1.0, 1.0, "Approved", 5.0, "CPT", "C4", nil, nil]
@@ -5847,7 +5847,7 @@ Initial Row Type Indicator = Auth Status Detail
 Row[2] = Service Code
 Revised Row Type Indicator = Service Code
 Just wrote entire row 2
-["Concurrent Review", "Approved", "A170215001", "0", "Chronic obstructive pulmonary disease w (acute) exacerbation", "ICD10", "03132017"]
+["Concurrent Review", "Approved", "A170215001", "J441", "Chronic obstructive pulmonary disease w (acute) exacerbation", "ICD10", "03132017"]
 
 
 Processing New Row [nil, "No child records to display.", nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil]
@@ -6018,7 +6018,7 @@ Initial Row Type Indicator = Auth Status Detail
 Row[2] = Service Code
 Revised Row Type Indicator = Service Code
 Just wrote entire row 2
-["Concurrent Review", "Approved", "A170215005", "0, 0", "Spinal stenosis, lumbar region", "ICD10", "03132017"]
+["Concurrent Review", "Approved", "A170215005", "M4316, M4806", "Spinal stenosis, lumbar region", "ICD10", "03132017"]
 
 
 Processing New Row [nil, nil, 22633.0, "LUMBAR SPINE FUSION COMBINED", "CPT", 1.0, 1.0, "Approved", 2.0, "CPT", "C4", nil, nil]
@@ -6118,7 +6118,7 @@ Initial Row Type Indicator = Auth Status Detail
 Row[2] = Service Code
 Revised Row Type Indicator = Service Code
 Just wrote entire row 2
-["Concurrent Review", "Approved", "A170215081", "0", "Disorientation, unspecified", "ICD10", "03132017"]
+["Concurrent Review", "Approved", "A170215081", "R410", "Disorientation, unspecified", "ICD10", "03132017"]
 
 
 Processing New Row [nil, "No child records to display.", nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil]
@@ -6371,7 +6371,7 @@ Initial Row Type Indicator = Auth Status Detail
 Row[2] = Service Code
 Revised Row Type Indicator = Service Code
 Just wrote entire row 2
-["No child records to display.", nil, nil, "0", nil, nil, nil]
+["No child records to display.", nil, nil, "", nil, nil, nil]
 
 
 Processing New Row [nil, nil, 27447.0, "ARTHROPLASTY KNEE(TOTAL KNEE)", "CPT", 1.0, 1.0, "Approved", 2.0, "CPT", "C4", nil, nil]
@@ -6443,7 +6443,7 @@ Initial Row Type Indicator = Auth Status Detail
 Row[2] = Service Code
 Revised Row Type Indicator = Service Code
 Just wrote entire row 2
-["Concurrent Review", "Approved", "A170217025", "0", "Dizziness and giddiness", "ICD10", "03132017"]
+["Concurrent Review", "Approved", "A170217025", "R42", "Dizziness and giddiness", "ICD10", "03132017"]
 
 
 Processing New Row [nil, "No child records to display.", nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil]
@@ -6566,7 +6566,7 @@ Initial Row Type Indicator = Auth Status Detail
 Row[2] = Service Code
 Revised Row Type Indicator = Service Code
 Just wrote entire row 2
-["Concurrent Review", "Approved", "A170220041", "0", "Heart failure, unspecified", "ICD10", "03132017"]
+["Concurrent Review", "Approved", "A170220041", "I509", "Heart failure, unspecified", "ICD10", "03132017"]
 
 
 Processing New Row [nil, "No child records to display.", nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil]
@@ -6723,7 +6723,7 @@ Initial Row Type Indicator = Auth Status Detail
 Row[2] = Service Code
 Revised Row Type Indicator = Service Code
 Just wrote entire row 2
-["Concurrent Review", "Approved", "A170221030", "0, 0", "Unspecified fall, initial encounter", "ICD10", "03132017"]
+["Concurrent Review", "Approved", "A170221030", "N390, W19XXXA", "Unspecified fall, initial encounter", "ICD10", "03132017"]
 
 
 Processing New Row [nil, "No child records to display.", nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil]
@@ -6801,7 +6801,7 @@ Initial Row Type Indicator = Auth Status Detail
 Row[2] = Service Code
 Revised Row Type Indicator = Service Code
 Just wrote entire row 2
-["Concurrent Review", "Approved", "A170221041", "0", "Pneumonia, unspecified organism", "ICD10", "03132017"]
+["Concurrent Review", "Approved", "A170221041", "J189", "Pneumonia, unspecified organism", "ICD10", "03132017"]
 
 
 Processing New Row [nil, "No child records to display.", nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil]
@@ -7198,7 +7198,7 @@ Initial Row Type Indicator = Auth Status Detail
 Row[2] = Service Code
 Revised Row Type Indicator = Service Code
 Just wrote entire row 2
-["Concurrent Review", "Approved", "A170221086", "0, 0, 0, 0, 0", "Abnormal coagulation profile", "ICD10", "03132017"]
+["Concurrent Review", "Approved", "A170221086", "R001, R112, R42, R61, R791", "Abnormal coagulation profile", "ICD10", "03132017"]
 
 
 Processing New Row [nil, "No child records to display.", nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil]
@@ -7472,7 +7472,7 @@ Initial Row Type Indicator = Auth Status Detail
 Row[2] = Service Code
 Revised Row Type Indicator = Service Code
 Just wrote entire row 2
-["Concurrent Review", "Approved", "A170222016", "0, 0, 0", "Weakness", "ICD10", "03132017"]
+["Concurrent Review", "Approved", "A170222016", "J189, J449, R531", "Weakness", "ICD10", "03132017"]
 
 
 Processing New Row [nil, nil, "RUC01", "ULTRA HIGH REHAB , ADL INDEX 11-16/STAND-ALONE OBRA SCSA OR SCPA OR CCA.", "RUGS,HHRG", 1.0, 1.0, "Approved", 20.0, "RUGS,HHRG", "HP", nil, nil]
@@ -7652,7 +7652,7 @@ Initial Row Type Indicator = Auth Status Detail
 Row[2] = Service Code
 Revised Row Type Indicator = Service Code
 Just wrote entire row 2
-["Concurrent Review", "Approved", "A170222046", "0", "Unilateral primary osteoarthritis, right hip", "ICD10", "03132017"]
+["Concurrent Review", "Approved", "A170222046", "M1611", "Unilateral primary osteoarthritis, right hip", "ICD10", "03132017"]
 
 
 Processing New Row [nil, nil, 27130.0, "CHARN MILLER TTL HIP ARTHROPLASTY", "CPT", 1.0, 1.0, "Approved", 2.0, "CPT", "C4", nil, nil]
@@ -7724,7 +7724,7 @@ Initial Row Type Indicator = Auth Status Detail
 Row[2] = Service Code
 Revised Row Type Indicator = Service Code
 Just wrote entire row 2
-["Concurrent Review", "Approved", "A170222048", "0", "Unilateral primary osteoarthritis, left knee", "ICD10", "03132017"]
+["Concurrent Review", "Approved", "A170222048", "M1712", "Unilateral primary osteoarthritis, left knee", "ICD10", "03132017"]
 
 
 Processing New Row [nil, nil, 27447.0, "ARTHROPLASTY KNEE(TOTAL KNEE)", "CPT", 1.0, 1.0, "Approved", 2.0, "CPT", "C4", nil, nil]
@@ -7796,7 +7796,7 @@ Initial Row Type Indicator = Auth Status Detail
 Row[2] = Service Code
 Revised Row Type Indicator = Service Code
 Just wrote entire row 2
-["Concurrent Review", "Approved", "A170223011", "0", "Spinal stenosis, lumbar region", "ICD10", "03132017"]
+["Concurrent Review", "Approved", "A170223011", "M4806", "Spinal stenosis, lumbar region", "ICD10", "03132017"]
 
 
 Processing New Row [nil, nil, 22633.0, "LUMBAR SPINE FUSION COMBINED", "CPT", 1.0, 1.0, "Approved", 3.0, "CPT", "C4", nil, nil]
@@ -7916,7 +7916,7 @@ Initial Row Type Indicator = Auth Status Detail
 Row[2] = Service Code
 Revised Row Type Indicator = Service Code
 Just wrote entire row 2
-["Concurrent Review", "Approved", "A170223026", "0", "Urinary tract infection, site not specified", "ICD10", "03132017"]
+["Concurrent Review", "Approved", "A170223026", "N390", "Urinary tract infection, site not specified", "ICD10", "03132017"]
 
 
 Processing New Row [nil, "No child records to display.", nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil]
@@ -8077,7 +8077,7 @@ Initial Row Type Indicator = Auth Status Detail
 Row[2] = Service Code
 Revised Row Type Indicator = Service Code
 Just wrote entire row 2
-["Concurrent Review", "Approved", "A170223055", "0", "Athscl heart disease of native coronary artery w/o ang pctrs", "ICD10", "03132017"]
+["Concurrent Review", "Approved", "A170223055", "I2510", "Athscl heart disease of native coronary artery w/o ang pctrs", "ICD10", "03132017"]
 
 
 Processing New Row [nil, "No child records to display.", nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil]
@@ -8218,7 +8218,7 @@ Initial Row Type Indicator = Auth Status Detail
 Row[2] = Service Code
 Revised Row Type Indicator = Service Code
 Just wrote entire row 2
-["Concurrent Review", "Approved", "A170223056", "0", "Nausea", "ICD10", "03132017"]
+["Concurrent Review", "Approved", "A170223056", "R110", "Nausea", "ICD10", "03132017"]
 
 
 Processing New Row [nil, "No child records to display.", nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil]
@@ -8340,7 +8340,7 @@ Initial Row Type Indicator = Auth Status Detail
 Row[2] = Service Code
 Revised Row Type Indicator = Service Code
 Just wrote entire row 2
-["Concurrent Review", "Approved", "A170223078", "0", "Basal cell carcinoma of skin of unspecified parts of face", "ICD10", "03132017"]
+["Concurrent Review", "Approved", "A170223078", "C44310", "Basal cell carcinoma of skin of unspecified parts of face", "ICD10", "03132017"]
 
 
 Processing New Row [nil, "No child records to display.", nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil]
@@ -8580,7 +8580,7 @@ Initial Row Type Indicator = Auth Status Detail
 Row[2] = Service Code
 Revised Row Type Indicator = Service Code
 Just wrote entire row 2
-["Concurrent Review", "Approved", "A170223092", "0", "Fx unsp part of neck of l femur, subs for clos fx w nonunion", "ICD10", "03132017"]
+["Concurrent Review", "Approved", "A170223092", "S72002K", "Fx unsp part of neck of l femur, subs for clos fx w nonunion", "ICD10", "03132017"]
 
 
 Processing New Row [nil, nil, 27132.0, "CONV PREV HIP TO TOTAL HIP", "CPT", 1.0, 1.0, "Approved", 4.0, "CPT", "C4", nil, nil]
@@ -8664,7 +8664,7 @@ Initial Row Type Indicator = Auth Status Detail
 Row[2] = Service Code
 Revised Row Type Indicator = Service Code
 Just wrote entire row 2
-["Concurrent Review", "Approved", "A170224017", "0", "Sepsis, unspecified organism", "ICD10", "03132017"]
+["Concurrent Review", "Approved", "A170224017", "A419", "Sepsis, unspecified organism", "ICD10", "03132017"]
 
 
 Processing New Row [nil, "No child records to display.", nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil]
@@ -8959,7 +8959,7 @@ Initial Row Type Indicator = Auth Status Detail
 Row[2] = Service Code
 Revised Row Type Indicator = Service Code
 Just wrote entire row 2
-["Concurrent Review", "Approved", "A170224020", "0", "Unspecified intestinal obstruction", "ICD10", "03132017"]
+["Concurrent Review", "Approved", "A170224020", "K5660", "Unspecified intestinal obstruction", "ICD10", "03132017"]
 
 
 Processing New Row [nil, "No child records to display.", nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil]
@@ -9057,7 +9057,7 @@ Initial Row Type Indicator = Auth Status Detail
 Row[2] = Service Code
 Revised Row Type Indicator = Service Code
 Just wrote entire row 2
-["Concurrent Review", "Approved", "A170224041", "0", "Acute respiratory failure, unsp w hypoxia or hypercapnia", "ICD10", "03132017"]
+["Concurrent Review", "Approved", "A170224041", "J9600", "Acute respiratory failure, unsp w hypoxia or hypercapnia", "ICD10", "03132017"]
 
 
 Processing New Row [nil, "No child records to display.", nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil]
@@ -9211,7 +9211,7 @@ Initial Row Type Indicator = Auth Status Detail
 Row[2] = Service Code
 Revised Row Type Indicator = Service Code
 Just wrote entire row 2
-["Concurrent Review", "Approved", "A170224057", "0, 0", "Stress fx, unsp tibia and fibula, subs for fx w routn heal", "ICD10", "03132017"]
+["Concurrent Review", "Approved", "A170224057", "K5792, M84369D", "Stress fx, unsp tibia and fibula, subs for fx w routn heal", "ICD10", "03132017"]
 
 
 Processing New Row [nil, nil, "CC101", "CLINICALLY COMPLEX , ADL INDEX 6-10/STAND-ALONE OBRA SCSA OR SCPA OR CCA", "RUGS,HHRG", 1.0, 1.0, "Approved", 5.0, "RUGS,HHRG", "HP", nil, nil]
@@ -9412,7 +9412,7 @@ Initial Row Type Indicator = Auth Status Detail
 Row[2] = Service Code
 Revised Row Type Indicator = Service Code
 Just wrote entire row 2
-["Concurrent Review", "Approved", "A170227008", "0, 0, 0, 0", "Repeated falls", "ICD10", "03132017"]
+["Concurrent Review", "Approved", "A170227008", "I2510, I509, J189, R296", "Repeated falls", "ICD10", "03132017"]
 
 
 Processing New Row [nil, nil, "RUB01", "ULTRA HIGH REHAB , ADL INDEX 6-10/STAND-ALONE OBRA SCSA OR SCPA OR CCA.", "RUGS,HHRG", 1.0, 1.0, "Approved", 9.0, "RUGS,HHRG", "HP", nil, nil]
@@ -9599,7 +9599,7 @@ Initial Row Type Indicator = Auth Status Detail
 Row[2] = Service Code
 Revised Row Type Indicator = Service Code
 Just wrote entire row 2
-["Concurrent Review", "Approved", "A170227023", "0, 0", "Presence of right artificial hip joint", "ICD10", "03132017"]
+["Concurrent Review", "Approved", "A170227023", "I259, Z96641", "Presence of right artificial hip joint", "ICD10", "03132017"]
 
 
 Processing New Row [nil, nil, "RUC01", "ULTRA HIGH REHAB , ADL INDEX 11-16/STAND-ALONE OBRA SCSA OR SCPA OR CCA.", "RUGS,HHRG", 1.0, 1.0, "Approved", 13.0, "RUGS,HHRG", "HP", nil, nil]
@@ -9779,7 +9779,7 @@ Initial Row Type Indicator = Auth Status Detail
 Row[2] = Service Code
 Revised Row Type Indicator = Service Code
 Just wrote entire row 2
-["Concurrent Review", "Approved", "A170227069", "0", "Fournier gangrene", "ICD10", "03132017"]
+["Concurrent Review", "Approved", "A170227069", "N493", "Fournier gangrene", "ICD10", "03132017"]
 
 
 Processing New Row [nil, "No child records to display.", nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil]
@@ -9937,7 +9937,7 @@ Initial Row Type Indicator = Auth Status Detail
 Row[2] = Service Code
 Revised Row Type Indicator = Service Code
 Just wrote entire row 2
-["Concurrent Review", "Approved", "A170227092", "0", "Unspecified atrial fibrillation", "ICD10", "03132017"]
+["Concurrent Review", "Approved", "A170227092", "I4891", "Unspecified atrial fibrillation", "ICD10", "03132017"]
 
 
 Processing New Row [nil, "No child records to display.", nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil]
@@ -10039,7 +10039,7 @@ Initial Row Type Indicator = Auth Status Detail
 Row[2] = Service Code
 Revised Row Type Indicator = Service Code
 Just wrote entire row 2
-["Concurrent Review", "Approved", "A170227095", "0", "Gastrointestinal hemorrhage, unspecified", "ICD10", "03132017"]
+["Concurrent Review", "Approved", "A170227095", "K922", "Gastrointestinal hemorrhage, unspecified", "ICD10", "03132017"]
 
 
 Processing New Row [nil, "No child records to display.", nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil]
@@ -10286,7 +10286,7 @@ Initial Row Type Indicator = Auth Status Detail
 Row[2] = Service Code
 Revised Row Type Indicator = Service Code
 Just wrote entire row 2
-["Concurrent Review", "Approved", "A170227100", "0, 0", "Unsp fracture of right femur, init for clos fx", "ICD10", "03132017"]
+["Concurrent Review", "Approved", "A170227100", "S42301A, S7291XA", "Unsp fracture of right femur, init for clos fx", "ICD10", "03132017"]
 
 
 Processing New Row [nil, "No child records to display.", nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil]
@@ -10425,7 +10425,7 @@ Initial Row Type Indicator = Auth Status Detail
 Row[2] = Service Code
 Revised Row Type Indicator = Service Code
 Just wrote entire row 2
-["Concurrent Review", "Approved", "A170227109", "0", "Persistent atrial fibrillation", "ICD10", "03132017"]
+["Concurrent Review", "Approved", "A170227109", "I481", "Persistent atrial fibrillation", "ICD10", "03132017"]
 
 
 Processing New Row [nil, nil, 33340.0, "PERQ CLSR TCAT L ATR APNDGE", "CPT", 1.0, 1.0, "Approved", 2.0, "CPT", "C4", nil, nil]
@@ -10504,7 +10504,7 @@ Initial Row Type Indicator = Auth Status Detail
 Row[2] = Service Code
 Revised Row Type Indicator = Service Code
 Just wrote entire row 2
-["Concurrent Review", "Approved", "A170228026", "0", "Hyperosmolality and hypernatremia", "ICD10", "03132017"]
+["Concurrent Review", "Approved", "A170228026", "E870", "Hyperosmolality and hypernatremia", "ICD10", "03132017"]
 
 
 Processing New Row [nil, "No child records to display.", nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil]
@@ -10582,7 +10582,7 @@ Initial Row Type Indicator = Auth Status Detail
 Row[2] = Service Code
 Revised Row Type Indicator = Service Code
 Just wrote entire row 2
-["Concurrent Review", "Approved", "A170228036", "0", "Metabolic encephalopathy", "ICD10", "03132017"]
+["Concurrent Review", "Approved", "A170228036", "G9341", "Metabolic encephalopathy", "ICD10", "03132017"]
 
 
 Processing New Row [nil, nil, "RMB01", "MEDIUM REHAB , ADL INDEX 6-10/STAND-ALONE OBRA SCSA OR SCPA OR CCA.", "RUGS,HHRG", 1.0, 1.0, "Approved", 13.0, "RUGS,HHRG", "HP", nil, nil]
@@ -10776,7 +10776,7 @@ Initial Row Type Indicator = Auth Status Detail
 Row[2] = Service Code
 Revised Row Type Indicator = Service Code
 Just wrote entire row 2
-["Concurrent Review", "Approved", "A170228054", "0, 0", "Muscle weakness (generalized)", "ICD10", "03132017"]
+["Concurrent Review", "Approved", "A170228054", "J1100, M6281", "Muscle weakness (generalized)", "ICD10", "03132017"]
 
 
 Processing New Row [nil, nil, "RVA01", "VERY HIGH REHAB , ADL INDEX 0-5/STAND-ALONE OBRA SCSA OR SCPA OR CCA.", "RUGS,HHRG", 1.0, 1.0, "Approved", 11.0, "RUGS,HHRG", "HP", nil, nil]
@@ -10970,7 +10970,7 @@ Initial Row Type Indicator = Auth Status Detail
 Row[2] = Service Code
 Revised Row Type Indicator = Service Code
 Just wrote entire row 2
-["Concurrent Review", "Approved", "A170228057", "0", "Malignant neoplasm of prostate", "ICD10", "03132017"]
+["Concurrent Review", "Approved", "A170228057", "C61", "Malignant neoplasm of prostate", "ICD10", "03132017"]
 
 
 Processing New Row [nil, nil, 55866.0, "LAPARO RADICAL PROSTATECTOMY", "CPT", 1.0, 1.0, "Approved", 2.0, "CPT", "C4", nil, nil]
@@ -11049,7 +11049,7 @@ Initial Row Type Indicator = Auth Status Detail
 Row[2] = Service Code
 Revised Row Type Indicator = Service Code
 Just wrote entire row 2
-["Concurrent Review", "Approved", "A170301005", "0", "Disorder of urea cycle metabolism, unspecified", "ICD10", "03132017"]
+["Concurrent Review", "Approved", "A170301005", "E7220", "Disorder of urea cycle metabolism, unspecified", "ICD10", "03132017"]
 
 
 Processing New Row [nil, "No child records to display.", nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil]
@@ -11115,7 +11115,7 @@ Initial Row Type Indicator = Auth Status Detail
 Row[2] = Service Code
 Revised Row Type Indicator = Service Code
 Just wrote entire row 2
-["Concurrent Review", "Approved", "A170301006", "0", "Other forms of dyspnea", "ICD10", "03132017"]
+["Concurrent Review", "Approved", "A170301006", "R0609", "Other forms of dyspnea", "ICD10", "03132017"]
 
 
 Processing New Row [nil, "No child records to display.", nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil]
@@ -11244,7 +11244,7 @@ Initial Row Type Indicator = Auth Status Detail
 Row[2] = Service Code
 Revised Row Type Indicator = Service Code
 Just wrote entire row 2
-["Concurrent Review", "Approved", "A170301062", "0, 0, 0", "Acute kidney failure, unspecified", "ICD10", "03132017"]
+["Concurrent Review", "Approved", "A170301062", "D649, K922, N179", "Acute kidney failure, unspecified", "ICD10", "03132017"]
 
 
 Processing New Row [nil, "No child records to display.", nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil]
@@ -11409,7 +11409,7 @@ Initial Row Type Indicator = Auth Status Detail
 Row[2] = Service Code
 Revised Row Type Indicator = Service Code
 Just wrote entire row 2
-["Concurrent Review", "Approved", "A170301085", "0, 0, 0", "Cerebral infarction, unspecified", "ICD10", "03132017"]
+["Concurrent Review", "Approved", "A170301085", "E162, I255, I639", "Cerebral infarction, unspecified", "ICD10", "03132017"]
 
 
 Processing New Row [nil, nil, "RVA01", "VERY HIGH REHAB , ADL INDEX 0-5/STAND-ALONE OBRA SCSA OR SCPA OR CCA.", "RUGS,HHRG", 1.0, 1.0, "Approved", 8.0, "RUGS,HHRG", "HP", nil, nil]
@@ -11589,7 +11589,7 @@ Initial Row Type Indicator = Auth Status Detail
 Row[2] = Service Code
 Revised Row Type Indicator = Service Code
 Just wrote entire row 2
-["Concurrent Review", "Approved", "A170301130", "0", "Unsp psychosis not due to a substance or known physiol cond", "ICD10", "03132017"]
+["Concurrent Review", "Approved", "A170301130", "F29", "Unsp psychosis not due to a substance or known physiol cond", "ICD10", "03132017"]
 
 
 Processing New Row [nil, "No child records to display.", nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil]
@@ -11676,7 +11676,7 @@ Initial Row Type Indicator = Auth Status Detail
 Row[2] = Service Code
 Revised Row Type Indicator = Service Code
 Just wrote entire row 2
-["Concurrent Review", "Approved", "A170302068", "0, 0", "Retention of urine, unspecified", "ICD10", "03132017"]
+["Concurrent Review", "Approved", "A170302068", "R109, R339", "Retention of urine, unspecified", "ICD10", "03132017"]
 
 
 Processing New Row [nil, "No child records to display.", nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil]
@@ -11798,7 +11798,7 @@ Initial Row Type Indicator = Auth Status Detail
 Row[2] = Service Code
 Revised Row Type Indicator = Service Code
 Just wrote entire row 2
-["Concurrent Review", "Approved", "A170302101", "0", "Nonrheumatic aortic (valve) stenosis", "ICD10", "03132017"]
+["Concurrent Review", "Approved", "A170302101", "I350", "Nonrheumatic aortic (valve) stenosis", "ICD10", "03132017"]
 
 
 Processing New Row [nil, nil, 33361.0, "REPLACE AORTIC VALVE PERQ", "CPT", 1.0, 1.0, "Approved", 4.0, "CPT", "C4", nil, nil]
@@ -11889,7 +11889,7 @@ Initial Row Type Indicator = Auth Status Detail
 Row[2] = Service Code
 Revised Row Type Indicator = Service Code
 Just wrote entire row 2
-["Concurrent Review", "Approved", "A170303010", "0", "Unil inguinal hernia, w/o obst or gangr, not spcf as recur", "ICD10", "03132017"]
+["Concurrent Review", "Approved", "A170303010", "K4090", "Unil inguinal hernia, w/o obst or gangr, not spcf as recur", "ICD10", "03132017"]
 
 
 Processing New Row [nil, "No child records to display.", nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil]
@@ -12018,7 +12018,7 @@ Initial Row Type Indicator = Auth Status Detail
 Row[2] = Service Code
 Revised Row Type Indicator = Service Code
 Just wrote entire row 2
-["Concurrent Review", "Approved", "A170303016", "0", "Altered mental status, unspecified", "ICD10", "03132017"]
+["Concurrent Review", "Approved", "A170303016", "R4182", "Altered mental status, unspecified", "ICD10", "03132017"]
 
 
 Processing New Row [nil, "No child records to display.", nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil]
@@ -12153,7 +12153,7 @@ Initial Row Type Indicator = Auth Status Detail
 Row[2] = Service Code
 Revised Row Type Indicator = Service Code
 Just wrote entire row 2
-["Concurrent Review", "Approved", "A170303017", "0, 0, 0", "Altered mental status, unspecified", "ICD10", "03132017"]
+["Concurrent Review", "Approved", "A170303017", "E860, N390, R4182", "Altered mental status, unspecified", "ICD10", "03132017"]
 
 
 Processing New Row [nil, "No child records to display.", nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil]
@@ -12378,7 +12378,7 @@ Initial Row Type Indicator = Auth Status Detail
 Row[2] = Service Code
 Revised Row Type Indicator = Service Code
 Just wrote entire row 2
-["Concurrent Review", "Approved", "A170303021", "0", "Heart failure, unspecified", "ICD10", "03132017"]
+["Concurrent Review", "Approved", "A170303021", "I509", "Heart failure, unspecified", "ICD10", "03132017"]
 
 
 Processing New Row [nil, "No child records to display.", nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil]
@@ -12499,7 +12499,7 @@ Initial Row Type Indicator = Auth Status Detail
 Row[2] = Service Code
 Revised Row Type Indicator = Service Code
 Just wrote entire row 2
-["Concurrent Review", "Approved", "A170303022", "0, 0", "Altered mental status, unspecified", "ICD10", "03132017"]
+["Concurrent Review", "Approved", "A170303022", "E162, R4182", "Altered mental status, unspecified", "ICD10", "03132017"]
 
 
 Processing New Row [nil, "No child records to display.", nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil]
@@ -12626,7 +12626,7 @@ Initial Row Type Indicator = Auth Status Detail
 Row[2] = Service Code
 Revised Row Type Indicator = Service Code
 Just wrote entire row 2
-["Concurrent Review", "Approved", "A170303031", "0, 0", "Dementia with Lewy bodies", "ICD10", "03132017"]
+["Concurrent Review", "Approved", "A170303031", "F0280, G3183", "Dementia with Lewy bodies", "ICD10", "03132017"]
 
 
 Processing New Row [nil, "No child records to display.", nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil]
@@ -12737,7 +12737,7 @@ Initial Row Type Indicator = Auth Status Detail
 Row[2] = Service Code
 Revised Row Type Indicator = Service Code
 Just wrote entire row 2
-["Concurrent Review", "Approved", "A170303032", "0", "Cerebral infarction, unspecified", "ICD10", "03132017"]
+["Concurrent Review", "Approved", "A170303032", "I639", "Cerebral infarction, unspecified", "ICD10", "03132017"]
 
 
 Processing New Row [nil, "No child records to display.", nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil]
@@ -12845,7 +12845,7 @@ Initial Row Type Indicator = Auth Status Detail
 Row[2] = Service Code
 Revised Row Type Indicator = Service Code
 Just wrote entire row 2
-["Concurrent Review", "Approved", "A170303034", "0", "Hyperkalemia", "ICD10", "03132017"]
+["Concurrent Review", "Approved", "A170303034", "E875", "Hyperkalemia", "ICD10", "03132017"]
 
 
 Processing New Row [nil, "No child records to display.", nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil]
@@ -12923,7 +12923,7 @@ Initial Row Type Indicator = Auth Status Detail
 Row[2] = Service Code
 Revised Row Type Indicator = Service Code
 Just wrote entire row 2
-["Concurrent Review", "Approved", "A170303036", "0", "Cardiac arrest, cause unspecified", "ICD10", "03132017"]
+["Concurrent Review", "Approved", "A170303036", "I469", "Cardiac arrest, cause unspecified", "ICD10", "03132017"]
 
 
 Processing New Row [nil, "No child records to display.", nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil]
@@ -13038,7 +13038,7 @@ Initial Row Type Indicator = Auth Status Detail
 Row[2] = Service Code
 Revised Row Type Indicator = Service Code
 Just wrote entire row 2
-["Concurrent Review", "Approved", "A170303041", "0", "Stress fracture, hip, unspecified, sequela", "ICD10", "03132017"]
+["Concurrent Review", "Approved", "A170303041", "M84359S", "Stress fracture, hip, unspecified, sequela", "ICD10", "03132017"]
 
 
 Processing New Row [nil, "No child records to display.", nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil]
@@ -13172,7 +13172,7 @@ Initial Row Type Indicator = Auth Status Detail
 Row[2] = Service Code
 Revised Row Type Indicator = Service Code
 Just wrote entire row 2
-["Concurrent Review", "Approved", "A170303070", "0", "Unilateral primary osteoarthritis, left knee", "ICD10", "03132017"]
+["Concurrent Review", "Approved", "A170303070", "M1712", "Unilateral primary osteoarthritis, left knee", "ICD10", "03132017"]
 
 
 Processing New Row [nil, nil, 27447.0, "ARTHROPLASTY KNEE(TOTAL KNEE)", "CPT", 1.0, 1.0, "Approved", 4.0, "CPT", "C4", nil, nil]
@@ -13256,7 +13256,7 @@ Initial Row Type Indicator = Auth Status Detail
 Row[2] = Service Code
 Revised Row Type Indicator = Service Code
 Just wrote entire row 2
-["Concurrent Review", "Approved", "A170306007", "0", "Alcohol abuse, uncomplicated", "ICD10", "03132017"]
+["Concurrent Review", "Approved", "A170306007", "F1010", "Alcohol abuse, uncomplicated", "ICD10", "03132017"]
 
 
 Processing New Row [nil, "No child records to display.", nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil]
@@ -13375,7 +13375,7 @@ Initial Row Type Indicator = Auth Status Detail
 Row[2] = Service Code
 Revised Row Type Indicator = Service Code
 Just wrote entire row 2
-["Concurrent Review", "Approved", "A170306010", "0", "Osteomyelitis, unspecified", "ICD10", "03132017"]
+["Concurrent Review", "Approved", "A170306010", "M869", "Osteomyelitis, unspecified", "ICD10", "03132017"]
 
 
 Processing New Row [nil, "No child records to display.", nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil]
@@ -13483,7 +13483,7 @@ Initial Row Type Indicator = Auth Status Detail
 Row[2] = Service Code
 Revised Row Type Indicator = Service Code
 Just wrote entire row 2
-["Concurrent Review", "Approved", "A170306017", "0", "ST elevation (STEMI) myocardial infarction of unsp site", "ICD10", "03132017"]
+["Concurrent Review", "Approved", "A170306017", "I213", "ST elevation (STEMI) myocardial infarction of unsp site", "ICD10", "03132017"]
 
 
 Processing New Row [nil, "No child records to display.", nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil]
@@ -13591,7 +13591,7 @@ Initial Row Type Indicator = Auth Status Detail
 Row[2] = Service Code
 Revised Row Type Indicator = Service Code
 Just wrote entire row 2
-["Concurrent Review", "Approved", "A170306023", "0", "Unspecified intestinal obstruction", "ICD10", "03132017"]
+["Concurrent Review", "Approved", "A170306023", "K5660", "Unspecified intestinal obstruction", "ICD10", "03132017"]
 
 
 Processing New Row [nil, "No child records to display.", nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil]
@@ -13699,7 +13699,7 @@ Initial Row Type Indicator = Auth Status Detail
 Row[2] = Service Code
 Revised Row Type Indicator = Service Code
 Just wrote entire row 2
-["Concurrent Review", "Approved", "A170306025", "0", "Infectious gastroenteritis and colitis, unspecified", "ICD10", "03132017"]
+["Concurrent Review", "Approved", "A170306025", "A09", "Infectious gastroenteritis and colitis, unspecified", "ICD10", "03132017"]
 
 
 Processing New Row [nil, "No child records to display.", nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil]
@@ -13777,7 +13777,7 @@ Initial Row Type Indicator = Auth Status Detail
 Row[2] = Service Code
 Revised Row Type Indicator = Service Code
 Just wrote entire row 2
-["Concurrent Review", "Approved", "A170306038", "0", "Unspecified appendicitis", "ICD10", "03132017"]
+["Concurrent Review", "Approved", "A170306038", "K37", "Unspecified appendicitis", "ICD10", "03132017"]
 
 
 Processing New Row [nil, "No child records to display.", nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil]
@@ -13843,7 +13843,7 @@ Initial Row Type Indicator = Auth Status Detail
 Row[2] = Service Code
 Revised Row Type Indicator = Service Code
 Just wrote entire row 2
-["Concurrent Review", "Approved", "A170306039", "0", "Gastrointestinal hemorrhage, unspecified", "ICD10", "03132017"]
+["Concurrent Review", "Approved", "A170306039", "K922", "Gastrointestinal hemorrhage, unspecified", "ICD10", "03132017"]
 
 
 Processing New Row [nil, "No child records to display.", nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil]
@@ -13998,7 +13998,7 @@ Initial Row Type Indicator = Auth Status Detail
 Row[2] = Service Code
 Revised Row Type Indicator = Service Code
 Just wrote entire row 2
-["Concurrent Review", "Approved", "A170306046", "0", "Unspecified fracture of left pubis, sequela", "ICD10", "03132017"]
+["Concurrent Review", "Approved", "A170306046", "S32502S", "Unspecified fracture of left pubis, sequela", "ICD10", "03132017"]
 
 
 Processing New Row [nil, "No child records to display.", nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil]
@@ -14076,7 +14076,7 @@ Initial Row Type Indicator = Auth Status Detail
 Row[2] = Service Code
 Revised Row Type Indicator = Service Code
 Just wrote entire row 2
-["Concurrent Review", "Approved", "A170306049", "0", "Chest pain, unspecified", "ICD10", "03132017"]
+["Concurrent Review", "Approved", "A170306049", "R079", "Chest pain, unspecified", "ICD10", "03132017"]
 
 
 Processing New Row [nil, "No child records to display.", nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil]
@@ -14149,7 +14149,7 @@ Initial Row Type Indicator = Auth Status Detail
 Row[2] = Service Code
 Revised Row Type Indicator = Service Code
 Just wrote entire row 2
-["Concurrent Review", "Approved", "A170306052", "0, 0", "Pneumonia, unspecified organism", "ICD10", "03132017"]
+["Concurrent Review", "Approved", "A170306052", "A419, J189", "Pneumonia, unspecified organism", "ICD10", "03132017"]
 
 
 Processing New Row [nil, "No child records to display.", nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil]
@@ -14297,7 +14297,7 @@ Initial Row Type Indicator = Auth Status Detail
 Row[2] = Service Code
 Revised Row Type Indicator = Service Code
 Just wrote entire row 2
-["Concurrent Review", "Approved", "A170306057", "0, 0, 0", "Unspecified kidney failure", "ICD10", "03132017"]
+["Concurrent Review", "Approved", "A170306057", "D649, I509, N19", "Unspecified kidney failure", "ICD10", "03132017"]
 
 
 Processing New Row [nil, "No child records to display.", nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil]
@@ -14405,7 +14405,7 @@ Initial Row Type Indicator = Auth Status Detail
 Row[2] = Service Code
 Revised Row Type Indicator = Service Code
 Just wrote entire row 2
-["Concurrent Review", "Approved", "A170306059", "0", "Nausea with vomiting, unspecified", "ICD10", "03132017"]
+["Concurrent Review", "Approved", "A170306059", "R112", "Nausea with vomiting, unspecified", "ICD10", "03132017"]
 
 
 Processing New Row [nil, "No child records to display.", nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil]
@@ -14513,7 +14513,7 @@ Initial Row Type Indicator = Auth Status Detail
 Row[2] = Service Code
 Revised Row Type Indicator = Service Code
 Just wrote entire row 2
-["Concurrent Review", "Approved", "A170306068", "0", "Enterocolitis due to Clostridium difficile", "ICD10", "03132017"]
+["Concurrent Review", "Approved", "A170306068", "A047", "Enterocolitis due to Clostridium difficile", "ICD10", "03132017"]
 
 
 Processing New Row [nil, "No child records to display.", nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil]
@@ -14591,7 +14591,7 @@ Initial Row Type Indicator = Auth Status Detail
 Row[2] = Service Code
 Revised Row Type Indicator = Service Code
 Just wrote entire row 2
-["Concurrent Review", "Approved", "A170306076", "0", "Fracture of unsp part of neck of right femur, init", "ICD10", "03132017"]
+["Concurrent Review", "Approved", "A170306076", "S72001A", "Fracture of unsp part of neck of right femur, init", "ICD10", "03132017"]
 
 
 Processing New Row [nil, "No child records to display.", nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil]
@@ -14676,7 +14676,7 @@ Initial Row Type Indicator = Auth Status Detail
 Row[2] = Service Code
 Revised Row Type Indicator = Service Code
 Just wrote entire row 2
-["Concurrent Review", "Approved", "A170306084", "0", "Major depressive disorder, single episode, unspecified", "ICD10", "03132017"]
+["Concurrent Review", "Approved", "A170306084", "F329", "Major depressive disorder, single episode, unspecified", "ICD10", "03132017"]
 
 
 Processing New Row [nil, "No child records to display.", nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil]
@@ -14742,7 +14742,7 @@ Initial Row Type Indicator = Auth Status Detail
 Row[2] = Service Code
 Revised Row Type Indicator = Service Code
 Just wrote entire row 2
-["Concurrent Review", "Approved", "A170306087", "0", "Chest pain, unspecified", "ICD10", "03132017"]
+["Concurrent Review", "Approved", "A170306087", "R079", "Chest pain, unspecified", "ICD10", "03132017"]
 
 
 Processing New Row [nil, "No child records to display.", nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil]
@@ -14814,7 +14814,7 @@ Initial Row Type Indicator = Auth Status Detail
 Row[2] = Service Code
 Revised Row Type Indicator = Service Code
 Just wrote entire row 2
-["Concurrent Review", "Approved", "A170307006", "0", "Gastrointestinal hemorrhage, unspecified", "ICD10", "03132017"]
+["Concurrent Review", "Approved", "A170307006", "K922", "Gastrointestinal hemorrhage, unspecified", "ICD10", "03132017"]
 
 
 Processing New Row [nil, "No child records to display.", nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil]
@@ -15002,7 +15002,7 @@ Initial Row Type Indicator = Auth Status Detail
 Row[2] = Service Code
 Revised Row Type Indicator = Service Code
 Just wrote entire row 2
-["Concurrent Review", "Approved", "A170307007", "0, 0, 0", "Urinary tract infection, site not specified", "ICD10", "03132017"]
+["Concurrent Review", "Approved", "A170307007", "E860, N179, N390", "Urinary tract infection, site not specified", "ICD10", "03132017"]
 
 
 Processing New Row [nil, "No child records to display.", nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil]
@@ -15099,7 +15099,7 @@ Initial Row Type Indicator = Auth Status Detail
 Row[2] = Service Code
 Revised Row Type Indicator = Service Code
 Just wrote entire row 2
-["Concurrent Review", "Approved", "A170307015", "0, 0", "Rhabdomyolysis", "ICD10", "03132017"]
+["Concurrent Review", "Approved", "A170307015", "E860, M6282", "Rhabdomyolysis", "ICD10", "03132017"]
 
 
 Processing New Row [nil, "No child records to display.", nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil]
@@ -15195,7 +15195,7 @@ Initial Row Type Indicator = Auth Status Detail
 Row[2] = Service Code
 Revised Row Type Indicator = Service Code
 Just wrote entire row 2
-["Concurrent Review", "Approved", "A170307029", "0", "Vascular disorder of intestine, unspecified", "ICD10", "03132017"]
+["Concurrent Review", "Approved", "A170307029", "K559", "Vascular disorder of intestine, unspecified", "ICD10", "03132017"]
 
 
 Processing New Row [nil, "No child records to display.", nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil]
@@ -15292,7 +15292,7 @@ Initial Row Type Indicator = Auth Status Detail
 Row[2] = Service Code
 Revised Row Type Indicator = Service Code
 Just wrote entire row 2
-["Concurrent Review", "Approved", "A170307032", "0, 0", "Unspecified convulsions", "ICD10", "03132017"]
+["Concurrent Review", "Approved", "A170307032", "R4781, R569", "Unspecified convulsions", "ICD10", "03132017"]
 
 
 Processing New Row [nil, "No child records to display.", nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil]
@@ -15376,7 +15376,7 @@ Initial Row Type Indicator = Auth Status Detail
 Row[2] = Service Code
 Revised Row Type Indicator = Service Code
 Just wrote entire row 2
-["Concurrent Review", "Approved", "A170307043", "0", "Tubulo-interstitial nephritis, not spcf as acute or chronic", "ICD10", "03132017"]
+["Concurrent Review", "Approved", "A170307043", "N12", "Tubulo-interstitial nephritis, not spcf as acute or chronic", "ICD10", "03132017"]
 
 
 Processing New Row [nil, "No child records to display.", nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil]
@@ -15461,7 +15461,7 @@ Initial Row Type Indicator = Auth Status Detail
 Row[2] = Service Code
 Revised Row Type Indicator = Service Code
 Just wrote entire row 2
-["Concurrent Review", "Approved", "A170307060", "0", "Diarrhea, unspecified", "ICD10", "03132017"]
+["Concurrent Review", "Approved", "A170307060", "R197", "Diarrhea, unspecified", "ICD10", "03132017"]
 
 
 Processing New Row [nil, "No child records to display.", nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil]
@@ -15570,7 +15570,7 @@ Initial Row Type Indicator = Auth Status Detail
 Row[2] = Service Code
 Revised Row Type Indicator = Service Code
 Just wrote entire row 2
-["Concurrent Review", "Approved", "A170308001", "0, 0", "Chronic obstructive pulmonary disease w (acute) exacerbation", "ICD10", "03132017"]
+["Concurrent Review", "Approved", "A170308001", "C3490, J441", "Chronic obstructive pulmonary disease w (acute) exacerbation", "ICD10", "03132017"]
 
 
 Processing New Row [nil, "No child records to display.", nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil]
@@ -15792,7 +15792,7 @@ Initial Row Type Indicator = Auth Status Detail
 Row[2] = Service Code
 Revised Row Type Indicator = Service Code
 Just wrote entire row 2
-["Concurrent Review", "Approved", "A170308011", "0", "Malignant neoplasm of unsp part of unsp bronchus or lung", "ICD10", "03132017"]
+["Concurrent Review", "Approved", "A170308011", "C3490", "Malignant neoplasm of unsp part of unsp bronchus or lung", "ICD10", "03132017"]
 
 
 Processing New Row [nil, "No child records to display.", nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil]
@@ -15909,7 +15909,7 @@ Initial Row Type Indicator = Auth Status Detail
 Row[2] = Service Code
 Revised Row Type Indicator = Service Code
 Just wrote entire row 2
-["Concurrent Review", "Approved", "A170308014", "0", "Fracture of unsp part of neck of right femur, init", "ICD10", "03132017"]
+["Concurrent Review", "Approved", "A170308014", "S72001A", "Fracture of unsp part of neck of right femur, init", "ICD10", "03132017"]
 
 
 Processing New Row [nil, "No child records to display.", nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil]
@@ -16000,7 +16000,7 @@ Initial Row Type Indicator = Auth Status Detail
 Row[2] = Service Code
 Revised Row Type Indicator = Service Code
 Just wrote entire row 2
-["Concurrent Review", "Approved", "A170308017", "0, 0", "Altered mental status, unspecified", "ICD10", "03132017"]
+["Concurrent Review", "Approved", "A170308017", "I4891, R4182", "Altered mental status, unspecified", "ICD10", "03132017"]
 
 
 Processing New Row [nil, "No child records to display.", nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil]
@@ -16084,7 +16084,7 @@ Initial Row Type Indicator = Auth Status Detail
 Row[2] = Service Code
 Revised Row Type Indicator = Service Code
 Just wrote entire row 2
-["Concurrent Review", "Approved", "A170308019", "0", "Disp fx of base of neck of right femur, init for clos fx", "ICD10", "03132017"]
+["Concurrent Review", "Approved", "A170308019", "S72041A", "Disp fx of base of neck of right femur, init for clos fx", "ICD10", "03132017"]
 
 
 Processing New Row [nil, "No child records to display.", nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil]
@@ -16168,7 +16168,7 @@ Initial Row Type Indicator = Auth Status Detail
 Row[2] = Service Code
 Revised Row Type Indicator = Service Code
 Just wrote entire row 2
-["Concurrent Review", "Approved", "A170308020", "0", "Cystitis, unspecified with hematuria", "ICD10", "03132017"]
+["Concurrent Review", "Approved", "A170308020", "N3091", "Cystitis, unspecified with hematuria", "ICD10", "03132017"]
 
 
 Processing New Row [nil, "No child records to display.", nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil]
@@ -16258,7 +16258,7 @@ Initial Row Type Indicator = Auth Status Detail
 Row[2] = Service Code
 Revised Row Type Indicator = Service Code
 Just wrote entire row 2
-["Concurrent Review", "Approved", "A170308022", "0", "Acute respiratory failure with hypoxia", "ICD10", "03132017"]
+["Concurrent Review", "Approved", "A170308022", "J9601", "Acute respiratory failure with hypoxia", "ICD10", "03132017"]
 
 
 Processing New Row [nil, "No child records to display.", nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil]
@@ -16349,7 +16349,7 @@ Initial Row Type Indicator = Auth Status Detail
 Row[2] = Service Code
 Revised Row Type Indicator = Service Code
 Just wrote entire row 2
-["Concurrent Review", "Approved", "A170308032", "0, 0", "ELEVATED PROSTATE SPECIFIC ANTIGEN [PSA]", "ICD10", "03132017"]
+["Concurrent Review", "Approved", "A170308032", "N509, R9720", "ELEVATED PROSTATE SPECIFIC ANTIGEN [PSA]", "ICD10", "03132017"]
 
 
 Processing New Row [nil, nil, 52601.0, "TRANSURETHRAL RESECT PROSTATE", "CPT", 0.0, 1.0, nil, 2.0, "CPT", "C4", nil, nil]
@@ -16449,7 +16449,7 @@ Initial Row Type Indicator = Auth Status Detail
 Row[2] = Service Code
 Revised Row Type Indicator = Service Code
 Just wrote entire row 2
-["Concurrent Review", "Approved", "A170308033", "0", "Cellulitis of other sites", "ICD10", "03132017"]
+["Concurrent Review", "Approved", "A170308033", "L03818", "Cellulitis of other sites", "ICD10", "03132017"]
 
 
 Processing New Row [nil, "No child records to display.", nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil]
@@ -16540,7 +16540,7 @@ Initial Row Type Indicator = Auth Status Detail
 Row[2] = Service Code
 Revised Row Type Indicator = Service Code
 Just wrote entire row 2
-["Concurrent Review", "Approved", "A170308034", "0", "Gastrointestinal hemorrhage, unspecified", "ICD10", "03132017"]
+["Concurrent Review", "Approved", "A170308034", "K922", "Gastrointestinal hemorrhage, unspecified", "ICD10", "03132017"]
 
 
 Processing New Row [nil, "No child records to display.", nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil]
@@ -16637,7 +16637,7 @@ Initial Row Type Indicator = Auth Status Detail
 Row[2] = Service Code
 Revised Row Type Indicator = Service Code
 Just wrote entire row 2
-["Concurrent Review", "Approved", "A170308051", "0, 0", "Disp fx of glenoid cavity of scapula, right shoulder, init", "ICD10", "03132017"]
+["Concurrent Review", "Approved", "A170308051", "R55, S42141A", "Disp fx of glenoid cavity of scapula, right shoulder, init", "ICD10", "03132017"]
 
 
 Processing New Row [nil, "No child records to display.", nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil]
@@ -16748,7 +16748,7 @@ Initial Row Type Indicator = Auth Status Detail
 Row[2] = Service Code
 Revised Row Type Indicator = Service Code
 Just wrote entire row 2
-["Concurrent Review", "Approved", "A170308059", "0, 0", "Cellulitis of other sites", "ICD10", "03132017"]
+["Concurrent Review", "Approved", "A170308059", "K611, L03818", "Cellulitis of other sites", "ICD10", "03132017"]
 
 
 Processing New Row [nil, "No child records to display.", nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil]
@@ -16852,7 +16852,7 @@ Initial Row Type Indicator = Auth Status Detail
 Row[2] = Service Code
 Revised Row Type Indicator = Service Code
 Just wrote entire row 2
-["Concurrent Review", "Approved", "A170308064", "0, 0, 0", "Unsp nondisp fx of sixth cervical vertebra, init for clos fx", "ICD10", "03132017"]
+["Concurrent Review", "Approved", "A170308064", "S0083XA, S0291XA, S12501A", "Unsp nondisp fx of sixth cervical vertebra, init for clos fx", "ICD10", "03132017"]
 
 
 Processing New Row [nil, "No child records to display.", nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil]
@@ -16942,7 +16942,7 @@ Initial Row Type Indicator = Auth Status Detail
 Row[2] = Service Code
 Revised Row Type Indicator = Service Code
 Just wrote entire row 2
-["Concurrent Review", "Approved", "A170308067", "0", "Syncope and collapse", "ICD10", "03132017"]
+["Concurrent Review", "Approved", "A170308067", "R55", "Syncope and collapse", "ICD10", "03132017"]
 
 
 Processing New Row [nil, "No child records to display.", nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil]
@@ -17021,7 +17021,7 @@ Initial Row Type Indicator = Auth Status Detail
 Row[2] = Service Code
 Revised Row Type Indicator = Service Code
 Just wrote entire row 2
-["Concurrent Review", "Approved", "A170308068", "0, 0", "Acute kidney failure, unspecified", "ICD10", "03132017"]
+["Concurrent Review", "Approved", "A170308068", "N139, N179", "Acute kidney failure, unspecified", "ICD10", "03132017"]
 
 
 Processing New Row [nil, "No child records to display.", nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil]
@@ -17154,7 +17154,7 @@ Initial Row Type Indicator = Auth Status Detail
 Row[2] = Service Code
 Revised Row Type Indicator = Service Code
 Just wrote entire row 2
-["Concurrent Review", "Approved", "A170308084", "0, 0, 0", "Unspecified fall, initial encounter", "ICD10", "03132017"]
+["Concurrent Review", "Approved", "A170308084", "S0003XA, S301XXA, W19XXXA", "Unspecified fall, initial encounter", "ICD10", "03132017"]
 
 
 Processing New Row [nil, "No child records to display.", nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil]
@@ -17240,7 +17240,7 @@ Initial Row Type Indicator = Auth Status Detail
 Row[2] = Service Code
 Revised Row Type Indicator = Service Code
 Just wrote entire row 2
-["Concurrent Review", "Approved", "A170308093", "0, 0, 0", "Syncope and collapse", "ICD10", "03132017"]
+["Concurrent Review", "Approved", "A170308093", "G459, I441, R55", "Syncope and collapse", "ICD10", "03132017"]
 
 
 Processing New Row [nil, "No child records to display.", nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil]
@@ -17331,7 +17331,7 @@ Initial Row Type Indicator = Auth Status Detail
 Row[2] = Service Code
 Revised Row Type Indicator = Service Code
 Just wrote entire row 2
-["Concurrent Review", "Approved", "A170309005", "0, 0", "Aphasia", "ICD10", "03132017"]
+["Concurrent Review", "Approved", "A170309005", "I10, R4701", "Aphasia", "ICD10", "03132017"]
 
 
 Processing New Row [nil, "No child records to display.", nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil]
@@ -17409,7 +17409,7 @@ Initial Row Type Indicator = Auth Status Detail
 Row[2] = Service Code
 Revised Row Type Indicator = Service Code
 Just wrote entire row 2
-["Concurrent Review", "Approved", "A170309006", "0", "Sepsis, unspecified organism", "ICD10", "03132017"]
+["Concurrent Review", "Approved", "A170309006", "A419", "Sepsis, unspecified organism", "ICD10", "03132017"]
 
 
 Processing New Row [nil, "No child records to display.", nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil]
@@ -17487,7 +17487,7 @@ Initial Row Type Indicator = Auth Status Detail
 Row[2] = Service Code
 Revised Row Type Indicator = Service Code
 Just wrote entire row 2
-["Concurrent Review", "Approved", "A170309012", "0", "Unspecified appendicitis", "ICD10", "03132017"]
+["Concurrent Review", "Approved", "A170309012", "K37", "Unspecified appendicitis", "ICD10", "03132017"]
 
 
 Processing New Row [nil, "No child records to display.", nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil]
@@ -17572,7 +17572,7 @@ Initial Row Type Indicator = Auth Status Detail
 Row[2] = Service Code
 Revised Row Type Indicator = Service Code
 Just wrote entire row 2
-["Concurrent Review", "Approved", "A170309016", "0", "Anemia, unspecified", "ICD10", "03132017"]
+["Concurrent Review", "Approved", "A170309016", "D649", "Anemia, unspecified", "ICD10", "03132017"]
 
 
 Processing New Row [nil, "No child records to display.", nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil]
@@ -17656,7 +17656,7 @@ Initial Row Type Indicator = Auth Status Detail
 Row[2] = Service Code
 Revised Row Type Indicator = Service Code
 Just wrote entire row 2
-["Concurrent Review", "Approved", "A170309040", "0", "Nontraumatic hematoma of soft tissue", "ICD10", "03132017"]
+["Concurrent Review", "Approved", "A170309040", "M7981", "Nontraumatic hematoma of soft tissue", "ICD10", "03132017"]
 
 
 Processing New Row [nil, "No child records to display.", nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil]
@@ -17754,7 +17754,7 @@ Initial Row Type Indicator = Auth Status Detail
 Row[2] = Service Code
 Revised Row Type Indicator = Service Code
 Just wrote entire row 2
-["Concurrent Review", "Approved", "A170309042", "0, 0, 0", "Other fatigue", "ICD10", "03132017"]
+["Concurrent Review", "Approved", "A170309042", "I4891, R42, R5383", "Other fatigue", "ICD10", "03132017"]
 
 
 Processing New Row [nil, "No child records to display.", nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil]
@@ -17839,7 +17839,7 @@ Initial Row Type Indicator = Auth Status Detail
 Row[2] = Service Code
 Revised Row Type Indicator = Service Code
 Just wrote entire row 2
-["Concurrent Review", "Approved", "A170309047", "0", "Cutaneous abscess of limb, unspecified", "ICD10", "03132017"]
+["Concurrent Review", "Approved", "A170309047", "L02419", "Cutaneous abscess of limb, unspecified", "ICD10", "03132017"]
 
 
 Processing New Row [nil, "No child records to display.", nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil]
@@ -17923,7 +17923,7 @@ Initial Row Type Indicator = Auth Status Detail
 Row[2] = Service Code
 Revised Row Type Indicator = Service Code
 Just wrote entire row 2
-["Concurrent Review", "Approved", "A170309075", "0", "Cellulitis of other sites", "ICD10", "03132017"]
+["Concurrent Review", "Approved", "A170309075", "L03818", "Cellulitis of other sites", "ICD10", "03132017"]
 
 
 Processing New Row [nil, "No child records to display.", nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil]
@@ -18001,7 +18001,7 @@ Initial Row Type Indicator = Auth Status Detail
 Row[2] = Service Code
 Revised Row Type Indicator = Service Code
 Just wrote entire row 2
-["Concurrent Review", "Approved", "A170309111", "0", "Chest pain, unspecified", "ICD10", "03132017"]
+["Concurrent Review", "Approved", "A170309111", "R079", "Chest pain, unspecified", "ICD10", "03132017"]
 
 
 Processing New Row [nil, "No child records to display.", nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil]
@@ -18073,7 +18073,7 @@ Initial Row Type Indicator = Auth Status Detail
 Row[2] = Service Code
 Revised Row Type Indicator = Service Code
 Just wrote entire row 2
-["Concurrent Review", "Approved", "A170309113", "0", "Nontraumatic subdural hemorrhage, unspecified", "ICD10", "03132017"]
+["Concurrent Review", "Approved", "A170309113", "I6200", "Nontraumatic subdural hemorrhage, unspecified", "ICD10", "03132017"]
 
 
 Processing New Row [nil, "No child records to display.", nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil]
@@ -18157,7 +18157,7 @@ Initial Row Type Indicator = Auth Status Detail
 Row[2] = Service Code
 Revised Row Type Indicator = Service Code
 Just wrote entire row 2
-["Concurrent Review", "Approved", "A170309114", "0", "Hypoglycemia, unspecified", "ICD10", "03132017"]
+["Concurrent Review", "Approved", "A170309114", "E162", "Hypoglycemia, unspecified", "ICD10", "03132017"]
 
 
 Processing New Row [nil, "No child records to display.", nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil]
@@ -18256,7 +18256,7 @@ Initial Row Type Indicator = Auth Status Detail
 Row[2] = Service Code
 Revised Row Type Indicator = Service Code
 Just wrote entire row 2
-["Concurrent Review", "Approved", "A170309118", "0, 0", "Acute respiratory failure, unsp w hypoxia or hypercapnia", "ICD10", "03132017"]
+["Concurrent Review", "Approved", "A170309118", "J449, J9600", "Acute respiratory failure, unsp w hypoxia or hypercapnia", "ICD10", "03132017"]
 
 
 Processing New Row [nil, "No child records to display.", nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil]
@@ -18336,7 +18336,7 @@ Initial Row Type Indicator = Auth Status Detail
 Row[2] = Service Code
 Revised Row Type Indicator = Service Code
 Just wrote entire row 2
-["Concurrent Review", "Approved", "A170310004", "0", "Muscle weakness (generalized)", "ICD10", "03132017"]
+["Concurrent Review", "Approved", "A170310004", "M6281", "Muscle weakness (generalized)", "ICD10", "03132017"]
 
 
 Processing New Row [nil, "No child records to display.", nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil]
@@ -18464,7 +18464,7 @@ Initial Row Type Indicator = Auth Status Detail
 Row[2] = Service Code
 Revised Row Type Indicator = Service Code
 Just wrote entire row 2
-["Concurrent Review", "Approved", "A170310006", "0", "Acute respiratory failure, unsp w hypoxia or hypercapnia", "ICD10", "03132017"]
+["Concurrent Review", "Approved", "A170310006", "J9600", "Acute respiratory failure, unsp w hypoxia or hypercapnia", "ICD10", "03132017"]
 
 
 Processing New Row [nil, "No child records to display.", nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil]
@@ -18627,7 +18627,7 @@ Initial Row Type Indicator = Auth Status Detail
 Row[2] = Service Code
 Revised Row Type Indicator = Service Code
 Just wrote entire row 2
-["Concurrent Review", "Approved", "A170310013", "0", "Gastrointestinal hemorrhage, unspecified", "ICD10", "03132017"]
+["Concurrent Review", "Approved", "A170310013", "K922", "Gastrointestinal hemorrhage, unspecified", "ICD10", "03132017"]
 
 
 Processing New Row [nil, "No child records to display.", nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil]
@@ -18713,7 +18713,7 @@ Initial Row Type Indicator = Auth Status Detail
 Row[2] = Service Code
 Revised Row Type Indicator = Service Code
 Just wrote entire row 2
-["Concurrent Review", "Approved", "A170310015", "0, 0, 0", "Hemoptysis", "ICD10", "03132017"]
+["Concurrent Review", "Approved", "A170310015", "J159, M3130, R042", "Hemoptysis", "ICD10", "03132017"]
 
 
 Processing New Row [nil, "No child records to display.", nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil]
@@ -18798,7 +18798,7 @@ Initial Row Type Indicator = Auth Status Detail
 Row[2] = Service Code
 Revised Row Type Indicator = Service Code
 Just wrote entire row 2
-["Concurrent Review", "Approved", "A170310019", "0, 0", "Dizziness and giddiness", "ICD10", "03132017"]
+["Concurrent Review", "Approved", "A170310019", "I4891, R42", "Dizziness and giddiness", "ICD10", "03132017"]
 
 
 Processing New Row [nil, "No child records to display.", nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil]
@@ -18891,7 +18891,7 @@ Initial Row Type Indicator = Auth Status Detail
 Row[2] = Service Code
 Revised Row Type Indicator = Service Code
 Just wrote entire row 2
-["Concurrent Review", "Approved", "A170310020", "0, 0", "Heart failure, unspecified", "ICD10", "03132017"]
+["Concurrent Review", "Approved", "A170310020", "E876, I509", "Heart failure, unspecified", "ICD10", "03132017"]
 
 
 Processing New Row [nil, "No child records to display.", nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil]
@@ -18976,7 +18976,7 @@ Initial Row Type Indicator = Auth Status Detail
 Row[2] = Service Code
 Revised Row Type Indicator = Service Code
 Just wrote entire row 2
-["Concurrent Review", "Approved", "A170310024", "0, 0", "Postlaminectomy syndrome, not elsewhere classified", "ICD10", "03132017"]
+["Concurrent Review", "Approved", "A170310024", "M545, M961", "Postlaminectomy syndrome, not elsewhere classified", "ICD10", "03132017"]
 
 
 Processing New Row [nil, "No child records to display.", nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil]
@@ -19054,7 +19054,7 @@ Initial Row Type Indicator = Auth Status Detail
 Row[2] = Service Code
 Revised Row Type Indicator = Service Code
 Just wrote entire row 2
-["Concurrent Review", "Approved", "A170310026", "0", "Essential (primary) hypertension", "ICD10", "03132017"]
+["Concurrent Review", "Approved", "A170310026", "I10", "Essential (primary) hypertension", "ICD10", "03132017"]
 
 
 Processing New Row [nil, "No child records to display.", nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil]
@@ -19132,7 +19132,7 @@ Initial Row Type Indicator = Auth Status Detail
 Row[2] = Service Code
 Revised Row Type Indicator = Service Code
 Just wrote entire row 2
-["Concurrent Review", "Approved", "A170310028", "0", "Generalized abdominal pain", "ICD10", "03132017"]
+["Concurrent Review", "Approved", "A170310028", "R1084", "Generalized abdominal pain", "ICD10", "03132017"]
 
 
 Processing New Row [nil, "No child records to display.", nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil]
@@ -19217,7 +19217,7 @@ Initial Row Type Indicator = Auth Status Detail
 Row[2] = Service Code
 Revised Row Type Indicator = Service Code
 Just wrote entire row 2
-["Concurrent Review", "Approved", "A170310031", "0, 0", "Syncope and collapse", "ICD10", "03132017"]
+["Concurrent Review", "Approved", "A170310031", "E860, R55", "Syncope and collapse", "ICD10", "03132017"]
 
 
 Processing New Row [nil, "No child records to display.", nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil]
@@ -19295,7 +19295,7 @@ Initial Row Type Indicator = Auth Status Detail
 Row[2] = Service Code
 Revised Row Type Indicator = Service Code
 Just wrote entire row 2
-["Concurrent Review", "Approved", "A170310032", "0", "Pneumonia, unspecified organism", "ICD10", "03132017"]
+["Concurrent Review", "Approved", "A170310032", "J189", "Pneumonia, unspecified organism", "ICD10", "03132017"]
 
 
 Processing New Row [nil, "No child records to display.", nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil]
@@ -19373,7 +19373,7 @@ Initial Row Type Indicator = Auth Status Detail
 Row[2] = Service Code
 Revised Row Type Indicator = Service Code
 Just wrote entire row 2
-["Concurrent Review", "Approved", "A170310033", "0", "Unsp fracture of left pubis, init encntr for closed fracture", "ICD10", "03132017"]
+["Concurrent Review", "Approved", "A170310033", "S32502A", "Unsp fracture of left pubis, init encntr for closed fracture", "ICD10", "03132017"]
 
 
 Processing New Row [nil, "No child records to display.", nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil]
@@ -19459,7 +19459,7 @@ Initial Row Type Indicator = Auth Status Detail
 Row[2] = Service Code
 Revised Row Type Indicator = Service Code
 Just wrote entire row 2
-["Concurrent Review", "Approved", "A170310034", "0, 0, 0", "Muscle weakness (generalized)", "ICD10", "03132017"]
+["Concurrent Review", "Approved", "A170310034", "G459, I639, M6281", "Muscle weakness (generalized)", "ICD10", "03132017"]
 
 
 Processing New Row [nil, "No child records to display.", nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil]
@@ -19543,7 +19543,7 @@ Initial Row Type Indicator = Auth Status Detail
 Row[2] = Service Code
 Revised Row Type Indicator = Service Code
 Just wrote entire row 2
-["Concurrent Review", "Approved", "A170310036", "0", "Dehydration", "ICD10", "03132017"]
+["Concurrent Review", "Approved", "A170310036", "E860", "Dehydration", "ICD10", "03132017"]
 
 
 Processing New Row [nil, "No child records to display.", nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil]
@@ -19629,7 +19629,7 @@ Initial Row Type Indicator = Auth Status Detail
 Row[2] = Service Code
 Revised Row Type Indicator = Service Code
 Just wrote entire row 2
-["Concurrent Review", "Approved", "A170310037", "0, 0, 0", "Unspecified bacterial pneumonia", "ICD10", "03132017"]
+["Concurrent Review", "Approved", "A170310037", "G459, I639, J159", "Unspecified bacterial pneumonia", "ICD10", "03132017"]
 
 
 Processing New Row [nil, "No child records to display.", nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil]
@@ -19701,7 +19701,7 @@ Initial Row Type Indicator = Auth Status Detail
 Row[2] = Service Code
 Revised Row Type Indicator = Service Code
 Just wrote entire row 2
-["Concurrent Review", "Approved", "A170310045", "0", "Other pulmonary embolism without acute cor pulmonale", "ICD10", "03132017"]
+["Concurrent Review", "Approved", "A170310045", "I2699", "Other pulmonary embolism without acute cor pulmonale", "ICD10", "03132017"]
 
 
 Processing New Row [nil, "No child records to display.", nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil]
@@ -19779,7 +19779,7 @@ Initial Row Type Indicator = Auth Status Detail
 Row[2] = Service Code
 Revised Row Type Indicator = Service Code
 Just wrote entire row 2
-["Concurrent Review", "Approved", "A170310069", "0", "Other general symptoms and signs", "ICD10", "03132017"]
+["Concurrent Review", "Approved", "A170310069", "R6889", "Other general symptoms and signs", "ICD10", "03132017"]
 
 
 Processing New Row [nil, nil, "R0022", "Health Insurance Prospective Payment System (HIPPS), SNF PPS (RUG)", "Revenue", 200.0, 200.0, "Approved", 1.0, "Revenue", "RV", nil, nil]
@@ -19852,7 +19852,7 @@ Initial Row Type Indicator = Auth Status Detail
 Row[2] = Service Code
 Revised Row Type Indicator = Service Code
 Just wrote entire row 2
-["Concurrent Review", "Approved", "A170313001", "0, 0", "Shortness of breath", "ICD10", "03132017"]
+["Concurrent Review", "Approved", "A170313001", "J9600, R0602", "Shortness of breath", "ICD10", "03132017"]
 
 
 Processing New Row [nil, "No child records to display.", nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil]
@@ -19943,7 +19943,7 @@ Initial Row Type Indicator = Auth Status Detail
 Row[2] = Service Code
 Revised Row Type Indicator = Service Code
 Just wrote entire row 2
-["Concurrent Review", "Approved", "A170313008", "0, 0", "Urinary tract infection, site not specified", "ICD10", "03132017"]
+["Concurrent Review", "Approved", "A170313008", "M6281, N390", "Urinary tract infection, site not specified", "ICD10", "03132017"]
 
 
 Processing New Row [nil, "No child records to display.", nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil]
@@ -20021,7 +20021,7 @@ Initial Row Type Indicator = Auth Status Detail
 Row[2] = Service Code
 Revised Row Type Indicator = Service Code
 Just wrote entire row 2
-["Concurrent Review", "Approved", "A170313015", "0", "Altered mental status, unspecified", "ICD10", "03132017"]
+["Concurrent Review", "Approved", "A170313015", "R4182", "Altered mental status, unspecified", "ICD10", "03132017"]
 
 
 Processing New Row [nil, "No child records to display.", nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil]
@@ -20093,7 +20093,7 @@ Initial Row Type Indicator = Auth Status Detail
 Row[2] = Service Code
 Revised Row Type Indicator = Service Code
 Just wrote entire row 2
-["Concurrent Review", "Approved", "A170313016", "0", "Other visual disturbances", "ICD10", "03132017"]
+["Concurrent Review", "Approved", "A170313016", "H538", "Other visual disturbances", "ICD10", "03132017"]
 
 
 Processing New Row [nil, "No child records to display.", nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil]
@@ -20165,7 +20165,7 @@ Initial Row Type Indicator = Auth Status Detail
 Row[2] = Service Code
 Revised Row Type Indicator = Service Code
 Just wrote entire row 2
-["Concurrent Review", "Approved", "A170313021", "0", "Pleurodynia", "ICD10", "03132017"]
+["Concurrent Review", "Approved", "A170313021", "R0781", "Pleurodynia", "ICD10", "03132017"]
 
 
 Processing New Row [nil, "No child records to display.", nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil]
@@ -20237,7 +20237,7 @@ Initial Row Type Indicator = Auth Status Detail
 Row[2] = Service Code
 Revised Row Type Indicator = Service Code
 Just wrote entire row 2
-["Concurrent Review", "Approved", "A170313022", "0", "Other chest pain", "ICD10", "03132017"]
+["Concurrent Review", "Approved", "A170313022", "R0789", "Other chest pain", "ICD10", "03132017"]
 
 
 Processing New Row [nil, "No child records to display.", nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil]
@@ -20309,7 +20309,7 @@ Initial Row Type Indicator = Auth Status Detail
 Row[2] = Service Code
 Revised Row Type Indicator = Service Code
 Just wrote entire row 2
-["Concurrent Review", "Approved", "A170313023", "0", "Chest pain, unspecified", "ICD10", "03132017"]
+["Concurrent Review", "Approved", "A170313023", "R079", "Chest pain, unspecified", "ICD10", "03132017"]
 
 
 Processing New Row [nil, "No child records to display.", nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil]
@@ -20381,7 +20381,7 @@ Initial Row Type Indicator = Auth Status Detail
 Row[2] = Service Code
 Revised Row Type Indicator = Service Code
 Just wrote entire row 2
-["Concurrent Review", "Approved", "A170313060", "0", "Displaced intertrochanteric fracture of right femur, init", "ICD10", "03132017"]
+["Concurrent Review", "Approved", "A170313060", "S72141A", "Displaced intertrochanteric fracture of right femur, init", "ICD10", "03132017"]
 
 
 Processing New Row [nil, "No child records to display.", nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil]
@@ -20466,7 +20466,7 @@ Initial Row Type Indicator = Auth Status Detail
 Row[2] = Service Code
 Revised Row Type Indicator = Service Code
 Just wrote entire row 2
-["Concurrent Review", "Approved", "A170313071", "0", "Unspecified atrial fibrillation", "ICD10", "03132017"]
+["Concurrent Review", "Approved", "A170313071", "I4891", "Unspecified atrial fibrillation", "ICD10", "03132017"]
 
 
 Processing New Row [nil, "No child records to display.", nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil]
@@ -20552,7 +20552,7 @@ Initial Row Type Indicator = Auth Status Detail
 Row[2] = Service Code
 Revised Row Type Indicator = Service Code
 Just wrote entire row 2
-["Concurrent Review", "Approved", "A170313087", "0, 0, 0", "SIRS of non-infectious origin w/o acute organ dysfunction", "ICD10", "03132017"]
+["Concurrent Review", "Approved", "A170313087", "G9340, R531, R6510", "SIRS of non-infectious origin w/o acute organ dysfunction", "ICD10", "03132017"]
 
 
 Processing New Row [nil, "No child records to display.", nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil]
@@ -21176,7 +21176,7 @@ Initial Row Type Indicator = Auth Status Detail
 Row[2] = Service Code
 Revised Row Type Indicator = Service Code
 Just wrote entire row 2
-["Concurrent Review", "Approved", "A170313116", "0", "Diaphragmatic hernia without obstruction or gangrene", "ICD10", "03132017"]
+["Concurrent Review", "Approved", "A170313116", "K449", "Diaphragmatic hernia without obstruction or gangrene", "ICD10", "03132017"]
 
 
 Processing New Row [nil, "No child records to display.", nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil]
@@ -21254,7 +21254,7 @@ Initial Row Type Indicator = Auth Status Detail
 Row[2] = Service Code
 Revised Row Type Indicator = Service Code
 Just wrote entire row 2
-["Concurrent Review", "Denied", "A170224067", "0", "Acute and chr resp failure, unsp w hypoxia or hypercapnia", "ICD10", "03132017"]
+["Concurrent Review", "Denied", "A170224067", "J9620", "Acute and chr resp failure, unsp w hypoxia or hypercapnia", "ICD10", "03132017"]
 
 
 Processing New Row [nil, "No child records to display.", nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil]
@@ -21484,7 +21484,7 @@ Initial Row Type Indicator = Auth Status Detail
 Row[2] = Service Code
 Revised Row Type Indicator = Service Code
 Just wrote entire row 2
-["Pre-Service", "Denied", "A170306050", "0, 0", "Spinal stenosis, cervical region", "ICD10", "03132017"]
+["Pre-Service", "Denied", "A170306050", "M4012, M4802", "Spinal stenosis, cervical region", "ICD10", "03132017"]
 
 
 Processing New Row [nil, "No child records to display.", nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil]
@@ -21571,7 +21571,7 @@ Initial Row Type Indicator = Auth Status Detail
 Row[2] = Service Code
 Revised Row Type Indicator = Service Code
 Just wrote entire row 2
-["Pre-Service", "Denied", "A170309064", "0", "Athscl heart disease of native coronary artery w/o ang pctrs", "ICD10", "03132017"]
+["Pre-Service", "Denied", "A170309064", "I2510", "Athscl heart disease of native coronary artery w/o ang pctrs", "ICD10", "03132017"]
 
 
 Processing New Row [nil, nil, 33361.0, "REPLACE AORTIC VALVE PERQ", "CPT", 0.0, 1.0, "Denied", nil, "CPT", "C4", nil, nil]
@@ -21637,7 +21637,7 @@ Initial Row Type Indicator = Auth Status Detail
 Row[2] = Service Code
 Revised Row Type Indicator = Service Code
 Just wrote entire row 2
-["Pre-Service", "Denied", "A170310066", "0", "Acute respiratory failure, unsp w hypoxia or hypercapnia", "ICD10", "03132017"]
+["Pre-Service", "Denied", "A170310066", "J9600", "Acute respiratory failure, unsp w hypoxia or hypercapnia", "ICD10", "03132017"]
 
 
 Processing New Row [nil, "No child records to display.", nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil]
@@ -21705,5 +21705,5 @@ Just wrote entire row 5 and ended Example
 ["", "", "", "", "0"]
 
 Just appended new example
-| 03102017 | 2017-03-10T15:32:16+00:00 |  | 000113202-01 | Martha | Moore | ALPHA MEDICAL SRVS LLC | 913771 | ELIO | VENTRESCA | 1811904139 | SELECT SPECIALTY HOSPITAL | 900155 | 1871592386 | SELECT SPECIALTY HOSPITAL | 1871592386 | Long Term Acute Care Hospital | LTACH | Pre-Service | PRE |  | SELECT SPECIALTY HOSPITAL | 03132017 | Denied | MediGold Classic Preferred | Fax | Services Continued at Higher Level (LTACH) | Inpatient | 03132017 | 03142017 | Standard |  |  |  |  | 0 |  |  |  |  | 0 | 0 | Pre-Service | Denied | A170310066 | 0 | Acute respiratory failure, unsp w hypoxia or hypercapnia | ICD10 | 03132017 |  |  |  | 0 | 0 |  | 0 |  |  | Dr. Jacob Werkin MD order to discharge to LTACH for vent weaning to CPAP; Vent placement of 03/03/17; PEG tube 03/10/17  foley dc'd 03/09/17  acute fever accompanied by acute leukocytosis. Wound C/D/I;, Verbal LTACH denial 03/11/17 @ 17:45 pm, PCT Darleta Milton  614-458-9145  PRF for Select Medical; left conf'd VM requesting return call - denial of LTACH admission  technical difficulty at insurance company  unable to send Denial Letter - 03/10/17; 03/11/17, PCT Amber  LSW  ICU-West; discussed LTACH denial; per Amber  no notice of discharge has been rcv'd by staff at this time; no further questions at this time., Letter is written in appropriate language with no abbreviations and is therefore approved. |  |  |  |  | 0 |
+| 03102017 | 2017-03-10T15:32:16+00:00 |  | 000113202-01 | Martha | Moore | ALPHA MEDICAL SRVS LLC | 913771 | ELIO | VENTRESCA | 1811904139 | SELECT SPECIALTY HOSPITAL | 900155 | 1871592386 | SELECT SPECIALTY HOSPITAL | 1871592386 | Long Term Acute Care Hospital | LTACH | Pre-Service | PRE |  | SELECT SPECIALTY HOSPITAL | 03132017 | Denied | MediGold Classic Preferred | Fax | Services Continued at Higher Level (LTACH) | Inpatient | 03132017 | 03142017 | Standard |  |  |  |  | 0 |  |  |  |  | 0 | 0 | Pre-Service | Denied | A170310066 | J9600 | Acute respiratory failure, unsp w hypoxia or hypercapnia | ICD10 | 03132017 |  |  |  | 0 | 0 |  | 0 |  |  | Dr. Jacob Werkin MD order to discharge to LTACH for vent weaning to CPAP; Vent placement of 03/03/17; PEG tube 03/10/17  foley dc'd 03/09/17  acute fever accompanied by acute leukocytosis. Wound C/D/I;, Verbal LTACH denial 03/11/17 @ 17:45 pm, PCT Darleta Milton  614-458-9145  PRF for Select Medical; left conf'd VM requesting return call - denial of LTACH admission  technical difficulty at insurance company  unable to send Denial Letter - 03/10/17; 03/11/17, PCT Amber  LSW  ICU-West; discussed LTACH denial; per Amber  no notice of discharge has been rcv'd by staff at this time; no further questions at this time., Letter is written in appropriate language with no abbreviations and is therefore approved. |  |  |  |  | 0 |
 
