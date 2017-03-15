@@ -206,7 +206,9 @@ end
 When /^in the "([^"]*)" page I convert "([^"]*)" into the "([^"]*)" image and save the variable$/ do |page, text, element|
   screen_image = "#{$image_directory}" + "#{page}" + "\\" + "#{element}" + ".PNG"
   #date = text.unpack('A4xA2xA2').rotate.join("")
-  date = text
+  element_array = text.split(', ')
+  #element_array = element_array.reject(&:blank?)
+  date = element_array.first
   @screen.wait "#{screen_image}", 30
   if @screen.exists "#{screen_image}"
     @screen.click "#{screen_image}"
@@ -990,9 +992,15 @@ end
 
 When /^in the "([^"]*)" page I add the "([^"]*)" to the "([^"]*)" and put the result in the "([^"]*)" image and add one$/ do |page, days_approved, date, element|
   screen_image = "#{$image_directory}" + "#{page}" + "\\" + "#{element}" + ".PNG"
+
   element_array = date.split(', ')
   #element_array = element_array.reject(&:blank?)
   date = element_array.first
+
+  element_array = days_approved.split(', ')
+  #element_array = element_array.reject(&:blank?)
+  days_approved = element_array.first
+
   yyyy = date[4,4].to_i
   mm = date[0,2].to_i
   dd = date[2,2].to_i
@@ -1014,9 +1022,15 @@ end
 
 When /^in the "([^"]*)" page I add the "([^"]*)" to the "([^"]*)" and put the result in the "([^"]*)" image and subtract one$/ do |page, days_approved, date, element|
   screen_image = "#{$image_directory}" + "#{page}" + "\\" + "#{element}" + ".PNG"
+
   element_array = date.split(', ')
   #element_array = element_array.reject(&:blank?)
   date = element_array.first
+
+  element_array = days_approved.split(', ')
+  #element_array = element_array.reject(&:blank?)
+  days_approved = element_array.first
+
   yyyy = date[4,4].to_i
   mm = date[0,2].to_i
   dd = date[2,2].to_i
