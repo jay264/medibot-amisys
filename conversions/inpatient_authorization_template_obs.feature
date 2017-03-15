@@ -38,6 +38,15 @@
 	And the test pauses for "2" seconds
 	And in the "authorized_services" page I add the "<auth_approval_days>" to the "<care_date>" and put the result in the "dates_end_approved" image and subtract one
 	And the test pauses for "2" seconds
+	#And in the "authorized_services" page I enter "<care_date>" into the "dates_begin_approved" image
+	And in the "authorized_services" page I enter the first element from "<care_date>" into the "dates_begin_approved" image
+	And the test pauses for "2" seconds
+	#And in the "authorized_services" page I enter "<auth_approval_days>" into the "how_many_requested" image
+	And in the "authorized_services" page I enter the first element from "<auth_approval_days>" into the "how_many_requested" image
+	And the test pauses for "2" seconds
+	#And in the "authorized_services" page I enter "<auth_approval_days>" into the "how_many_authorized" image
+	And in the "authorized_services" page I enter the first element from "<auth_approval_days>" into the "how_many_authorized" image
+	And the test pauses for "2" seconds
 	And I use the sub class "<sub_class>" to determine what location to enter into the location image
 	And the test pauses for "2" seconds
 	And in the "authorized_services" page I enter "M" into the "claim_type" image
