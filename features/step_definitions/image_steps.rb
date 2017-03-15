@@ -990,7 +990,7 @@ end
 
 When /^in the "([^"]*)" page I add the "([^"]*)" to the "([^"]*)" and put the result in the "([^"]*)" image and add one$/ do |page, days_approved, date, element|
   screen_image = "#{$image_directory}" + "#{page}" + "\\" + "#{element}" + ".PNG"
-  element_array = value.split(', ')
+  element_array = date.split(', ')
   #element_array = element_array.reject(&:blank?)
   date = element_array.first
   yyyy = date[4,4].to_i
@@ -1014,7 +1014,7 @@ end
 
 When /^in the "([^"]*)" page I add the "([^"]*)" to the "([^"]*)" and put the result in the "([^"]*)" image and subtract one$/ do |page, days_approved, date, element|
   screen_image = "#{$image_directory}" + "#{page}" + "\\" + "#{element}" + ".PNG"
-  element_array = value.split(', ')
+  element_array = date.split(', ')
   #element_array = element_array.reject(&:blank?)
   date = element_array.first
   yyyy = date[4,4].to_i
