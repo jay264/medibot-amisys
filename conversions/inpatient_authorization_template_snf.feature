@@ -23,7 +23,7 @@ And in the "Certification" page I enter the primary "<diagnosis_code>" into the 
 And the test pauses for "1" seconds
 And in the "Certification" page I use the sub-class "<sub_class>" to determine what to enter into the "Auth Type" field
 And the test pauses for "2" seconds
-And in the "certification" page I use the SNF auth status "<status_reason>" to determine what to enter into the "ex" image
+And in the "certification" page I use the SNF auth status "<status>" to determine what to enter into the "ex" image
 And the test pauses for "2" seconds
 And I press "Control + S"
 And the test pauses for "3" seconds
@@ -134,7 +134,7 @@ And the test pauses for "3" seconds
 	And in the "authorized_services" page I enter "AD" into the "count" image
 	And the test pauses for "2" seconds
 	And in the "authorized_services" page I enter the primary diagnosis code into the "diag_number_2" image
-	And in the "authorized_services" page I use the SNF auth status "<status_reason>" to determine what to enter into the "ex" image
+	And in the "authorized_services" page I use the SNF auth status "<status>" to determine what to enter into the "ex" image
 	And the test pauses for "2" seconds
 	And in the "authorized_services" page I click on the "save" image
 	And the test pauses for "10" seconds
@@ -166,7 +166,7 @@ And the test pauses for "3" seconds
 	And in the "authorized_services" page I enter "H" into the "claim_type" image
 	And the test pauses for "2" seconds
 	And in the "authorized_services" page I enter the primary diagnosis code into the "diag_number_2" image
-	And in the "authorized_services" page I use the SNF auth status "<status_reason>" to determine what to enter into the "ex" image
+	And in the "authorized_services" page I use the SNF auth status "<status>" to determine what to enter into the "ex" image
 	And the test pauses for "2" seconds
 	And in the "authorized_services" page I click on the "save" image
 	And the test pauses for "10" seconds
@@ -203,6 +203,6 @@ And the test pauses for "3" seconds
 	And I press ENTER graphically
 	And the test pauses for "5" seconds
 	And I close "Internet Explorer"
-	
+
 		Examples:
 		| requested_date  | military_date      | other_reference_# |	member_id | member_first_name |	member_last_name | practice_name | requesting_provider_id  |	requesting_provider_first_name  | requesting_provider_last_name  | requesting_provider_npi_# |	facility_name  | servicing_provider_id |	provider_facility_npi |	servicing_provider_name	| servicing_provider_npi_# |	sub_class  | sub_class_code | type  |	type_code |	servicing_provider_first_name |	servicing_provider_last_name  | status_date |	status   |	health_plan                | source     |	status_reason        |  auth_class | authorized_date | expiration_date | priority | aco_type_and_payment | eis_aa | adm | auth_for_payment | days_used_prior | dc | denc_date | mds_date | nomnc_date | total_days | total_skilled_days | auth_type      | auth_status    |	auth_number |	diagnosis_code     |	diagnosis                                          			|	diagnosis_type |	auth_modified_date | service_code       | service_description                                                    | service_type |	qty_appr |	qty_reqd  |	determination |	auth_approval_days | service_type   |	service_type_code  | notes                  | care_date | actual_level_of_care | approved_level_of_care | determination | auth_approval_days |
