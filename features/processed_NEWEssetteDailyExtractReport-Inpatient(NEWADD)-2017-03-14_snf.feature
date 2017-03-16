@@ -23,7 +23,7 @@ And in the "Certification" page I enter the primary "<diagnosis_code>" into the 
 And the test pauses for "1" seconds
 And in the "Certification" page I use the sub-class "<sub_class>" to determine what to enter into the "Auth Type" field
 And the test pauses for "2" seconds
-And in the "certification" page I use the SNF auth status "<status_reason>" to determine what to enter into the "ex" image
+And in the "certification" page I use the SNF auth status "<status>" to determine what to enter into the "ex" image
 And the test pauses for "2" seconds
 And I press "Control + S"
 And the test pauses for "3" seconds
@@ -134,7 +134,7 @@ And the test pauses for "3" seconds
 	And in the "authorized_services" page I enter "AD" into the "count" image
 	And the test pauses for "2" seconds
 	And in the "authorized_services" page I enter the primary diagnosis code into the "diag_number_2" image
-	And in the "authorized_services" page I use the SNF auth status "<status_reason>" to determine what to enter into the "ex" image
+	And in the "authorized_services" page I use the SNF auth status "<status>" to determine what to enter into the "ex" image
 	And the test pauses for "2" seconds
 	And in the "authorized_services" page I click on the "save" image
 	And the test pauses for "10" seconds
@@ -166,7 +166,7 @@ And the test pauses for "3" seconds
 	And in the "authorized_services" page I enter "H" into the "claim_type" image
 	And the test pauses for "2" seconds
 	And in the "authorized_services" page I enter the primary diagnosis code into the "diag_number_2" image
-	And in the "authorized_services" page I use the SNF auth status "<status_reason>" to determine what to enter into the "ex" image
+	And in the "authorized_services" page I use the SNF auth status "<status>" to determine what to enter into the "ex" image
 	And the test pauses for "2" seconds
 	And in the "authorized_services" page I click on the "save" image
 	And the test pauses for "10" seconds
@@ -203,7 +203,7 @@ And the test pauses for "3" seconds
 	And I press ENTER graphically
 	And the test pauses for "5" seconds
 	And I close "Internet Explorer"
-	
+
 		Examples:
 		| requested_date  | military_date      | other_reference_# |	member_id | member_first_name |	member_last_name | practice_name | requesting_provider_id  |	requesting_provider_first_name  | requesting_provider_last_name  | requesting_provider_npi_# |	facility_name  | servicing_provider_id |	provider_facility_npi |	servicing_provider_name	| servicing_provider_npi_# |	sub_class  | sub_class_code | type  |	type_code |	servicing_provider_first_name |	servicing_provider_last_name  | status_date |	status   |	health_plan                | source     |	status_reason        |  auth_class | authorized_date | expiration_date | priority | aco_type_and_payment | eis_aa | adm | auth_for_payment | days_used_prior | dc | denc_date | mds_date | nomnc_date | total_days | total_skilled_days | auth_type      | auth_status    |	auth_number |	diagnosis_code     |	diagnosis                                          			|	diagnosis_type |	auth_modified_date | service_code       | service_description                                                    | service_type |	qty_appr |	qty_reqd  |	determination |	auth_approval_days | service_type   |	service_type_code  | notes                  | care_date | actual_level_of_care | approved_level_of_care | determination | auth_approval_days |
 | 02062017 | 2017-02-06T15:26:10+00:00 |  | 000013502-01 | WANDA | MOREHART | ARBOR VIEW FAM MED INC | 937109 | JOHN E | LLOYD | 1740252923 | SUNBRIDGE CIRCLEVILLE HL | 907244 | 1447206503 | CIRCLEVILLE CARE & REHAB CENTER | 1447206503 | Skilled Nursing Facility | SNF | Concurrent Review | CONC |  | CIRCLEVILLE CARE & REHAB CENTER | 03142017 | Approved | MediGold Classic Preferred | Fax | SNF | Inpatient | 02022017 | 02102017 | Standard |  |  | 2017-02-02 | Per Contract/RUG: 17/RVB01 (PER MDS) = $5411.86 | 0 | 2017-02-10 |  | 2017-02-14 |  | 8 | 8 | Concurrent Review | Approved | A170207028 | M6281, N390, Z9181 | History of falling | ICD10 | 03142017 | RVB01 | VERY HIGH REHAB , ADL INDEX 6-10/STAND-ALONE OBRA SCSA OR SCPA OR CCA. | RUGS,HHRG | 1 | 1 | Approved | 9 | RUGS,HHRG | HP | MDS received, out to hosp 2/10/17 | 02022017, 02032017, 02042017, 02052017, 02062017, 02072017, 02082017, 02092017, 02102017, 02112017, 02122017, 02132017, 02142017, 02152017, 02162017, 02172017, 02182017, 02192017, 02202017, 02212017 | SNF, SNF, SNF, SNF, SNF, SNF, SNF, SNF, SNF, SNF, SNF, SNF, SNF, SNF, SNF, SNF, SNF, SNF, SNF, SNF | SNF, SNF, SNF, SNF, SNF, SNF, SNF, SNF, SNF, SNF, SNF, SNF, SNF, SNF, SNF, SNF, SNF, SNF, SNF, SNF | Approved, Approved, Approved, Approved, Approved, Approved, Approved, Approved, , , , , , , , , , , ,  | 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9, 9 |
