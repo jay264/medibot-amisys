@@ -21,7 +21,7 @@ World {SikuliNavigator.new}
 $execution = YAML::load_file(File.expand_path('data/execution.yml'))
 $environment = YAML::load_file(File.expand_path('data/environments.yml'))[$execution['environment']]
 
-$image_directory = "W:\\KM\\MCHP Confidential Data\\essette\\MediBot_Amisys\\lib\\pages\\"
+$image_directory = "C:\\Users\\lpvx1486\\MediGold\\medibot-amisys\\lib\\pages\\"
 
 I18n.enforce_available_locales = false
 
