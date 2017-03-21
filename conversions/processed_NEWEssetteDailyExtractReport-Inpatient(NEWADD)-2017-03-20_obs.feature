@@ -1,9 +1,9 @@
-Feature: Process Essette Extract NEWEssetteDailyExtractReport-Inpatient(NEWADD)-2017-03-21_OBS
+Feature: Process Essette Extract NEWEssetteDailyExtractReport-Inpatient(NEWADD)-2017-03-20_OBS
 	As an auth entering person
 	I want the ability to add all types of authorizations
 	so that I know that information is entered correctly
 
-Scenario Outline: NEWEssetteDailyExtractReport-Inpatient(NEWADD)-2017-03-21_OBS
+Scenario Outline: NEWEssetteDailyExtractReport-Inpatient(NEWADD)-2017-03-20_OBS
 	Given I save the auth class "<auth_class>" to a variable
 	Given I sign in to the application
 	And the test pauses for "3" seconds
