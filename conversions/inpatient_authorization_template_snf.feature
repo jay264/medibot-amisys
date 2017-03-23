@@ -192,6 +192,12 @@ And the test pauses for "3" seconds
 	And I press "F8"
 	And the test pauses for "4" seconds
 
+	And I input the ACO type and payment if any are contained in "<aco_type_and_payment>"
+	And I input the EIS AA if any are contained in "<eis_aa>"
+	#And I input the first SNF assessments if any are contained in "<adm>" "<auth_for_payment>" "<days_used_prior>"
+	And I input the second SNF assessments if any are contained in "<dc>" "<denc_date>" "<mds_date>"
+	And I input the third SNF assessments if any are contained in "<nomnc_date>" "<total_days>" "<total_skilled_days>"
+
 	And in the "Certification" page I enter the updated auth type code into the "Auth Type" field
 	And I press "Control + S"
 	And the test pauses for "3" seconds
