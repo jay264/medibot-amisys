@@ -1,0 +1,289 @@
+
+Opened spreadsheet NEWEssetteDailyExtractReport-Inpatient(NEWADD)-2017-04-02
+Added the spreadsheet to a book in the worksheet
+Opened a new feature file for the spreadsheet data
+Initializing Variables 
+
+Processing New Row [nil, "Requested Date/Time", "Other Reference #", "Member ID", "Member First Name", "Member Last Name", "Facility", "Requesting Provider ID", "Requesting Provider First Name", "Requesting Provider Last Name", "Requesting Provider NPI #", "Facility", "Servicing Provider ID", "Provider Facility NPI", "Servicing Provider Name", "Servicing Provider NPI #", "Sub Class", "Sub Class Code", "Type", "Type Code", "Servicing Provider First Name", "Servicing Provider Last Name", "Status Date", "Status", "Health Plan", "Source", "Status Reason", "Class", "Authorized Date", "Expiration Date", "Priority", "Type and Payment", "Antiatelectasis Antiembolic", "ADM", "Auth For Payment", "Days Used Prior", "DC", "DENC Date", "MDS Date", "NOMNC Date", "Total Days", "Total Skilled Days"]
+Initial Row Type Indicator = 
+Row[2] = Other Reference #
+Revised Row Type Indicator = Headers
+Processing Header
+
+Processing New Row [nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, "33 DAYS@ $200.00/DAYS=6600.00 ZOSYN. =$516.13 VANCO=$440.00 METRON.=$13.43 TOTAL =$7569.56", nil, nil, nil, nil, nil, nil, nil]
+Initial Row Type Indicator = Headers
+Row[2] = 
+Revised Row Type Indicator = New Auth
+First Time Through = YES
+Saving Row 1 Info [nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, "33 DAYS@ $200.00/DAYS=6600.00 ZOSYN. =$516.13 VANCO=$440.00 METRON.=$13.43 TOTAL =$7569.56", nil, nil, nil, nil, nil, nil, nil]
+Set first time through to false
+
+Processing New Row [nil, "Auth Type", "Auth Status", "Auth Number", "Diagnosis Code", "Diagnosis", "Diagnosis Type", "Auth Modified Date"]
+Initial Row Type Indicator = New Auth
+Row[2] = Auth Status
+Revised Row Type Indicator = Auth Status
+Just wrote entire row 1
+[nil, nil, nil, "000000000-01", nil, nil, nil, "0", nil, nil, "0", nil, "0", "0", nil, "0", nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, "33 DAYS@ $200.00/DAYS=6600.00 ZOSYN. =$516.13 VANCO=$440.00 METRON.=$13.43 TOTAL =$7569.56", "0", nil, nil, nil, nil, "0", "0"]
+
+
+Processing New Row [nil, "Concurrent Review", "Approved", "A170207063", "K922", "Gastrointestinal hemorrhage, unspecified", "ICD10", 42825.0]
+Initial Row Type Indicator = Auth Status
+Row[2] = Approved
+Revised Row Type Indicator = Auth Status Detail
+Saving Row 2 Info [nil, "Concurrent Review", "Approved", "A170207063", "K922", "Gastrointestinal hemorrhage, unspecified", "ICD10", 42825.0]
+
+Processing New Row [nil, nil, "Service Code", "Service Description", "Service Type", "Qty Appr", "Qty Req'd", "Determination", "Auth Approval Days", "Type", "Type Code", nil, nil]
+Initial Row Type Indicator = Auth Status Detail
+Row[2] = Service Code
+Revised Row Type Indicator = Service Code
+Just wrote entire row 2
+["Concurrent Review", "Approved", "A170207063", "K922", "Gastrointestinal hemorrhage, unspecified", "ICD10", "03312017"]
+
+
+Processing New Row [nil, nil, "R0022", "Health Insurance Prospective Payment System (HIPPS), SNF PPS (RUG)", "Revenue", 7569.0, 7569.0, "Approved", 33.0, "Revenue", "RV", nil, nil]
+Initial Row Type Indicator = Service Code
+Row[2] = R0022
+Revised Row Type Indicator = Service Code Detail
+Saving Row 3 Info [nil, nil, "R0022", "Health Insurance Prospective Payment System (HIPPS), SNF PPS (RUG)", "Revenue", 7569.0, 7569.0, "Approved", 33.0, "Revenue", "RV", nil, nil]
+
+Processing New Row [nil, nil, "Note", nil, nil]
+Initial Row Type Indicator = Service Code Detail
+Row[2] = Note
+Revised Row Type Indicator = Note
+Just wrote entire row 3
+["R0022", "Health Insurance Prospective Payment System (HIPPS), SNF PPS (RUG)", "Revenue", "7569", "7569", "Approved", "33", "Revenue", "RV"]
+
+
+Processing New Row [nil, nil, "DC info NOMNC invoices MDS with RUG RUC60 received", nil, nil]
+Initial Row Type Indicator = Note
+Row[2] = DC info NOMNC invoices MDS with RUG RUC60 received
+Revised Row Type Indicator = Note Detail
+Saving Row 4 Info [nil, nil, "DC info NOMNC invoices MDS with RUG RUC60 received", nil, nil]
+
+Processing New Row [nil, nil, "Care Date", "Actual Level of Care", "Approved Level of Care", "Determination", "Auth Approval Days", nil, nil]
+Initial Row Type Indicator = Note Detail
+Row[2] = Care Date
+Revised Row Type Indicator = Care Date
+Just wrote entire row 4 and ended Example
+["DC info NOMNC invoices MDS with RUG RUC60 received"]
+
+
+Processing New Row [nil, nil, 42769.0, "SNF", "SNF", "Approved", 33.0, nil, nil]
+Initial Row Type Indicator = Care Date
+Row[2] = 2017-02-03T00:00:00+00:00
+Revised Row Type Indicator = Care Date Detail
+Saving Row 5 Info [nil, nil, 42769.0, "SNF", "SNF", "Approved", 33.0, nil, nil]
+
+Processing New Row [nil, nil, 42770.0, "SNF", "SNF", "Approved", 33.0, nil, nil]
+Initial Row Type Indicator = Care Date Detail
+Row[2] = 2017-02-04T00:00:00+00:00
+Revised Row Type Indicator = Care Date Detail
+Saving Row 5 Info [nil, nil, 42770.0, "SNF", "SNF", "Approved", 33.0, nil, nil]
+
+Processing New Row [nil, nil, 42771.0, "SNF", "SNF", "Approved", 33.0, nil, nil]
+Initial Row Type Indicator = Care Date Detail
+Row[2] = 2017-02-05T00:00:00+00:00
+Revised Row Type Indicator = Care Date Detail
+Saving Row 5 Info [nil, nil, 42771.0, "SNF", "SNF", "Approved", 33.0, nil, nil]
+
+Processing New Row [nil, nil, 42772.0, "SNF", "SNF", "Approved", 33.0, nil, nil]
+Initial Row Type Indicator = Care Date Detail
+Row[2] = 2017-02-06T00:00:00+00:00
+Revised Row Type Indicator = Care Date Detail
+Saving Row 5 Info [nil, nil, 42772.0, "SNF", "SNF", "Approved", 33.0, nil, nil]
+
+Processing New Row [nil, nil, 42773.0, "SNF", "SNF", "Approved", 33.0, nil, nil]
+Initial Row Type Indicator = Care Date Detail
+Row[2] = 2017-02-07T00:00:00+00:00
+Revised Row Type Indicator = Care Date Detail
+Saving Row 5 Info [nil, nil, 42773.0, "SNF", "SNF", "Approved", 33.0, nil, nil]
+
+Processing New Row [nil, nil, 42774.0, "SNF", "SNF", "Approved", 33.0, nil, nil]
+Initial Row Type Indicator = Care Date Detail
+Row[2] = 2017-02-08T00:00:00+00:00
+Revised Row Type Indicator = Care Date Detail
+Saving Row 5 Info [nil, nil, 42774.0, "SNF", "SNF", "Approved", 33.0, nil, nil]
+
+Processing New Row [nil, nil, 42775.0, "SNF", "SNF", "Approved", 33.0, nil, nil]
+Initial Row Type Indicator = Care Date Detail
+Row[2] = 2017-02-09T00:00:00+00:00
+Revised Row Type Indicator = Care Date Detail
+Saving Row 5 Info [nil, nil, 42775.0, "SNF", "SNF", "Approved", 33.0, nil, nil]
+
+Processing New Row [nil, nil, 42776.0, "SNF", "SNF", "Approved", 33.0, nil, nil]
+Initial Row Type Indicator = Care Date Detail
+Row[2] = 2017-02-10T00:00:00+00:00
+Revised Row Type Indicator = Care Date Detail
+Saving Row 5 Info [nil, nil, 42776.0, "SNF", "SNF", "Approved", 33.0, nil, nil]
+
+Processing New Row [nil, nil, 42777.0, "SNF", "SNF", "Approved", 33.0, nil, nil]
+Initial Row Type Indicator = Care Date Detail
+Row[2] = 2017-02-11T00:00:00+00:00
+Revised Row Type Indicator = Care Date Detail
+Saving Row 5 Info [nil, nil, 42777.0, "SNF", "SNF", "Approved", 33.0, nil, nil]
+
+Processing New Row [nil, nil, 42778.0, "SNF", "SNF", "Approved", 33.0, nil, nil]
+Initial Row Type Indicator = Care Date Detail
+Row[2] = 2017-02-12T00:00:00+00:00
+Revised Row Type Indicator = Care Date Detail
+Saving Row 5 Info [nil, nil, 42778.0, "SNF", "SNF", "Approved", 33.0, nil, nil]
+
+Processing New Row [nil, nil, 42779.0, "SNF", "SNF", "Approved", 33.0, nil, nil]
+Initial Row Type Indicator = Care Date Detail
+Row[2] = 2017-02-13T00:00:00+00:00
+Revised Row Type Indicator = Care Date Detail
+Saving Row 5 Info [nil, nil, 42779.0, "SNF", "SNF", "Approved", 33.0, nil, nil]
+
+Processing New Row [nil, nil, 42780.0, "SNF", "SNF", "Approved", 33.0, nil, nil]
+Initial Row Type Indicator = Care Date Detail
+Row[2] = 2017-02-14T00:00:00+00:00
+Revised Row Type Indicator = Care Date Detail
+Saving Row 5 Info [nil, nil, 42780.0, "SNF", "SNF", "Approved", 33.0, nil, nil]
+
+Processing New Row [nil, nil, 42781.0, "SNF", "SNF", "Approved", 33.0, nil, nil]
+Initial Row Type Indicator = Care Date Detail
+Row[2] = 2017-02-15T00:00:00+00:00
+Revised Row Type Indicator = Care Date Detail
+Saving Row 5 Info [nil, nil, 42781.0, "SNF", "SNF", "Approved", 33.0, nil, nil]
+
+Processing New Row [nil, nil, 42782.0, "SNF", "SNF", "Approved", 33.0, nil, nil]
+Initial Row Type Indicator = Care Date Detail
+Row[2] = 2017-02-16T00:00:00+00:00
+Revised Row Type Indicator = Care Date Detail
+Saving Row 5 Info [nil, nil, 42782.0, "SNF", "SNF", "Approved", 33.0, nil, nil]
+
+Processing New Row [nil, nil, 42783.0, "SNF", "SNF", "Approved", 33.0, nil, nil]
+Initial Row Type Indicator = Care Date Detail
+Row[2] = 2017-02-17T00:00:00+00:00
+Revised Row Type Indicator = Care Date Detail
+Saving Row 5 Info [nil, nil, 42783.0, "SNF", "SNF", "Approved", 33.0, nil, nil]
+
+Processing New Row [nil, nil, 42784.0, "SNF", "SNF", "Approved", 33.0, nil, nil]
+Initial Row Type Indicator = Care Date Detail
+Row[2] = 2017-02-18T00:00:00+00:00
+Revised Row Type Indicator = Care Date Detail
+Saving Row 5 Info [nil, nil, 42784.0, "SNF", "SNF", "Approved", 33.0, nil, nil]
+
+Processing New Row [nil, nil, 42785.0, "SNF", "SNF", "Approved", 33.0, nil, nil]
+Initial Row Type Indicator = Care Date Detail
+Row[2] = 2017-02-19T00:00:00+00:00
+Revised Row Type Indicator = Care Date Detail
+Saving Row 5 Info [nil, nil, 42785.0, "SNF", "SNF", "Approved", 33.0, nil, nil]
+
+Processing New Row [nil, nil, 42786.0, "SNF", "SNF", "Approved", 33.0, nil, nil]
+Initial Row Type Indicator = Care Date Detail
+Row[2] = 2017-02-20T00:00:00+00:00
+Revised Row Type Indicator = Care Date Detail
+Saving Row 5 Info [nil, nil, 42786.0, "SNF", "SNF", "Approved", 33.0, nil, nil]
+
+Processing New Row [nil, nil, 42787.0, "SNF", "SNF", "Approved", 33.0, nil, nil]
+Initial Row Type Indicator = Care Date Detail
+Row[2] = 2017-02-21T00:00:00+00:00
+Revised Row Type Indicator = Care Date Detail
+Saving Row 5 Info [nil, nil, 42787.0, "SNF", "SNF", "Approved", 33.0, nil, nil]
+
+Processing New Row [nil, nil, 42788.0, "SNF", "SNF", "Approved", 33.0, nil, nil]
+Initial Row Type Indicator = Care Date Detail
+Row[2] = 2017-02-22T00:00:00+00:00
+Revised Row Type Indicator = Care Date Detail
+Saving Row 5 Info [nil, nil, 42788.0, "SNF", "SNF", "Approved", 33.0, nil, nil]
+
+Processing New Row [nil, nil, 42789.0, "SNF", "SNF", "Approved", 33.0, nil, nil]
+Initial Row Type Indicator = Care Date Detail
+Row[2] = 2017-02-23T00:00:00+00:00
+Revised Row Type Indicator = Care Date Detail
+Saving Row 5 Info [nil, nil, 42789.0, "SNF", "SNF", "Approved", 33.0, nil, nil]
+
+Processing New Row [nil, nil, 42790.0, "SNF", "SNF", "Approved", 33.0, nil, nil]
+Initial Row Type Indicator = Care Date Detail
+Row[2] = 2017-02-24T00:00:00+00:00
+Revised Row Type Indicator = Care Date Detail
+Saving Row 5 Info [nil, nil, 42790.0, "SNF", "SNF", "Approved", 33.0, nil, nil]
+
+Processing New Row [nil, nil, 42791.0, "SNF", "SNF", "Approved", 33.0, nil, nil]
+Initial Row Type Indicator = Care Date Detail
+Row[2] = 2017-02-25T00:00:00+00:00
+Revised Row Type Indicator = Care Date Detail
+Saving Row 5 Info [nil, nil, 42791.0, "SNF", "SNF", "Approved", 33.0, nil, nil]
+
+Processing New Row [nil, nil, 42792.0, "SNF", "SNF", "Approved", 33.0, nil, nil]
+Initial Row Type Indicator = Care Date Detail
+Row[2] = 2017-02-26T00:00:00+00:00
+Revised Row Type Indicator = Care Date Detail
+Saving Row 5 Info [nil, nil, 42792.0, "SNF", "SNF", "Approved", 33.0, nil, nil]
+
+Processing New Row [nil, nil, 42793.0, "SNF", "SNF", "Approved", 33.0, nil, nil]
+Initial Row Type Indicator = Care Date Detail
+Row[2] = 2017-02-27T00:00:00+00:00
+Revised Row Type Indicator = Care Date Detail
+Saving Row 5 Info [nil, nil, 42793.0, "SNF", "SNF", "Approved", 33.0, nil, nil]
+
+Processing New Row [nil, nil, 42794.0, "SNF", "SNF", "Approved", 33.0, nil, nil]
+Initial Row Type Indicator = Care Date Detail
+Row[2] = 2017-02-28T00:00:00+00:00
+Revised Row Type Indicator = Care Date Detail
+Saving Row 5 Info [nil, nil, 42794.0, "SNF", "SNF", "Approved", 33.0, nil, nil]
+
+Processing New Row [nil, nil, 42795.0, "SNF", "SNF", "Approved", 33.0, nil, nil]
+Initial Row Type Indicator = Care Date Detail
+Row[2] = 2017-03-01T00:00:00+00:00
+Revised Row Type Indicator = Care Date Detail
+Saving Row 5 Info [nil, nil, 42795.0, "SNF", "SNF", "Approved", 33.0, nil, nil]
+
+Processing New Row [nil, nil, 42796.0, "SNF", "SNF", "Approved", 33.0, nil, nil]
+Initial Row Type Indicator = Care Date Detail
+Row[2] = 2017-03-02T00:00:00+00:00
+Revised Row Type Indicator = Care Date Detail
+Saving Row 5 Info [nil, nil, 42796.0, "SNF", "SNF", "Approved", 33.0, nil, nil]
+
+Processing New Row [nil, nil, 42797.0, "SNF", "SNF", "Approved", 33.0, nil, nil]
+Initial Row Type Indicator = Care Date Detail
+Row[2] = 2017-03-03T00:00:00+00:00
+Revised Row Type Indicator = Care Date Detail
+Saving Row 5 Info [nil, nil, 42797.0, "SNF", "SNF", "Approved", 33.0, nil, nil]
+
+Processing New Row [nil, nil, 42798.0, "SNF", "SNF", "Approved", 33.0, nil, nil]
+Initial Row Type Indicator = Care Date Detail
+Row[2] = 2017-03-04T00:00:00+00:00
+Revised Row Type Indicator = Care Date Detail
+Saving Row 5 Info [nil, nil, 42798.0, "SNF", "SNF", "Approved", 33.0, nil, nil]
+
+Processing New Row [nil, nil, 42799.0, "SNF", "SNF", "Approved", 33.0, nil, nil]
+Initial Row Type Indicator = Care Date Detail
+Row[2] = 2017-03-05T00:00:00+00:00
+Revised Row Type Indicator = Care Date Detail
+Saving Row 5 Info [nil, nil, 42799.0, "SNF", "SNF", "Approved", 33.0, nil, nil]
+
+Processing New Row [nil, nil, 42800.0, "SNF", "SNF", "Approved", 33.0, nil, nil]
+Initial Row Type Indicator = Care Date Detail
+Row[2] = 2017-03-06T00:00:00+00:00
+Revised Row Type Indicator = Care Date Detail
+Saving Row 5 Info [nil, nil, 42800.0, "SNF", "SNF", "Approved", 33.0, nil, nil]
+
+Processing New Row [nil, nil, 42801.0, "SNF", "SNF", "Approved", 33.0, nil, nil]
+Initial Row Type Indicator = Care Date Detail
+Row[2] = 2017-03-07T00:00:00+00:00
+Revised Row Type Indicator = Care Date Detail
+Saving Row 5 Info [nil, nil, 42801.0, "SNF", "SNF", "Approved", 33.0, nil, nil]
+
+Processing New Row [nil, nil, 42802.0, "SNF", "SNF", nil, 33.0, nil, nil]
+Initial Row Type Indicator = Care Date Detail
+Row[2] = 2017-03-08T00:00:00+00:00
+Revised Row Type Indicator = Care Date Detail
+Saving Row 5 Info [nil, nil, 42802.0, "SNF", "SNF", nil, 33.0, nil, nil]
+
+Processing New Row [nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, "20 DAYS @RUC=$6049.81 20 DAYS@$250.00=$5000.00 7 DAYS@$200.00=1400.00 TOTAL=$12449.81", nil, nil, nil, nil, nil, nil, nil]
+Initial Row Type Indicator = Care Date Detail
+Row[2] = 
+Revised Row Type Indicator = Care Date Detail
+Saving Row 5 Info [nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, "20 DAYS @RUC=$6049.81 20 DAYS@$250.00=$5000.00 7 DAYS@$200.00=1400.00 TOTAL=$12449.81", nil, nil, nil, nil, nil, nil, nil]
+
+Processing New Row [nil, "Auth Type", "Auth Status", "Auth Number", "Diagnosis Code", "Diagnosis", "Diagnosis Type", "Auth Modified Date"]
+Initial Row Type Indicator = Care Date Detail
+Row[2] = Auth Status
+Revised Row Type Indicator = New Auth
+First Time Through = NO
+Just wrote entire row 5 and ended Example
+["02032017, 02042017, 02052017, 02062017, 02072017, 02082017, 02092017, 02102017, 02112017, 02122017, 02132017, 02142017, 02152017, 02162017, 02172017, 02182017, 02192017, 02202017, 02212017, 02222017, 02232017, 02242017, 02252017, 02262017, 02272017, 02282017, 03012017, 03022017, 03032017, 03042017, 03052017, 03062017, 03072017, 03082017, ", "SNF, SNF, SNF, SNF, SNF, SNF, SNF, SNF, SNF, SNF, SNF, SNF, SNF, SNF, SNF, SNF, SNF, SNF, SNF, SNF, SNF, SNF, SNF, SNF, SNF, SNF, SNF, SNF, SNF, SNF, SNF, SNF, SNF, SNF, ", "SNF, SNF, SNF, SNF, SNF, SNF, SNF, SNF, SNF, SNF, SNF, SNF, SNF, SNF, SNF, SNF, SNF, SNF, SNF, SNF, SNF, SNF, SNF, SNF, SNF, SNF, SNF, SNF, SNF, SNF, SNF, SNF, SNF, SNF, ", "Approved, Approved, Approved, Approved, Approved, Approved, Approved, Approved, Approved, Approved, Approved, Approved, Approved, Approved, Approved, Approved, Approved, Approved, Approved, Approved, Approved, Approved, Approved, Approved, Approved, Approved, Approved, Approved, Approved, Approved, Approved, Approved, Approved, , ", "33, 33, 33, 33, 33, 33, 33, 33, 33, 33, 33, 33, 33, 33, 33, 33, 33, 33, 33, 33, 33, 33, 33, 33, 33, 33, 33, 33, 33, 33, 33, 33, 33, 33, 0"]
+
+Saving Row 1 Info [nil, "Auth Type", "Auth Status", "Auth Number", "Diagnosis Code", "Diagnosis", "Diagnosis Type", "Auth Modified Date"]
