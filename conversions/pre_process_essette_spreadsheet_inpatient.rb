@@ -81,22 +81,31 @@ def initalize_spreadsheet_variables
   @holding_notes = Array.new
   @notes = Array.new
   @row_type_indicator = ""
+  @auth_for_payment = ""
 end
 
 def check_row_type (row)
   @logfile.write "\n" + "Initial Row Type Indicator = " + @row_type_indicator
   @logfile.write "\n" + "Row[2] = " + row[2].to_s
 
-  if @row_type_indicator == "Care Date Detail"
-    if !row[1].nil?
+  if @row_type_indicator == "Care Date Detail" || @row_type_indicator == 'Headers'
+    @logfile.write "\n" + "Checking for Auth for Payment Segments"
+    if !row[1].nil? && row[2] != "Other Reference #"
       @row_type_indicator = "New Auth"
+      @logfile.write "\n" + "Changing Auth Type Indicator to New Auth"
+    elsif !row[34].nil? && row[34] != "Auth for Payment"
+      @logfile.write "\n" + "Row[34] = " + row[34]
+      @logfile.write "\n" + "Processing Multiple Auth for Payment Lines"
+      if @auth_for_payment == ''
+        @auth_for_payment = row[34].gsub!(/[!@%&"]/,'')
+      else
+        @auth_for_payment << " " + row[34].gsub!(/[!@%&"]/,'')
+      end
     end
+    @logfile.write "\n" + "Auth for Payment = " + @auth_for_payment.to_s
 
   elsif row[2] == "Other Reference #"
     @row_type_indicator = "Headers"
-
-  elsif @row_type_indicator == "Headers"
-    @row_type_indicator = "New Auth"
 
   elsif @row_type_indicator == "New Auth"
     @row_type_indicator = "Auth Status"
@@ -158,6 +167,11 @@ def save_row_1_info (row)
   row[13] = row[13].to_i.to_s
   row[15] = row[15].to_i.to_s
   @sub_class_code = row[17]
+  if !@auth_for_payment.nil?
+    @logfile.write "Row[34] = " + row[34]
+    row[34] = @auth_for_payment + " " + row[34]
+    @auth_for_payment = ''
+  end
   row[35] = row[35].to_i.to_s
   row[40] = row[40].to_i.to_s
   row[41] = row[41].to_i.to_s
