@@ -35,7 +35,10 @@ And the test pauses for "3" seconds
 	And in the "hospital_services" page I should see the "est_admit" image
 	And the test pauses for "3" seconds
 	And in the "hospital_services" page I enter the first SNF date into the "est_admit" image
-	And in the "hospital_services" page I enter the total SNF days into the "auth_days" image
+
+	#And in the "hospital_services" page I enter the total SNF days into the "auth_days" image
+	And in the "hospital_services" page I enter "365" into the "auth_days" image
+
 	And in the "hospital_services" page I enter "$" into the "facility_number" image
 	And I press ENTER graphically
 	And the test pauses for "3" seconds
@@ -175,9 +178,6 @@ And the test pauses for "3" seconds
 	And I press "F8"
 	And the test pauses for "3" seconds
 
-	And I input the notes if any are contained in "<notes>"
-	And the test pauses for "5" seconds
-
 	And in the "Functions Menu" page I click on "Remarks"
 	And in the "remarks_maintenance" page I should see the "remarks_maintenance" image
 	And I press "Control + N"
@@ -194,7 +194,7 @@ And the test pauses for "3" seconds
 
 	And I input the ACO type and payment if any are contained in "<aco_type_and_payment>"
 	And I input the EIS AA if any are contained in "<eis_aa>"
-	#And I input the first SNF assessments if any are contained in "<adm>" "<auth_for_payment>" "<days_used_prior>"
+	And I input the first SNF assessments if any are contained in "<adm>" "<auth_for_payment>" "<days_used_prior>"
 	And I input the second SNF assessments if any are contained in "<dc>" "<denc_date>" "<mds_date>"
 	And I input the third SNF assessments if any are contained in "<nomnc_date>" "<total_days>" "<total_skilled_days>"
 

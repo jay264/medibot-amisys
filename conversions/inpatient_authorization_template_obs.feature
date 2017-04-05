@@ -92,9 +92,6 @@
 	And I edit myself if I am a NONPAR
 	And the test pauses for "3" seconds
 
-	And I input the notes if any are contained in "<notes>"
-	And the test pauses for "5" seconds
-
 	And in the "Functions Menu" page I click on "Remarks"
 	And in the "remarks_maintenance" page I should see the "remarks_maintenance" image
 	And I press "Control + N"
