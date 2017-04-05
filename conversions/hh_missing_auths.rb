@@ -3,7 +3,7 @@ def initialize_variables
 end
 
 def open_files
-  @logfile = File.open("processed_#{@hh_spreadsheet}_log.txt", "w")
+  @logfile = File.open("#{@hh_spreadsheet}_log.txt", "w")
   book1 = Spreadsheet.open "#{@hh_spreadsheet}.xls"
   @logfile.write "\n" + "Opened spreadsheet " + @hh_spreadsheet.to_s
   @hh_translated = book1.worksheet 'Auth Report'
@@ -32,7 +32,7 @@ end
 
 require 'spreadsheet'
 initialize_variables
-File.open("completed_#{@hh_spreadsheet}.feature","w") do |new_feature_file_essette|
+File.open("#{@hh_spreadsheet}.feature","w") do |new_feature_file_essette|
   open_files
   process_template_file (new_feature_file_essette)
   initalize_spreadsheet_variables
