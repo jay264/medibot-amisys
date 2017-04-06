@@ -1,0 +1,4 @@
+
+Opened spreadsheet 012617_MEDIGOLD_PM
+Opened a new feature file for the spreadsheet data
+Initializing Variables 
