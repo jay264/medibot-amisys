@@ -788,6 +788,8 @@ When /^I input the ACO assessments if any are contained in "([^"]*)" "([^"]*)" "
         And the test pauses for "3" seconds
         And in the "Functions Menu" page I click on "Progress Notes"
         And the test pauses for "5" seconds
+        And I press "Control + N"
+        And the test pauses for "3" seconds
         When in the "progress_notes" page I enter "Created by ACO: #{created_by_aco}\nCreated Date ACO : #{created_date_aco}\nSaved by ACO : #{saved_by_aco}\nSaved date ACO : #{saved_date_aco}\nACO Field : #{aco_field}" into the "progress_note_text_field" image
         And the test pauses for "1" seconds
         And I press "Control + S"
@@ -799,13 +801,13 @@ When /^I input the ACO assessments if any are contained in "([^"]*)" "([^"]*)" "
 end
 
 When /^I input the ACO type and payment if any are contained in "([^"]*)"$/ do |type_and_payment|
-  aco_holder = Array.new
-  aco_holder << type_and_payment
-  if aco_holder.any?
+  if type_and_payment != ""
       steps %Q{
         And the test pauses for "3" seconds
         And in the "Functions Menu" page I click on "Progress Notes"
         And the test pauses for "5" seconds
+        And I press "Control + N"
+        And the test pauses for "3" seconds
         When in the "progress_notes" page I enter "ACO Type and Payment: #{type_and_payment}" into the "progress_note_text_field" image
         And the test pauses for "1" seconds
         And I press "Control + S"
@@ -819,11 +821,14 @@ end
 When /^I input the EIS assessments if any are contained in "([^"]*)" "([^"]*)" "([^"]*)" "([^"]*)" "([^"]*)"$/ do |saved_by_eis, saved_date_eis, created_by_eis, created_date_eis, eis_field |
   eis_holder = Array.new
   eis_holder << [saved_by_eis, saved_date_eis, created_by_eis, created_date_eis, eis_field]
+  eis_holder.reject{ |e| e.empty? }
   if eis_holder.any?
       steps %Q{
         And the test pauses for "3" seconds
         And in the "Functions Menu" page I click on "Progress Notes"
         And the test pauses for "5" seconds
+        And I press "Control + N"
+        And the test pauses for "3" seconds
         When in the "progress_notes" page I enter "Saved by EIS : #{saved_by_eis}\nSaved Date EIS : #{saved_date_eis}\nCreated by EIS : #{created_by_eis}\nCreated Date EIS : #{created_date_eis}\nEIS Field : #{eis_field}" into the "progress_note_text_field" image
         And the test pauses for "1" seconds
         And I press "Control + S"
@@ -835,13 +840,13 @@ When /^I input the EIS assessments if any are contained in "([^"]*)" "([^"]*)" "
 end
 
 When /^I input the EIS AA if any are contained in "([^"]*)"$/ do |eis_aa|
-  eis_holder = Array.new
-  eis_holder << eis_aa
-  if eis_holder.any?
+  if eis_aa != ""
       steps %Q{
         And the test pauses for "3" seconds
         And in the "Functions Menu" page I click on "Progress Notes"
         And the test pauses for "5" seconds
+        And I press "Control + N"
+        And the test pauses for "3" seconds
         When in the "progress_notes" page I enter "EIS AA: #{eis_aa}" into the "progress_note_text_field" image
         And the test pauses for "1" seconds
         And I press "Control + S"
@@ -852,9 +857,11 @@ When /^I input the EIS AA if any are contained in "([^"]*)"$/ do |eis_aa|
   end
 end
 
-When /^I input the first SNF assessments if any are contained in "([^"]*)" "([^"]*)" "([^"]*)" "([^"]*)" "([^"]*)" "([^"]*)"$/ do |adm, auth_for_payment, created_by_snf, created_date_snf, days_used_prior, dc|
+
+When /^I input the first SNF assessments if any are contained in "([^"]*)" "([^"]*)" "([^"]*)"$/ do |adm, auth_for_payment, days_used_prior|
   snf_holder_1 = Array.new
-  snf_holder_1 << [adm, auth_for_payment, created_by_snf, created_date_snf, days_used_prior, dc]
+  snf_holder_1 << [adm, auth_for_payment, days_used_prior]
+  snf_holder_1.reject{ |e| e.empty? }
   if snf_holder_1.any?
       steps %Q{
         And the test pauses for "3" seconds
@@ -862,7 +869,7 @@ When /^I input the first SNF assessments if any are contained in "([^"]*)" "([^"
         And the test pauses for "5" seconds
         And I press "Control + N"
         And the test pauses for "3" seconds
-        When in the "progress_notes" page I enter "ADM : #{adm}\nAuth for Payment : #{auth_for_payment}\nCreated by SNF : #{created_by_snf}\nCreated Date SNF : #{created_date_snf}\nDays Used Prior : #{days_used_prior}"\nDC : #{dc}" into the "progress_note_text_field" image
+        When in the "progress_notes" page I enter "ADM : #{adm} Auth for Payment : #{auth_for_payment}. Days Used Prior : #{days_used_prior}. " into the "progress_note_text_field" image
         And the test pauses for "1" seconds
         And I press "Control + S"
         And the test pauses for "3" seconds
@@ -872,9 +879,31 @@ When /^I input the first SNF assessments if any are contained in "([^"]*)" "([^"
   end
 end
 
-When /^I input the second SNF assessments if any are contained in "([^"]*)" "([^"]*)" "([^"]*)" "([^"]*)" "([^"]*)" "([^"]*)" "([^"]*)"$/ do |denc_date, mds_date, saved_by_snf, nomnc_date, saved_date_snf, total_days, total_skilled_days|
+When /^I input the second SNF assessments if any are contained in "([^"]*)" "([^"]*)" "([^"]*)"$/ do |dc, denc_date, mds_date|
+  snf_holder_1 = Array.new
+  snf_holder_1 << [dc, denc_date, mds_date]
+  snf_holder_1.reject{ |e| e.empty? }
+  if snf_holder_1.any?
+      steps %Q{
+        And the test pauses for "3" seconds
+        And in the "Functions Menu" page I click on "Progress Notes"
+        And the test pauses for "5" seconds
+        And I press "Control + N"
+        And the test pauses for "3" seconds
+        When in the "progress_notes" page I enter "DC : #{dc}. DENC Date : #{denc_date}. MDS Date : #{mds_date}. " into the "progress_note_text_field" image
+        And the test pauses for "1" seconds
+        And I press "Control + S"
+        And the test pauses for "3" seconds
+        And I press "F8"
+        And the test pauses for "3" seconds
+      }
+  end
+end
+
+When /^I input the third SNF assessments if any are contained in "([^"]*)" "([^"]*)" "([^"]*)"$/ do |nomnc_date, total_days, total_skilled_days|
   snf_holder_2 = Array.new
-  snf_holder_2 << [denc_date, mds_date, saved_by_snf, nomnc_date, saved_date_snf, total_days, total_skilled_days]
+  snf_holder_2 << [nomnc_date, total_days, total_skilled_days]
+  snf_holder_2.reject{ |e| e.empty? }
   if snf_holder_2.any?
       steps %Q{
         And the test pauses for "3" seconds
@@ -882,7 +911,7 @@ When /^I input the second SNF assessments if any are contained in "([^"]*)" "([^
         And the test pauses for "5" seconds
         And I press "Control + N"
         And the test pauses for "3" seconds
-        When in the "progress_notes" page I enter "DENC Date : #{denc_date}\nMDS Date : #{mds_date}\nSaved by SNF : #{saved_by_snf}\nNOMNC Date : #{nomnc_date}\nSaved Date SNF : #{saved_date_snf}\nTotal Days : #{total_days}\nTotal Skilled Days : #{total_skilled_days}" into the "progress_note_text_field" image
+        When in the "progress_notes" page I enter "NOMNC Date : #{nomnc_date} Total Days : #{total_days} Total Skilled Days : #{total_skilled_days}" into the "progress_note_text_field" image
         And the test pauses for "1" seconds
         And I press "Control + S"
         And the test pauses for "3" seconds
@@ -1140,25 +1169,15 @@ When /^I use "([^"]*)" to determine the start and end dates and authorized days$
   yyyy1 = first_snf_date[4,4].to_i
   mm1 = first_snf_date[0,2].to_i
   dd1 = first_snf_date[2,2].to_i
-  puts "first thing in array = " + first_snf_date.to_s
-  puts "yyyy1 = " + yyyy1.to_s
-  puts "mm1 = " + mm1.to_s
-  puts "dd1 = " + dd1.to_s
   first_snf_date_time = DateTime.new(yyyy1, mm1, dd1)
   $first_snf_date_str = first_snf_date_time.strftime('%m%d%Y')
   last_snf_date = care_dates.last
   yyyy2 = last_snf_date[4,4].to_i
   mm2 = last_snf_date[0,2].to_i
   dd2 = last_snf_date[2,2].to_i
-  puts "last thing in array = " + last_snf_date.to_s
-  puts "yyyy2 = " + yyyy2.to_s
-  puts "mm2 = " + mm2.to_s
-  puts "dd2 = " + dd2.to_s
-  last_snf_date_time = DateTime.new(yyyy2, mm2, dd2)
+  last_snf_date_time = first_snf_date_time + 365
   $last_snf_date_str = last_snf_date_time.strftime('%m%d%Y')
-  puts "last snf date str = " + last_snf_date_time.strftime('%m%d%Y')
-  $total_snf_days = last_snf_date_time - first_snf_date_time
-  $total_snf_days = $total_snf_days.to_i
+  $total_snf_days = 365
 end
 
 When /^in the "([^"]*)" page I enter the first SNF date into the "([^"]*)" image$/ do |page, element|
