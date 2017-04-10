@@ -1,0 +1,168 @@
+Feature: Process Essette Extract NEWEssetteDailyExtractReport-Outpatient(NEWADD)-2017-04-03
+	As an auth entering person
+	I want the ability to add all types of authorizations
+	so that I know that information is entered correctly
+
+Scenario Outline: NEWEssetteDailyExtractReport-Outpatient(NEWADD)-2017-04-03
+	Given I save the auth class "<auth_class>" to a variable
+	And I sign in to the application
+	When in the "Home" page I click on "Authorizations/Medical Management"
+	And the test pauses for "3" seconds
+	And in the "Authorizations Medical Management" page I click on "Certification"
+	And the test pauses for "3" seconds
+	And in the "certification" page I should see the "loaded_sidebar" image
+	And I press "Control + N"
+	And the test pauses for "3" seconds
+	And in the "Certification" page I enter "<requested_date>" into the "Initial Date" field
+	And in the "Certification" page I enter "<requested_date>" into the "Req Dates 1" field
+	And in the "Certification" page I enter "<member_id>" into the "Member Number" field
+	And in the "Certification" page I use the source "<source>" to determine what to enter into the "Source" field
+	And in the "Certification" page I enter the primary "<diagnosis_code>" into the "Primary Diag Dt 1" field and save the variable
+	And the test pauses for "1" seconds
+	And in the "Certification" page I use the sub-class "<sub_class>" to determine what to enter into the "Auth Type" field
+	And in the "Certification" page I save the "<service_code>" service codes
+	And the test pauses for "2" seconds
+	And in the "certification" page I use the status reason "<status_reason>" to determine what to enter into the "ex" image and save the variable
+	And the test pauses for "2" seconds
+	And I press "Control + S"
+	And the test pauses for "3" seconds
+	And in the "certification" page I should see the "medibots" image
+	And the test pauses for "3" seconds
+
+	And in the "Functions Menu" page I click on "Authorized Svcs"
+	And the test pauses for "3" seconds
+	And in the "authorized_services" page I should see the "amounts_and_dates" image
+	And the test pauses for "3" seconds
+	And in the "authorized_services" page I enter the first quantity requested "<qty_reqd>" into the "how_many_requested" image and save the variable
+	And in the "authorized_services" page I enter the first quantity approved "<qty_appr>" into the "how_many_authorized" image and save the variable
+	And in the "authorized_services" page I convert "<authorized_date>" into the "dates_begin_requested" image and save the variable
+	And in the "authorized_services" page I convert "<expiration_date>" into the "dates_end_requested" image and save the variable
+	And the test pauses for "3" seconds
+	And in the "authorized_services" page I enter "$" into the "ref_prov_number" image
+	And I press ENTER graphically
+	And the test pauses for "3" seconds
+	And in the "provider_search" page I should see the "prov_number" image
+	And in the "provider_search" page I enter "<requesting_provider_id>" into the "prov_number" image
+	And I press ENTER graphically
+	And the test pauses for "3" seconds
+	And in the "provider_search" page I should see the "loaded_header" image
+	And the test pauses for "3" seconds
+	And in the "provider_search" page I click on the "prov_affs" image
+	And the test pauses for "3" seconds
+	And in the "provider_affiliation_list" page I should see the "table_headers" image
+	And the test pauses for "4" seconds
+	And in the "provider_affiliation_list" page I convert "<health_plan>" as HMO or PPO and enter into the "pg_search_cell" image
+	And I press ENTER graphically
+	And the test pauses for "1" seconds
+	And in the "provider_affiliation_list" page I enter "<practice_name>" into the "facility_name_search_cell" image
+	And I press ENTER graphically
+	And the test pauses for "1" seconds
+	And in the "provider_affiliation_list" page I click on the "scrollbar" image
+	And the test pauses for "2" seconds
+	And in the "provider_affiliation_list" page I enter "M" into the "cp_search_cell" image
+	And I press ENTER graphically
+	And the test pauses for "1" seconds
+	And in the "provider_affiliation_list" page I click on the "scrollbar" image
+	And the test pauses for "1" seconds
+	And in the "provider_affiliation_list" page I enter "9999" into the "date_search_cell" image
+	And I press ENTER graphically
+	And the test pauses for "3" seconds
+	And in the "provider_affiliation_list" page I click on the "return_lookup" image
+	And the test pauses for "3" seconds
+	And I copy the provider number to the clipboard and save the variable
+	And in the "authorized_services" page I should see the "loaded_sidebar" image
+	And in the "authorized_services" page I enter "$" into the "prov" image
+	And I press ENTER graphically
+	And the test pauses for "3" seconds
+	And in the "provider_search" page I should see the "prov_number" image
+	And in the "provider_search" page I enter "<servicing_provider_id>" into the "prov_number" image
+	And I press ENTER graphically
+	And the test pauses for "3" seconds
+	And in the "provider_search" page I should see the "loaded_header" image
+	And the test pauses for "3" seconds
+	And in the "provider_search" page I click on the "prov_affs" image
+	And the test pauses for "3" seconds
+	And in the "provider_affiliation_list" page I should see the "table_headers" image
+	And the test pauses for "10" seconds
+	And in the "provider_affiliation_list" page I convert "<health_plan>" as HMO or PPO and enter into the "pg_search_cell" image
+	And I press ENTER graphically
+	And the test pauses for "1" seconds
+	And in the "provider_affiliation_list" page I enter "<facility_name>" into the "facility_name_search_cell" image
+	And I press ENTER graphically
+	And the test pauses for "1" seconds
+	And in the "provider_affiliation_list" page I click on the "scrollbar" image
+	And the test pauses for "1" seconds
+	And in the "provider_affiliation_list" page I enter "M" into the "cp_search_cell" image
+	And I press ENTER graphically
+	And the test pauses for "1" seconds
+	And in the "provider_affiliation_list" page I click on the "scrollbar" image
+	And the test pauses for "1" seconds
+	And in the "provider_affiliation_list" page I enter "9999" into the "date_search_cell" image
+	And I press ENTER graphically
+	And the test pauses for "2" seconds
+	And I determine whether something is PAR or NONPAR
+	And in the "provider_affiliation_list" page I click on the "return_lookup" image
+	And the test pauses for "3" seconds
+	And I copy the provider number to the clipboard and save the variable
+
+	And in the "authorized_services" page I use the sub-class "<sub_class>" to determine what to enter into the "auth_type_ar" image and save the variable
+	And the test pauses for "3" seconds
+	And in the "authorized_services" page I enter "M" into the "claim_type" image
+	And the test pauses for "3" seconds
+
+	And in the "authorized_services" page I enter the first service code into the "proc_number" image
+	And the test pauses for "2" seconds
+	And in the "authorized_services" page I enter the primary diagnosis code into the "diag_number_2" image
+	And in the "authorized_services" page I use the status reason "<status_reason>" to determine what to enter into the "ex" image
+	And the test pauses for "2" seconds
+	And in the "authorized_services" page I click on the "save" image
+	And the test pauses for "10" seconds
+
+	And I input the alternate procedure codes if there are any
+
+	And the test pauses for "4" seconds
+	And I press "F8"
+	And the test pauses for "4" seconds
+
+	And in the "Functions Menu" page I click on "Remarks"
+	And in the "remarks_maintenance" page I should see the "remarks_maintenance" image
+	And I press "Control + N"
+	And the test pauses for "3" seconds
+	And in the "remarks_maintenance" page I enter "UM" into the "sub_type" image
+	And in the "remarks_maintenance" page I enter "Authorization Numbers" into the "remark_summary" image
+	And in the "remarks_maintenance" page I enter "<auth_number>" into the "remark_text_1" image
+	And I press "Tab"
+	And I enter the "<other_reference_#>" text
+	And in the "remarks_maintenance" page I click on the "save" image
+	And the test pauses for "4" seconds
+	And I press "F8"
+	And the test pauses for "4" seconds
+
+	And in the "Certification" page I enter the updated auth type code into the "Auth Type" field
+	And I press "Control + S"
+	And the test pauses for "3" seconds
+	And in the "Certification" page I should see the "Auth Number" authorization number and print it to the error report
+
+	And I press "Control + Q"
+	And the test pauses for "4" seconds
+	And I press ENTER graphically
+	And the test pauses for "4" seconds
+	And I close "Internet Explorer"
+
+	Examples:
+		| requested_date  | military_date      | other_reference_# |	member_id | member_first_name |	member_last_name | practice_name | requesting_provider_id  |	requesting_provider_first_name  | requesting_provider_last_name  | requesting_provider_npi_# |	facility_name  | servicing_provider_id |	provider_facility_npi |	servicing_provider_name	| servicing_provider_npi_# |	sub_class  | sub_class_code | type  |	type_code |	servicing_provider_first_name |	servicing_provider_last_name  | status_date |	status   |	health_plan                | source     |	status_reason        |  auth_class | authorized_date | expiration_date | priority | aco_type_and_payment | eis_aa | adm | auth_for_payment | days_used_prior | dc | denc_date | mds_date | nomnc_date | total_days | total_skilled_days | auth_type      | auth_status    |	auth_number |	diagnosis_code     |	diagnosis                                          			|	diagnosis_type |	auth_modified_date | service_code       | service_description                                                    | service_type |	qty_appr |	qty_reqd  |	determination |	auth_approval_days | service_type   |	service_type_code  | notes                  | care_date | actual_level_of_care | approved_level_of_care | determination | auth_approval_days |
+| 03132017 | 2017-03-13T14:13:26+00:00 |  | 000027029-01 | GLENNA | ROGERS | OH ONCOLOGY & HEMATOLOGY | 936113 | MARK H | KNAPP | 1952359549 | OH ONCOLOGY & HEMATOLOGY | 926010 | 1467717553 | OH ONCOLOGY & HEMATOLOGY LLC | 1467717553 | Radiology (HH) | OP RAD | Pre-Service | PRE |  | OH ONCOLOGY & HEMATOLOGY LLC | 04032017 | Approved | MediGold Classic Preferred | HealthHelp | Medical Criteria Met | Outpatient | 03302017 | 04292017 | Standard |  |  |  |  |  |  |  |  |  |  |  | Pre-Service | Approved | X170330029 | C8293 | Follicular lymphoma, unsp, intra-abdominal lymph nodes | ICD10 | 04032017 | 74177 | CT ABDOMEN&PELVIS W/CONTRAST | CPT | 1 | 1 | Approved | 31 | CPT | C4 |  |  |  |  |  | 0 |
+| 03302017 | 2017-03-30T13:33:43+00:00 |  | 000063656-01 | MICHAEL | ALLEN | OSU SURGERY LLC | 946941 | DESMOND M | DSOUZA | 1841472842 | JAMES CANCER HOSPITAL | 936501 | 1124127683 | JAMES CANCER HOSPITAL | 1124127683 | Out of Network Services | OONS | Pre-Service | PRE |  | JAMES CANCER HOSPITAL | 04032017 | Approved | MediGold Classic Preferred | Fax | Medical Criteria Met | Outpatient | 04062017 | 05062017 | Standard |  |  |  |  |  |  |  |  |  |  |  | Pre-Service | Approved | X170330142 | R911 | Solitary pulmonary nodule | ICD10 | 04032017 | 71020, G0463 | HOSPITAL OUTPT CLINIC VISIT | HCPCS | 1, 1 | 1, 1 | Approved, Approved | 31, 31 | HCPCS | HC |  |  |  |  |  | 0 |
+| 03302017 | 2017-03-30T11:49:06+00:00 |  | 000116998-01 | Robert | Reed | MOUNT CARMEL HLTH PRVDRS | 906705 | FAREED R | SHAIKH | 1609990779 | MOUNT CARMEL EAST HOSPITAL | 936416 | 1982784534 | MOUNT CARMEL EAST HOSPITAL | 1982784534 | Radiology (HH) | OP RAD | Pre-Service | PRE |  | MOUNT CARMEL EAST HOSPITAL | 04022017 | Approved | MediGold Classic Preferred | HealthHelp | Medical Criteria Met | Outpatient | 04172017 | 05172017 | Standard |  |  |  |  |  |  |  |  |  |  |  | Pre-Service | Approved | X170402017 | I480 | Paroxysmal atrial fibrillation | ICD10 | 04022017 | 75572 | CT HRT W/3D IMAGE | CPT | 1 | 1 | Approved | 31 | CPT | C4 |  |  |  |  |  | 0 |
+| 03302017 | 2017-03-30T07:16:43+00:00 | Q18067914 | 000083333-01 | Jeffery | Miller | MADISON COUNTY HOSPITAL | 930680 | SHABANA J | DEWANI | 1306928817 | MADISON COUNTY HOSPITAL | 936491 | 1982710703 | MADISON COUNTY HOSPITAL | 1982710703 | Radiology (HH) | OP RAD | Pre-Service | PRE |  | MADISON COUNTY HOSPITAL | 04032017 | Approved | MediGold Southwest OH Classic Preferred | HealthHelp | Medical Criteria Met | Outpatient | 03282017 | 04272017 | Standard |  |  |  |  |  |  |  |  |  |  |  | Pre-Service | Approved | X170402057 | C3491 | Malignant neoplasm of unsp part of right bronchus or lung | ICD10 | 04032017 | 71260 | CAT SCAN THORAC C IV CONTRAST | CPT | 1 | 1 | Approved | 31 | CPT | C4 |  |  |  |  |  | 0 |
+| 03302017 | 2017-03-30T09:27:10+00:00 |  | 000053052-01 | WILLIAM | HOWARD | ADENA MEDICAL GROUP LLC | 931862 | WILLIAM A | WILSON | 1619101086 | ADENA REGIONAL MED CTR | 936475 | 1902839673 | ADENA REGIONAL MEDICAL CENTER | 1902839673 | Radiology (HH) | OP RAD | Pre-Service | PRE |  | ADENA REGIONAL MEDICAL CENTER | 04022017 | Approved | MediGold Classic Preferred | HealthHelp | Medical Criteria Met | Outpatient | 03302017 | 06282017 | Standard |  |  |  |  |  |  |  |  |  |  |  | Pre-Service | Approved | X170402066 | C3482 | Malignant neoplasm of ovrlp sites of left bronchus and lung | ICD10 | 04022017 | 77386 | NTSTY MODUL RAD TX DLVR CPLX | CPT | 1 | 1 | Approved | 91 | CPT | C4 |  |  |  |  |  | 0 |
+| 03312017 | 2017-03-31T07:40:49+00:00 | Q18096242 | 000040623-01 | RALPH | LOCKE | ORTHOPEDIC ONE INC | 905410 | DAVID | HANNALLAH | 1225001183 | ORTHOPEDIC ONE INC | 900607 | 1548289697 | ORTHOPEDIC ONE INC | 1548289697 | Radiology (HH) | OP RAD | Pre-Service | PRE |  | ORTHOPEDIC ONE INC | 04032017 | Approved | MediGold Classic Preferred | HealthHelp | Medical Criteria Met | Outpatient | 04062017 | 05062017 | Standard |  |  |  |  |  |  |  |  |  |  |  | Pre-Service | Approved | X170403007 | M4806 | Spinal stenosis, lumbar region | ICD10 | 04032017 | 72148 | MRI- SPINAL CANAL AND CONTENTS, LUMBAR; WITHOUT CONTRAST MATERIAL | CPT | 1 | 1 | Approved | 31 | CPT | C4 |  |  |  |  |  | 0 |
+| 03312017 | 2017-03-31T13:13:39+00:00 |  | 000085163-01 | Janet | Haddox | MOUNT CARMEL HLTH PRVDRS | 936230 | ASOK | DASGUPTA | 1396855359 | MOUNT CARMEL EAST HOSPITAL | 936416 | 1982784534 | MOUNT CARMEL EAST HOSPITAL | 1982784534 | Radiology (HH) | OP RAD | Pre-Service | PRE |  | MOUNT CARMEL EAST HOSPITAL | 04032017 | Approved | MediGold Essential Care | HealthHelp | Medical Criteria Met | Outpatient | 04032017 | 05032017 | Standard |  |  |  |  |  |  |  |  |  |  |  | Pre-Service | Approved | X170403027 | R918 | Other nonspecific abnormal finding of lung field | ICD10 | 04032017 | 71260 | CAT SCAN THORAC C IV CONTRAST | CPT | 1 | 1 | Approved | 31 | CPT | C4 |  |  |  |  |  | 0 |
+| 03312017 | 2017-03-31T12:31:20+00:00 |  | 000053812-01 | JAMES | STRONG | PULMONARY MED OF DAYTON | 907975 | MEDIAN | ALI | 1649253113 | KETTERING MEDICAL CENTER SYCAMORE | 905903 | 1316966518 | KETTERING MEDICAL CENTER SYCAMORE | 1316966518 | Radiology (HH) | OP RAD | Pre-Service | PRE |  | KETTERING MEDICAL CENTER SYCAMORE | 04032017 | Approved | MediGold Classic Preferred | HealthHelp | Medical Criteria Met | Outpatient | 03312017 | 04302017 | Standard |  |  |  |  |  |  |  |  |  |  |  | Pre-Service | Approved | X170403028 | J984 | Other disorders of lung | ICD10 | 04032017 | 71250 | CAT SCAN THORAX WO IV CONTRAST | CPT | 1 | 1 | Approved | 31 | CPT | C4 |  |  |  |  |  | 0 |
+| 03312017 | 2017-03-31T08:15:11+00:00 | Q18093479 | 000077841-01 | Maurice | Smith | GENESIS MEDICAL GRP LLC | 912779 | EDUARDO | JORGE | 1689675134 | GENESIS HLTHCARE SYSTEM | 936421 | 1598868655 | GENESIS HEALTHCARE SYSTEM | 1598868655 | Radiology (HH) | OP RAD | Pre-Service | PRE |  | GENESIS HEALTHCARE SYSTEM | 04032017 | Approved | MediGold Southeast OH Classic Preferred | HealthHelp | Medical Criteria Met | Outpatient | 04252017 | 05252017 | Standard |  |  |  |  |  |  |  |  |  |  |  | Pre-Service | Approved | X170403036 | I712 | Thoracic aortic aneurysm, without rupture | ICD10 | 04032017 | 71250 | CAT SCAN THORAX WO IV CONTRAST | CPT | 1 | 1 | Approved | 31 | CPT | C4 |  |  |  |  |  | 0 |
+| 04032017 | 2017-04-03T08:28:39+00:00 |  | 000075995-01 | Kenneth | Ruprecht | OSU INTERNAL MED LLC | 919636 | SUMITHIRA | VASU | 1710159744 | JAMES CANCER HOSPITAL | 936501 | 1124127683 | JAMES CANCER HOSPITAL | 1124127683 | Out of Network Services | OONS | Pre-Service | PRE |  | JAMES CANCER HOSPITAL | 04032017 | Approved | MediGold Essential Care | Fax | Transplant Evaluation | Outpatient | 04042017 | 07042017 | Standard |  |  |  |  |  |  |  |  |  |  |  | Pre-Service | Approved | X170403063 | C9000, Z9481 | Bone marrow transplant status | ICD10 | 04032017 | 82310, 82040, 84075, 84460, 84450, 82248, 82247, 84155, 83735, 82565, 84520, 82374, 82435, 84295, 84132, 85652, 85730, 85610, 86900, 86901, 86850, 36145, 85025, 82947 | GLUCOSE; EXC. UA (EG BLD, SP FLD) | CPT | 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10 | 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10 | Approved, Approved, Approved, Approved, Approved, Approved, Approved, Approved, Approved, Approved, Approved, Approved, Approved, Approved, Approved, Approved, Approved, Approved, Approved, Approved, Approved, Approved, Approved, Approved | 92, 92, 92, 92, 92, 92, 92, 92, 92, 92, 92, 92, 92, 92, 92, 92, 92, 92, 92, 92, 92, 92, 92, 92 | CPT | C4 |  |  |  |  |  | 0 |
+| 03312017 | 2017-03-31T13:06:37+00:00 |  | 000083518-01 | Rose | Dorsey | RCHP WILMINGTON LLC | 939625 | CASSANDRA | GRENADE | 1770744807 | JAMES CANCER HOSPITAL | 936501 | 1124127683 | JAMES CANCER HOSPITAL | 1124127683 | Out of Network Services | OONS | Pre-Service | PRE |  | JAMES CANCER HOSPITAL | 04032017 | Approved | MediGold Southeast OH Essential Care | Fax | Services Not Available In-Network | Outpatient | 03312017 | 06302017 | Standard |  |  |  |  |  |  |  |  |  |  |  | Pre-Service | Approved | X170403065 | C7A8, C7B8 | Other secondary neuroendocrine tumors | ICD10 | 04032017 | 99201, 99202, 99203, 99204, 99205, 99211, 99212, 99213, 99214, 99215, G0463 | HOSPITAL OUTPT CLINIC VISIT | HCPCS | 1, 1, 1, 1, 1, 2, 2, 2, 2, 2, 3 | 1, 1, 1, 1, 1, 2, 2, 2, 2, 2, 3 | Approved, Approved, Approved, Approved, Approved, Approved, Approved, Approved, Approved, Approved, Approved | 92, 92, 92, 92, 92, 92, 92, 92, 92, 92, 92 | HCPCS | HC |  |  |  |  |  | 0 |
+| 04032017 | 2017-04-03T11:57:58+00:00 | Q18022399 | 000107771-01 | Ted | Berry | OH ONCOLOGY & HEMATOLOGY | 935443 | PATRICK C | ELWOOD | 1083672760 | OH ONCOLOGY & HEMATOLOGY | 926010 | 1467717553 | OH ONCOLOGY & HEMATOLOGY LLC | 1467717553 | Integrated Oncology (HH) | ONCOL | Pre-Service | PRE |  | OH ONCOLOGY & HEMATOLOGY LLC | 04032017 | Approved | Flexible Choice PPO | HealthHelp | Medical Criteria Met | Outpatient | 04032017 | 07022017 | Standard |  |  |  |  |  |  |  |  |  |  |  | Pre-Service | Approved | X170403078 | C3491 | Malignant neoplasm of unsp part of right bronchus or lung | ICD10 | 04032017 | J9045, J9181, J2469, J2505 | INJECTION, PEGFILGRASTIM, 6 MG | HCPCS | 1, 1, 1, 1 | 1, 1, 1, 1 | Approved, Approved, Approved, Approved | 91, 91, 91, 91 | HCPCS | HC | J9045: 90 Carboplatin 10mg/mL-475mg (at 5 AUC (CrCl) IV q21 days x6 cycles (6 treatments). Total billing units = 90; J9181: 120 Etoposide 20mg/mL - 194mg (at 100 mg/m2) IV q21 days x6 cycles (6 treatments). Total billing units = 120; J2469: 60 Palonosetron HCI 0.25mg/5mL - 0.25mg IV q21 days x6 cycles (6 treatments). Total billing units = 60; J2505: 6 Neulasta On Body Injector 6mg/0.6mL - 6mg Subcutaneous once q21 days x6 cycles (6 treatments). Total billing units = 6 |  |  |  |  | 0 |
+| 04032017 | 2017-04-03T13:46:04+00:00 |  | 000095877-01 | Clifford | Bruner Jr | OSU OTOLARYNGOLOGISTS LL | 908507 | THEODOROS N | TEKNOS | 1265521496 | JAMES CANCER HOSPITAL | 936501 | 1124127683 | JAMES CANCER HOSPITAL | 1124127683 | Out of Network Services | OONS | Pre-Service | PRE |  | JAMES CANCER HOSPITAL | 04032017 | Approved | MediGold Southeast OH Essential Care | Fax | Services Not Available In-Network | Outpatient | 04062017 | 06062017 | Standard |  |  |  |  |  |  |  |  |  |  |  | Pre-Service | Approved | X170403091 | C329 | Malignant neoplasm of larynx, unspecified | ICD10 | 04032017 | 99211, 99212, 99213, 99214, 99215, 92507, 92610, 92612, 92526, 92597, 31579, G0463 | HOSPITAL OUTPT CLINIC VISIT | HCPCS | 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1 | 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1 | Approved, Approved, Approved, Approved, Approved, Approved, Approved, Approved, Approved, Approved, Approved, Approved | 62, 62, 62, 62, 62, 62, 62, 62, 62, 62, 62, 62 | HCPCS | HC |  |  |  |  |  | 0 |
+| 04032017 | 2017-04-03T11:26:04+00:00 | Q18107346 | 000029394-01 | JUDY | MCCLELLAND | OH ONCOLOGY & HEMATOLOGY | 949099 | JORGE A | RIOS-PEREZ | 1710143847 | OH ONCOLOGY & HEMATOLOGY | 926010 | 1467717553 | OH ONCOLOGY & HEMATOLOGY LLC | 1467717553 | Radiology (HH) | OP RAD | Initial Review | INIT |  | OH ONCOLOGY & HEMATOLOGY LLC | 04032017 | Approved | MediGold Classic Preferred | Fax | Medical Criteria Met | Outpatient | 04032017 | 07022017 | Standard |  |  |  |  |  |  |  |  |  |  |  | Initial Review | Approved | X170403099 | C180 | Malignant neoplasm of cecum | ICD10 | 04032017 | J9263 | INJECTION, OXALIPLATIN, 0.5 MG | HCPCS | 1 | 1 | Approved | 91 | HCPCS | HC |  |  |  |  |  | 0 |
+| 03292017 | 2017-03-29T14:36:35+00:00 |  | 000082943-01 | Jeffrey | Ledsome | MARIETTA HLTH CARE PHYS | 922070 | DORAI T | RAJAN | 1831297654 | MICHAEL SHRAMOWIAT LLC | 923894 | 1003820374 | MICHAEL SHRAMOWIAT | 1568485233 | Out of Network Services | OONS | Pre-Service | PRE | MICHAEL | SHRAMOWIAT | 04032017 | Denied | MediGold Southeast OH Essential Care | Fax | Administrative Denial | Outpatient | 04032017 | 04042017 | Standard |  |  |  |  |  |  |  |  |  |  |  | Pre-Service | Denied | X170329112 | C649 | Malignant neoplasm of unsp kidney, except renal pelvis | ICD10 | 04032017 | 99213, 80307 | DRUG TEST PRSMV CHEM ANLYZR | CPT | 0, 0 | 1, 1 | Denied, Denied | 0, 0 | CPT | C4 | Message left for Chasity at provider's office.  Request is a retro request with date of service of 3/22/17 and request date 3/29/17.  Clinical information also still needed to process request., Expedited portion removed from request as per phone call with Chasity.  Date of service is 3/22. |  |  |  |  | 0 |
