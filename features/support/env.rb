@@ -40,7 +40,7 @@ URLS = {   'PROD' => "http://mtcarmel-wcaa.dstcorp.net/amisys-web/Controller?vie
 
 if ENV['URL'] == 'PROD'
   $url = URLS['PROD']
-elsif ENV['URL'] = 'NONE'
+elsif ENV['URL'] == 'NONE'
   $url = "none"
 else
   $url = URLS['DEV']

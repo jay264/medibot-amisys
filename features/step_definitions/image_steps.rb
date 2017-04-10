@@ -1169,25 +1169,15 @@ When /^I use "([^"]*)" to determine the start and end dates and authorized days$
   yyyy1 = first_snf_date[4,4].to_i
   mm1 = first_snf_date[0,2].to_i
   dd1 = first_snf_date[2,2].to_i
-  puts "first thing in array = " + first_snf_date.to_s
-  puts "yyyy1 = " + yyyy1.to_s
-  puts "mm1 = " + mm1.to_s
-  puts "dd1 = " + dd1.to_s
   first_snf_date_time = DateTime.new(yyyy1, mm1, dd1)
   $first_snf_date_str = first_snf_date_time.strftime('%m%d%Y')
   last_snf_date = care_dates.last
   yyyy2 = last_snf_date[4,4].to_i
   mm2 = last_snf_date[0,2].to_i
   dd2 = last_snf_date[2,2].to_i
-  puts "last thing in array = " + last_snf_date.to_s
-  puts "yyyy2 = " + yyyy2.to_s
-  puts "mm2 = " + mm2.to_s
-  puts "dd2 = " + dd2.to_s
-  last_snf_date_time = DateTime.new(yyyy2, mm2, dd2)
+  last_snf_date_time = first_snf_date_time + 365
   $last_snf_date_str = last_snf_date_time.strftime('%m%d%Y')
-  puts "last snf date str = " + last_snf_date_time.strftime('%m%d%Y')
-  $total_snf_days = last_snf_date_time - first_snf_date_time
-  $total_snf_days = $total_snf_days.to_i
+  $total_snf_days = 365
 end
 
 When /^in the "([^"]*)" page I enter the first SNF date into the "([^"]*)" image$/ do |page, element|

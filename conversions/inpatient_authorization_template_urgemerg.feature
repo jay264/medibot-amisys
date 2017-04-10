@@ -151,9 +151,6 @@
 	And I press "F8"
 	And the test pauses for "3" seconds
 
-	And I input the notes if any are contained in "<notes>"
-	And the test pauses for "5" seconds
-
 	And in the "Certification" page I enter the updated auth type code into the "Auth Type" field
 	And I press "Control + S"
 	And the test pauses for "3" seconds
