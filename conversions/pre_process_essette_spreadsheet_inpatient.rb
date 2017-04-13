@@ -81,6 +81,7 @@ def initalize_spreadsheet_variables
   @holding_notes = Array.new
   @notes = Array.new
   @row_type_indicator = ""
+  @assessment_note = ""
 end
 
 def check_row_type (row)
@@ -90,6 +91,8 @@ def check_row_type (row)
   if @row_type_indicator == "Care Date Detail"
     if !row[1].nil?
       @row_type_indicator = "New Auth"
+    elsif !row[34].nil?
+      @row_type_indicator = "Assessment Note"
     end
 
   elsif row[2] == "Other Reference #"
@@ -125,6 +128,11 @@ def check_row_type (row)
   elsif row[2] ==  "Care Date"
     @row_type_indicator = "Care Date"
 
+  elsif @row_type_indicator == "Assessment Note"
+    if !row[1].nil?
+      @row_type_indicator = "New Auth"
+    end
+
   elsif @row_type_indicator.include? " Detail"
     @logfile.write "\n" + "Second Detail Record"
 
@@ -158,6 +166,12 @@ def save_row_1_info (row)
   row[13] = row[13].to_i.to_s
   row[15] = row[15].to_i.to_s
   @sub_class_code = row[17]
+  if !@assessment_note.nil? || !@assessment_note.empty?
+    puts "assessment_note = " + @assessment_note
+    puts "row[34] = " + row[34].to_s
+    row[34] = @assessment_note + row[34].to_s
+  end
+  @assessment_note = ""
   row[35] = row[35].to_i.to_s
   row[40] = row[40].to_i.to_s
   row[41] = row[41].to_i.to_s
@@ -403,6 +417,12 @@ File.open("processed_#{@essette_spreadsheet}_urgemerg.feature","w") do |new_feat
           when "Care Date Detail"
             save_row_5_info (row)
             set_first_care_date_to_false
+          when "Assessment Note"
+            if @assessment_note.nil?
+              @assessment_note = row[34] + " "
+            else
+              @assessment_note << row[34] + " "
+            end
           end
         end
         add_care_date_to_feature
