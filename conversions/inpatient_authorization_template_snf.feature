@@ -23,7 +23,7 @@ And in the "Certification" page I enter the primary "<diagnosis_code>" into the 
 And the test pauses for "1" seconds
 And in the "Certification" page I use the sub-class "<sub_class>" to determine what to enter into the "Auth Type" field
 And the test pauses for "2" seconds
-And in the "certification" page I use the SNF auth status "<status>" to determine what to enter into the "ex" image
+And in the "certification" page I use the SNF auth status "<status>" and the Essette sub class "<sub_class>" and the status reason "<status_reason>" to determine what to enter into the "ex" image
 And the test pauses for "2" seconds
 And I press "Control + S"
 And the test pauses for "3" seconds
@@ -137,7 +137,7 @@ And the test pauses for "3" seconds
 	And in the "authorized_services" page I enter "AD" into the "count" image
 	And the test pauses for "2" seconds
 	And in the "authorized_services" page I enter the primary diagnosis code into the "diag_number_2" image
-	And in the "authorized_services" page I use the SNF auth status "<status>" to determine what to enter into the "ex" image
+	And in the "authorized_services" page I use the SNF auth status "<status>" and the Essette sub class "<sub_class>" and the status reason "<status_reason>" to determine what to enter into the "ex" image
 	And the test pauses for "2" seconds
 	And in the "authorized_services" page I click on the "save" image
 	And the test pauses for "10" seconds
@@ -169,7 +169,7 @@ And the test pauses for "3" seconds
 	And in the "authorized_services" page I enter "H" into the "claim_type" image
 	And the test pauses for "2" seconds
 	And in the "authorized_services" page I enter the primary diagnosis code into the "diag_number_2" image
-	And in the "authorized_services" page I use the SNF auth status "<status>" to determine what to enter into the "ex" image
+	And in the "authorized_services" page I use the SNF auth status "<status>" and the Essette sub class "<sub_class>" and the status reason "<status_reason>" to determine what to enter into the "ex" image
 	And the test pauses for "2" seconds
 	And in the "authorized_services" page I click on the "save" image
 	And the test pauses for "10" seconds
