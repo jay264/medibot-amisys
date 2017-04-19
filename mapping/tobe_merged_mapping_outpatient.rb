@@ -1,4 +1,4 @@
-if essette_sub_class == "Cardiology (HH)" && status == "Approved" && status_reason == "Medical Criteria Met"
+elsif essette_sub_class == "Cardiology (HH)" && status == "Approved" && status_reason == "Medical Criteria Met"
   ex_code = "A1"
 elsif essette_sub_class == "Cardiology (HH)" && status == "Approved" && status_reason == "Secondary Only"
   ex_code = "BE"
