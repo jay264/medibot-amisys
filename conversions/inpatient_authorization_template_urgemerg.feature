@@ -21,7 +21,7 @@
 	And in the "Certification" page I enter the primary "<diagnosis_code>" into the "Primary Diag Dt 1" field and save the variable
 	And in the "Certification" page I use the sub-class "<sub_class>" to determine what to enter into the "Auth Type" field
 	And the test pauses for "2" seconds
-	And in the "Certification" page I use the status reason "<status_reason>" to determine what to enter into the "EX" field
+	And in the "Certification" page I use the sub class "<sub_class>" and the status "<status>" and the status reason "<status_reason>" to determine what to enter into the "EX" field
 	And the test pauses for "3" seconds
 	And I press "Control + S"
 
@@ -141,7 +141,7 @@
 	And the test pauses for "2" seconds
 	And in the "authorized_services" page I enter the primary diagnosis code into the "diag_number_2" image
 	And the test pauses for "2" seconds
-	And in the "authorized_services" page I use the status reason "<status_reason>" to determine what to enter into the "ex" image
+	And in the "authorized_services" page I use the sub class "<sub_class>" and the status "<status>" and the status reason "<status_reason>" to determine what to enter into the "ex" image
 	And the test pauses for "2" seconds
 	And in the "authorized_services" page I click on the "save" image
 	And the test pauses for "10" seconds
@@ -150,9 +150,6 @@
 	And the test pauses for "5" seconds
 	And I press "F8"
 	And the test pauses for "3" seconds
-
-	And I input the notes if any are contained in "<notes>"
-	And the test pauses for "5" seconds
 
 	And in the "Certification" page I enter the updated auth type code into the "Auth Type" field
 	And I press "Control + S"
