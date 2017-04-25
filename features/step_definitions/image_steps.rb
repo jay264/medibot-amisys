@@ -1460,7 +1460,8 @@ end
   end
 end
 
-When /^in the "([^"]*)" page I use the SNF auth status "([^"]*)" to determine what to enter into the "([^"]*)" image and save the variable$/ do |page, essette_sub_class, element|
+
+When /^in the "([^"]*)" page I use the SNF auth status "([^"]*)" and the Essette sub class "([^"]*)" and the status reason "([^"]*)" to determine what to enter into the "([^"]*)" image$/ do |page, status, essette_sub_class, status_reason, element|
 if essette_sub_class == "Skilled Nursing Facility" && status == "Reopen Denied" && status_reason == "Skilled Criteria Not Met"
   ex_code = "WR"
 elsif essette_sub_class == "Skilled Nursing Facility" && status == "Reopen Denied" && status_reason == "Non-Covered Services (SNF, Rehabs)"
