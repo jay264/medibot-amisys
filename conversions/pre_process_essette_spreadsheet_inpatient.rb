@@ -68,6 +68,7 @@ def initalize_spreadsheet_variables
   @entire_row_3 = Array.new
   @entire_row_4 = Array.new
   @entire_row_5 = Array.new
+  @entire_row_6 = Array.new
   @new_example = Array.new
   @first_time_through = "YES"
   @first_new_auth_info = "YES"
@@ -76,6 +77,7 @@ def initalize_spreadsheet_variables
   @first_service_code = "YES"
   @first_care_date = "YES"
   @first_note = "YES"
+  @first_qty = "YES"
   @holding_service_codes = Array.new
   @holding_diagnosis_codes = Array.new
   @holding_notes = Array.new
@@ -125,6 +127,9 @@ def check_row_type (row)
   elsif row[2] ==  "Care Date"
     @row_type_indicator = "Care Date"
 
+  elsif row[2] ==  "Qty"
+    @row_type_indicator = "Qty Detail"
+
   elsif @row_type_indicator.include? " Detail"
     @logfile.write "\n" + "Second Detail Record"
 
@@ -144,7 +149,7 @@ def save_row_1_info (row)
   extra_zeroes.times do |s|
     new_member_id += "0"
   end
-  if !row[1].nil?
+  if !row[1].nil? && row[1] != "No child records to display."
     row[0] = row[1]
     row[0] = row[0].strftime("%m%d%Y")
   end
@@ -176,7 +181,7 @@ def save_row_1_info (row)
     row[29] = row[29].strftime("%m%d%Y")
   end
   @entire_row_1.clear
-  for i in 0..41
+  for i in 0..51
     @entire_row_1[i] = row[i]
   end
 end
@@ -255,7 +260,7 @@ end
 
 def save_row_5_info (row)
   @logfile.write "\n" + "Saving Row 5 Info " + row.to_s
-  if !row[2].nil?
+  if !row[2].nil? && row[2] != "Qty"
     row[2] = row[2].strftime("%m%d%Y")
   end
   row[6] = row[6].to_i.to_s
@@ -282,6 +287,17 @@ def save_row_5_info (row)
   for i in 2..6
     @entire_row_5[i-2] = row[i]
   end
+end
+
+def save_row_6_info (row)
+  @logfile.write "\n" + "Saving Row 6 Info " + row.to_s
+  if row[1] == "No Child Records to Display"
+    @total_qty = ""
+  else
+    #@total_qty = row[1]
+    @total_qty = "123ABC"
+  end
+  @entire_row_6 << @total_qty
 end
 
 def set_first_time_through_to_false
@@ -343,6 +359,12 @@ def add_care_date_to_feature
   @logfile.write "\n" + @entire_row_5.to_s + "\n"
 end
 
+def add_qty_to_feature
+  @new_example << " " + @entire_row_6*" | " + " |" + "\n"
+  @logfile.write "\n" + "Just wrote entire row 6 and ended Example"
+  @logfile.write "\n" + @entire_row_6.to_s + "\n"
+end
+
 
 require 'spreadsheet'
 initialize_variables
@@ -364,6 +386,7 @@ File.open("processed_#{@essette_spreadsheet}_urgemerg.feature","w") do |new_feat
             @logfile.write "\n" + "First Time Through = " + @first_time_through.to_s
             if @first_time_through == "NO"
               add_care_date_to_feature
+              add_qty_to_feature
               case @sub_class_code
               when "SNF"
                 new_feature_file_snf << @new_example
@@ -403,9 +426,12 @@ File.open("processed_#{@essette_spreadsheet}_urgemerg.feature","w") do |new_feat
           when "Care Date Detail"
             save_row_5_info (row)
             set_first_care_date_to_false
+          when "Qty Detail"
+            save_row_6_info (row)
           end
         end
         add_care_date_to_feature
+        add_qty_to_feature
         case @sub_class_code
         when "SNF"
           new_feature_file_snf << @new_example
