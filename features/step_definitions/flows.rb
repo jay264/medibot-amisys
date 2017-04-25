@@ -2,7 +2,17 @@ Given /^I sign in to the application$/ do
   steps %{
     And the test pauses for "5" seconds
     When in the "Login" page I enter "#{$execution['username']}" into the "User Name" field
-	  And in the "Login" page I enter "#{$execution['password']}" into the "Password" field
+  }
+  if ENV['URL'] == 'PROD'
+    steps %{
+      And in the "Login" page I enter "#{$execution['prod_password']}" into the "Password" field
+    }
+  else
+    steps %{
+      And in the "Login" page I enter "#{$execution['dev_password']}" into the "Password" field
+    }
+  end
+  steps %{
 	  And in the "Login" page I click on "Submit"
 	  And the test pauses for "5" seconds
 	  And I click "OK" in the popup
