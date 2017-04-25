@@ -4,4 +4,6 @@ environment: 'dev'
 
 username: 'MEDIBOTS'
 
-password: 'Britt@ny4'
+prod_password: 'Britt@ny4'
+
+dev_password: 'St@rzgo@lie30'

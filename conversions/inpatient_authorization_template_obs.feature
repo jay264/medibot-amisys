@@ -21,7 +21,7 @@
 	And in the "Certification" page I enter the primary "<diagnosis_code>" into the "Primary Diag Dt 1" field and save the variable
 	And in the "Certification" page I enter "OB" into the "Auth Type" field
 	And the test pauses for "2" seconds
-	And in the "Certification" page I use the status reason "<status_reason>" to determine what to enter into the "EX" field
+	And in the "Certification" page I use the sub class "<sub_class>" and the status "<status>" and the status reason "<status_reason>" to determine what to enter into the "EX" field
 	And the test pauses for "3" seconds
 	And I press "Control + S"
 
@@ -51,7 +51,7 @@
 	And the test pauses for "2" seconds
 	And in the "authorized_services" page I enter "M" into the "claim_type" image
 	And the test pauses for "2" seconds
-	And in the "authorized_services" page I use the status reason "<status_reason>" to determine what to enter into the "ex" image
+	And in the "authorized_services" page I use the sub class "<sub_class>" and the status "<status>" and the status reason "<status_reason>" to determine what to enter into the "ex" image
 	And the test pauses for "2" seconds
 	And I use the sub class "<sub_class>" to determine what count to enter into the count image
 	And the test pauses for "3" seconds
@@ -91,9 +91,6 @@
 	And the test pauses for "3" seconds
 	And I edit myself if I am a NONPAR
 	And the test pauses for "3" seconds
-
-	And I input the notes if any are contained in "<notes>"
-	And the test pauses for "5" seconds
 
 	And in the "Functions Menu" page I click on "Remarks"
 	And in the "remarks_maintenance" page I should see the "remarks_maintenance" image
