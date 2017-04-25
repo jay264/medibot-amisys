@@ -5,6 +5,7 @@ require 'i18n'
 require 'java'
 require 'sikulix'
 require 'win32-clipboard'
+require 'spreadsheet'
 
 include Win32
 
@@ -33,25 +34,26 @@ Dir[File.expand_path('lib/pages/*.rb')].each do |page|
 end
 
 URLS = {   'PROD' => "http://mtcarmel-wcaa.dstcorp.net/amisys-web/Controller?view=jsp/Pportal.jsp",
-           'DEV' => "http://mtcarmel-wcaa.dstcorp.net:7138/amisys-web/Controller?view=jsp/Pportal.jsp"
+           'DEV' => "http://mtcarmel-wcaa.dstcorp.net:7138/amisys-web/Controller?view=jsp/Pportal.jsp",
+           'NONE' => "none"
 }
 
 if ENV['URL'] == 'PROD'
   $url = URLS['PROD']
+elsif ENV['URL'] == 'NONE'
+  $url = "none"
 else
   $url = URLS['DEV']
 end
 
 Before do
- # Tags (as an array)
- #@scenario_tags = scenario.source_tag_names
- #capabilities = Selenium::WebDriver::Remote::Capabilities.new
-  #capabilities.setEnableNativeEvents = false
-  Watir::always_locate = false
-  $browser = Watir::Browser.new $execution['browser'].to_sym
-  $browser.driver.manage.window.maximize
-  $browser.goto($url)
-  $variable_storage = Array.new
+  if $url != "none"
+    Watir::always_locate = false
+    $browser = Watir::Browser.new $execution['browser'].to_sym
+    $browser.driver.manage.window.maximize
+    $browser.goto($url)
+    $variable_storage = Array.new
+  end
 end
 
 #After do |scenario|
@@ -65,6 +67,7 @@ end
 #end
 
 After do |scenario|
+  if $url != "none"
     if scenario.failed?
       path = "screenshots"
       file = "#{scenario.name.downcase.parameterize.underscore}_#{Time.now.strftime("%m%d%y")}_#{Time.now.strftime("%H%M")}.png"
@@ -119,4 +122,5 @@ After do |scenario|
         @screen.type Sikulix::Key.ENTER
       end
     end
+  end
 end
