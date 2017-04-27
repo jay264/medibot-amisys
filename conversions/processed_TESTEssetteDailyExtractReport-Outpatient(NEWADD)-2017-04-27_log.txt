@@ -1,0 +1,88 @@
+
+Opened spreadsheet TESTEssetteDailyExtractReport-Outpatient(NEWADD)-2017-04-27
+Added the spreadsheet to a book in the worksheet
+Opened a new feature file for the spreadsheet data
+Initializing Variables 
+
+Processing New Row [nil, "Requested Date/Time", "Other Reference #", "Member ID", "Member First Name", "Member Last Name", "Facility", "Requesting Provider ID", "Requesting Provider First Name", "Requesting Provider Last Name", "Requesting Provider NPI #", "Facility", "Servicing Provider ID", "Provider Facility NPI", "Servicing Provider Name", "Servicing Provider NPI #", "Sub Class", "Sub Class Code", "Type", "Type Code", "Servicing Provider First Name", "Servicing Provider Last Name", "Status Date", "Status", "Health Plan", "Source", "Status Reason", "Class", "Authorized Date", "Expiration Date", "Priority", "Type and Payment", "Antiatelectasis Antiembolic", "ADM", "Auth For Payment", "Days Used Prior", "DC", "DENC Date", "MDS Date", "NOMNC Date", "Total Days", "Total Skilled Days", "Amisys Auth #", "Add Drug Doses", "Add Drug Reimb", "Dischrg Date", "Final Reimb Amt", "Per Diem Level 1", "Per Diem Level 2", "Total Days", "Total Per Diem"]
+Initial Row Type Indicator = 
+Row[2] = Other Reference #
+Revised Row Type Indicator = Headers
+Processing Header
+
+Processing New Row [nil, 42822.37869212963, nil, 82199.0, "Paul", "Brill", "OSU SURGERY LLC", 909559, "VIMAL K", "NARULA", 1912952490.0, "JAMES CANCER HOSPITAL", 936501, 1124127683.0, "JAMES CANCER HOSPITAL", 1124127683.0, "Out of Network Services", "OONS", "Pre-Service", "PRE", nil, "JAMES CANCER HOSPITAL", 42850.0, "Approved", "MediGold Essential Care", "Fax", "Medical Criteria Met", "Outpatient", 42824.0, 42885.0, "Standard", nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil]
+Initial Row Type Indicator = Headers
+Row[2] = 
+Revised Row Type Indicator = New Auth
+First Time Through = YES
+Saving Row 1 Info [nil, 42822.37869212963, nil, 82199.0, "Paul", "Brill", "OSU SURGERY LLC", 909559, "VIMAL K", "NARULA", 1912952490.0, "JAMES CANCER HOSPITAL", 936501, 1124127683.0, "JAMES CANCER HOSPITAL", 1124127683.0, "Out of Network Services", "OONS", "Pre-Service", "PRE", nil, "JAMES CANCER HOSPITAL", 42850.0, "Approved", "MediGold Essential Care", "Fax", "Medical Criteria Met", "Outpatient", 42824.0, 42885.0, "Standard", nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil]
+Set first time through to false
+
+Processing New Row [nil, "Auth Type", "Auth Status", "Auth Number", "Diagnosis Code", "Diagnosis", "Diagnosis Type", "Auth Modified Date"]
+Initial Row Type Indicator = New Auth
+Row[2] = Auth Status
+Revised Row Type Indicator = Auth Status
+Just wrote entire row 1
+["03282017", #<DateTime: 2017-03-28T09:05:19+00:00 ((2457841j,32719s,0n),+0s,2299161j)>, nil, "000082199-01", "Paul", "Brill", "OSU SURGERY LLC", "909559", "VIMAL K", "NARULA", "1912952490", "JAMES CANCER HOSPITAL", "936501", "1124127683", "JAMES CANCER HOSPITAL", "1124127683", "Out of Network Services", "OONS", "Pre-Service", "PRE", nil, "JAMES CANCER HOSPITAL", "04252017", "Approved", "MediGold Essential Care", "Fax", "Medical Criteria Met", "Outpatient", "03302017", "05302017", "Standard", nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil]
+
+
+Processing New Row [nil, "Pre-Service", "Approved", "X170328069", "C760", "Malignant neoplasm of head, face and neck", "ICD10", 42850.0]
+Initial Row Type Indicator = Auth Status
+Row[2] = Approved
+Revised Row Type Indicator = Auth Status Detail
+Saving Row 2 Info [nil, "Pre-Service", "Approved", "X170328069", "C760", "Malignant neoplasm of head, face and neck", "ICD10", 42850.0]
+
+Processing New Row [nil, nil, "Service Code", "Service Description", "Service Type", "Qty Appr", "Qty Req'd", "Determination", "Auth Approval Days", "Type", "Type Code", nil, nil]
+Initial Row Type Indicator = Auth Status Detail
+Row[2] = Service Code
+Revised Row Type Indicator = Service Code
+Just wrote entire row 2
+["Pre-Service", "Approved", "X170328069", "C760", "Malignant neoplasm of head, face and neck", "ICD10", "04252017"]
+
+
+Processing New Row [nil, nil, 43246.0, "GI ENDOSCOPY PLCMNT PERCU GAST TUBE", "CPT", 1.0, 1.0, "Approved", 62.0, "CPT", "C4", nil, nil]
+Initial Row Type Indicator = Service Code
+Row[2] = 43246.0
+Revised Row Type Indicator = Service Code Detail
+Saving Row 3 Info [nil, nil, 43246.0, "GI ENDOSCOPY PLCMNT PERCU GAST TUBE", "CPT", 1.0, 1.0, "Approved", 62.0, "CPT", "C4", nil, nil]
+
+Processing New Row [nil, nil, "G0463", "HOSPITAL OUTPT CLINIC VISIT", "HCPCS", 1.0, 1.0, "Approved", 62.0, "HCPCS", "HC", nil, nil]
+Initial Row Type Indicator = Service Code Detail
+Row[2] = G0463
+Second Detail Record
+Revised Row Type Indicator = Service Code Detail
+Saving Row 3 Info [nil, nil, "G0463", "HOSPITAL OUTPT CLINIC VISIT", "HCPCS", 1.0, 1.0, "Approved", 62.0, "HCPCS", "HC", nil, nil]
+
+Processing New Row [nil, nil, "Note", nil, nil]
+Initial Row Type Indicator = Service Code Detail
+Row[2] = Note
+Revised Row Type Indicator = Note
+Just wrote entire row 3
+["43246, G0463", "HOSPITAL OUTPT CLINIC VISIT", "HCPCS", "1, 1", "1, 1", "Approved, Approved", "62, 62", "HCPCS", "HC"]
+
+
+Processing New Row [nil, "No child records to display.", nil, nil, nil]
+Initial Row Type Indicator = Note
+Row[2] = 
+Revised Row Type Indicator = Note Detail
+Saving Row 4 Info [nil, "No child records to display.", nil, nil, nil]
+
+Processing New Row [nil, nil, "Care Date", "Actual Level of Care", "Approved Level of Care", "Determination", "Auth Approval Days", nil, nil]
+Initial Row Type Indicator = Note Detail
+Row[2] = Care Date
+Revised Row Type Indicator = Care Date
+Just wrote entire row 4 and ended Example
+[""]
+
+
+Processing New Row [nil, "No child records to display.", nil, nil, nil, nil, nil, nil, nil]
+Initial Row Type Indicator = Care Date
+Row[2] = 
+Revised Row Type Indicator = Care Date Detail
+Saving Row 5 Info [nil, "No child records to display.", nil, nil, nil, nil, nil, nil, nil]
+
+Processing New Row [nil, nil, "Qty", nil, nil]
+Initial Row Type Indicator = Care Date Detail
+Row[2] = Qty
+Revised Row Type Indicator = Care Date Detail
+Saving Row 5 Info [nil, nil, "Qty", nil, nil]

@@ -8,7 +8,7 @@ def open_files
   @logfile = File.open("processed_#{@essette_spreadsheet}_log.txt", "w")
   book1 = Spreadsheet.open "#{@essette_spreadsheet}.xls"
   @logfile.write "\n" + "Opened spreadsheet " + @essette_spreadsheet.to_s
-  @essette_translated = book1.worksheet 'NEWEssetteDailyExtractReport-In'
+  @essette_translated = book1.worksheet 0
   @logfile.write "\n" + "Added the spreadsheet to a book in the worksheet"
   @logfile.write "\n" + "Opened a new feature file for the spreadsheet data"
   @template_file_urgemerg = File.open("inpatient_authorization_template_urgemerg.feature", "r")
@@ -113,7 +113,7 @@ def check_row_type (row)
 
   elsif @row_type_indicator == "Note"
     @row_type_indicator = "Note Detail"
-	
+
   elsif @row_type_indicator == "Qty"
     @row_type_indicator = "Qty Detail"
 
@@ -128,7 +128,7 @@ def check_row_type (row)
 
   elsif row[2] ==  "Care Date"
     @row_type_indicator = "Care Date"
-	
+
   elsif row[2] == "Qty"
     @row_type_indicator = "Qty"
 
@@ -428,7 +428,7 @@ File.open("processed_#{@essette_spreadsheet}_urgemerg.feature","w") do |new_feat
 		  when "Qty Detail"
 		    save_row_6_info (row)
 			@logfile.write "\n THE QTY DETAIL ROW IS: " + @entire_row_6*" | "
-			
+
           end
         end
         add_care_date_to_feature
