@@ -8,7 +8,7 @@ def open_files
   @logfile = File.open("processed_#{@essette_spreadsheet}_log.txt", "w")
   book1 = Spreadsheet.open "#{@essette_spreadsheet}.xls"
   @logfile.write "\n" + "Opened spreadsheet " + @essette_spreadsheet.to_s
-  @essette_translated = book1.worksheet 'NEWEssetteDailyExtractReport-Ou'
+  @essette_translated = book1.worksheet 0
   @logfile.write "\n" + "Added the spreadsheet to a book in the worksheet"
   #@new_feature_file_essette = File.open("processed_essette_#{@essette_spreadsheet}.feature","w")
   @logfile.write "\n" + "Opened a new feature file for the spreadsheet data"
