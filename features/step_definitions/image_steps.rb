@@ -1546,6 +1546,8 @@ elsif essette_sub_class == "Skilled Nursing Facility" && status == "Reopen Denie
           ex_code = "WS"
         elsif essette_sub_class == "Skilled Nursing Facility" && status == "Denied" && status_reason == "Services Available In-Network"
           ex_code = "BC"
+        elsif essette_sub_class == "Skilled Nursing Facility" && status == "Denied" && status_reason == "Criteria Not Met"
+          ex_code = "WS"
           elsif essette_sub_class == "Skilled Nursing Facility" && status == "Approved" && status_reason == "SNF"
             ex_code = "BD"
           elsif essette_sub_class == "Skilled Nursing Facility" && status == "Approved" && status_reason == "Pending Admission"
