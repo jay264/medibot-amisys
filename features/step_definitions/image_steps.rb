@@ -3226,6 +3226,11 @@ end
 
 When /^I input the ACO assessments if any are contained in "([^"]*)" "([^"]*)" "([^"]*)" "([^"]*)" "([^"]*)"$/ do |created_by_aco, created_date_aco, saved_by_aco, saved_date_aco, aco_field |
   aco_holder = Array.new
+  created_by_aco = created_by_aco.to_s.gsub(/[[:space:]]/, " ")
+  created_date_aco = created_date_aco.to_s.gsub(/[[:space:]]/, " ")
+  saved_by_aco = saved_by_aco.to_s.gsub(/[[:space:]]/, " ")
+  saved_date_aco = saved_date_aco.to_s.gsub(/[[:space:]]/, " ")
+  aco_field = aco_field.to_s.gsub(/[[:space:]]/, " ")
   aco_holder << [created_by_aco, created_date_aco, saved_by_aco, saved_date_aco, aco_field]
   if aco_holder.any?
       steps %Q{
@@ -3246,6 +3251,7 @@ end
 
 When /^I input the ACO type and payment if any are contained in "([^"]*)"$/ do |type_and_payment|
   if type_and_payment != ""
+    type_and_payment = type_and_payment.to_s.gsub(/[[:space:]]/, " ")
       steps %Q{
         And the test pauses for "3" seconds
         And in the "Functions Menu" page I click on "Progress Notes"
@@ -3264,6 +3270,11 @@ end
 
 When /^I input the EIS assessments if any are contained in "([^"]*)" "([^"]*)" "([^"]*)" "([^"]*)" "([^"]*)"$/ do |saved_by_eis, saved_date_eis, created_by_eis, created_date_eis, eis_field |
   eis_holder = Array.new
+  saved_by_eis = saved_by_eis.to_s.gsub(/[[:space:]]/, " ")
+  saved_date_eis = saved_date_eis.to_s.gsub(/[[:space:]]/, " ")
+  created_by_eis = created_by_eis.to_s.gsub(/[[:space:]]/, " ")
+  created_date_eis = created_date_eis.to_s.gsub(/[[:space:]]/, " ")
+  eis_field = eis_field.to_s.gsub(/[[:space:]]/, " ")
   eis_holder << [saved_by_eis, saved_date_eis, created_by_eis, created_date_eis, eis_field]
   eis_holder.reject{ |e| e.empty? }
   if eis_holder.any?
@@ -3285,6 +3296,7 @@ end
 
 When /^I input the EIS AA if any are contained in "([^"]*)"$/ do |eis_aa|
   if eis_aa != ""
+    eis_aa = eis_aa.to_s.gsub(/[[:space:]]/, " ")
       steps %Q{
         And the test pauses for "3" seconds
         And in the "Functions Menu" page I click on "Progress Notes"
@@ -3303,6 +3315,10 @@ end
 
 When /^I input the per diem level one "([^"]*)" and per diem level two "([^"]*)" and total days "([^"]*)" and total per diem "([^"]*)" if they exist$/ do |per_diem_lvl_1, per_diem_lvl_2, total_days, total_per_diem|
   snf_holder_1 = Array.new
+  per_diem_lvl_1 = per_diem_lvl_1.to_s.gsub(/[[:space:]]/, " ")
+  per_diem_lvl_2 = per_diem_lvl_2.to_s.gsub(/[[:space:]]/, " ")
+  total_days = total_days.to_s.gsub(/[[:space:]]/, " ")
+  total_per_diem = total_per_diem.to_s.gsub(/[[:space:]]/, " ")
   snf_holder_1 << [per_diem_lvl_1, per_diem_lvl_2, total_days, total_per_diem]
   snf_holder_1.reject{ |e| e.empty? }
   if snf_holder_1.any?
@@ -3321,9 +3337,11 @@ When /^I input the per diem level one "([^"]*)" and per diem level two "([^"]*)"
       }
   end
 end
- 
+
  When /^I input the discharge date "([^"]*)" and final reimbursement amount two "([^"]*)" if they exist$/ do |dischrg_date, final_reimb_amt_2|
   snf_holder_1 = Array.new
+  dischrg_date = dischrg_date.to_s.gsub(/[[:space:]]/, " ")
+  final_reimb_amt_2 = final_reimb_amt_2.to_s.gsub(/[[:space:]]/, " ")
   snf_holder_1 << [dischrg_date, final_reimb_amt_2]
   snf_holder_1.reject{ |e| e.empty? }
   if snf_holder_1.any?
@@ -3342,9 +3360,11 @@ end
       }
   end
 end
- 
+
  When /^I input the drug doses "([^"]*)" and drug reimbursement "([^"]*)" if they exist$/ do |add_drug_doses, add_drug_reimb|
   snf_holder_1 = Array.new
+  add_drug_doses = add_drug_doses.to_s.gsub(/[[:space:]]/, " ")
+  add_drug_reimb = add_drug_reimb.to_s.gsub(/[[:space:]]/, " ")
   snf_holder_1 << [add_drug_doses, add_drug_reimb]
   snf_holder_1.reject{ |e| e.empty? }
   if snf_holder_1.any?
@@ -3366,6 +3386,7 @@ end
 
 When /^I input the final reimbursement amount if any is contained in "([^"]*)"$/ do |final_reimb_amt|
   snf_holder_1 = Array.new
+  final_reimb_amt = final_reimb_amt.to_s.gsub(/[[:space:]]/, " ")
   snf_holder_1 << final_reimb_amt
   snf_holder_1.reject{ |e| e.empty? }
   if snf_holder_1.any?
@@ -3387,6 +3408,9 @@ end
 
 When /^I input the first SNF assessments if any are contained in "([^"]*)" "([^"]*)" "([^"]*)"$/ do |adm, auth_for_payment, days_used_prior|
   snf_holder_1 = Array.new
+  adm = adm.to_s.gsub(/[[:space:]]/, " ")
+  auth_for_payment = auth_for_payment.to_s.gsub(/[[:space:]]/, " ")
+  days_used_prior = days_used_prior.to_s.gsub(/[[:space:]]/, " ")
   snf_holder_1 << [adm, auth_for_payment, days_used_prior]
   snf_holder_1.reject{ |e| e.empty? }
   if snf_holder_1.any?
@@ -3408,6 +3432,9 @@ end
 
 When /^I input the second SNF assessments if any are contained in "([^"]*)" "([^"]*)" "([^"]*)"$/ do |dc, denc_date, mds_date|
   snf_holder_1 = Array.new
+  dc = dc.to_s.gsub(/[[:space:]]/, " ")
+  denc_date = denc_date.to_s.gsub(/[[:space:]]/, " ")
+  mds_date = mds_date.to_s.gsub(/[[:space:]]/, " ")
   snf_holder_1 << [dc, denc_date, mds_date]
   snf_holder_1.reject{ |e| e.empty? }
   if snf_holder_1.any?
@@ -3429,6 +3456,9 @@ end
 
 When /^I input the third SNF assessments if any are contained in "([^"]*)" "([^"]*)" "([^"]*)"$/ do |nomnc_date, total_days, total_skilled_days|
   snf_holder_2 = Array.new
+  nomnc_date = nomnc_date.to_s.gsub(/[[:space:]]/, " ")
+  total_days = total_days.to_s.gsub(/[[:space:]]/, " ")
+  total_skilled_days = total_skilled_days.to_s.gsub(/[[:space:]]/, " ")
   snf_holder_2 << [nomnc_date, total_days, total_skilled_days]
   snf_holder_2.reject{ |e| e.empty? }
   if snf_holder_2.any?
