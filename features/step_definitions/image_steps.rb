@@ -3301,6 +3301,89 @@ When /^I input the EIS AA if any are contained in "([^"]*)"$/ do |eis_aa|
   end
 end
 
+When /^I input the per diem level one "([^"]*)" and per diem level two "([^"]*)" and total days "([^"]*)" and total per diem "([^"]*)" if they exist$/ do |per_diem_lvl_1, per_diem_lvl_2, total_days, total_per_diem|
+  snf_holder_1 = Array.new
+  snf_holder_1 << [per_diem_lvl_1, per_diem_lvl_2, total_days, total_per_diem]
+  snf_holder_1.reject{ |e| e.empty? }
+  if snf_holder_1.any?
+      steps %Q{
+        And the test pauses for "3" seconds
+        And in the "Functions Menu" page I click on "Progress Notes"
+        And the test pauses for "5" seconds
+        And I press "Control + N"
+        And the test pauses for "3" seconds
+        When in the "progress_notes" page I enter "\nPer Diem Lvl 1 : #{per_diem_lvl_1} Per Diem Lvl 2: #{per_diem_lvl_2} Total Days: #{total_days} Total Per Diem: #{total_per_diem}"
+        And the test pauses for "1" seconds
+        And I press "Control + S"
+        And the test pauses for "3" seconds
+        And I press "F8"
+        And the test pauses for "3" seconds
+      }
+  end
+end
+ 
+ When /^I input the discharge date "([^"]*)" and final reimbursement amount two "([^"]*)" if they exist$/ do |dischrg_date, final_reimb_amt_2|
+  snf_holder_1 = Array.new
+  snf_holder_1 << [dischrg_date, final_reimb_amt_2]
+  snf_holder_1.reject{ |e| e.empty? }
+  if snf_holder_1.any?
+      steps %Q{
+        And the test pauses for "3" seconds
+        And in the "Functions Menu" page I click on "Progress Notes"
+        And the test pauses for "5" seconds
+        And I press "Control + N"
+        And the test pauses for "3" seconds
+        When in the "progress_notes" page I enter "\nDischarge Date : #{dischrg_date} Final Reimbursement Amount 2: #{final_reimb_amt_2}"
+        And the test pauses for "1" seconds
+        And I press "Control + S"
+        And the test pauses for "3" seconds
+        And I press "F8"
+        And the test pauses for "3" seconds
+      }
+  end
+end
+ 
+ When /^I input the drug doses "([^"]*)" and drug reimbursement "([^"]*)" if they exist$/ do |add_drug_doses, add_drug_reimb|
+  snf_holder_1 = Array.new
+  snf_holder_1 << [add_drug_doses, add_drug_reimb]
+  snf_holder_1.reject{ |e| e.empty? }
+  if snf_holder_1.any?
+      steps %Q{
+        And the test pauses for "3" seconds
+        And in the "Functions Menu" page I click on "Progress Notes"
+        And the test pauses for "5" seconds
+        And I press "Control + N"
+        And the test pauses for "3" seconds
+        When in the "progress_notes" page I enter "\nDrug Doses : #{add_drug_doses} Drug Reimb: #{add_drug_reimb}"
+        And the test pauses for "1" seconds
+        And I press "Control + S"
+        And the test pauses for "3" seconds
+        And I press "F8"
+        And the test pauses for "3" seconds
+      }
+  end
+end
+
+When /^I input the final reimbursement amount if any is contained in "([^"]*)"$/ do |final_reimb_amt|
+  snf_holder_1 = Array.new
+  snf_holder_1 << final_reimb_amt
+  snf_holder_1.reject{ |e| e.empty? }
+  if snf_holder_1.any?
+      steps %Q{
+        And the test pauses for "3" seconds
+        And in the "Functions Menu" page I click on "Progress Notes"
+        And the test pauses for "5" seconds
+        And I press "Control + N"
+        And the test pauses for "3" seconds
+        When in the "progress_notes" page I enter "\nFinal Reimbursement Amount : #{final_reimb_amt}"
+        And the test pauses for "1" seconds
+        And I press "Control + S"
+        And the test pauses for "3" seconds
+        And I press "F8"
+        And the test pauses for "3" seconds
+      }
+  end
+end
 
 When /^I input the first SNF assessments if any are contained in "([^"]*)" "([^"]*)" "([^"]*)"$/ do |adm, auth_for_payment, days_used_prior|
   snf_holder_1 = Array.new
