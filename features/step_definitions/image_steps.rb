@@ -425,6 +425,8 @@ elsif essette_sub_class == "Observation" && status == "Interim Approval" && stat
   ex_code = "9A"
 elsif essette_sub_class == "Skilled Nursing Facility" && status == "Interim Approval" && status_reason == "INPT"
   ex_code = "9A"
+elsif essette_sub_class == "Skilled Nursing Facility" && status == "Interim Approval" && status_reason == "SNF"
+  ex_code = "9A"
 elsif essette_sub_class == "Transplant" && status == "Interim Approval" && status_reason == "INPT"
   ex_code = "9A"
 elsif essette_sub_class == "Inpatient" && status == "Overturned on Appeal (Reopen)" && status_reason == "ALJ"
