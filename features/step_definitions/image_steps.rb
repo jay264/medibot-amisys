@@ -3328,7 +3328,7 @@ When /^I input the per diem level one "([^"]*)" and per diem level two "([^"]*)"
         And the test pauses for "5" seconds
         And I press "Control + N"
         And the test pauses for "3" seconds
-        When in the "progress_notes" page I enter "\nPer Diem Lvl 1 : #{per_diem_lvl_1} Per Diem Lvl 2: #{per_diem_lvl_2} Total Days: #{total_days} Total Per Diem: #{total_per_diem}"
+        When in the "progress_notes" page I enter "Per Diem Lvl 1 : #{per_diem_lvl_1} Per Diem Lvl 2: #{per_diem_lvl_2} Total Days: #{total_days} Total Per Diem: #{total_per_diem}" into the "progress_note_text_field" image
         And the test pauses for "1" seconds
         And I press "Control + S"
         And the test pauses for "3" seconds
@@ -3351,7 +3351,7 @@ end
         And the test pauses for "5" seconds
         And I press "Control + N"
         And the test pauses for "3" seconds
-        When in the "progress_notes" page I enter "\nDischarge Date : #{dischrg_date} Final Reimbursement Amount 2: #{final_reimb_amt_2}"
+        When in the "progress_notes" page I enter "Discharge Date : #{dischrg_date} Final Reimbursement Amount 2: #{final_reimb_amt_2}" into the "progress_note_text_field" image
         And the test pauses for "1" seconds
         And I press "Control + S"
         And the test pauses for "3" seconds
@@ -3374,7 +3374,7 @@ end
         And the test pauses for "5" seconds
         And I press "Control + N"
         And the test pauses for "3" seconds
-        When in the "progress_notes" page I enter "\nDrug Doses : #{add_drug_doses} Drug Reimb: #{add_drug_reimb}"
+        When in the "progress_notes" page I enter "Drug Doses : #{add_drug_doses} Drug Reimb: #{add_drug_reimb}" into the "progress_note_text_field" image
         And the test pauses for "1" seconds
         And I press "Control + S"
         And the test pauses for "3" seconds
@@ -3396,7 +3396,7 @@ When /^I input the final reimbursement amount if any is contained in "([^"]*)"$/
         And the test pauses for "5" seconds
         And I press "Control + N"
         And the test pauses for "3" seconds
-        When in the "progress_notes" page I enter "\nFinal Reimbursement Amount : #{final_reimb_amt}"
+        When in the "progress_notes" page I enter "Final Reimbursement Amount : #{final_reimb_amt}" into the "progress_note_text_field" image
         And the test pauses for "1" seconds
         And I press "Control + S"
         And the test pauses for "3" seconds
