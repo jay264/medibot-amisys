@@ -187,6 +187,7 @@ And the test pauses for "3" seconds
 	And in the "remarks_maintenance" page I enter "Authorization Numbers" into the "remark_summary" image
 	And in the "remarks_maintenance" page I enter "<auth_number>" into the "remark_text_1" image
 	And I press "Tab"
+	And the test pauses for "3" seconds
 	And I enter the "<other_reference_#>" text
 	And in the "remarks_maintenance" page I click on the "save" image
 	And the test pauses for "4" seconds
@@ -198,6 +199,11 @@ And the test pauses for "3" seconds
 	And I input the first SNF assessments if any are contained in "<adm>" "<auth_for_payment>" "<days_used_prior>"
 	And I input the second SNF assessments if any are contained in "<dc>" "<denc_date>" "<mds_date>"
 	And I input the third SNF assessments if any are contained in "<nomnc_date>" "<total_days>" "<total_skilled_days>"
+	And I input the final reimbursement amount if any is contained in "<final_reimb_amt>"
+	And I input the drug doses "<add_drug_doses>" and drug reimbursement "<add_drug_reimb>" if they exist
+	And I input the discharge date "<dischrg_date>" and final reimbursement amount two "<final_reimb_amt_2>" if they exist
+	And I input the per diem level one "<per_diem_lvl_1>" and per diem level two "<per_diem_lvl_2>" and total days "<total_days>" and total per diem "<total_per_diem>" if they exist
+	
 
 	And in the "Certification" page I enter the updated auth type code into the "Auth Type" field
 	And I press "Control + S"
