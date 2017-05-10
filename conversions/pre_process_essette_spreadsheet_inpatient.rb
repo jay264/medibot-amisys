@@ -199,9 +199,15 @@ def save_row_2_info (row)
   row[4] = @holding_diagnosis_codes
   if !row[7].nil?
     row[7] = row[7].strftime("%m%d%Y")
+  end  
+  if !row[8].nil?
+    row[8] = row[8].strftime("%m%d%Y")
+  end
+  if !row[9].nil?
+    row[9] = row[9].strftime("%m%d%Y")
   end
   @entire_row_2.clear
-  for i in 1..7
+  for i in 1..9
     @entire_row_2[i-1] = row[i]
   end
 end
@@ -256,7 +262,6 @@ def save_row_4_info (row)
   end
   row[2] = @first_note_entries
   @entire_row_4.clear
-
   @entire_row_4[0] = row[2]
 end
 
