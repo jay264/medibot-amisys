@@ -31,21 +31,19 @@
 	And the test pauses for "3" seconds
 	And in the "authorized_services" page I should see the "amounts_and_dates" image
 	And the test pauses for "2" seconds
-	#And in the "authorized_services" page I enter "<auth_admission_date>" into the "dates_begin_requested" image
-	And in the "authorized_services" page I enter the first element from "<auth_admission_date>" into the "dates_begin_requested" image
+	And in the "authorized_services" page I enter "<auth_admission_date>" into the "dates_begin_requested" image
 	And the test pauses for "2" seconds
-	And in the "authorized_services" page I add the "<auth_approval_days>" to the "<auth_admission_date>" and put the result in the "dates_end_requested" image and subtract one
+	And in the "authorized_services" page I enter "<auth_discharge_date>" into the "dates_end_requested" image
 	And the test pauses for "2" seconds
-	And in the "authorized_services" page I add the "<auth_approval_days>" to the "<auth_admission_date>" and put the result in the "dates_end_approved" image and subtract one
+	And in the "authorized_services" page I enter "<auth_discharge_date>" into the "dates_end_approved" image
+  And the test pauses for "2" seconds
+	And in the "authorized_services" page I enter "<auth_admission_date>" into the "dates_begin_approved" image
 	And the test pauses for "2" seconds
-	#And in the "authorized_services" page I enter "<auth_admission_date>" into the "dates_begin_approved" image
-	And in the "authorized_services" page I enter the first element from "<auth_admission_date>" into the "dates_begin_approved" image
-	And the test pauses for "2" seconds
-	#And in the "authorized_services" page I enter "<auth_approval_days>" into the "how_many_requested" image
-	And in the "authorized_services" page I enter the first element from "<auth_approval_days>" into the "how_many_requested" image
-	And the test pauses for "2" seconds
-	#And in the "authorized_services" page I enter "<auth_approval_days>" into the "how_many_authorized" image
-	And in the "authorized_services" page I enter the first element from "<auth_approval_days>" into the "how_many_authorized" image
+
+	And in the "authorized_services" page I subtract the auth admission date "<auth_admission_date>" from the auth discharge date "<auth_discharge_date>" and put the result in the "how_many_authorized" image
+  And the test pauses for "2" seconds
+	And in the "authorized_services" page I subtract the auth admission date "<auth_admission_date>" from the auth discharge date "<auth_discharge_date>" and put the result in the "how_many_requested" image
+
 	And the test pauses for "2" seconds
 	And I use the sub class "<sub_class>" to determine what location to enter into the location image
 	And the test pauses for "2" seconds
@@ -113,6 +111,7 @@
 	And I press ENTER graphically
 	And the test pauses for "5" seconds
 	And I close "Internet Explorer"
+
 
 
 		Examples:

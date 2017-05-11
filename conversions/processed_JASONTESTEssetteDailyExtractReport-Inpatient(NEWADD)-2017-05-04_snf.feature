@@ -34,7 +34,8 @@ And the test pauses for "3" seconds
 	And the test pauses for "3" seconds
 	And in the "hospital_services" page I should see the "est_admit" image
 	And the test pauses for "3" seconds
-	And in the "hospital_services" page I enter the first SNF date into the "est_admit" image
+	And in the "hospital_services" page I enter "<auth_admission_date>" into the "est_admit" image
+	And the test pauses for "3" seconds
 
 	#And in the "hospital_services" page I enter the total SNF days into the "auth_days" image
 	And in the "hospital_services" page I enter "365" into the "auth_days" image
@@ -43,7 +44,7 @@ And the test pauses for "3" seconds
 	And I press ENTER graphically
 	And the test pauses for "3" seconds
 	And in the "provider_search" page I should see the "prov_number" image
-	
+
 	And in the "provider_search" page I enter "<servicing_provider_id>" into the "prov_number" image
 	And I press ENTER graphically
 	And the test pauses for "3" seconds
@@ -203,7 +204,7 @@ And the test pauses for "3" seconds
 	And I input the drug doses "<add_drug_doses>" and drug reimbursement "<add_drug_reimb>" if they exist
 	And I input the discharge date "<dischrg_date>" and final reimbursement amount two "<final_reimb_amt_2>" if they exist
 	And I input the per diem level one "<per_diem_lvl_1>" and per diem level two "<per_diem_lvl_2>" and total days "<total_days>" and total per diem "<total_per_diem>" if they exist
-	
+
 
 	And in the "Certification" page I enter the updated auth type code into the "Auth Type" field
 	And I press "Control + S"

@@ -32,9 +32,11 @@
 	And the test pauses for "3" seconds
 	And in the "hospital_services" page I should see the "est_admit" image
 	And the test pauses for "3" seconds
-	#And in the "hospital_services" page I enter "<auth_admission_date>" into the "est_admit" image
-	And in the "hospital_services" page I enter the first element from "<auth_admission_date>" into the "est_admit" image
-	And in the "hospital_services" page I subtract one from the "<auth_approval_days>" days and put the result in the "auth_days" image
+	And in the "hospital_services" page I enter "<auth_admission_date>" into the "est_admit" image
+	And the test pauses for "3" seconds
+
+	And in the "hospital_services" page I subtract the auth admission date "<auth_admission_date>" from the auth discharge date "<auth_discharge_date>" and put the result in the "auth_days" image
+
 	And in the "hospital_services" page I enter "$" into the "facility_number" image
 	And I press ENTER graphically
 	And the test pauses for "3" seconds
@@ -117,9 +119,11 @@
 	And the test pauses for "3" seconds
 	And in the "authorized_services" page I convert "<auth_admission_date>" into the "dates_begin_requested" image and save the variable
 	And the test pauses for "2" seconds
-	And in the "authorized_services" page I add the "<auth_approval_days>" to the "<auth_admission_date>" and put the result in the "dates_end_requested" image and subtract one
-	And the test pauses for "2" seconds
-	And in the "authorized_services" page I add the "<auth_approval_days>" to the "<auth_admission_date>" and put the result in the "dates_end_approved" image and subtract one
+
+	And in the "authorized_services" page I subtract the auth admission date "<auth_admission_date>" from the auth discharge date "<auth_discharge_date>" and put the result in the "how_many_authorized" image
+  And the test pauses for "2" seconds
+	And in the "authorized_services" page I subtract the auth admission date "<auth_admission_date>" from the auth discharge date "<auth_discharge_date>" and put the result in the "how_many_requested" image
+
 	And the test pauses for "2" seconds
 	#And in the "authorized_services" page I enter "<auth_admission_date>" into the "dates_begin_approved" image
 	And in the "authorized_services" page I enter the first element from "<auth_admission_date>" into the "dates_begin_approved" image
