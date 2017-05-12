@@ -1,9 +1,9 @@
-Feature: Process Essette Extract NEWEssetteDailyExtractReport-Inpatient(NEWADD)-2017-05-02_SNF
+Feature: Process Essette Extract NEWEssetteDailyExtractReport-Inpatient(NEWADD)-2017-05-02_SNF_RUN_02
 	As an auth entering person
 	I want the ability to add all types of authorizations
 	so that I know that information is entered correctly
 
-Scenario Outline: NEWEssetteDailyExtractReport-Inpatient(NEWADD)-2017-05-02_SNF
+Scenario Outline: NEWEssetteDailyExtractReport-Inpatient(NEWADD)-2017-05-02_SNF_RUN_02
 Given I save the auth class "<auth_class>" to a variable
 Given I use "<care_date>" to determine the start and end dates and authorized days
 Given I sign in to the application
@@ -43,7 +43,7 @@ And the test pauses for "3" seconds
 	And I press ENTER graphically
 	And the test pauses for "3" seconds
 	And in the "provider_search" page I should see the "prov_number" image
-	
+
 	And in the "provider_search" page I enter "<servicing_provider_id>" into the "prov_number" image
 	And I press ENTER graphically
 	And the test pauses for "3" seconds
@@ -187,6 +187,7 @@ And the test pauses for "3" seconds
 	And in the "remarks_maintenance" page I enter "Authorization Numbers" into the "remark_summary" image
 	And in the "remarks_maintenance" page I enter "<auth_number>" into the "remark_text_1" image
 	And I press "Tab"
+	And the test pauses for "3" seconds
 	And I enter the "<other_reference_#>" text
 	And in the "remarks_maintenance" page I click on the "save" image
 	And the test pauses for "4" seconds
@@ -198,6 +199,11 @@ And the test pauses for "3" seconds
 	And I input the first SNF assessments if any are contained in "<adm>" "<auth_for_payment>" "<days_used_prior>"
 	And I input the second SNF assessments if any are contained in "<dc>" "<denc_date>" "<mds_date>"
 	And I input the third SNF assessments if any are contained in "<nomnc_date>" "<total_days>" "<total_skilled_days>"
+	And I input the final reimbursement amount if any is contained in "<final_reimb_amt>"
+	And I input the drug doses "<add_drug_doses>" and drug reimbursement "<add_drug_reimb>" if they exist
+	And I input the discharge date "<dischrg_date>" and final reimbursement amount two "<final_reimb_amt_2>" if they exist
+	And I input the per diem level one "<per_diem_lvl_1>" and per diem level two "<per_diem_lvl_2>" and total days "<total_days>" and total per diem "<total_per_diem>" if they exist
+
 
 	And in the "Certification" page I enter the updated auth type code into the "Auth Type" field
 	And I press "Control + S"
@@ -213,7 +219,6 @@ And the test pauses for "3" seconds
 
 		Examples:
 | requested_date  | military_date             | other_reference_# |	member_id    | member_first_name |	member_last_name | practice_name            | requesting_provider_id  |	requesting_provider_first_name  | requesting_provider_last_name  | requesting_provider_npi_# |	facility_name    | servicing_provider_id |	provider_facility_npi |	servicing_provider_name	| servicing_provider_npi_# |	sub_class             | sub_class_code | type              |	type_code |	servicing_provider_first_name |	servicing_provider_last_name  | status_date |	status   |	health_plan                | source     |	status_reason        |  auth_class | authorized_date | expiration_date | priority | aco_type_and_payment | eis_aa | adm        | auth_for_payment  | days_used_prior | dc         | denc_date | mds_date   | nomnc_date | total_days | total_skilled_days | final_reimb_amt | amisys_auth_number | add_drug_doses | add_drug_reimb | dischrg_date | final_reimb_amt_2 | per_diem_lvl_1 | per_diem_lvl_2 | total_days | total_per_diem | auth_type         | auth_status    |	auth_number |	diagnosis_code     |	diagnosis            	|	diagnosis_type |	auth_modified_date | service_code       | service_description                                | service_type |	qty_appr |	qty_reqd  |	determination |	auth_approval_days | service_type   |	service_type_code  | notes                               | care_date                                                                                                                                                                                              | actual_level_of_care                                                                               | approved_level_of_care                                                                             | determination                                                                                                          | auth_approval_days                                                             | blank_qty_1 | blank_qty_2                  | blank_qty_3 |
-
 | 02022017 | 2017-02-02T09:20:43+00:00 |  | 000022746-01 | ESTHER | MARRIOTT | COLS WEST PARK | 936386 | MARK A | EVANS | 1568479087 | WEST PARK CARE CENTER | 947403 | 1720449788 | WEST PARK CARE CENTER LLC | 1720449788 | Skilled Nursing Facility | SNF | Concurrent Review | CONC |  | WEST PARK CARE CENTER LLC | 05022017 | Approved | MediGold Classic Preferred | Fax | SNF | Inpatient | 01312017 | 02152017 | Standard |  |  | 2017-01-31 | Contract/RUG:  17/RVB (PER MDS) = $5,411.86 | 0 | 2017-02-16 | 2017-02-16 | 2017-02-16 | 2017-02-16 | 16 | 16 |  |  |  |  |  |  |  |  |  |  | Concurrent Review | Approved | A170203074 | A049, J449 | Chronic obstructive pulmonary disease, unspecified | ICD10 | 05022017 | RVB01 | VERY HIGH REHAB , ADL INDEX 6-10/STAND-ALONE OBRA SCSA OR SCPA OR CCA. | RUGS,HHRG | 1 | 1 | Approved | 16 | RUGS,HHRG | HP | D/C info  NOMNC  MDS with RUG of RVB10 | 01312017, 02012017, 02022017, 02032017, 02042017, 02052017, 02062017, 02072017, 02082017, 02092017, 02102017, 02112017, 02122017, 02132017, 02142017, 02152017, 02162017, 02172017, 02182017, 02192017 | SNF, SNF, SNF, SNF, SNF, SNF, SNF, SNF, SNF, SNF, SNF, SNF, SNF, SNF, SNF, SNF, SNF, SNF, SNF, SNF | SNF, SNF, SNF, SNF, SNF, SNF, SNF, SNF, SNF, SNF, SNF, SNF, SNF, SNF, SNF, SNF, SNF, SNF, SNF, SNF | Approved, Approved, Approved, Approved, Approved, Approved, Approved, Approved, Approved, Approved, Approved, Approved, Approved, Approved, Approved, Approved, , , ,  | 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16 |  | No child records to display. |  |
 | 02072017 | 2017-02-07T16:37:07+00:00 |  | 000048273-01 | VIRGINIA | MILLER | AT YOUR DOOR VISITING HE | 935738 | STEPHEN M | CANOWITZ | 1174573224 | FRIENDSHIP VILLAGE COLS | 939392 | 1730247024 | FRIENDSHIP VILLAGE COLUMBUS | 1730247024 | Skilled Nursing Facility | SNF | Concurrent Review | CONC |  | FRIENDSHIP VILLAGE COLUMBUS | 05022017 | Approved | MediGold Classic Preferred | Fax | SNF | Inpatient | 02032017 | 02082017 | Standard |  |  | 2017-02-03 | 17/RHB01=$3699.42 | 0 | 2017-04-09 |  | 2017-02-16 | 2017-02-16 | 6 | 6 |  |  |  |  |  |  |  |  |  |  | Concurrent Review | Approved | A170207123 | Z48816 | Encounter for surgical aftcr following surgery on the GU sys | ICD10 | 05022017 | RHB01 | HIGH REHAB , ADL INDEX 6-10/STAND-ALONE OBRA SCSA OR SCPA OR CCA. | RUGS,HHRG | 1 | 1 | Approved | 6 | RUGS,HHRG | HP | MDS with RUG of RHB10 received, DC info received | 02032017, 02042017, 02052017, 02062017, 02072017, 02082017, 02092017, 02102017, 02112017, 02122017, 02132017, 02142017, 02152017, 02162017, 02172017, 02182017, 02192017, 02202017, 02212017, 02222017 | SNF, SNF, SNF, SNF, SNF, SNF, SNF, SNF, SNF, SNF, SNF, SNF, SNF, SNF, SNF, SNF, SNF, SNF, SNF, SNF | SNF, SNF, SNF, SNF, SNF, SNF, SNF, SNF, SNF, SNF, SNF, SNF, SNF, SNF, SNF, SNF, SNF, SNF, SNF, SNF | Approved, Approved, Approved, Approved, Approved, Approved, , , , , , , , , , , , , ,  | 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6 |  | No child records to display. |  |
 | 02142017 | 2017-02-14T14:19:30+00:00 |  | 000029654-01 | JUDITH | WARD | WRITESEL, KENNETH A | 905904 | KENNETH A | WRITESEL | 1023078532 | ST CATHERINES MANOR OF W | 920011 | 1649294216 | ST CATHERINES MANOR OF WASHINGTON CO | 1649294216 | Skilled Nursing Facility | SNF | Concurrent Review | CONC |  | ST CATHERINES MANOR OF WASHINGTON CO | 05022017 | Approved | MediGold Classic Preferred | Fax | SNF | Inpatient | 02092017 | 02242017 | Standard |  |  | 2017-02-09 | Contract/RUG: 16/RVC (Per MDS) = $3,539.19 | 0 | 2017-02-25 |  | 2017-04-28 |  | 16 | 16 |  |  |  |  |  |  |  |  |  |  | Concurrent Review | Approved | A170215007 | J189, J918, J9620 | Acute and chr resp failure, unsp w hypoxia or hypercapnia | ICD10 | 05022017 | RVC01 | VERY HIGH REHAB , ADL INDEX 11-16/STAND-ALONE OBRA SCSA OR SCPA OR CCA. | RUGS,HHRG | 1 | 1 | Approved | 16 | RUGS,HHRG | HP | per telephone call with Betsy  DX: pleural effusion; acute/chronic respiratory failure; pneumonia, DC info received, Received fax update on 3.3.17 that member was discharged to hospital on 2.25.17 and did not return to facility., MDS with RUG RVC10 received. | 02092017, 02102017, 02112017, 02122017, 02132017, 02142017, 02152017, 02162017, 02172017, 02182017, 02192017, 02202017, 02212017, 02222017, 02232017, 02242017, 02252017, 02262017, 02272017, 02282017 | SNF, SNF, SNF, SNF, SNF, SNF, SNF, SNF, SNF, SNF, SNF, SNF, SNF, SNF, SNF, SNF, SNF, SNF, SNF, SNF | SNF, SNF, SNF, SNF, SNF, SNF, SNF, SNF, SNF, SNF, SNF, SNF, SNF, SNF, SNF, SNF, SNF, SNF, SNF, SNF | Approved, Approved, Approved, Approved, Approved, Approved, Approved, Approved, Approved, Approved, Approved, Approved, Approved, Approved, Approved, Approved, , , ,  | 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16 |  | No child records to display. |  |
