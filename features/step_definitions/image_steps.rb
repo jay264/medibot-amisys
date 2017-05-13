@@ -425,6 +425,8 @@ elsif essette_sub_class == "Observation" && status == "Interim Approval" && stat
   ex_code = "9A"
 elsif essette_sub_class == "Skilled Nursing Facility" && status == "Interim Approval" && status_reason == "INPT"
   ex_code = "9A"
+elsif essette_sub_class == "Skilled Nursing Facility" && status == "Interim Approval" && status_reason == "SNF"
+  ex_code = "9A"
 elsif essette_sub_class == "Transplant" && status == "Interim Approval" && status_reason == "INPT"
   ex_code = "9A"
 elsif essette_sub_class == "Inpatient" && status == "Overturned on Appeal (Reopen)" && status_reason == "ALJ"
@@ -3753,4 +3755,31 @@ When /^in the "([^"]*)" page I enter the total SNF days into the "([^"]*)" image
   steps %{
     And in the "#{page}" page I enter "#{$total_snf_days}" into the "#{element}" image
   }
+end
+
+When /^in the "([^"]*)" page I subtract the auth admission date "([^"]*)" from the auth discharge date "([^"]*)" and put the result in the "([^"]*)" image$/ do |page, auth_admission_date, auth_discharge_date, element|
+  screen_image = "#{$image_directory}" + "#{page}" + "\\" + "#{element}" + ".PNG"
+  firstdate = auth_admission_date
+  yyyy1 = firstdate[4,4].to_i
+  mm1 = firstdate[0,2].to_i
+  dd1 = firstdate[2,2].to_i
+  firstdate_formatted = Date.new(yyyy1, mm1, dd1)
+  lastdate = auth_discharge_date
+  yyyy2 = lastdate[4,4].to_i
+  mm2 = lastdate[0,2].to_i
+  dd2 = lastdate[2,2].to_i
+  lastdate_formatted = Date.new(yyyy2, mm2, dd2)
+  value = (lastdate_formatted - firstdate_formatted).to_i
+  begin
+    @screen.wait "#{screen_image}", 30
+    if @screen.exists "#{screen_image}"
+      @screen.click "#{screen_image}"
+      sleep (1)
+      value_array = value.to_s.scan(/./)
+      value_array.each do |character|
+        @screen.type character
+        sleep (0.15)
+      end
+    end
+  end
 end

@@ -5,7 +5,7 @@ Feature: Process Essette Extract NEWEssetteDailyExtractReport-Inpatient(NEWADD)-
 
 Scenario Outline: NEWEssetteDailyExtractReport-Inpatient(NEWADD)-2017-02-20-SNFTEST
 Given I save the auth class "<auth_class>" to a variable
-Given I use "<care_date>" to determine the start and end dates and authorized days
+Given I use "<auth_admission_date>" to determine the start and end dates and authorized days
 Given I sign in to the application
 When in the "Home" page I click on "Authorizations/Medical Management"
 And the test pauses for "3" seconds
@@ -34,7 +34,8 @@ And the test pauses for "3" seconds
 	And the test pauses for "3" seconds
 	And in the "hospital_services" page I should see the "est_admit" image
 	And the test pauses for "3" seconds
-	And in the "hospital_services" page I enter the first SNF date into the "est_admit" image
+	And in the "hospital_services" page I enter "<auth_admission_date>" into the "est_admit" image
+	And the test pauses for "3" seconds
 
 	#And in the "hospital_services" page I enter the total SNF days into the "auth_days" image
 	And in the "hospital_services" page I enter "365" into the "auth_days" image
@@ -43,7 +44,7 @@ And the test pauses for "3" seconds
 	And I press ENTER graphically
 	And the test pauses for "3" seconds
 	And in the "provider_search" page I should see the "prov_number" image
-	
+
 	And in the "provider_search" page I enter "<servicing_provider_id>" into the "prov_number" image
 	And I press ENTER graphically
 	And the test pauses for "3" seconds
@@ -203,7 +204,7 @@ And the test pauses for "3" seconds
 	And I input the drug doses "<add_drug_doses>" and drug reimbursement "<add_drug_reimb>" if they exist
 	And I input the discharge date "<dischrg_date>" and final reimbursement amount two "<final_reimb_amt_2>" if they exist
 	And I input the per diem level one "<per_diem_lvl_1>" and per diem level two "<per_diem_lvl_2>" and total days "<total_days>" and total per diem "<total_per_diem>" if they exist
-	
+
 
 	And in the "Certification" page I enter the updated auth type code into the "Auth Type" field
 	And I press "Control + S"
@@ -218,5 +219,4 @@ And the test pauses for "3" seconds
 	And I close "Internet Explorer"
 
 		Examples:
-| requested_date  | military_date             | other_reference_# |	member_id    | member_first_name |	member_last_name | practice_name            | requesting_provider_id  |	requesting_provider_first_name  | requesting_provider_last_name  | requesting_provider_npi_# |	facility_name    | servicing_provider_id |	provider_facility_npi |	servicing_provider_name	| servicing_provider_npi_# |	sub_class             | sub_class_code | type              |	type_code |	servicing_provider_first_name |	servicing_provider_last_name  | status_date |	status   |	health_plan                | source     |	status_reason        |  auth_class | authorized_date | expiration_date | priority | aco_type_and_payment | eis_aa | adm        | auth_for_payment  | days_used_prior | dc         | denc_date | mds_date   | nomnc_date | total_days | total_skilled_days | final_reimb_amt | amisys_auth_number | add_drug_doses | add_drug_reimb | dischrg_date | final_reimb_amt_2 | per_diem_lvl_1 | per_diem_lvl_2 | total_days | total_per_diem | auth_type         | auth_status    |	auth_number |	diagnosis_code     |	diagnosis            	|	diagnosis_type |	auth_modified_date | service_code       | service_description                                | service_type |	qty_appr |	qty_reqd  |	determination |	auth_approval_days | service_type   |	service_type_code  | notes                               | care_date                                                                                                                                                                                              | actual_level_of_care                                                                               | approved_level_of_care                                                                             | determination                                                                                                          | auth_approval_days                                                             | blank_qty_1 | blank_qty_2                  | blank_qty_3 |
-
+| requested_date  | military_date             | other_reference_# |	member_id    | member_first_name |	member_last_name | practice_name            | requesting_provider_id  |	requesting_provider_first_name  | requesting_provider_last_name  | requesting_provider_npi_# |	facility_name        | servicing_provider_id |	provider_facility_npi |	servicing_provider_name	  | servicing_provider_npi_# |	sub_class               | sub_class_code | type              |	type_code |	servicing_provider_first_name |	servicing_provider_last_name  | status_date |	status   |	health_plan                | source     |	status_reason        |  auth_class | authorized_date | expiration_date | priority | aco_type_and_payment | eis_aa | adm        | auth_for_payment                              | days_used_prior | dc         | denc_date  | mds_date   | nomnc_date | total_days | total_skilled_days | final_reimb_amt | amisys_auth_number | add_drug_doses | add_drug_reimb | dischrg_date | final_reimb_amt_2 | per_diem_lvl_1 | per_diem_lvl_2 | total_days | total_per_diem    | auth_type         | auth_status    |	auth_number |	diagnosis_code                |	diagnosis                    	|	diagnosis_type |	auth_modified_date | auth_admission_date   | auth_discharge_date | service_code          | service_description                                                | service_type |	qty_appr |	qty_reqd  |	determination |	auth_approval_days | service_type   |	service_type_code  | notes                | blank_01 | blank_02  | qty |
