@@ -3760,15 +3760,17 @@ end
 When /^in the "([^"]*)" page I subtract the auth admission date "([^"]*)" from the auth discharge date "([^"]*)" and put the result in the "([^"]*)" image$/ do |page, auth_admission_date, auth_discharge_date, element|
   screen_image = "#{$image_directory}" + "#{page}" + "\\" + "#{element}" + ".PNG"
   firstdate = auth_admission_date
-  yyyy1 = firstdate[4,4].to_i
-  mm1 = firstdate[0,2].to_i
-  dd1 = firstdate[2,2].to_i
-  firstdate_formatted = Date.new(yyyy1, mm1, dd1)
+  #yyyy1 = firstdate[4,4].to_i
+  #mm1 = firstdate[0,2].to_i
+  #dd1 = firstdate[2,2].to_i
+  #firstdate_formatted = Date.new(yyyy1, mm1, dd1)
+  firstdate_formatted = firstdate[4,4] + firstdate[0,2].to_i + firstdate[2,2]
   lastdate = auth_discharge_date
-  yyyy2 = lastdate[4,4].to_i
-  mm2 = lastdate[0,2].to_i
-  dd2 = lastdate[2,2].to_i
-  lastdate_formatted = Date.new(yyyy2, mm2, dd2)
+  #yyyy2 = lastdate[4,4].to_i
+  #mm2 = lastdate[0,2].to_i
+  #dd2 = lastdate[2,2].to_i
+  #lastdate_formatted = Date.new(yyyy2, mm2, dd2)
+  lastdate_formatted = flastdate[4,4] + lastdate[0,2].to_i + lastdate[2,2]
   value = (lastdate_formatted - firstdate_formatted).to_i
   begin
     @screen.wait "#{screen_image}", 30
