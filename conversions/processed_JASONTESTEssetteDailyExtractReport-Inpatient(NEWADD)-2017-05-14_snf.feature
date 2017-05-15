@@ -1,9 +1,9 @@
-Feature: Process Essette Extract JASONTESTEssetteDailyExtractReport-Inpatient(NEWADD)-2017-05-15_SNF
+Feature: Process Essette Extract JASONTESTEssetteDailyExtractReport-Inpatient(NEWADD)-2017-05-14_SNF
 	As an auth entering person
 	I want the ability to add all types of authorizations
 	so that I know that information is entered correctly
 
-Scenario Outline: JASONTESTEssetteDailyExtractReport-Inpatient(NEWADD)-2017-05-15_SNF
+Scenario Outline: JASONTESTEssetteDailyExtractReport-Inpatient(NEWADD)-2017-05-14_SNF
 Given I save the auth class "<auth_class>" to a variable
 Given I use "<auth_admission_date>" to determine the start and end dates and authorized days
 Given I sign in to the application
