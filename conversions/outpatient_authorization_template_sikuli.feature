@@ -117,12 +117,20 @@
 	And the test pauses for "2" seconds
 	And in the "authorized_services" page I click on the "save" image
 	And the test pauses for "10" seconds
+	And I press "F8"
+	And the test pauses for "3" seconds
+	And I press "F8"
+	And the test pauses for "3" seconds
+	And I press ENTER graphically
+	And the test pauses for "3" seconds
 
 	And I input the alternate procedure codes if there are any
 
 	And the test pauses for "4" seconds
 	And I press "F8"
 	And the test pauses for "4" seconds
+	And I press ENTER graphically
+	And the test pauses for "3" seconds
 
 	And in the "Functions Menu" page I click on "Remarks"
 	And in the "remarks_maintenance" page I should see the "remarks_maintenance" image
