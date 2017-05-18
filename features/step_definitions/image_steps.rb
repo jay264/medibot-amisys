@@ -3171,6 +3171,10 @@ When /^I input the alternate procedure codes if there are any$/ do
     	  And in the "authorized_services" page I click on the "save" image
         And the test pauses for "3" seconds
         And I press "F8"
+        And the test pauses for "3" seconds
+        And I press "F8"
+        And the test pauses for "3" seconds
+        And I press ENTER graphically
       }
     end
   end
