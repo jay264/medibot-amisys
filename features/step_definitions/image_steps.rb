@@ -3149,6 +3149,10 @@ When /^I input the alternate procedure codes if there are any$/ do
       quantity_approved = $quantity_approved.shift
       steps %Q{
         And the test pauses for "3" seconds
+        And in the "Functions Menu" page I click on "Authorized Svcs"
+      	And the test pauses for "3" seconds
+      	And in the "authorized_services" page I should see the "amounts_and_dates" image
+      	And the test pauses for "3" seconds
         And I press "Control + N"
         And the test pauses for "5" seconds
     	  And in the "authorized_services" page I should see the "how_many_requested" image
@@ -3166,6 +3170,7 @@ When /^I input the alternate procedure codes if there are any$/ do
         And in the "authorized_services" page I enter "#{$primary_diagnosis_code}" into the "diag_number_2" image
     	  And in the "authorized_services" page I click on the "save" image
         And the test pauses for "3" seconds
+        And I press "F8"
       }
     end
   end
