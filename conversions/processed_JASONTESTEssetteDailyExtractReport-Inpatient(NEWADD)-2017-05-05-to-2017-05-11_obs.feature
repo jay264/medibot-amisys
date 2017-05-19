@@ -91,9 +91,10 @@ Scenario Outline: JASONTESTEssetteDailyExtractReport-Inpatient(NEWADD)-2017-05-0
 	And the test pauses for "3" seconds
 	And I press "F8"
 	And the test pauses for "3" seconds
+	And I press ENTER graphically
+	And the test pauses for "3" seconds
 	And I press "F8"
 	And the test pauses for "3" seconds
-	And I press ENTER graphically
 
 	And in the "Functions Menu" page I click on "Remarks"
 	And in the "remarks_maintenance" page I should see the "remarks_maintenance" image
