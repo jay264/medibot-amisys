@@ -70,10 +70,13 @@ After do |scenario|
   if $url != "none"
     if scenario.failed?
       path = "screenshots"
-      file = "#{scenario.name.downcase.parameterize.underscore}_#{Time.now.strftime("%m%d%y")}_#{Time.now.strftime("%H%M")}.png"
+      #file = "#{scenario.name.downcase.parameterize.underscore}_#{Time.now.strftime("%m%d%y")}_#{Time.now.strftime("%H%M")}.png"
+      file =   "#{scenario.name.downcase.parameterize.underscore}.png"
+      screencap = Sikulix::Screen(0).capture(0, 0, 1920, 1080)
       Dir::mkdir(path) if not File.directory?(path)
-      $browser.driver.save_screenshot("Y:/CO/CB/Apps/MCHPConfData/essette/MediBot_Amisys/#{path}/#{file}")
+      #$browser.driver.save_screenshot("Y:/CO/CB/Apps/MCHPConfData/essette/MediBot_Amisys/#{path}/#{file}")
       embed "../#{path}/#{file}", 'image/png'
+      #embed "../#{path}/#{screencap}", 'image/png'
       $browser.send_keys(:'f8')
       sleep 1
       $browser.alert.ok if $browser.alert.exists?
