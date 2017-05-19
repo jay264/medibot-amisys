@@ -297,6 +297,8 @@ elsif essette_sub_class == "Skilled Nursing Facility" && status == "Approved" &&
   ex_code = "9A"
 elsif essette_sub_class == "Skilled Nursing Facility" && status == "Approved" && status_reason == "Secondary Only"
   ex_code = "BD"
+elsif essette_sub_class == "Skilled Nursing Facility" && status == "Approved" && status_reason == "Medical Criteria Met"
+  ex_code = "BD"
 elsif essette_sub_class == "Transplant" && status == "Approved" && status_reason == "Inpatient"
   ex_code = "BE"
 elsif essette_sub_class == "Transplant" && status == "Approved" && status_reason == "Medical Criteria Met"
@@ -507,6 +509,8 @@ elsif essette_sub_class == "Inpatient" && status == "Post Approval Change" && st
   ex_code = "BE"
 elsif essette_sub_class == "Inpatient" && status == "Post Approval Change" && status_reason == "Withdrawn"
   ex_code = "BL"
+elsif essette_sub_class == "Inpatient" && status == "Post Approval Change" && status_reason == "Inpatient"
+  ex_code = "BE"
 elsif essette_sub_class == "Inpatient Rehabilitation" && status == "Post Approval Change" && status_reason == "Date Change"
   ex_code = "BF"
 elsif essette_sub_class == "Inpatient Rehabilitation" && status == "Post Approval Change" && status_reason == "Provider Change"
@@ -534,6 +538,8 @@ elsif essette_sub_class == "IP Substance Abuse" && status == "Post Approval Chan
 elsif essette_sub_class == "IP Substance Abuse" && status == "Post Approval Change" && status_reason == "Procedure Change"
   ex_code = "BE"
 elsif essette_sub_class == "IP Substance Abuse" && status == "Post Approval Change" && status_reason == "Readmission"
+  ex_code = "BE"
+elsif essette_sub_class == "IP Substance Abuse" && status == "Post Approval Change" && status_reason == "Withdrawn"
   ex_code = "BE"
 elsif essette_sub_class == "Long Term Acute Care Hospital" && status == "Post Approval Change" && status_reason == "Withdrawn"
   ex_code = "BL"
@@ -579,9 +585,9 @@ elsif essette_sub_class == "Observation" && status == "Post Approval Change" && 
   ex_code = "PS"
 elsif essette_sub_class == "Observation" && status == "Post Approval Change" && status_reason == "Withdrawn"
   ex_code = "BL"
+elsif essette_sub_class == "Observation" && status == "Post Approval Change" && status_reason == "Observation"
+  ex_code = "PS"
 elsif essette_sub_class == "Observation" && status == "Post Denial Change" && status_reason == "Withdrawn"
-  ex_code = "BE"
-elsif essette_sub_class == "Inpatient" && status == "Reopen Approved" && status_reason == ""
   ex_code = "BE"
 elsif essette_sub_class == "Inpatient Rehabilitation" && status == "Reopen Approved" && status_reason == ""
   ex_code = "BF"
@@ -1556,6 +1562,8 @@ elsif essette_sub_class == "Skilled Nursing Facility" && status == "Reopen Denie
             ex_code = "9A"
           elsif essette_sub_class == "Skilled Nursing Facility" && status == "Approved" && status_reason == "Secondary Only"
             ex_code = "BD"
+          elsif essette_sub_class == "Skilled Nursing Facility" && status == "Approved" && status_reason == "Medical Criteria Met"
+            ex_code = "BD"
           end
   screen_image = "#{$image_directory}" + "#{page}" + "\\" + "#{element}" + ".PNG"
   begin
@@ -1647,6 +1655,8 @@ elsif essette_sub_class == "Skilled Nursing Facility" && status == "Approved" &&
 elsif essette_sub_class == "Skilled Nursing Facility" && status == "Approved" && status_reason == "Pending Admission"
   ex_code = "9A"
 elsif essette_sub_class == "Skilled Nursing Facility" && status == "Approved" && status_reason == "Secondary Only"
+  ex_code = "BD"
+elsif essette_sub_class == "Skilled Nursing Facility" && status == "Approved" && status_reason == "Medical Criteria Met"
   ex_code = "BD"
 elsif essette_sub_class == "Transplant" && status == "Approved" && status_reason == "Inpatient"
   ex_code = "BE"
@@ -3149,6 +3159,10 @@ When /^I input the alternate procedure codes if there are any$/ do
       quantity_approved = $quantity_approved.shift
       steps %Q{
         And the test pauses for "3" seconds
+        And in the "Functions Menu" page I click on "Authorized Svcs"
+      	And the test pauses for "3" seconds
+      	And in the "authorized_services" page I should see the "amounts_and_dates" image
+      	And the test pauses for "3" seconds
         And I press "Control + N"
         And the test pauses for "5" seconds
     	  And in the "authorized_services" page I should see the "how_many_requested" image
@@ -3166,6 +3180,11 @@ When /^I input the alternate procedure codes if there are any$/ do
         And in the "authorized_services" page I enter "#{$primary_diagnosis_code}" into the "diag_number_2" image
     	  And in the "authorized_services" page I click on the "save" image
         And the test pauses for "3" seconds
+        And I press "F8"
+        And the test pauses for "3" seconds
+        And I press "F8"
+        And the test pauses for "3" seconds
+        And I press ENTER graphically
       }
     end
   end
