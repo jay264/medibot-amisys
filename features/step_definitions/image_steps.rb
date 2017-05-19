@@ -297,6 +297,8 @@ elsif essette_sub_class == "Skilled Nursing Facility" && status == "Approved" &&
   ex_code = "9A"
 elsif essette_sub_class == "Skilled Nursing Facility" && status == "Approved" && status_reason == "Secondary Only"
   ex_code = "BD"
+elsif essette_sub_class == "Skilled Nursing Facility" && status == "Approved" && status_reason == "Medical Criteria Met"
+  ex_code = "BD"
 elsif essette_sub_class == "Transplant" && status == "Approved" && status_reason == "Inpatient"
   ex_code = "BE"
 elsif essette_sub_class == "Transplant" && status == "Approved" && status_reason == "Medical Criteria Met"
@@ -1560,6 +1562,8 @@ elsif essette_sub_class == "Skilled Nursing Facility" && status == "Reopen Denie
             ex_code = "9A"
           elsif essette_sub_class == "Skilled Nursing Facility" && status == "Approved" && status_reason == "Secondary Only"
             ex_code = "BD"
+          elsif essette_sub_class == "Skilled Nursing Facility" && status == "Approved" && status_reason == "Medical Criteria Met"
+            ex_code = "BD"
           end
   screen_image = "#{$image_directory}" + "#{page}" + "\\" + "#{element}" + ".PNG"
   begin
@@ -1651,6 +1655,8 @@ elsif essette_sub_class == "Skilled Nursing Facility" && status == "Approved" &&
 elsif essette_sub_class == "Skilled Nursing Facility" && status == "Approved" && status_reason == "Pending Admission"
   ex_code = "9A"
 elsif essette_sub_class == "Skilled Nursing Facility" && status == "Approved" && status_reason == "Secondary Only"
+  ex_code = "BD"
+elsif essette_sub_class == "Skilled Nursing Facility" && status == "Approved" && status_reason == "Medical Criteria Met"
   ex_code = "BD"
 elsif essette_sub_class == "Transplant" && status == "Approved" && status_reason == "Inpatient"
   ex_code = "BE"
