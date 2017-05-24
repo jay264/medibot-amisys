@@ -22,7 +22,7 @@
 	And in the "Certification" page I use the sub-class "<sub_class>" to determine what to enter into the "Auth Type" field
 	And in the "Certification" page I save the "<service_code>" service codes
 	And the test pauses for "2" seconds
-	And in the "certification" page I use the status reason "<status_reason>" to determine what to enter into the "ex" image and save the variable
+	And in the "certification" page I use the sub class "<sub_class>" and the status "<status>" and the status reason "<status_reason>" to determine what to enter into the "ex" image and save the variable
 	And the test pauses for "2" seconds
 	And I press "Control + S"
 	And the test pauses for "3" seconds
@@ -113,16 +113,24 @@
 	And in the "authorized_services" page I enter the first service code into the "proc_number" image
 	And the test pauses for "2" seconds
 	And in the "authorized_services" page I enter the primary diagnosis code into the "diag_number_2" image
-	And in the "authorized_services" page I use the status reason "<status_reason>" to determine what to enter into the "ex" image
+	And in the "authorized_services" page I use the sub class "<sub_class>" and the status "<status>" and the status reason "<status_reason>" to determine what to enter into the "ex" image
 	And the test pauses for "2" seconds
 	And in the "authorized_services" page I click on the "save" image
 	And the test pauses for "10" seconds
+	And I press "F8"
+	And the test pauses for "3" seconds
+	And I press "F8"
+	And the test pauses for "3" seconds
+	And I press ENTER graphically
+	And the test pauses for "3" seconds
 
 	And I input the alternate procedure codes if there are any
 
 	And the test pauses for "4" seconds
 	And I press "F8"
 	And the test pauses for "4" seconds
+	And I press ENTER graphically
+	And the test pauses for "3" seconds
 
 	And in the "Functions Menu" page I click on "Remarks"
 	And in the "remarks_maintenance" page I should see the "remarks_maintenance" image

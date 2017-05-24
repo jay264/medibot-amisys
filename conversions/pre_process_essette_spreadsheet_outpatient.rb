@@ -8,7 +8,7 @@ def open_files
   @logfile = File.open("processed_#{@essette_spreadsheet}_log.txt", "w")
   book1 = Spreadsheet.open "#{@essette_spreadsheet}.xls"
   @logfile.write "\n" + "Opened spreadsheet " + @essette_spreadsheet.to_s
-  @essette_translated = book1.worksheet 'NEWEssetteDailyExtractReport-Ou'
+  @essette_translated = book1.worksheet 0
   @logfile.write "\n" + "Added the spreadsheet to a book in the worksheet"
   #@new_feature_file_essette = File.open("processed_essette_#{@essette_spreadsheet}.feature","w")
   @logfile.write "\n" + "Opened a new feature file for the spreadsheet data"
@@ -152,10 +152,10 @@ end
 def save_row_2_info (row)
   @logfile.write "\n" + "Saving Row 2 Info " + row.to_s
   if @first_auth_status == "YES"
-    @holding_diagnosis_codes = row[4].to_s
+    @holding_diagnosis_codes = row[4].to_s.gsub('.0', '')
     @first_auth_status = "NO"
   else
-    @holding_diagnosis_codes << ", " + row[4].to_s
+    @holding_diagnosis_codes << ", " + row[4].to_s.gsub('.0', '')
   end
   row[4] = @holding_diagnosis_codes
   if !row[7].nil?
