@@ -126,9 +126,9 @@ And the test pauses for "3" seconds
 	And the test pauses for "3" seconds
 	And in the "authorized_services" page I enter "<auth_discharge_date>" into the "dates_end_approved" image
 	And the test pauses for "3" seconds
-	And in the "authorized_services" page I subtract the auth admission date "<auth_admission_date>" from the auth discharge date "<auth_discharge_date>" and put the result in the "how_many_requested" image
+	And in the "authorized_services" page I subtract the auth admission date "<auth_admission_date>" from the auth discharge date "<auth_discharge_date>" and put the result plus 1 in the "how_many_requested" image
   And the test pauses for "3" seconds
-	And in the "authorized_services" page I subtract the auth admission date "<auth_admission_date>" from the auth discharge date "<auth_discharge_date>" and put the result in the "how_many_authorized" image
+	And in the "authorized_services" page I subtract the auth admission date "<auth_admission_date>" from the auth discharge date "<auth_discharge_date>" and put the result plus 1 in the "how_many_authorized" image
   And the test pauses for "3" seconds
 
 	And in the "authorized_services" page I enter "31" into the "location" image
