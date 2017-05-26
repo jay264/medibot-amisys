@@ -3815,7 +3815,7 @@ When /^in the "([^"]*)" page I subtract the auth admission date "([^"]*)" from t
   mm2 = lastdate[0,2].to_i
   dd2 = lastdate[2,2].to_i
   lastdate_formatted = Date.new(yyyy2, mm2, dd2)
-  value = ()(lastdate_formatted - firstdate_formatted).to_i) + 1
+  value = ((lastdate_formatted - firstdate_formatted).to_i) + 1
   begin
     @screen.wait "#{screen_image}", 30
     if @screen.exists "#{screen_image}"
