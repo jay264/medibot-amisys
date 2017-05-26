@@ -3803,7 +3803,7 @@ When /^in the "([^"]*)" page I subtract the auth admission date "([^"]*)" from t
   end
 end
 
-When /^in the "([^"]*)" page I subtract the auth admission date "([^"]*)" from the auth discharge date "([^"]*)" and put the result  plus 1 in the "([^"]*)" image$/ do |page, auth_admission_date, auth_discharge_date, element|
+When /^in the "([^"]*)" page I subtract the auth admission date "([^"]*)" from the auth discharge date "([^"]*)" and put the result plus 1 in the "([^"]*)" image$/ do |page, auth_admission_date, auth_discharge_date, element|
   screen_image = "#{$image_directory}" + "#{page}" + "\\" + "#{element}" + ".PNG"
   firstdate = auth_admission_date
   yyyy1 = firstdate[4,4].to_i
