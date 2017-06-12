@@ -106,6 +106,8 @@
 	And the test pauses for "3" seconds
 	And I copy the provider number to the clipboard and save the variable
 	And the test pauses for "3" seconds
+	And in the "hospital_services" page I use the sub class "<sub_class>" and the status "<status>" and the status reason "<status_reason>" to determine what to enter into the "ex_new" image
+	And the test pauses for "3" seconds
 	And in the "hospital_services" page I click on the "save" image
 	And the test pauses for "5" seconds
 	And I press "F8"
@@ -126,12 +128,13 @@
 	And in the "authorized_services" page I enter "<auth_admission_date>" into the "dates_begin_approved" image
 	And the test pauses for "2" seconds
 
-	And in the "authorized_services" page I subtract the auth admission date "<auth_admission_date>" from the auth discharge date "<auth_discharge_date>" and put the result plus 1 in the "how_many_authorized" image
+	And in the "authorized_services" page I subtract the auth admission date "<auth_admission_date>" from the auth discharge date "<auth_discharge_date>" and put the result in the "how_many_authorized" image
 	And the test pauses for "2" seconds
-	And in the "authorized_services" page I subtract the auth admission date "<auth_admission_date>" from the auth discharge date "<auth_discharge_date>" and put the result plus 1 in the "how_many_requested" image
+	And in the "authorized_services" page I subtract the auth admission date "<auth_admission_date>" from the auth discharge date "<auth_discharge_date>" and put the result in the "how_many_requested" image
 	And the test pauses for "2" seconds
 
-	And I use the sub class "<sub_class>" to determine what location to enter into the location image
+	#And I use the sub class "<sub_class>" to determine what location to enter into the location image
+	And in the "authorized_services" page I enter "21" into the "location" image
 	And the test pauses for "2" seconds
 	And in the "authorized_services" page I use the sub-class "<sub_class>" to determine what to enter into the "auth_type_ar" image and save the variable
 	And the test pauses for "2" seconds
