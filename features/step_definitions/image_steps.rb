@@ -31,6 +31,32 @@ When /^in the "([^"]*)" page I enter "([^"]*)" into the "([^"]*)" image$/ do |pa
   end
 end
 
+When /^in the "([^"]*)" page I enter "([^"]*)" into the "([^"]*)" image and convert the dollar amount$/ do |page, value, element|
+  screen_image = "#{$image_directory}" + "#{page}" + "\\" + "#{element}" + ".PNG"
+  begin
+    @screen.wait "#{screen_image}", 30
+    if @screen.exists "#{screen_image}"
+      @screen.click "#{screen_image}"
+      sleep (1)
+      value = value.gsub(".0", ".00")
+      value = value.gsub(".1", ".10")
+      value = value.gsub(".2", ".20")
+      value = value.gsub(".3", ".30")
+      value = value.gsub(".4", ".40")
+      value = value.gsub(".5", ".50")
+      value = value.gsub(".6", ".60")
+      value = value.gsub(".7", ".70")
+      value = value.gsub(".8", ".80")
+      value = value.gsub(".9", ".90")
+      value_array = value.scan(/./)
+      value_array.each do |character|
+        @screen.type character
+        sleep (0.15)
+      end
+    end
+  end
+end
+
 When /^in the "([^"]*)" page I enter the first element from "([^"]*)" into the "([^"]*)" image$/ do |page, value, element|
   element_array = value.split(', ')
   #element_array = element_array.reject(&:blank?)
