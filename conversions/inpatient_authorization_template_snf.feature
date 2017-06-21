@@ -104,6 +104,8 @@ And the test pauses for "3" seconds
 	And the test pauses for "3" seconds
 	And in the "provider_affiliation_list" page I click on the "return_lookup" image
 	And the test pauses for "3" seconds
+	And in the "hospital_services" page I use the SNF auth status "<status>" and the Essette sub class "<sub_class>" and the status reason "<status_reason>" to determine what to enter into the "ex_new" image
+	And the test pauses for "3" seconds
 	And I copy the provider number to the clipboard and save the variable
 	And the test pauses for "3" seconds
 	And in the "hospital_services" page I click on the "save" image
@@ -184,6 +186,10 @@ And the test pauses for "3" seconds
 	And in the "authorized_services" page I enter the primary diagnosis code into the "diag_number_2" image
 	And in the "authorized_services" page I use the SNF auth status "<status>" and the Essette sub class "<sub_class>" and the status reason "<status_reason>" to determine what to enter into the "ex" image
 	And the test pauses for "2" seconds
+	And in the "authorized_services" page I enter "<service_code>" into the "proc_number" image
+	And the test pauses for "3" seconds
+	And in the "authorized_services" page I enter "<final_reimb_amt>" into the "amount_authorized" image and convert the dollar amount
+	And the test pauses for "3" seconds
 	And in the "authorized_services" page I click on the "save" image
 	And the test pauses for "10" seconds
 	And I press "F8"
