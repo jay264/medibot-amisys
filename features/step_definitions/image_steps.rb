@@ -40,17 +40,12 @@ When /^in the "([^"]*)" page if the "([^"]*)" equals R0022 I enter "([^"]*)" int
       if @screen.exists "#{screen_image}"
         @screen.click "#{screen_image}"
         sleep (1)
-        value = value.gsub(".0", ".00")
-        value = value.gsub(".1", ".10")
-        value = value.gsub(".2", ".20")
-        value = value.gsub(".3", ".30")
-        value = value.gsub(".4", ".40")
-        value = value.gsub(".5", ".50")
-        value = value.gsub(".6", ".60")
-        value = value.gsub(".7", ".70")
-        value = value.gsub(".8", ".80")
-        value = value.gsub(".9", ".90")
-        value_array = value.scan(/./)
+        if value.match(/^\d+(\.\d{1,1})?$/)
+          value = value.to_f * 10
+        elsif value.match(/^\d+(\.\d{1,2})?$/)
+          value = value
+        end
+        value_array = value.to_s.scan(/./)
         value_array.each do |character|
           @screen.type character
           sleep (0.15)
