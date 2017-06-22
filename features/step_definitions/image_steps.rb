@@ -32,6 +32,7 @@ When /^in the "([^"]*)" page I enter "([^"]*)" into the "([^"]*)" image$/ do |pa
 end
 
 When /^in the "([^"]*)" page if the "([^"]*)" equals R0022 I enter "([^"]*)" into the "([^"]*)" image and convert the dollar amount$/ do |page, service_code, value, element|
+  puts "Service Code = " + service_code
   if service_code == "R0022"
     screen_image = "#{$image_directory}" + "#{page}" + "\\" + "#{element}" + ".PNG"
     begin
