@@ -188,7 +188,7 @@ And the test pauses for "3" seconds
 	And the test pauses for "2" seconds
 	And in the "authorized_services" page I enter "<service_code>" into the "proc_number" image
 	And the test pauses for "3" seconds
-	And in the "authorized_services" page I enter "<final_reimb_amt>" into the "amount_authorized" image and convert the dollar amount
+	And in the "authorized_services" page if the "<service_code>" equals R0022 I enter "<final_reimb_amt>" into the "amount_authorized" image and convert the dollar amount
 	And the test pauses for "3" seconds
 	And in the "authorized_services" page I click on the "save" image
 	And the test pauses for "10" seconds
