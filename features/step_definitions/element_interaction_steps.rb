@@ -200,6 +200,8 @@ end
 When /^in the "([^"]*)" page I use the sub class "([^"]*)" and the status "([^"]*)" and the status reason "([^"]*)" to determine what to enter into the "([^"]*)" field$/ do |page, essette_sub_class, status, status_reason, element|
 if essette_sub_class == "Inpatient" && status == "Approved" && status_reason == "ACO"
   ex_code = "PZ"
+elsif essette_sub_class == "Inpatient" && status == "Approved" && status_reason == "ACO - Atrial Fib"
+  ex_code = "PZ"
 elsif essette_sub_class == "Inpatient" && status == "Approved" && status_reason == "Case Rate"
   ex_code = "9A"
 elsif essette_sub_class == "Inpatient" && status == "Approved" && status_reason == "Clinical Trial"
