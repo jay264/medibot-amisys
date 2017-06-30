@@ -178,7 +178,7 @@ case modality
     sorted_modality = "OP"
   when "Radiology (HH)"
     sorted_modality = "RB"
-  when "Transplant"
+  when "Transplant Eval"
     sorted_modality = "TP"
   when "Inpatient"
     sorted_modality = "IP"
@@ -1591,7 +1591,6 @@ end
 When /^in the "([^"]*)" page I save the "([^"]*)" service codes$/ do |page, text|
   if !text.empty?
     #get_element(page, element)
-    #puts "text = " + text.to_s
     $service_codes = Array.new
 	  $service_codes = text.split ", "
 	  #text = $service_codes.shift

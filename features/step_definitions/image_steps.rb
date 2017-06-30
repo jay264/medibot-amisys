@@ -2932,8 +2932,6 @@ end
 
 
 When /^in the "([^"]*)" page I use the sub-class "([^"]*)" to determine what to enter into the "([^"]*)" image and save the variable$/ do |page, modality, element|
-puts "Modality = " + modality
-puts "Is it PAR = " + $is_it_par
   if $is_it_par == "YES" && $auth_class == "Inpatient"
     case modality
     when "Cardiology (HH)"
