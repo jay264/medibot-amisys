@@ -2932,6 +2932,8 @@ end
 
 
 When /^in the "([^"]*)" page I use the sub-class "([^"]*)" to determine what to enter into the "([^"]*)" image and save the variable$/ do |page, modality, element|
+puts "Modality = " + modality
+puts "Is it PAR = " + $is_it_par
   if $is_it_par == "YES" && $auth_class == "Inpatient"
     case modality
     when "Cardiology (HH)"
@@ -2976,7 +2978,7 @@ When /^in the "([^"]*)" page I use the sub-class "([^"]*)" to determine what to 
     when "Radiology (HH)"
       sorted_modality = "RB"
       $auth_type_global = "RB"
-    when "Transplant"
+    when "Transplant Eval"
       sorted_modality = "TP"
       $auth_type_global = "TP"
     when "Inpatient"
@@ -3043,7 +3045,7 @@ When /^in the "([^"]*)" page I use the sub-class "([^"]*)" to determine what to 
     when "Radiology (HH)"
       sorted_modality = "XO"
       $auth_type_global = "XO"
-    when "Transplant"
+    when "Transplant Eval"
       sorted_modality = "TY"
       $auth_type_global = "TY"
     when "Inpatient"
@@ -3110,7 +3112,7 @@ When /^in the "([^"]*)" page I use the sub-class "([^"]*)" to determine what to 
     when "Radiology (HH)"
       sorted_modality = "RB"
       $auth_type_global = "RB"
-    when "Transplant"
+    when "Transplant Eval"
       sorted_modality = "TP"
       $auth_type_global = "TP"
     when "Inpatient"
@@ -3177,7 +3179,7 @@ When /^in the "([^"]*)" page I use the sub-class "([^"]*)" to determine what to 
     when "Radiology (HH)"
       sorted_modality = "XO"
       $auth_type_global = "XO"
-    when "Transplant"
+    when "Transplant Eval"
       sorted_modality = "TY"
       $auth_type_global = "TY"
     when "Inpatient"
