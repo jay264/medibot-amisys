@@ -926,6 +926,8 @@ def determine_ex_code (essette_sub_class, status, status_reason)
     ex_code = "A7"
   elsif essette_sub_class == "Transplant Eval" && status == "Approved" && status_reason == "Transplant Evaluation"
     ex_code = "AB"
+  elsif essette_sub_class == "Transplant Eval" && status == "Approved" && status_reason == "Medical Criteria Met"
+    ex_code = "A1"
   elsif essette_sub_class == "Cardiology (HH)" && status == "Denied" && status_reason == "Administration Denial"
     ex_code = "9A"
   elsif essette_sub_class == "Cardiology (HH)" && status == "Denied" && status_reason == "Member Not Eligible"
