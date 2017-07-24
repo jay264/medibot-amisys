@@ -316,6 +316,8 @@ elsif essette_sub_class == "Skilled Nursing Facility" && status == "Reopen Denie
             ex_code = "BD"
           elsif essette_sub_class == "Skilled Nursing Facility" && status == "Approved" && status_reason == "Medical Criteria Met"
             ex_code = "BD"
+          elsif essette_sub_class == "Skilled Nursing Facility" && status == "Denied Skilled - Pay Unskilled" && status_reason == ""
+            ex_code = "NF"
           end
   screen_image = "#{$image_directory}" + "#{page}" + "\\" + "#{element}" + ".PNG"
   begin
