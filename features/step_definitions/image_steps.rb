@@ -362,8 +362,6 @@ def determine_ex_code (essette_sub_class, status, status_reason)
     ex_code = "NL"
   elsif essette_sub_class == "Inpatient" && status == "Approved" && status_reason == "Clinical Trial"
     ex_code = "A6"
-  elsif essette_sub_class == "Inpatient" && status == "Approved" && status_reason == "EIS"
-    ex_code = "PZ"
   elsif essette_sub_class == "Inpatient" && status == "Approved" && status_reason == "Inpatient"
     ex_code = "BE"
   elsif essette_sub_class == "Inpatient" && status == "Approved" && status_reason == "Medical Criteria Met"
