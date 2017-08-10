@@ -103,7 +103,7 @@ And the test pauses for "3" seconds
 	And I press ENTER graphically
 	And the test pauses for "3" seconds
 	And in the "provider_affiliation_list" page I click on the "return_lookup" image
-	And the test pauses for "3" seconds
+	And the test pauses for "5" seconds
 	And in the "hospital_services" page I use the SNF auth status "<status>" and the Essette sub class "<sub_class>" and the status reason "<status_reason>" to determine what to enter into the "ex_new" image
 	And the test pauses for "3" seconds
 	And I copy the provider number to the clipboard and save the variable
