@@ -19,6 +19,7 @@ SEVEN HILLS WOMEN'S HEALTH CENTERS tax_id added Old value:  New value: 311575051
 SEVEN HILLS WOMEN'S HEALTH CENTERS group_name added Old value:  New value: SEVEN HILLS OB/GYN ASSOCIATES INC.
 SEVEN HILLS WOMEN'S HEALTH CENTERS accept_new_medicare_patients_flag added Old value:  New value: 1
 NPI type 1:  NPI type 2: 1609856525 Tax ID: 311575051 Currently practicing flag: 0 address 1: 2245 BAUER RD address 2:  city: BATAVIA state:  OH zip code: 451031977 accept new medicare: 1 phone: 5132313447 fax: 5132313761 email: pgoforth@shwhc.com
+Writing to Cucumber file...
 Closing out provider entry
 1
 Starting a new provider entry
@@ -27,6 +28,7 @@ Starting a new provider entry
 Change status: changed
 InPatient Consultants of Ohio, Inc.
 NPI type 1:  NPI type 2: 1609856525 Tax ID: 311575051 Currently practicing flag: 0 address 1: 2245 BAUER RD address 2:  city: BATAVIA state:  OH zip code: 451031977 accept new medicare: 1 phone: 5132313447 fax: 5132313761 email: pgoforth@shwhc.com
+Writing to Cucumber file...
 Closing out provider entry
 2
 Starting a new provider entry
@@ -38,6 +40,7 @@ Seven Hills Women's Health Centers address2 changed Old value: STE 403 New value
 Seven Hills Women's Health Centers city changed Old value: Cincinnati New value: CINCINNATI
 Seven Hills Women's Health Centers zip_code changed Old value: 45242 New value: 452424400
 NPI type 1:  NPI type 2: 1609856525 Tax ID: 311575051 Currently practicing flag: 0 address 1: 2245 BAUER RD address 2: STE 504 city: CINCINNATI state:  OH zip code: 452424400 accept new medicare: 1 phone: 5132313447 fax: 5132313761 email: pgoforth@shwhc.com
+Writing to Cucumber file...
 Closing out provider entry
 3
 Starting a new provider entry
@@ -50,6 +53,7 @@ Batesville Urology address2 changed Old value: 24 Six Pine Ranch Road New value:
 Batesville Urology city changed Old value: Batesville New value: BATESVILLE
 Batesville Urology zip_code changed Old value: 47006 New value: 470060066
 NPI type 1:  NPI type 2: 1609856525 Tax ID: 311575051 Currently practicing flag: 0 address 1: PO BOX 66 address 2: 24 SIX PINE RANCH ROAD city: BATESVILLE state:  OH zip code: 470060066 accept new medicare: 1 phone: 5132313447 fax: 5132313761 email: pgoforth@shwhc.com
+Writing to Cucumber file...
 Closing out provider entry
 4
 Starting a new provider entry
@@ -61,6 +65,7 @@ Central Ohio Primary Care Physicians Inc address1 changed Old value: 3555 Olenta
 Central Ohio Primary Care Physicians Inc address2 changed Old value: Suite 1080 New value: STE 1080
 Central Ohio Primary Care Physicians Inc city changed Old value: Columbus New value: COLUMBUS
 NPI type 1:  NPI type 2: 1609856525 Tax ID: 311575051 Currently practicing flag: 0 address 1: 3555 OLENTANGY RIVER RD address 2: STE 1080 city: COLUMBUS state:  OH zip code: 470060066 accept new medicare: 1 phone: 5132313447 fax: 5132313761 email: pgoforth@shwhc.com
+Writing to Cucumber file...
 Closing out provider entry
 5
 Starting a new provider entry
@@ -81,6 +86,7 @@ Dayton Physicians, LLC  fax_number added Old value:  New value: 9372456308
 Dayton Physicians, LLC  tax_id added Old value:  New value: 203130844
 Dayton Physicians, LLC  accept_new_medicare_patients_flag added Old value:  New value: 1
 NPI type 1:  NPI type 2: 1902844947 Tax ID: 203130844 Currently practicing flag: 1 address 1: 4940 COTTONVILLE RD address 2: STE 600 city: JAMESTOWN state:  OH zip code: 453351522 accept new medicare: 1 phone: 9372931622 fax: 9372456308 email: apanstingel@daytonphysicians.com
+Writing to Cucumber file...
 Closing out provider entry
 6
 Starting a new provider entry
@@ -89,6 +95,7 @@ Starting a new provider entry
 Change status: changed
 PrimaryOne Health
 NPI type 1:  NPI type 2: 1902844947 Tax ID: 203130844 Currently practicing flag: 1 address 1: 4940 COTTONVILLE RD address 2: STE 600 city: JAMESTOWN state:  OH zip code: 453351522 accept new medicare: 1 phone: 9372931622 fax: 9372456308 email: apanstingel@daytonphysicians.com
+Writing to Cucumber file...
 Closing out provider entry
 7
 Starting a new provider entry
@@ -101,6 +108,7 @@ Change status: changed
  Mount Carmel Columbus Cardiology Consultants city changed Old value: Columbus New value: COLUMBUS
  Mount Carmel Columbus Cardiology Consultants zip_code changed Old value: 43213 New value: 432135112
 NPI type 1:  NPI type 2: 1902844947 Tax ID: 203130844 Currently practicing flag: 1 address 1: 85 MCNAUGHTEN RD address 2: STE 300 city: COLUMBUS state:  OH zip code: 432135112 accept new medicare: 1 phone: 9372931622 fax: 9372456308 email: apanstingel@daytonphysicians.com
+Writing to Cucumber file...
 Closing out provider entry
 8
 Starting a new provider entry
@@ -113,6 +121,7 @@ Clermont Internists Associates, Inc. address2 changed Old value: Suite 300 New v
 Clermont Internists Associates, Inc. city changed Old value: Batavia New value: BATAVIA
 Clermont Internists Associates, Inc. zip_code changed Old value: 45103 New value: 451031981
 NPI type 1:  NPI type 2: 1902844947 Tax ID: 203130844 Currently practicing flag: 1 address 1: 2055 HOSPITAL DR address 2: STE 300 city: BATAVIA state:  OH zip code: 451031981 accept new medicare: 1 phone: 9372931622 fax: 9372456308 email: apanstingel@daytonphysicians.com
+Writing to Cucumber file...
 Closing out provider entry
 9
 Starting a new provider entry
@@ -125,6 +134,7 @@ The Christ Hospital Medical Assoiates II address2 changed Old value: Suite D New
 The Christ Hospital Medical Assoiates II city changed Old value: Ft. Wright New value: FT WRIGHT
 The Christ Hospital Medical Assoiates II zip_code changed Old value: 41011 New value: 410112882
 NPI type 1:  NPI type 2: 1902844947 Tax ID: 203130844 Currently practicing flag: 1 address 1: 1955 DIXIE HWY address 2: STE D city: FT WRIGHT state:  OH zip code: 410112882 accept new medicare: 1 phone: 9372931622 fax: 9372456308 email: apanstingel@daytonphysicians.com
+Writing to Cucumber file...
 Closing out provider entry
 10
 Starting a new provider entry
@@ -137,6 +147,7 @@ SEVEN HILLS WOMEN'S HEALTH CENTERS address2 changed Old value: Ste 403 New value
 SEVEN HILLS WOMEN'S HEALTH CENTERS city changed Old value: Cincinnati New value: CINCINNATI
 SEVEN HILLS WOMEN'S HEALTH CENTERS zip_code changed Old value: 45242 New value: 452424400
 NPI type 1:  NPI type 2: 1902844947 Tax ID: 203130844 Currently practicing flag: 1 address 1: 10506 MONTGOMERY RD address 2: STE 504 city: CINCINNATI state:  OH zip code: 452424400 accept new medicare: 1 phone: 9372931622 fax: 9372456308 email: apanstingel@daytonphysicians.com
+Writing to Cucumber file...
 Closing out provider entry
 11
 Starting a new provider entry
@@ -157,6 +168,7 @@ Dayton Physicians, LLC  fax_number added Old value:  New value: 9372808373
 Dayton Physicians, LLC  tax_id added Old value:  New value: 203130844
 Dayton Physicians, LLC  accept_new_medicare_patients_flag added Old value:  New value: 1
 NPI type 1:  NPI type 2: 1902844947 Tax ID: 203130844 Currently practicing flag: 1 address 1: 4940 COTTONVILLE RD address 2: STE 600 city: JAMESTOWN state:  OH zip code: 453351522 accept new medicare: 1 phone: 9372931622 fax: 9372808373 email: apanstingel@daytonphysicians.com
+Writing to Cucumber file...
 Closing out provider entry
 12
 Starting a new provider entry
@@ -169,6 +181,7 @@ Nephrology Associates of Dayton Inc. address2 changed Old value: Suite 201 New v
 Nephrology Associates of Dayton Inc. city changed Old value: Englewood New value: ENGLEWOOD
 Nephrology Associates of Dayton Inc. zip_code changed Old value: 45515 New value: 454151185
 NPI type 1:  NPI type 2: 1902844947 Tax ID: 203130844 Currently practicing flag: 1 address 1: 9000 N MAIN ST address 2: STE 328 city: ENGLEWOOD state:  OH zip code: 454151185 accept new medicare: 1 phone: 9372931622 fax: 9372808373 email: apanstingel@daytonphysicians.com
+Writing to Cucumber file...
 Closing out provider entry
 13
 Starting a new provider entry
@@ -182,6 +195,7 @@ CAPE FEAR VALLEY CARDIOVASCULAR & THORACIC SURGERY fax_number deleted Old value:
 CAPE FEAR VALLEY CARDIOVASCULAR & THORACIC SURGERY tax_id changed Old value: 562133831 New value: 560845796
 CAPE FEAR VALLEY CARDIOVASCULAR & THORACIC SURGERY group_name changed Old value: Cardiac Surgery New value: CAPE FEAR VALLEY CARDIOVASCULAR & THORACIC SURGERY
 NPI type 1:  NPI type 2: 1386084671 Tax ID: 560845796 Currently practicing flag: 1 address 1: 9000 N MAIN ST address 2: STE 328 city: ENGLEWOOD state:  OH zip code: 454151185 accept new medicare: 1 phone: 9106154000 fax:  email: apanstingel@daytonphysicians.com
+Writing to Cucumber file...
 Closing out provider entry
 14
 Starting a new provider entry
@@ -193,6 +207,7 @@ Greene Memorial Hospital, Inc. (Community Physicians of Yellow Springs) address1
 Greene Memorial Hospital, Inc. (Community Physicians of Yellow Springs) city changed Old value: Yellow Springs New value: YELLOW SPGS
 Greene Memorial Hospital, Inc. (Community Physicians of Yellow Springs) zip_code changed Old value: 453871121 New value: 453871777
 NPI type 1:  NPI type 2: 1386084671 Tax ID: 560845796 Currently practicing flag: 1 address 1: 888 DAYTON ST STE 200 address 2: STE 328 city: YELLOW SPGS state:  OH zip code: 453871777 accept new medicare: 1 phone: 9106154000 fax:  email: apanstingel@daytonphysicians.com
+Writing to Cucumber file...
 Closing out provider entry
 15
 Starting a new provider entry
@@ -203,6 +218,7 @@ Orthopedic & Neurological Consultants, Inc
 Orthopedic & Neurological Consultants, Inc npi_type_2 added Old value:  New value: 1063507226
 Orthopedic & Neurological Consultants, Inc npi_type_2 added Old value:  New value: 1063507226
 NPI type 1:  NPI type 2: 1063507226 Tax ID: 560845796 Currently practicing flag: 1 address 1: 888 DAYTON ST STE 200 address 2: STE 328 city: YELLOW SPGS state:  OH zip code: 453871777 accept new medicare: 1 phone: 9106154000 fax:  email: apanstingel@daytonphysicians.com
+Writing to Cucumber file...
 Closing out provider entry
 16
 Starting a new provider entry
@@ -211,6 +227,7 @@ Starting a new provider entry
 Change status: changed
 PrimaryOne Health
 NPI type 1:  NPI type 2: 1063507226 Tax ID: 560845796 Currently practicing flag: 1 address 1: 888 DAYTON ST STE 200 address 2: STE 328 city: YELLOW SPGS state:  OH zip code: 453871777 accept new medicare: 1 phone: 9106154000 fax:  email: apanstingel@daytonphysicians.com
+Writing to Cucumber file...
 Closing out provider entry
 17
 Starting a new provider entry
@@ -252,6 +269,7 @@ A T Tamboli MD Inc address2 changed Old value: Route 332 New value: ROUTE 332
 A T Tamboli MD Inc city changed Old value: Carrolton New value: CARROLLTON
 A T Tamboli MD Inc zip_code changed Old value: 44615 New value: 446158521
 NPI type 1:  NPI type 2: 1063507226 Tax ID: 560845796 Currently practicing flag: 1 address 1: 222 SCIO RD SE address 2: ROUTE 332 city: CARROLLTON state:  OH zip code: 446158521 accept new medicare: 1 phone: 9106154000 fax:  email: apanstingel@daytonphysicians.com
+Writing to Cucumber file...
 Closing out provider entry
 18
 Starting a new provider entry
@@ -263,6 +281,7 @@ Mount Carmel Health System address1 changed Old value: 793 W State St New value:
 Mount Carmel Health System city changed Old value: Columbus New value: COLUMBUS
 Mount Carmel Health System zip_code changed Old value: 43222 New value: 432221551
 NPI type 1:  NPI type 2: 1063507226 Tax ID: 560845796 Currently practicing flag: 1 address 1: 793 W STATE ST address 2: ROUTE 332 city: COLUMBUS state:  OH zip code: 432221551 accept new medicare: 1 phone: 9106154000 fax:  email: apanstingel@daytonphysicians.com
+Writing to Cucumber file...
 Closing out provider entry
 19
 Starting a new provider entry
@@ -292,6 +311,7 @@ Digestive Specialists Inc city changed Old value: Huber Heights New value: HUBER
 Digestive Specialists Inc zip_code changed Old value: 45424 New value: 454243239
 Digestive Specialists Inc email_address changed Old value: lfowler@digestivespecialists.com New value: jservis@digestivespecialists.com
 NPI type 1:  NPI type 2: 1063507226 Tax ID: 560845796 Currently practicing flag: 1 address 1: 7415 BRANDT PIKE address 2: STE 101 city: HUBER HEIGHTS state:  OH zip code: 454243239 accept new medicare: 1 phone: 9106154000 fax:  email: jservis@digestivespecialists.com
+Writing to Cucumber file...
 Closing out provider entry
 20
 Starting a new provider entry
@@ -303,6 +323,7 @@ Delaware Chiropractic, LLC address1 changed Old value: 104 W William St New valu
 Delaware Chiropractic, LLC city changed Old value: Delaware New value: DELAWARE
 Delaware Chiropractic, LLC zip_code changed Old value: 43015 New value: 430152305
 NPI type 1:  NPI type 2: 1063507226 Tax ID: 560845796 Currently practicing flag: 1 address 1: 104 W WILLIAM ST address 2: STE 101 city: DELAWARE state:  OH zip code: 430152305 accept new medicare: 1 phone: 9106154000 fax:  email: jservis@digestivespecialists.com
+Writing to Cucumber file...
 Closing out provider entry
 21
 Starting a new provider entry
@@ -318,6 +339,7 @@ Orthopedic & Neurological Consultants, Inc. address1 changed Old value: 1313 Ole
 Orthopedic & Neurological Consultants, Inc. city changed Old value: Columbus New value: COLUMBUS
 Orthopedic & Neurological Consultants, Inc. zip_code changed Old value: 43212 New value: 432123120
 NPI type 1:  NPI type 2: 1063507226 Tax ID: 560845796 Currently practicing flag: 1 address 1: 1313 OLENTANGY RIVER RD address 2: STE 180 city: COLUMBUS state:  OH zip code: 432123120 accept new medicare: 1 phone: 9106154000 fax:  email: jservis@digestivespecialists.com
+Writing to Cucumber file...
 Closing out provider entry
 22
 Starting a new provider entry
@@ -326,6 +348,7 @@ Starting a new provider entry
 Change status: changed
 Muskingum Valley Health Centers
 NPI type 1:  NPI type 2: 1063507226 Tax ID: 560845796 Currently practicing flag: 1 address 1: 1313 OLENTANGY RIVER RD address 2: STE 180 city: COLUMBUS state:  OH zip code: 432123120 accept new medicare: 1 phone: 9106154000 fax:  email: jservis@digestivespecialists.com
+Writing to Cucumber file...
 Closing out provider entry
 23
 Starting a new provider entry
@@ -353,6 +376,7 @@ Digestive Specialists Inc address1 changed Old value: 77 W Eleanor Drive New val
 Digestive Specialists Inc city changed Old value: Springboro New value: SPRINGBORO
 Digestive Specialists Inc zip_code changed Old value: 45066 New value: 450661615
 NPI type 1:  NPI type 2: 1063507226 Tax ID: 560845796 Currently practicing flag: 1 address 1: 77 W ELEANOR DR address 2: STE 101 city: SPRINGBORO state:  OH zip code: 450661615 accept new medicare: 1 phone: 9106154000 fax:  email: jservis@digestivespecialsits.com
+Writing to Cucumber file...
 Closing out provider entry
 24
 Starting a new provider entry
@@ -361,6 +385,7 @@ Starting a new provider entry
 Change status: changed
 Marietta Health Care Physicians Inc
 NPI type 1:  NPI type 2: 1063507226 Tax ID: 560845796 Currently practicing flag: 1 address 1: 77 W ELEANOR DR address 2: STE 101 city: SPRINGBORO state:  OH zip code: 450661615 accept new medicare: 1 phone: 9106154000 fax:  email: jservis@digestivespecialsits.com
+Writing to Cucumber file...
 Closing out provider entry
 25
 Starting a new provider entry
@@ -380,6 +405,7 @@ Marietta Health Care Physicians, Inc. address2 changed Old value: Suite 204 New 
 Marietta Health Care Physicians, Inc. city changed Old value: Belpre New value: BELPRE
 Marietta Health Care Physicians, Inc. zip_code changed Old value: 45714 New value: 457141069
 NPI type 1:  NPI type 2: 1063507226 Tax ID: 560845796 Currently practicing flag: 1 address 1: 807 FARSON ST address 2: STE 204 city: BELPRE state:  OH zip code: 457141069 accept new medicare: 1 phone: 9106154000 fax:  email: jservis@digestivespecialsits.com
+Writing to Cucumber file...
 Closing out provider entry
 26
 Starting a new provider entry
@@ -398,6 +424,7 @@ The Christ Hospital Medical Associates, LLC address1 changed Old value: 2123 Aub
 The Christ Hospital Medical Associates, LLC city changed Old value: Cincinnati New value: CINCINNATI
 The Christ Hospital Medical Associates, LLC zip_code changed Old value: 45219 New value: 452192906
 NPI type 1:  NPI type 2: 1063507226 Tax ID: 560845796 Currently practicing flag: 1 address 1: 2123 AUBURN AVE address 2: STE 210 city: CINCINNATI state:  OH zip code: 452192906 accept new medicare: 1 phone: 9106154000 fax:  email: jservis@digestivespecialsits.com
+Writing to Cucumber file...
 Closing out provider entry
 27
 Starting a new provider entry
@@ -407,6 +434,7 @@ Change status: changed
 Shiloh Family Medicine
 Shiloh Family Medicine npi_type_2 changed Old value: 1053420612 New value: 1255526471
 NPI type 1:  NPI type 2: 1255526471 Tax ID: 560845796 Currently practicing flag: 1 address 1: 2123 AUBURN AVE address 2: STE 210 city: CINCINNATI state:  OH zip code: 452192906 accept new medicare: 1 phone: 9106154000 fax:  email: jservis@digestivespecialsits.com
+Writing to Cucumber file...
 Closing out provider entry
 28
 Starting a new provider entry
@@ -416,6 +444,7 @@ Change status: changed
 Digestive Specialists Inc.
 Digestive Specialists Inc. email_address changed Old value: lfowler@digestivespecialists.com New value: jservis@digestivespecialists.com
 NPI type 1:  NPI type 2: 1255526471 Tax ID: 560845796 Currently practicing flag: 1 address 1: 2123 AUBURN AVE address 2: STE 210 city: CINCINNATI state:  OH zip code: 452192906 accept new medicare: 1 phone: 9106154000 fax:  email: jservis@digestivespecialists.com
+Writing to Cucumber file...
 Closing out provider entry
 29
 Starting a new provider entry
@@ -425,6 +454,7 @@ Change status: changed
 SAS SURGERY & VEIN SPECIALISTS
 SAS SURGERY & VEIN SPECIALISTS zip_code changed Old value: 45504 New value: 455042581
 NPI type 1:  NPI type 2: 1255526471 Tax ID: 560845796 Currently practicing flag: 1 address 1: 2123 AUBURN AVE address 2: STE 210 city: CINCINNATI state:  OH zip code: 455042581 accept new medicare: 1 phone: 9106154000 fax:  email: jservis@digestivespecialists.com
+Writing to Cucumber file...
 Closing out provider entry
 30
 Starting a new provider entry
@@ -436,6 +466,7 @@ TriHealth G LLC dba Heritage Family Medicine address1 changed Old value: 435 Par
 TriHealth G LLC dba Heritage Family Medicine city changed Old value: Hamilton New value: HAMILTON
 TriHealth G LLC dba Heritage Family Medicine zip_code changed Old value: 450133035 New value: 450133053
 NPI type 1:  NPI type 2: 1255526471 Tax ID: 560845796 Currently practicing flag: 1 address 1: 435 PARK AVE address 2: STE 210 city: HAMILTON state:  OH zip code: 450133053 accept new medicare: 1 phone: 9106154000 fax:  email: jservis@digestivespecialists.com
+Writing to Cucumber file...
 Closing out provider entry
 31
 Starting a new provider entry
@@ -443,6 +474,7 @@ Starting a new provider entry
 12274569 Jessica  M  Patrich  1609159987
 Change status: changed
 NPI type 1:  NPI type 2: 1255526471 Tax ID: 560845796 Currently practicing flag: 1 address 1: 435 PARK AVE address 2: STE 210 city: HAMILTON state:  OH zip code: 450133053 accept new medicare: 1 phone: 9106154000 fax:  email: jservis@digestivespecialists.com
+Writing to Cucumber file...
 Closing out provider entry
 32
 Starting a new provider entry
@@ -472,6 +504,7 @@ Digestive Specialists Inc city changed Old value: Dayton New value: DAYTON
 Digestive Specialists Inc zip_code changed Old value: 45414 New value: 454143900
 Digestive Specialists Inc email_address changed Old value: lfowler@digestivespecialists.com New value: jservis@digestivespecialists.com
 NPI type 1:  NPI type 2: 1255526471 Tax ID: 560845796 Currently practicing flag: 1 address 1: 1530 NEEDMORE RD address 2: STE 101 city: DAYTON state:  OH zip code: 454143900 accept new medicare: 1 phone: 9106154000 fax: 9372972208 email: jservis@digestivespecialists.com
+Writing to Cucumber file...
 Closing out provider entry
 33
 Starting a new provider entry
@@ -501,6 +534,7 @@ Digestive Specialists Inc city changed Old value: Dayton New value: DAYTON
 Digestive Specialists Inc zip_code changed Old value: 45414 New value: 454143900
 Digestive Specialists Inc email_address changed Old value: lfowler@digestivespecialists.com New value: jservis@digestivespecialists.com
 NPI type 1:  NPI type 2: 1255526471 Tax ID: 560845796 Currently practicing flag: 1 address 1: 1530 NEEDMORE RD address 2: STE 101 city: DAYTON state:  OH zip code: 454143900 accept new medicare: 1 phone: 9106154000 fax: 9372972208 email: jservis@digestivespecialists.com
+Writing to Cucumber file...
 Closing out provider entry
 34
 Starting a new provider entry
@@ -513,6 +547,7 @@ Marietta Memorial Hospital address2 changed Old value: Dept of Internal/Geriatri
 Marietta Memorial Hospital city changed Old value: Belpre New value: BELPRE
 Marietta Memorial Hospital zip_code changed Old value: 45714 New value: 457141069
 NPI type 1:  NPI type 2: 1255526471 Tax ID: 560845796 Currently practicing flag: 1 address 1: 807 FARSON ST address 2: STE 201 city: BELPRE state:  OH zip code: 457141069 accept new medicare: 1 phone: 9106154000 fax: 9372972208 email: jservis@digestivespecialists.com
+Writing to Cucumber file...
 Closing out provider entry
 35
 Starting a new provider entry
@@ -525,6 +560,7 @@ Mount Carmel Columbus Cardiology Consultants address2 changed Old value: Suite 7
 Mount Carmel Columbus Cardiology Consultants city changed Old value: Columbus New value: COLUMBUS
 Mount Carmel Columbus Cardiology Consultants zip_code changed Old value: 43222 New value: 432221515
 NPI type 1:  NPI type 2: 1255526471 Tax ID: 560845796 Currently practicing flag: 1 address 1: 745 W STATE ST address 2: STE 750 city: COLUMBUS state:  OH zip code: 432221515 accept new medicare: 1 phone: 9106154000 fax: 9372972208 email: jservis@digestivespecialists.com
+Writing to Cucumber file...
 Closing out provider entry
 36
 Starting a new provider entry
@@ -535,6 +571,7 @@ Ohio Hospital for Psychiatry
 Ohio Hospital for Psychiatry address1 changed Old value: 880 Greenlawn Avenue New value: 880 GREENLAWN AVE
 Ohio Hospital for Psychiatry city changed Old value: Columbus New value: COLUMBUS
 NPI type 1:  NPI type 2: 1255526471 Tax ID: 560845796 Currently practicing flag: 1 address 1: 880 GREENLAWN AVE address 2: STE 750 city: COLUMBUS state:  OH zip code: 432221515 accept new medicare: 1 phone: 9106154000 fax: 9372972208 email: jservis@digestivespecialists.com
+Writing to Cucumber file...
 Closing out provider entry
 37
 Starting a new provider entry
@@ -547,6 +584,7 @@ Northeast Dermatology address2 changed Old value: Suite 100 New value: STE 100
 Northeast Dermatology city changed Old value: Gahanna New value: GAHANNA
 Northeast Dermatology zip_code changed Old value: 43230 New value: 432308709
 NPI type 1:  NPI type 2: 1255526471 Tax ID: 560845796 Currently practicing flag: 1 address 1: 925 N HAMILTON RD address 2: STE 100 city: GAHANNA state:  OH zip code: 432308709 accept new medicare: 1 phone: 9106154000 fax: 9372972208 email: jservis@digestivespecialists.com
+Writing to Cucumber file...
 Closing out provider entry
 38
 Starting a new provider entry
@@ -563,6 +601,7 @@ FCMH Medical and Surgical Associates address2 changed Old value: Ste 103 New val
 FCMH Medical and Surgical Associates city changed Old value: Washington Ch New value: WSHNGTN CT HS
 FCMH Medical and Surgical Associates zip_code changed Old value: 43160 New value: 431603701
 NPI type 1:  NPI type 2: 1255526471 Tax ID: 560845796 Currently practicing flag: 1 address 1: 1450 COLUMBUS AVE address 2: STE 103 city: WSHNGTN CT HS state:  OH zip code: 431603701 accept new medicare: 1 phone: 9106154000 fax: 9372972208 email: jservis@digestivespecialists.com
+Writing to Cucumber file...
 Closing out provider entry
 39
 Starting a new provider entry
@@ -586,6 +625,7 @@ Muskingum Valley Health Centers address1 changed Old value: 1330 Clark Street Ne
 Muskingum Valley Health Centers city changed Old value: Cambridge New value: CAMBRIDGE
 Muskingum Valley Health Centers zip_code changed Old value: 43725 New value: 437259614
 NPI type 1:  NPI type 2: 1255526471 Tax ID: 560845796 Currently practicing flag: 1 address 1: 1330 CLARK ST address 2: STE 103 city: CAMBRIDGE state:  OH zip code: 437259614 accept new medicare: 1 phone: 9106154000 fax: 9372972208 email: jservis@digestivespecialists.com
+Writing to Cucumber file...
 Closing out provider entry
 40
 Starting a new provider entry
@@ -600,6 +640,7 @@ Tri State Urologic Services, PSC, Inc. address1 changed Old value: 7921 Jessies 
 Tri State Urologic Services, PSC, Inc. city changed Old value: Fairfield New value: FAIRFIELD
 Tri State Urologic Services, PSC, Inc. zip_code changed Old value: 45011 New value: 450118077
 NPI type 1:  NPI type 2: 1255526471 Tax ID: 560845796 Currently practicing flag: 1 address 1: 7921 JESSIES WAY address 2: STE 103 city: FAIRFIELD state:  OH zip code: 450118077 accept new medicare: 1 phone: 9106154000 fax: 9372972208 email: jservis@digestivespecialists.com
+Writing to Cucumber file...
 Closing out provider entry
 41
 Starting a new provider entry
@@ -607,6 +648,7 @@ Starting a new provider entry
 12333272 Samuel    Essandoh  1467682948
 Change status: changed
 NPI type 1:  NPI type 2: 1255526471 Tax ID: 560845796 Currently practicing flag: 1 address 1: 7921 JESSIES WAY address 2: STE 103 city: FAIRFIELD state:  OH zip code: 450118077 accept new medicare: 1 phone: 9106154000 fax: 9372972208 email: jservis@digestivespecialists.com
+Writing to Cucumber file...
 Closing out provider entry
 42
 Starting a new provider entry
@@ -616,6 +658,7 @@ Change status: changed
 InPatient Consultants of Ohio, Inc.
 InPatient Consultants of Ohio, Inc. npi_type_2 added Old value:  New value: 1326210121
 NPI type 1:  NPI type 2: 1326210121 Tax ID: 560845796 Currently practicing flag: 1 address 1: 7921 JESSIES WAY address 2: STE 103 city: FAIRFIELD state:  OH zip code: 450118077 accept new medicare: 1 phone: 9106154000 fax: 9372972208 email: jservis@digestivespecialists.com
+Writing to Cucumber file...
 Closing out provider entry
 43
 Starting a new provider entry
@@ -623,6 +666,7 @@ Starting a new provider entry
 13624949 Rachel  Ann  Falsone  1336518307
 Change status: changed
 NPI type 1:  NPI type 2: 1326210121 Tax ID: 560845796 Currently practicing flag: 1 address 1: 7921 JESSIES WAY address 2: STE 103 city: FAIRFIELD state:  OH zip code: 450118077 accept new medicare: 1 phone: 9106154000 fax: 9372972208 email: jservis@digestivespecialists.com
+Writing to Cucumber file...
 Closing out provider entry
 44
 Starting a new provider entry
@@ -635,6 +679,7 @@ Mercy Health - Wellington Orthopaedic and Sports Medicine, Western Ridge address
 Mercy Health - Wellington Orthopaedic and Sports Medicine, Western Ridge city changed Old value: Cincinnati New value: CINCINNATI
 Mercy Health - Wellington Orthopaedic and Sports Medicine, Western Ridge zip_code changed Old value: 45247 New value: 452475209
 NPI type 1:  NPI type 2: 1326210121 Tax ID: 560845796 Currently practicing flag: 1 address 1: 6909 GOOD SAMARITAN DR address 2: STE A city: CINCINNATI state:  OH zip code: 452475209 accept new medicare: 1 phone: 9106154000 fax: 9372972208 email: jservis@digestivespecialists.com
+Writing to Cucumber file...
 Closing out provider entry
 45
 Starting a new provider entry
@@ -647,6 +692,7 @@ Valley Gastroenterology & Endoscopy address2 changed Old value: Suite A New valu
 Valley Gastroenterology & Endoscopy city changed Old value: Martins Ferry New value: MARTINS FERRY
 Valley Gastroenterology & Endoscopy zip_code changed Old value: 43935 New value: 439351600
 NPI type 1:  NPI type 2: 1326210121 Tax ID: 560845796 Currently practicing flag: 1 address 1: 92 N 4TH ST address 2: STE A city: MARTINS FERRY state:  OH zip code: 439351600 accept new medicare: 1 phone: 9106154000 fax: 9372972208 email: jservis@digestivespecialists.com
+Writing to Cucumber file...
 Closing out provider entry
 46
 Starting a new provider entry
@@ -659,6 +705,7 @@ Central Ohio Comprehensive Foot Care LLC address2 changed Old value: Ste 2f, Att
 Central Ohio Comprehensive Foot Care LLC city changed Old value: Westerville New value: WESTERVILLE
 Central Ohio Comprehensive Foot Care LLC zip_code changed Old value: 43081 New value: 430818977
 NPI type 1:  NPI type 2: 1326210121 Tax ID: 560845796 Currently practicing flag: 1 address 1: 575 COPELAND MILL RD STE 2F, address 2: ATTN: TINA TRAYLOR city: WESTERVILLE state:  OH zip code: 430818977 accept new medicare: 1 phone: 9106154000 fax: 9372972208 email: jservis@digestivespecialists.com
+Writing to Cucumber file...
 Closing out provider entry
 47
 Starting a new provider entry
@@ -669,6 +716,7 @@ Kettering Behavioral Professional Group
 Kettering Behavioral Professional Group  address1 changed Old value: 5348 Lamme Rd New value: 5348 LAMME RD
 Kettering Behavioral Professional Group  city changed Old value: Kettering,  New value: MORAINE
 NPI type 1:  NPI type 2: 1326210121 Tax ID: 560845796 Currently practicing flag: 1 address 1: 5348 LAMME RD address 2: ATTN: TINA TRAYLOR city: MORAINE state:  OH zip code: 430818977 accept new medicare: 1 phone: 9106154000 fax: 9372972208 email: jservis@digestivespecialists.com
+Writing to Cucumber file...
 Closing out provider entry
 48
 Starting a new provider entry
@@ -688,6 +736,7 @@ Gastroenterology Associates of Northwest Ohio LLC fax_number added Old value:  N
 Gastroenterology Associates of Northwest Ohio LLC tax_id added Old value:  New value: 262448601
 Gastroenterology Associates of Northwest Ohio LLC accept_new_medicare_patients_flag added Old value:  New value: 1
 NPI type 1:  NPI type 2: 1689835415 Tax ID: 262448601 Currently practicing flag: 1 address 1: 1818 CHAPEL DR address 2: STE C city: FINDLAY state:  OH zip code: 458401344 accept new medicare: 1 phone: 4194297637 fax: 4194297641 email: jservis@digestivespecialists.com
+Writing to Cucumber file...
 Closing out provider entry
 49
 Starting a new provider entry
@@ -702,6 +751,7 @@ Tri State Urologic Services, PSC, Inc. address1 changed Old value: 10220 Allianc
 Tri State Urologic Services, PSC, Inc. city changed Old value: Cincinnati New value: BLUE ASH
 Tri State Urologic Services, PSC, Inc. zip_code changed Old value: 45242 New value: 452424710
 NPI type 1:  NPI type 2: 1689835415 Tax ID: 262448601 Currently practicing flag: 1 address 1: 10220 ALLIANCE RD address 2: STE C city: BLUE ASH state:  OH zip code: 452424710 accept new medicare: 1 phone: 4194297637 fax: 4194297641 email: jservis@digestivespecialists.com
+Writing to Cucumber file...
 Closing out provider entry
 50
 Starting a new provider entry
@@ -713,6 +763,7 @@ Compass Emergency Physicians. address1 changed Old value: 85 N. Grand Ave. New v
 Compass Emergency Physicians. city changed Old value: Ft. Thomas New value: FORT THOMAS
 Compass Emergency Physicians. zip_code changed Old value: 41075 New value: 410751793
 NPI type 1:  NPI type 2: 1689835415 Tax ID: 262448601 Currently practicing flag: 1 address 1: 85 N GRAND AVE address 2: STE C city: FORT THOMAS state:  OH zip code: 410751793 accept new medicare: 1 phone: 4194297637 fax: 4194297641 email: jservis@digestivespecialists.com
+Writing to Cucumber file...
 Closing out provider entry
 51
 Starting a new provider entry
@@ -733,6 +784,7 @@ Seven Hills Women's Health Centers tax_id added Old value:  New value: 311575051
 Seven Hills Women's Health Centers group_name added Old value:  New value: Seven Hills Women's Health Centers
 Seven Hills Women's Health Centers accept_new_medicare_patients_flag added Old value:  New value: 1
 NPI type 1:  NPI type 2: 1609856525 Tax ID: 311575051 Currently practicing flag: 0 address 1: 2245 BAUER RD address 2: STE C city: BATAVIA state:  OH zip code: 451031977 accept new medicare: 1 phone: 5133213447 fax: 5132313761 email: pgoforth@shwhc.com
+Writing to Cucumber file...
 Closing out provider entry
 52
 Starting a new provider entry
@@ -756,6 +808,7 @@ Muskingum Valley Health Centers address1 changed Old value: 1330 Clark Street Ne
 Muskingum Valley Health Centers city changed Old value: Cambridge New value: CAMBRIDGE
 Muskingum Valley Health Centers zip_code changed Old value: 43725 New value: 437259614
 NPI type 1:  NPI type 2: 1609856525 Tax ID: 311575051 Currently practicing flag: 0 address 1: 1330 CLARK ST address 2: STE C city: CAMBRIDGE state:  OH zip code: 437259614 accept new medicare: 1 phone: 5133213447 fax: 5132313761 email: pgoforth@shwhc.com
+Writing to Cucumber file...
 Closing out provider entry
 53
 Starting a new provider entry
@@ -799,6 +852,7 @@ OhioHealth Heart and Vascular Physicians address2 changed Old value: Heart and L
 OhioHealth Heart and Vascular Physicians city changed Old value: Dublin New value: DUBLIN
 OhioHealth Heart and Vascular Physicians zip_code changed Old value: 43016 New value: 430169642
 NPI type 1:  NPI type 2: 1609856525 Tax ID: 311575051 Currently practicing flag: 0 address 1: 7450 HOSPITAL DR address 2: HEART AND LUNG DEPT city: DUBLIN state:  OH zip code: 430169642 accept new medicare: 1 phone: 5133213447 fax: 5132313761 email: pgoforth@shwhc.com
+Writing to Cucumber file...
 Closing out provider entry
 54
 Starting a new provider entry
@@ -819,6 +873,7 @@ Dayton Physicians, LLC  fax_number added Old value:  New value: 9372456308
 Dayton Physicians, LLC  tax_id added Old value:  New value: 203130844
 Dayton Physicians, LLC  accept_new_medicare_patients_flag added Old value:  New value: 1
 NPI type 1:  NPI type 2: 1902844947 Tax ID: 203130844 Currently practicing flag: 1 address 1: 4940 COTTONVILLE RD address 2: STE 600 city: JAMESTOWN state:  OH zip code: 453351522 accept new medicare: 1 phone: 9372931622 fax: 9372456308 email: apanstingel@daytonphysicians.com
+Writing to Cucumber file...
 Closing out provider entry
 55
 Starting a new provider entry
@@ -834,6 +889,7 @@ Tri State Urologic Services, PSC, Inc. address2 changed Old value: Ste 525 New v
 Tri State Urologic Services, PSC, Inc. city changed Old value: Cincinnati New value: CINCINNATI
 Tri State Urologic Services, PSC, Inc. zip_code changed Old value: 45211 New value: 452111118
 NPI type 1:  NPI type 2: 1902844947 Tax ID: 203130844 Currently practicing flag: 1 address 1: 3301 MERCY HEALTH BLVD address 2: STE 525 city: CINCINNATI state:  OH zip code: 452111118 accept new medicare: 1 phone: 9372931622 fax: 9372456308 email: apanstingel@daytonphysicians.com
+Writing to Cucumber file...
 Closing out provider entry
 56
 Starting a new provider entry
@@ -845,6 +901,7 @@ Mount Carmel HealthProviders, Inc address1 changed Old value: 3617 Heritage Club
 Mount Carmel HealthProviders, Inc city changed Old value: Hilliard New value: HILLIARD
 Mount Carmel HealthProviders, Inc zip_code changed Old value: 43026 New value: 430261313
 NPI type 1:  NPI type 2: 1902844947 Tax ID: 203130844 Currently practicing flag: 1 address 1: 3617 HERITAGE CLUB DR address 2: STE 525 city: HILLIARD state:  OH zip code: 430261313 accept new medicare: 1 phone: 9372931622 fax: 9372456308 email: apanstingel@daytonphysicians.com
+Writing to Cucumber file...
 Closing out provider entry
 57
 Starting a new provider entry
@@ -863,6 +920,7 @@ Muskingum Valley Health Centers address1 changed Old value: 1330 Clark Street Ne
 Muskingum Valley Health Centers city changed Old value: Cambridge New value: CAMBRIDGE
 Muskingum Valley Health Centers zip_code changed Old value: 43725 New value: 437259614
 NPI type 1:  NPI type 2: 1902844947 Tax ID: 203130844 Currently practicing flag: 1 address 1: 1330 CLARK ST address 2: STE 525 city: CAMBRIDGE state:  OH zip code: 437259614 accept new medicare: 1 phone: 9372931622 fax: 9372456308 email: apanstingel@daytonphysicians.com
+Writing to Cucumber file...
 Closing out provider entry
 58
 Starting a new provider entry
@@ -871,6 +929,7 @@ Starting a new provider entry
 Change status: changed
 Mental Health Services for Clark and Madison Co
 NPI type 1:  NPI type 2: 1902844947 Tax ID: 203130844 Currently practicing flag: 1 address 1: 1330 CLARK ST address 2: STE 525 city: CAMBRIDGE state:  OH zip code: 437259614 accept new medicare: 1 phone: 9372931622 fax: 9372456308 email: apanstingel@daytonphysicians.com
+Writing to Cucumber file...
 Closing out provider entry
 59
 Starting a new provider entry
@@ -885,6 +944,7 @@ Tri State Urologic Services, PSC, Inc. address1 changed Old value: 2000 Joseph E
 Tri State Urologic Services, PSC, Inc. city changed Old value: Cincinnati New value: CINCINNATI
 Tri State Urologic Services, PSC, Inc. zip_code changed Old value: 45212 New value: 452121979
 NPI type 1:  NPI type 2: 1902844947 Tax ID: 203130844 Currently practicing flag: 1 address 1: 2000 JOSEPH E SANKER BLVD address 2: STE 525 city: CINCINNATI state:  OH zip code: 452121979 accept new medicare: 1 phone: 9372931622 fax: 9372456308 email: apanstingel@daytonphysicians.com
+Writing to Cucumber file...
 Closing out provider entry
 60
 Starting a new provider entry
@@ -893,6 +953,7 @@ Starting a new provider entry
 Change status: changed
 Hughston Clinic, P.C..
 NPI type 1:  NPI type 2: 1902844947 Tax ID: 203130844 Currently practicing flag: 1 address 1: 2000 JOSEPH E SANKER BLVD address 2: STE 525 city: CINCINNATI state:  OH zip code: 452121979 accept new medicare: 1 phone: 9372931622 fax: 9372456308 email: apanstingel@daytonphysicians.com
+Writing to Cucumber file...
 Closing out provider entry
 61
 Starting a new provider entry
@@ -901,6 +962,7 @@ Starting a new provider entry
 Change status: changed
 Stephen A. Weeber, DPM
 NPI type 1:  NPI type 2: 1902844947 Tax ID: 203130844 Currently practicing flag: 1 address 1: 2000 JOSEPH E SANKER BLVD address 2: STE 525 city: CINCINNATI state:  OH zip code: 452121979 accept new medicare: 1 phone: 9372931622 fax: 9372456308 email: apanstingel@daytonphysicians.com
+Writing to Cucumber file...
 Closing out provider entry
 62
 Starting a new provider entry
@@ -912,6 +974,7 @@ Weller Health Transitions address1 changed Old value: 2283 Wahsum Circle New val
 Weller Health Transitions city changed Old value: Centerville New value: CENTERVILLE
 Weller Health Transitions zip_code changed Old value: 45459 New value: 454596600
 NPI type 1:  NPI type 2: 1902844947 Tax ID: 203130844 Currently practicing flag: 1 address 1: 2283 WAHSUM CIR address 2: STE 525 city: CENTERVILLE state:  OH zip code: 454596600 accept new medicare: 1 phone: 9372931622 fax: 9372456308 email: apanstingel@daytonphysicians.com
+Writing to Cucumber file...
 Closing out provider entry
 63
 Starting a new provider entry
@@ -923,6 +986,7 @@ Marietta Health Care Physicians, Inc. address1 changed Old value: 805 Farson St.
 Marietta Health Care Physicians, Inc. city changed Old value: Belpre New value: BELPRE
 Marietta Health Care Physicians, Inc. zip_code changed Old value: 45714 New value: 457141000
 NPI type 1:  NPI type 2: 1902844947 Tax ID: 203130844 Currently practicing flag: 1 address 1: 805 FARSON ST STE 112 address 2: STE 525 city: BELPRE state:  OH zip code: 457141000 accept new medicare: 1 phone: 9372931622 fax: 9372456308 email: apanstingel@daytonphysicians.com
+Writing to Cucumber file...
 Closing out provider entry
 64
 Starting a new provider entry
@@ -935,6 +999,7 @@ Eastern Hills Internal Medicine address2 changed Old value: Ste 280 New value: S
 Eastern Hills Internal Medicine city changed Old value: Cincinnati New value: CINCINNATI
 Eastern Hills Internal Medicine zip_code changed Old value: 45230 New value: 452302188
 NPI type 1:  NPI type 2: 1902844947 Tax ID: 203130844 Currently practicing flag: 1 address 1: 8000 5 MILE RD address 2: STE 320 city: CINCINNATI state:  OH zip code: 452302188 accept new medicare: 1 phone: 9372931622 fax: 9372456308 email: apanstingel@daytonphysicians.com
+Writing to Cucumber file...
 Closing out provider entry
 65
 Starting a new provider entry
@@ -944,6 +1009,7 @@ Change status: changed
 Arthur H Win MD LLC
 Arthur H Win MD LLC accept_new_medicare_patients_flag changed Old value: 0 New value: 1
 NPI type 1:  NPI type 2: 1902844947 Tax ID: 203130844 Currently practicing flag: 1 address 1: 8000 5 MILE RD address 2: STE 320 city: CINCINNATI state:  OH zip code: 452302188 accept new medicare: 1 phone: 9372931622 fax: 9372456308 email: apanstingel@daytonphysicians.com
+Writing to Cucumber file...
 Closing out provider entry
 66
 Starting a new provider entry
@@ -955,6 +1021,7 @@ Alliance Physicians, Inc. (Wayne C. Woodard, MD) address1 changed Old value: 50 
 Alliance Physicians, Inc. (Wayne C. Woodard, MD) city changed Old value: Xenia New value: XENIA
 Alliance Physicians, Inc. (Wayne C. Woodard, MD) zip_code changed Old value: 45385 New value: 453852666
 NPI type 1:  NPI type 2: 1902844947 Tax ID: 203130844 Currently practicing flag: 1 address 1: 50 N PROGRESS DR address 2: STE 320 city: XENIA state:  OH zip code: 453852666 accept new medicare: 1 phone: 9372931622 fax: 9372456308 email: apanstingel@daytonphysicians.com
+Writing to Cucumber file...
 Closing out provider entry
 67
 Starting a new provider entry
@@ -966,6 +1033,7 @@ Genesis Primary Care Physicians, LLC address1 changed Old value: 975 Bethesda Dr
 Genesis Primary Care Physicians, LLC city changed Old value: Zanesville New value: ZANESVILLE
 Genesis Primary Care Physicians, LLC zip_code changed Old value: 43701 New value: 437017500
 NPI type 1:  NPI type 2: 1902844947 Tax ID: 203130844 Currently practicing flag: 1 address 1: 975 BETHESDA DR address 2: STE 320 city: ZANESVILLE state:  OH zip code: 437017500 accept new medicare: 1 phone: 9372931622 fax: 9372456308 email: apanstingel@daytonphysicians.com
+Writing to Cucumber file...
 Closing out provider entry
 68
 Starting a new provider entry
@@ -973,6 +1041,7 @@ Starting a new provider entry
 12021293 Suresh  K  Yadav  1649288465
 Change status: changed
 NPI type 1:  NPI type 2: 1902844947 Tax ID: 203130844 Currently practicing flag: 1 address 1: 975 BETHESDA DR address 2: STE 320 city: ZANESVILLE state:  OH zip code: 437017500 accept new medicare: 1 phone: 9372931622 fax: 9372456308 email: apanstingel@daytonphysicians.com
+Writing to Cucumber file...
 Closing out provider entry
 69
 Starting a new provider entry
@@ -993,6 +1062,7 @@ Dayton Physicians, LLC  fax_number added Old value:  New value: 9372808373
 Dayton Physicians, LLC  tax_id added Old value:  New value: 203130844
 Dayton Physicians, LLC  accept_new_medicare_patients_flag added Old value:  New value: 1
 NPI type 1:  NPI type 2: 1902844947 Tax ID: 203130844 Currently practicing flag: 1 address 1: 4940 COTTONVILLE RD address 2: STE 600 city: JAMESTOWN state:  OH zip code: 453351522 accept new medicare: 1 phone: 9372808366 fax: 9372808373 email: apanstingel@daytonphysicians.com
+Writing to Cucumber file...
 Closing out provider entry
 70
 Starting a new provider entry
@@ -1005,6 +1075,7 @@ Digestive Specialists Inc email_address changed Old value: lfowler@digestivespec
 Digestive Specialists Inc email_address changed Old value: lfowler@digestivespecialists.com New value: jservis@digestivespecialists.com
 Digestive Specialists Inc email_address changed Old value: lfowler@digestivespecialists.com New value: jservis@digestivespecialists.com
 NPI type 1:  NPI type 2: 1902844947 Tax ID: 203130844 Currently practicing flag: 1 address 1: 4940 COTTONVILLE RD address 2: STE 600 city: JAMESTOWN state:  OH zip code: 453351522 accept new medicare: 1 phone: 9372808366 fax: 9372808373 email: jservis@digestivespecialists.com
+Writing to Cucumber file...
 Closing out provider entry
 71
 Starting a new provider entry
@@ -1016,6 +1087,7 @@ Purvis Chiropractic address1 changed Old value: 111 West St New value: 111 WEST 
 Purvis Chiropractic city changed Old value: Caldwell New value: CALDWELL
 Purvis Chiropractic zip_code changed Old value: 43724 New value: 437241359
 NPI type 1:  NPI type 2: 1902844947 Tax ID: 203130844 Currently practicing flag: 1 address 1: 111 WEST ST address 2: STE 600 city: CALDWELL state:  OH zip code: 437241359 accept new medicare: 1 phone: 9372808366 fax: 9372808373 email: jservis@digestivespecialists.com
+Writing to Cucumber file...
 Closing out provider entry
 72
 Starting a new provider entry
@@ -1027,6 +1099,7 @@ Central Ohio Primary Care Physicians, Inc. address1 changed Old value: 6465 E. B
 Central Ohio Primary Care Physicians, Inc. address2 changed Old value: Suite D New value: STE D
 Central Ohio Primary Care Physicians, Inc. city changed Old value: Columbus New value: COLUMBUS
 NPI type 1:  NPI type 2: 1902844947 Tax ID: 203130844 Currently practicing flag: 1 address 1: 6465 E BROAD ST address 2: STE D city: COLUMBUS state:  OH zip code: 437241359 accept new medicare: 1 phone: 9372808366 fax: 9372808373 email: jservis@digestivespecialists.com
+Writing to Cucumber file...
 Closing out provider entry
 73
 Starting a new provider entry
@@ -1037,6 +1110,7 @@ Radiology Incorporated
 Radiology Incorporated address1 changed Old value: 793 W. State Street New value: 793 W STATE ST
 Radiology Incorporated city changed Old value: Columbus New value: COLUMBUS
 NPI type 1:  NPI type 2: 1902844947 Tax ID: 203130844 Currently practicing flag: 1 address 1: 793 W STATE ST address 2: STE D city: COLUMBUS state:  OH zip code: 437241359 accept new medicare: 1 phone: 9372808366 fax: 9372808373 email: jservis@digestivespecialists.com
+Writing to Cucumber file...
 Closing out provider entry
 74
 Starting a new provider entry
@@ -1047,6 +1121,7 @@ B.V. Rangaswamy, MD
 B.V. Rangaswamy, MD zip_code changed Old value: 43725 New value: 437251162
 B.V. Rangaswamy, MD zip_code changed Old value: 43725 New value: 437251162
 NPI type 1:  NPI type 2: 1902844947 Tax ID: 203130844 Currently practicing flag: 1 address 1: 793 W STATE ST address 2: STE D city: COLUMBUS state:  OH zip code: 437251162 accept new medicare: 1 phone: 9372808366 fax: 9372808373 email: jservis@digestivespecialists.com
+Writing to Cucumber file...
 Closing out provider entry
 75
 Starting a new provider entry
@@ -1057,6 +1132,7 @@ MUJEEB RANGINWALA MD
 MUJEEB RANGINWALA MD address2 changed Old value: SUITE 102 New value: STE 102
 MUJEEB RANGINWALA MD zip_code changed Old value: 45505 New value: 455051373
 NPI type 1:  NPI type 2: 1902844947 Tax ID: 203130844 Currently practicing flag: 1 address 1: 793 W STATE ST address 2: STE 102 city: COLUMBUS state:  OH zip code: 455051373 accept new medicare: 1 phone: 9372808366 fax: 9372808373 email: jservis@digestivespecialists.com
+Writing to Cucumber file...
 Closing out provider entry
 76
 Starting a new provider entry
@@ -1064,6 +1140,7 @@ Starting a new provider entry
 11517347 Edward  P  Rapach  1972592244
 Change status: changed
 NPI type 1:  NPI type 2: 1902844947 Tax ID: 203130844 Currently practicing flag: 1 address 1: 793 W STATE ST address 2: STE 102 city: COLUMBUS state:  OH zip code: 455051373 accept new medicare: 1 phone: 9372808366 fax: 9372808373 email: jservis@digestivespecialists.com
+Writing to Cucumber file...
 Closing out provider entry
 77
 Starting a new provider entry
@@ -1076,6 +1153,7 @@ Seven HIlls OB/GYN Associates, Inc. address2 changed Old value: Ste 403 New valu
 Seven HIlls OB/GYN Associates, Inc. city changed Old value: Cincinnati New value: CINCINNATI
 Seven HIlls OB/GYN Associates, Inc. zip_code changed Old value: 45242 New value: 452424400
 NPI type 1:  NPI type 2: 1902844947 Tax ID: 203130844 Currently practicing flag: 1 address 1: 10506 MONTGOMERY RD address 2: STE 504 city: CINCINNATI state:  OH zip code: 452424400 accept new medicare: 1 phone: 9372808366 fax: 9372808373 email: jservis@digestivespecialists.com
+Writing to Cucumber file...
 Closing out provider entry
 78
 Starting a new provider entry
@@ -1096,6 +1174,7 @@ Marietta Health Care Physicians, Inc. address2 changed Old value: Wound Care Cen
 Marietta Health Care Physicians, Inc. city changed Old value: Marietta New value: MARIETTA
 Marietta Health Care Physicians, Inc. zip_code changed Old value: 45750 New value: 457501644
 NPI type 1:  NPI type 2: 1902844947 Tax ID: 203130844 Currently practicing flag: 1 address 1: 400 MATTHEW ST address 2: WOUND CARE CENTER city: MARIETTA state:  OH zip code: 457501644 accept new medicare: 1 phone: 9372808366 fax: 9372808373 email: jservis@digestivespecialists.com
+Writing to Cucumber file...
 Closing out provider entry
 79
 Starting a new provider entry
@@ -1104,6 +1183,7 @@ Starting a new provider entry
 Change status: changed
 Kidney Care Specialists, LLC.
 NPI type 1:  NPI type 2: 1902844947 Tax ID: 203130844 Currently practicing flag: 1 address 1: 400 MATTHEW ST address 2: WOUND CARE CENTER city: MARIETTA state:  OH zip code: 457501644 accept new medicare: 1 phone: 9372808366 fax: 9372808373 email: jservis@digestivespecialists.com
+Writing to Cucumber file...
 Closing out provider entry
 80
 Starting a new provider entry
@@ -1113,6 +1193,7 @@ Change status: changed
 Greg Frankenfield, LISW, LLC
 Greg Frankenfield, LISW, LLC email_address changed Old value: GrgFrankenfield@aol.com New value: Mariraef@gmail.com
 NPI type 1:  NPI type 2: 1902844947 Tax ID: 203130844 Currently practicing flag: 1 address 1: 400 MATTHEW ST address 2: WOUND CARE CENTER city: MARIETTA state:  OH zip code: 457501644 accept new medicare: 1 phone: 9372808366 fax: 9372808373 email: Mariraef@gmail.com
+Writing to Cucumber file...
 Closing out provider entry
 81
 Starting a new provider entry
@@ -1133,6 +1214,7 @@ OhioHealth Primary Care Physicians - MARK AS SILENT IN ALL DIRECTORIES tax_id ad
 OhioHealth Primary Care Physicians - MARK AS SILENT IN ALL DIRECTORIES group_name added Old value:  New value: OhioHealth Physician Group, Inc.
 OhioHealth Primary Care Physicians - MARK AS SILENT IN ALL DIRECTORIES accept_new_medicare_patients_flag added Old value:  New value: 1
 NPI type 1:  NPI type 2: 1578545273 Tax ID: 311351965 Currently practicing flag: 1 address 1: 10401 Sawmill Pkwy address 2: Ste 40 city: Powell state:  OH zip code: 43065 accept new medicare: 1 phone: 6147640200 fax: 6147642782 email: Mariraef@gmail.com
+Writing to Cucumber file...
 Closing out provider entry
 82
 Starting a new provider entry
@@ -1145,6 +1227,7 @@ OB/GYN Associates of Lancaster, Inc. address2 changed Old value: Ste 201 New val
 OB/GYN Associates of Lancaster, Inc. city changed Old value: Lancaster New value: LANCASTER
 OB/GYN Associates of Lancaster, Inc. zip_code changed Old value: 43130 New value: 431303378
 NPI type 1:  NPI type 2: 1578545273 Tax ID: 311351965 Currently practicing flag: 1 address 1: 135 N EWING ST address 2: STE 201 city: LANCASTER state:  OH zip code: 431303378 accept new medicare: 1 phone: 6147640200 fax: 6147642782 email: Mariraef@gmail.com
+Writing to Cucumber file...
 Closing out provider entry
 83
 Starting a new provider entry
@@ -1156,6 +1239,7 @@ Mercy Health-General, Laparoscopic & Vascular Surgery, Westside address1 changed
 Mercy Health-General, Laparoscopic & Vascular Surgery, Westside city changed Old value: Cincinnati New value: CINCINNATI
 Mercy Health-General, Laparoscopic & Vascular Surgery, Westside zip_code changed Old value: 45247 New value: 452477548
 NPI type 1:  NPI type 2: 1578545273 Tax ID: 311351965 Currently practicing flag: 1 address 1: 3747 W FORK RD address 2: STE 201 city: CINCINNATI state:  OH zip code: 452477548 accept new medicare: 1 phone: 6147640200 fax: 6147642782 email: Mariraef@gmail.com
+Writing to Cucumber file...
 Closing out provider entry
 84
 Starting a new provider entry
@@ -1167,6 +1251,7 @@ alan l. gabbard.m.d. address1 changed Old value: 247 S Burnett Rd New value: 247
 alan l. gabbard.m.d. city changed Old value: Springfield New value: SPRINGFIELD
 alan l. gabbard.m.d. zip_code changed Old value: 45505 New value: 455052639
 NPI type 1:  NPI type 2: 1578545273 Tax ID: 311351965 Currently practicing flag: 1 address 1: 247 S BURNETT RD address 2: STE 201 city: SPRINGFIELD state:  OH zip code: 455052639 accept new medicare: 1 phone: 6147640200 fax: 6147642782 email: Mariraef@gmail.com
+Writing to Cucumber file...
 Closing out provider entry
 85
 Starting a new provider entry
@@ -1183,6 +1268,7 @@ Marietta Health Care Physicians Inc. address2 changed Old value: Suite 2 New val
 Marietta Health Care Physicians Inc. city changed Old value: Marietta New value: MARIETTA
 Marietta Health Care Physicians Inc. zip_code changed Old value: 45750 New value: 457503507
 NPI type 1:  NPI type 2: 1578545273 Tax ID: 311351965 Currently practicing flag: 1 address 1: 800 PIKE ST address 2: STE 2 city: MARIETTA state:  OH zip code: 457503507 accept new medicare: 1 phone: 6147640200 fax: 6147642782 email: Mariraef@gmail.com
+Writing to Cucumber file...
 Closing out provider entry
 86
 Starting a new provider entry
@@ -1212,6 +1298,7 @@ Digestive Specialists Inc city changed Old value: Kettering New value: KETTERING
 Digestive Specialists Inc zip_code changed Old value: 45429 New value: 454293588
 Digestive Specialists Inc email_address changed Old value: lfowler@digestivespecialists.com New value: jservis@digestivespecialists.com
 NPI type 1:  NPI type 2: 1578545273 Tax ID: 311351965 Currently practicing flag: 1 address 1: 999 BRUBAKER DR address 2: STE 101 city: KETTERING state:  OH zip code: 454293588 accept new medicare: 1 phone: 6147640200 fax: 6147642782 email: jservis@digestivespecialists.com
+Writing to Cucumber file...
 Closing out provider entry
 87
 Starting a new provider entry
@@ -1219,6 +1306,7 @@ Starting a new provider entry
 11076573 Seyed Abdi    Ghodsi  1205803814
 Change status: changed
 NPI type 1:  NPI type 2: 1578545273 Tax ID: 311351965 Currently practicing flag: 1 address 1: 999 BRUBAKER DR address 2: STE 101 city: KETTERING state:  OH zip code: 454293588 accept new medicare: 1 phone: 6147640200 fax: 6147642782 email: jservis@digestivespecialists.com
+Writing to Cucumber file...
 Closing out provider entry
 88
 Starting a new provider entry
@@ -1231,6 +1319,7 @@ Mercy Health - Kenwood Internal Medicine and Pulmonary address2 changed Old valu
 Mercy Health - Kenwood Internal Medicine and Pulmonary city changed Old value: Cincinnati New value: CINCINNATI
 Mercy Health - Kenwood Internal Medicine and Pulmonary zip_code changed Old value: 45236 New value: 452366704
 NPI type 1:  NPI type 2: 1578545273 Tax ID: 311351965 Currently practicing flag: 1 address 1: 4760 E GALBRAITH RD address 2: STE 203 city: CINCINNATI state:  OH zip code: 452366704 accept new medicare: 1 phone: 6147640200 fax: 6147642782 email: jservis@digestivespecialists.com
+Writing to Cucumber file...
 Closing out provider entry
 89
 Starting a new provider entry
@@ -1242,6 +1331,7 @@ MIAMI VALLEY URGENT CARE LLC address1 changed Old value: 1010 WOODMAN DRIVE New 
 MIAMI VALLEY URGENT CARE LLC city changed Old value: DAYTON New value: MIAMISBURG
 MIAMI VALLEY URGENT CARE LLC address1 changed Old value: 1403 WAGNER AVE. New value: 1403 WAGNER AVE
 NPI type 1:  NPI type 2: 1578545273 Tax ID: 311351965 Currently practicing flag: 1 address 1: 1403 WAGNER AVE address 2: STE 203 city: MIAMISBURG state:  OH zip code: 452366704 accept new medicare: 1 phone: 6147640200 fax: 6147642782 email: jservis@digestivespecialists.com
+Writing to Cucumber file...
 Closing out provider entry
 90
 Starting a new provider entry
@@ -1253,6 +1343,7 @@ Mercy Health-Endocrinology, Cholesterol and Diabetes, Deerfield address1 changed
 Mercy Health-Endocrinology, Cholesterol and Diabetes, Deerfield city changed Old value: Mason New value: MASON
 Mercy Health-Endocrinology, Cholesterol and Diabetes, Deerfield zip_code changed Old value: 45040 New value: 450409302
 NPI type 1:  NPI type 2: 1578545273 Tax ID: 311351965 Currently practicing flag: 1 address 1: 5232 SOCIALVILLE FOSTER RD address 2: STE 203 city: MASON state:  OH zip code: 450409302 accept new medicare: 1 phone: 6147640200 fax: 6147642782 email: jservis@digestivespecialists.com
+Writing to Cucumber file...
 Closing out provider entry
 91
 Starting a new provider entry
@@ -1263,6 +1354,7 @@ Central Ohio Primary Care Physicians, Inc.
 Central Ohio Primary Care Physicians, Inc. address1 changed Old value: 4030 W. Henderson Rd. New value: 4030 HENDERSON RD
 Central Ohio Primary Care Physicians, Inc. city changed Old value: Columbus New value: COLUMBUS
 NPI type 1:  NPI type 2: 1578545273 Tax ID: 311351965 Currently practicing flag: 1 address 1: 4030 HENDERSON RD address 2: STE 203 city: COLUMBUS state:  OH zip code: 450409302 accept new medicare: 1 phone: 6147640200 fax: 6147642782 email: jservis@digestivespecialists.com
+Writing to Cucumber file...
 Closing out provider entry
 92
 Starting a new provider entry
@@ -1274,6 +1366,7 @@ Mercy Health- Clermont Psychiatry address1 changed Old value: 3000 Hospital Dr N
 Mercy Health- Clermont Psychiatry city changed Old value: Batavia New value: BATAVIA
 Mercy Health- Clermont Psychiatry zip_code changed Old value: 45103 New value: 451031921
 NPI type 1:  NPI type 2: 1578545273 Tax ID: 311351965 Currently practicing flag: 1 address 1: 3000 HOSPITAL DR address 2: STE 203 city: BATAVIA state:  OH zip code: 451031921 accept new medicare: 1 phone: 6147640200 fax: 6147642782 email: jservis@digestivespecialists.com
+Writing to Cucumber file...
 Closing out provider entry
 93
 Starting a new provider entry
@@ -1285,6 +1378,7 @@ Fairfield Medical Associates address1 changed Old value: 1781 Countryside Dr. Ne
 Fairfield Medical Associates city changed Old value: Lancaster New value: LANCASTER
 Fairfield Medical Associates zip_code changed Old value: 43130 New value: 431301186
 NPI type 1:  NPI type 2: 1578545273 Tax ID: 311351965 Currently practicing flag: 1 address 1: 1781 COUNTRYSIDE DR address 2: STE 203 city: LANCASTER state:  OH zip code: 431301186 accept new medicare: 1 phone: 6147640200 fax: 6147642782 email: jservis@digestivespecialists.com
+Writing to Cucumber file...
 Closing out provider entry
 94
 Starting a new provider entry
@@ -1292,6 +1386,7 @@ Starting a new provider entry
 10813676 Rebecca  R  Balaj  1023001989
 Change status: changed
 NPI type 1:  NPI type 2: 1578545273 Tax ID: 311351965 Currently practicing flag: 1 address 1: 1781 COUNTRYSIDE DR address 2: STE 203 city: LANCASTER state:  OH zip code: 431301186 accept new medicare: 1 phone: 6147640200 fax: 6147642782 email: jservis@digestivespecialists.com
+Writing to Cucumber file...
 Closing out provider entry
 95
 Starting a new provider entry
@@ -1312,6 +1407,7 @@ Dayton Physicians, LLC  fax_number added Old value:  New value: 9372456308
 Dayton Physicians, LLC  tax_id added Old value:  New value: 203130844
 Dayton Physicians, LLC  accept_new_medicare_patients_flag added Old value:  New value: 1
 NPI type 1:  NPI type 2: 1902844947 Tax ID: 203130844 Currently practicing flag: 1 address 1: 4940 COTTONVILLE RD address 2: STE 600 city: JAMESTOWN state:  OH zip code: 453351522 accept new medicare: 1 phone: 9372931622 fax: 9372456308 email: apanstingel@daytonphysicians.com
+Writing to Cucumber file...
 Closing out provider entry
 96
 Starting a new provider entry
@@ -1324,6 +1420,7 @@ Seven Hills OB/GYN Associates, Inc. address2 changed Old value: Suite 403 New va
 Seven Hills OB/GYN Associates, Inc. city changed Old value: Cincinnati New value: CINCINNATI
 Seven Hills OB/GYN Associates, Inc. zip_code changed Old value: 45242 New value: 452424400
 NPI type 1:  NPI type 2: 1902844947 Tax ID: 203130844 Currently practicing flag: 1 address 1: 10506 MONTGOMERY RD address 2: STE 504 city: CINCINNATI state:  OH zip code: 452424400 accept new medicare: 1 phone: 9372931622 fax: 9372456308 email: apanstingel@daytonphysicians.com
+Writing to Cucumber file...
 Closing out provider entry
 97
 Starting a new provider entry
@@ -1335,6 +1432,7 @@ Belmont Professional Associates address1 changed Old value: 66840 Belmont Morris
 Belmont Professional Associates city changed Old value: Belmont New value: BELMONT
 Belmont Professional Associates zip_code changed Old value: 43718 New value: 437189665
 NPI type 1:  NPI type 2: 1902844947 Tax ID: 203130844 Currently practicing flag: 1 address 1: 66840 BELMONT MORRISTOWN RD address 2: STE 504 city: BELMONT state:  OH zip code: 437189665 accept new medicare: 1 phone: 9372931622 fax: 9372456308 email: apanstingel@daytonphysicians.com
+Writing to Cucumber file...
 Closing out provider entry
 98
 Starting a new provider entry
@@ -1355,6 +1453,7 @@ Dayton Physicians, LLC  fax_number added Old value:  New value: 9372456308
 Dayton Physicians, LLC  tax_id added Old value:  New value: 203130844
 Dayton Physicians, LLC  accept_new_medicare_patients_flag added Old value:  New value: 1
 NPI type 1:  NPI type 2: 1902844947 Tax ID: 203130844 Currently practicing flag: 1 address 1: 4940 COTTONVILLE RD address 2: STE 600 city: JAMESTOWN state:  OH zip code: 453351522 accept new medicare: 1 phone: 9372931622 fax: 9372456308 email: apanstingel@daytonphysicians.com
+Writing to Cucumber file...
 Closing out provider entry
 99
 Starting a new provider entry
@@ -1370,6 +1469,7 @@ Licking Memorial Anesthesiology phone_number changed Old value: 7403484218 New v
 Licking Memorial Anesthesiology fax_number changed Old value: 7403484217 New value: 2205644217
 Licking Memorial Anesthesiology group_name deleted Old value: Licking Memorial Professional Corporation New value: 
 NPI type 1:  NPI type 2: 1326072265 Tax ID: 203130844 Currently practicing flag: 1 address 1: 1320 W MAIN ST address 2: STE 600 city: NEWARK state:  OH zip code: 430551822 accept new medicare: 1 phone: 2205644218 fax: 2205644217 email: apanstingel@daytonphysicians.com
+Writing to Cucumber file...
 Closing out provider entry
 100
 Starting a new provider entry
@@ -1380,6 +1480,7 @@ GRANT ANESTHESIA SERVICES
 GRANT ANESTHESIA SERVICES address1 changed Old value: 111 S GRANT AVENUE New value: 111 S GRANT AVE
 GRANT ANESTHESIA SERVICES zip_code changed Old value: 43215 New value: 432154701
 NPI type 1:  NPI type 2: 1326072265 Tax ID: 203130844 Currently practicing flag: 1 address 1: 111 S GRANT AVE address 2: STE 600 city: NEWARK state:  OH zip code: 432154701 accept new medicare: 1 phone: 2205644218 fax: 2205644217 email: apanstingel@daytonphysicians.com
+Writing to Cucumber file...
 Closing out provider entry
 101
 Starting a new provider entry
@@ -1392,6 +1493,7 @@ John Loughrey MD city changed Old value: Cincinnati New value: CINCINNATI
 John Loughrey MD zip_code changed Old value: 45247 New value: 452478006
 John Loughrey MD npi_type_2 deleted Old value: 1437120706 New value: 
 NPI type 1:  NPI type 2:  Tax ID: 203130844 Currently practicing flag: 1 address 1: 5215 N BEND RD address 2: STE 600 city: CINCINNATI state:  OH zip code: 452478006 accept new medicare: 1 phone: 2205644218 fax: 2205644217 email: apanstingel@daytonphysicians.com
+Writing to Cucumber file...
 Closing out provider entry
 102
 Starting a new provider entry
@@ -1412,6 +1514,7 @@ Dayton Physicians, LLC  fax_number added Old value:  New value: 9372456308
 Dayton Physicians, LLC  tax_id added Old value:  New value: 203130844
 Dayton Physicians, LLC  accept_new_medicare_patients_flag added Old value:  New value: 1
 NPI type 1:  NPI type 2: 1902844947 Tax ID: 203130844 Currently practicing flag: 1 address 1: 4940 COTTONVILLE RD address 2: STE 600 city: JAMESTOWN state:  OH zip code: 453351522 accept new medicare: 1 phone: 9372931622 fax: 9372456308 email: apanstingel@daytonphysicians.com
+Writing to Cucumber file...
 Closing out provider entry
 103
 Starting a new provider entry
@@ -1432,6 +1535,7 @@ Dayton Physicians, LLC fax_number added Old value:  New value: 9372456308
 Dayton Physicians, LLC tax_id added Old value:  New value: 203130844
 Dayton Physicians, LLC accept_new_medicare_patients_flag added Old value:  New value: 1
 NPI type 1:  NPI type 2: 1902844947 Tax ID: 203130844 Currently practicing flag: 1 address 1: 4940 COTTONVILLE RD address 2: STE 600 city: JAMESTOWN state:  OH zip code: 453351522 accept new medicare: 1 phone: 9372931622 fax: 9372456308 email: apanstingel@daytonphysicians.com
+Writing to Cucumber file...
 Closing out provider entry
 104
 Starting a new provider entry
@@ -1444,6 +1548,7 @@ Comprehensive EyeCare of Central OH Inc address2 changed Old value: Suite 100 Ne
 Comprehensive EyeCare of Central OH Inc city changed Old value: Westerville New value: WESTERVILLE
 Comprehensive EyeCare of Central OH Inc zip_code changed Old value: 43082 New value: 430826910
 NPI type 1:  NPI type 2: 1902844947 Tax ID: 203130844 Currently practicing flag: 1 address 1: 450 ALKYRE RUN address 2: STE 100 city: WESTERVILLE state:  OH zip code: 430826910 accept new medicare: 1 phone: 9372931622 fax: 9372456308 email: apanstingel@daytonphysicians.com
+Writing to Cucumber file...
 Closing out provider entry
 105
 Starting a new provider entry
@@ -1452,6 +1557,7 @@ Starting a new provider entry
 Change status: changed
 PrimaryOne Health
 NPI type 1:  NPI type 2: 1902844947 Tax ID: 203130844 Currently practicing flag: 1 address 1: 450 ALKYRE RUN address 2: STE 100 city: WESTERVILLE state:  OH zip code: 430826910 accept new medicare: 1 phone: 9372931622 fax: 9372456308 email: apanstingel@daytonphysicians.com
+Writing to Cucumber file...
 Closing out provider entry
 106
 Starting a new provider entry
@@ -1464,6 +1570,7 @@ Ohio Vascular Surgery, Inc. address2 changed Old value: Suite 215 New value: STE
 Ohio Vascular Surgery, Inc. city changed Old value: Columbus New value: COLUMBUS
 Ohio Vascular Surgery, Inc. zip_code changed Old value: 43221 New value: 432212416
 NPI type 1:  NPI type 2: 1902844947 Tax ID: 203130844 Currently practicing flag: 1 address 1: 941 CHATHAM LN address 2: STE 215 city: COLUMBUS state:  OH zip code: 432212416 accept new medicare: 1 phone: 9372931622 fax: 9372456308 email: apanstingel@daytonphysicians.com
+Writing to Cucumber file...
 Closing out provider entry
 107
 Starting a new provider entry
@@ -1474,6 +1581,7 @@ Premier Anesthesia of Ohio, LLC
 Premier Anesthesia of Ohio, LLC address1 changed Old value: 793 West State Street New value: 793 W STATE ST
 Premier Anesthesia of Ohio, LLC city changed Old value: Columbus New value: COLUMBUS
 NPI type 1:  NPI type 2: 1902844947 Tax ID: 203130844 Currently practicing flag: 1 address 1: 793 W STATE ST address 2: STE 215 city: COLUMBUS state:  OH zip code: 432212416 accept new medicare: 1 phone: 9372931622 fax: 9372456308 email: apanstingel@daytonphysicians.com
+Writing to Cucumber file...
 Closing out provider entry
 108
 Starting a new provider entry
@@ -1486,6 +1594,7 @@ Infectious Diseases Associates address2 changed Old value: Ste 210 New value: ST
 Infectious Diseases Associates city changed Old value: Centerville New value: CENTERVILLE
 Infectious Diseases Associates zip_code changed Old value: 45459 New value: 454594778
 NPI type 1:  NPI type 2: 1902844947 Tax ID: 203130844 Currently practicing flag: 1 address 1: 2350 MIAMI VALLEY DR address 2: STE 210 city: CENTERVILLE state:  OH zip code: 454594778 accept new medicare: 1 phone: 9372931622 fax: 9372456308 email: apanstingel@daytonphysicians.com
+Writing to Cucumber file...
 Closing out provider entry
 109
 Starting a new provider entry
@@ -1494,6 +1603,7 @@ Starting a new provider entry
 Change status: changed
 Mount Carmel HealthProviders, Inc dba MCMG Grove City
 NPI type 1:  NPI type 2: 1902844947 Tax ID: 203130844 Currently practicing flag: 1 address 1: 2350 MIAMI VALLEY DR address 2: STE 210 city: CENTERVILLE state:  OH zip code: 454594778 accept new medicare: 1 phone: 9372931622 fax: 9372456308 email: apanstingel@daytonphysicians.com
+Writing to Cucumber file...
 Closing out provider entry
 110
 Starting a new provider entry
@@ -1506,6 +1616,7 @@ Gregory Manning, D.C. address2 changed Old value: #102 New value: STE 102
 Gregory Manning, D.C. city changed Old value: Pickerington New value: PICKERINGTON
 Gregory Manning, D.C. zip_code changed Old value: 43147 New value: 431479869
 NPI type 1:  NPI type 2: 1902844947 Tax ID: 203130844 Currently practicing flag: 1 address 1: 1505 STONECREEK DR S address 2: STE 102 city: PICKERINGTON state:  OH zip code: 431479869 accept new medicare: 1 phone: 9372931622 fax: 9372456308 email: apanstingel@daytonphysicians.com
+Writing to Cucumber file...
 Closing out provider entry
 111
 Starting a new provider entry
@@ -1513,6 +1624,7 @@ Starting a new provider entry
 13590718 Caitlyn    Santer  1750644720
 Change status: changed
 NPI type 1:  NPI type 2: 1902844947 Tax ID: 203130844 Currently practicing flag: 1 address 1: 1505 STONECREEK DR S address 2: STE 102 city: PICKERINGTON state:  OH zip code: 431479869 accept new medicare: 1 phone: 9372931622 fax: 9372456308 email: apanstingel@daytonphysicians.com
+Writing to Cucumber file...
 Closing out provider entry
 112
 Starting a new provider entry
@@ -1531,6 +1643,7 @@ Tri State Urologic Services, PSC, Inc. address1 changed Old value: 2000 Joseph E
 Tri State Urologic Services, PSC, Inc. city changed Old value: Cincinnati New value: CINCINNATI
 Tri State Urologic Services, PSC, Inc. zip_code changed Old value: 45212 New value: 452121979
 NPI type 1:  NPI type 2: 1902844947 Tax ID: 203130844 Currently practicing flag: 1 address 1: 2000 JOSEPH E SANKER BLVD address 2: STE 200 city: CINCINNATI state:  OH zip code: 452121979 accept new medicare: 1 phone: 9372931622 fax: 9372456308 email: apanstingel@daytonphysicians.com
+Writing to Cucumber file...
 Closing out provider entry
 113
 Starting a new provider entry
@@ -1543,6 +1656,7 @@ Marietta Memorial Hospital address2 changed Old value: Dept of Family Medicine N
 Marietta Memorial Hospital city changed Old value: Waterford New value: WATERFORD
 Marietta Memorial Hospital zip_code changed Old value: 45786 New value: 457865312
 NPI type 1:  NPI type 2: 1902844947 Tax ID: 203130844 Currently practicing flag: 1 address 1: 151 ANDERSON LN address 2: DEPT OF FAMILY MEDICINE city: WATERFORD state:  OH zip code: 457865312 accept new medicare: 1 phone: 9372931622 fax: 9372456308 email: apanstingel@daytonphysicians.com
+Writing to Cucumber file...
 Closing out provider entry
 114
 Starting a new provider entry
@@ -1563,6 +1677,7 @@ Dayton Physicians, LLC  fax_number added Old value:  New value: 9372456308
 Dayton Physicians, LLC  tax_id added Old value:  New value: 203130844
 Dayton Physicians, LLC  accept_new_medicare_patients_flag added Old value:  New value: 1
 NPI type 1:  NPI type 2: 1902844947 Tax ID: 203130844 Currently practicing flag: 1 address 1: 4940 COTTONVILLE RD address 2: STE 600 city: JAMESTOWN state:  OH zip code: 453351522 accept new medicare: 1 phone: 9372931622 fax: 9372456308 email: apanstingel@daytonphysicians.com
+Writing to Cucumber file...
 Closing out provider entry
 115
 Starting a new provider entry
@@ -1572,6 +1687,7 @@ Change status: changed
 Robert A. Blank, D.C., Inc.
 Robert A. Blank, D.C., Inc. npi_type_2 deleted Old value: 1366506115 New value: 
 NPI type 1:  NPI type 2:  Tax ID: 203130844 Currently practicing flag: 1 address 1: 4940 COTTONVILLE RD address 2: STE 600 city: JAMESTOWN state:  OH zip code: 453351522 accept new medicare: 1 phone: 9372931622 fax: 9372456308 email: apanstingel@daytonphysicians.com
+Writing to Cucumber file...
 Closing out provider entry
 116
 Starting a new provider entry
@@ -1579,6 +1695,7 @@ Starting a new provider entry
 10788760 James  D  Bloch  1558407049
 Change status: changed
 NPI type 1:  NPI type 2:  Tax ID: 203130844 Currently practicing flag: 1 address 1: 4940 COTTONVILLE RD address 2: STE 600 city: JAMESTOWN state:  OH zip code: 453351522 accept new medicare: 1 phone: 9372931622 fax: 9372456308 email: apanstingel@daytonphysicians.com
+Writing to Cucumber file...
 Closing out provider entry
 117
 Starting a new provider entry
@@ -1589,6 +1706,7 @@ Central Ohio Primary Care Physicians, Inc.
 Central Ohio Primary Care Physicians, Inc. address1 changed Old value: 615 Copeland Mill Rd., Suite 2D New value: 615 COPELAND MILL RD STE 2D
 Central Ohio Primary Care Physicians, Inc. city changed Old value: Westerville New value: WESTERVILLE
 NPI type 1:  NPI type 2:  Tax ID: 203130844 Currently practicing flag: 1 address 1: 615 COPELAND MILL RD STE 2D address 2: STE 600 city: WESTERVILLE state:  OH zip code: 453351522 accept new medicare: 1 phone: 9372931622 fax: 9372456308 email: apanstingel@daytonphysicians.com
+Writing to Cucumber file...
 Closing out provider entry
 118
 Starting a new provider entry
@@ -1601,6 +1719,7 @@ Mercy Health - Blue Ash Family Medicine address2 changed Old value: Suite 202  N
 Mercy Health - Blue Ash Family Medicine city changed Old value: Cincinnati New value: CINCINNATI
 Mercy Health - Blue Ash Family Medicine zip_code changed Old value: 45236 New value: 452362754
 NPI type 1:  NPI type 2:  Tax ID: 203130844 Currently practicing flag: 1 address 1: 4700 E GALBRAITH RD address 2: STE 202 city: CINCINNATI state:  OH zip code: 452362754 accept new medicare: 1 phone: 9372931622 fax: 9372456308 email: apanstingel@daytonphysicians.com
+Writing to Cucumber file...
 Closing out provider entry
 119
 Starting a new provider entry
@@ -1612,6 +1731,7 @@ New Albany Orthopedic Anesthesia LLC address1 changed Old value: 7333 Smiths Mil
 New Albany Orthopedic Anesthesia LLC city changed Old value: New Albany New value: NEW ALBANY
 New Albany Orthopedic Anesthesia LLC zip_code changed Old value: 430548195 New value: 430549291
 NPI type 1:  NPI type 2:  Tax ID: 203130844 Currently practicing flag: 1 address 1: 7333 SMITHS MILL RD address 2: STE 202 city: NEW ALBANY state:  OH zip code: 430549291 accept new medicare: 1 phone: 9372931622 fax: 9372456308 email: apanstingel@daytonphysicians.com
+Writing to Cucumber file...
 Closing out provider entry
 120
 Starting a new provider entry
@@ -1620,6 +1740,7 @@ Starting a new provider entry
 Change status: changed
 Northeast Dematology
 NPI type 1:  NPI type 2:  Tax ID: 203130844 Currently practicing flag: 1 address 1: 7333 SMITHS MILL RD address 2: STE 202 city: NEW ALBANY state:  OH zip code: 430549291 accept new medicare: 1 phone: 9372931622 fax: 9372456308 email: apanstingel@daytonphysicians.com
+Writing to Cucumber file...
 Closing out provider entry
 121
 Starting a new provider entry
@@ -1639,6 +1760,7 @@ Tri State Urologic Services, PSC, Inc. address1 changed Old value: 2000 Joseph E
 Tri State Urologic Services, PSC, Inc. city changed Old value: Cincinnati New value: CINCINNATI
 Tri State Urologic Services, PSC, Inc. zip_code changed Old value: 45212 New value: 452121979
 NPI type 1:  NPI type 2:  Tax ID: 203130844 Currently practicing flag: 1 address 1: 2000 JOSEPH E SANKER BLVD address 2: STE 200 city: CINCINNATI state:  OH zip code: 452121979 accept new medicare: 1 phone: 9372931622 fax: 9372456308 email: apanstingel@daytonphysicians.com
+Writing to Cucumber file...
 Closing out provider entry
 122
 Starting a new provider entry
@@ -1646,6 +1768,7 @@ Starting a new provider entry
 10798965 Mark  Wayne  Scott  1295721611
 Change status: changed
 NPI type 1:  NPI type 2:  Tax ID: 203130844 Currently practicing flag: 1 address 1: 2000 JOSEPH E SANKER BLVD address 2: STE 200 city: CINCINNATI state:  OH zip code: 452121979 accept new medicare: 1 phone: 9372931622 fax: 9372456308 email: apanstingel@daytonphysicians.com
+Writing to Cucumber file...
 Closing out provider entry
 123
 Starting a new provider entry
@@ -1657,6 +1780,7 @@ Orthopedic Associates of Dayton address1 changed Old value: 7980 N Main St New v
 Orthopedic Associates of Dayton city changed Old value: Dayton New value: DAYTON
 Orthopedic Associates of Dayton zip_code changed Old value: 45415 New value: 454152328
 NPI type 1:  NPI type 2:  Tax ID: 203130844 Currently practicing flag: 1 address 1: 7980 N MAIN ST address 2: STE 200 city: DAYTON state:  OH zip code: 454152328 accept new medicare: 1 phone: 9372931622 fax: 9372456308 email: apanstingel@daytonphysicians.com
+Writing to Cucumber file...
 Closing out provider entry
 124
 Starting a new provider entry
@@ -1664,6 +1788,7 @@ Starting a new provider entry
 10787591 Ibrahim    Ahmad  1649278110
 Change status: changed
 NPI type 1:  NPI type 2:  Tax ID: 203130844 Currently practicing flag: 1 address 1: 7980 N MAIN ST address 2: STE 200 city: DAYTON state:  OH zip code: 454152328 accept new medicare: 1 phone: 9372931622 fax: 9372456308 email: apanstingel@daytonphysicians.com
+Writing to Cucumber file...
 Closing out provider entry
 125
 Starting a new provider entry
@@ -1672,6 +1797,7 @@ Starting a new provider entry
 Change status: changed
 MANSFIELD PAIN CLINIC LLC
 NPI type 1:  NPI type 2:  Tax ID: 203130844 Currently practicing flag: 1 address 1: 7980 N MAIN ST address 2: STE 200 city: DAYTON state:  OH zip code: 454152328 accept new medicare: 1 phone: 9372931622 fax: 9372456308 email: apanstingel@daytonphysicians.com
+Writing to Cucumber file...
 Closing out provider entry
 126
 Starting a new provider entry
@@ -1683,6 +1809,7 @@ Licking Memorial Anesthesiology & Pain Management address1 changed Old value: 20
 Licking Memorial Anesthesiology & Pain Management city changed Old value: Newark New value: NEWARK
 Licking Memorial Anesthesiology & Pain Management zip_code changed Old value: 43055 New value: 430551183
 NPI type 1:  NPI type 2:  Tax ID: 203130844 Currently practicing flag: 1 address 1: 2000 TAMARACK RD address 2: STE 200 city: NEWARK state:  OH zip code: 430551183 accept new medicare: 1 phone: 9372931622 fax: 9372456308 email: apanstingel@daytonphysicians.com
+Writing to Cucumber file...
 Closing out provider entry
 127
 Starting a new provider entry
@@ -1690,6 +1817,7 @@ Starting a new provider entry
 12182877 Norberto  O  Andaluz  1174568570
 Change status: changed
 NPI type 1:  NPI type 2:  Tax ID: 203130844 Currently practicing flag: 1 address 1: 2000 TAMARACK RD address 2: STE 200 city: NEWARK state:  OH zip code: 430551183 accept new medicare: 1 phone: 9372931622 fax: 9372456308 email: apanstingel@daytonphysicians.com
+Writing to Cucumber file...
 Closing out provider entry
 128
 Starting a new provider entry
@@ -1697,6 +1825,7 @@ Starting a new provider entry
 11060177 Timothy  W  Anderson  1568458446
 Change status: changed
 NPI type 1:  NPI type 2:  Tax ID: 203130844 Currently practicing flag: 1 address 1: 2000 TAMARACK RD address 2: STE 200 city: NEWARK state:  OH zip code: 430551183 accept new medicare: 1 phone: 9372931622 fax: 9372456308 email: apanstingel@daytonphysicians.com
+Writing to Cucumber file...
 Closing out provider entry
 129
 Starting a new provider entry
@@ -1709,6 +1838,7 @@ Marietta Health Care Physicians, Inc. address2 changed Old value: Suite 141 New 
 Marietta Health Care Physicians, Inc. city changed Old value: Marietta New value: MARIETTA
 Marietta Health Care Physicians, Inc. zip_code changed Old value: 457501656 New value: 457503382
 NPI type 1:  NPI type 2:  Tax ID: 203130844 Currently practicing flag: 1 address 1: 320 E 8TH ST address 2: STE 141 city: MARIETTA state:  OH zip code: 457503382 accept new medicare: 1 phone: 9372931622 fax: 9372456308 email: apanstingel@daytonphysicians.com
+Writing to Cucumber file...
 Closing out provider entry
 130
 Starting a new provider entry
@@ -1720,6 +1850,7 @@ Judith L. Bratton M.D. LLC address1 changed Old value: 1500 E. Main St New value
 Judith L. Bratton M.D. LLC city changed Old value: Lancaster New value: LANCASTER
 Judith L. Bratton M.D. LLC zip_code changed Old value: 43130 New value: 431303478
 NPI type 1:  NPI type 2:  Tax ID: 203130844 Currently practicing flag: 1 address 1: 1500 E MAIN ST address 2: STE 141 city: LANCASTER state:  OH zip code: 431303478 accept new medicare: 1 phone: 9372931622 fax: 9372456308 email: apanstingel@daytonphysicians.com
+Writing to Cucumber file...
 Closing out provider entry
 131
 Starting a new provider entry
@@ -1738,6 +1869,7 @@ Tri State Urologic Services, PSC, Inc. address2 changed Old value: Ste 200 New v
 Tri State Urologic Services, PSC, Inc. city changed Old value: Cincinnati New value: CINCINNATI
 Tri State Urologic Services, PSC, Inc. zip_code changed Old value: 45230 New value: 452302369
 NPI type 1:  NPI type 2:  Tax ID: 203130844 Currently practicing flag: 1 address 1: 7794 5 MILE RD address 2: STE 200 city: CINCINNATI state:  OH zip code: 452302369 accept new medicare: 1 phone: 9372931622 fax: 9372456308 email: apanstingel@daytonphysicians.com
+Writing to Cucumber file...
 Closing out provider entry
 132
 Starting a new provider entry
@@ -1753,6 +1885,7 @@ Hawkins Medical Center email_address changed Old value: burtond@tsfhs.org New va
 Hawkins Medical Center npi_type_2 changed Old value: 1336252519 New value: 1427492271
 Hawkins Medical Center group_name deleted Old value: Third Street Community Clinic Inc New value: 
 NPI type 1:  NPI type 2: 1427492271 Tax ID: 203130844 Currently practicing flag: 1 address 1: 2131 PARK AVE W address 2: STE 200 city: ONTARIO state:  OH zip code: 449061226 accept new medicare: 1 phone: 9372931622 fax: 9372456308 email: IrwinT@tsfhs.org
+Writing to Cucumber file...
 Closing out provider entry
 133
 Starting a new provider entry
@@ -1764,6 +1897,7 @@ T.J. Bright & R.G. Vargo, D.O.'s, Inc. address1 changed Old value: 340 W Coshoct
 T.J. Bright & R.G. Vargo, D.O.'s, Inc. city changed Old value: Johnstown New value: JOHNSTOWN
 T.J. Bright & R.G. Vargo, D.O.'s, Inc. zip_code changed Old value: 43031 New value: 430311113
 NPI type 1:  NPI type 2: 1427492271 Tax ID: 203130844 Currently practicing flag: 1 address 1: 340 W COSHOCTON ST address 2: STE 200 city: JOHNSTOWN state:  OH zip code: 430311113 accept new medicare: 1 phone: 9372931622 fax: 9372456308 email: IrwinT@tsfhs.org
+Writing to Cucumber file...
 Closing out provider entry
 134
 Starting a new provider entry
@@ -1776,6 +1910,7 @@ Emergency Services, Inc. address2 deleted Old value: Suite 225 New value:
 Emergency Services, Inc. city changed Old value: Columbus New value: COLUMBUS
 Emergency Services, Inc. zip_code changed Old value: 43204 New value: 432044899
 NPI type 1:  NPI type 2: 1427492271 Tax ID: 203130844 Currently practicing flag: 1 address 1: 2323 W 5TH AVE STE 225 address 2:  city: COLUMBUS state:  OH zip code: 432044899 accept new medicare: 1 phone: 9372931622 fax: 9372456308 email: IrwinT@tsfhs.org
+Writing to Cucumber file...
 Closing out provider entry
 135
 Starting a new provider entry
@@ -1785,6 +1920,7 @@ Change status: changed
 Licking Memorial Behavioral Health
 Licking Memorial Behavioral Health group_name added Old value:  New value: Licking Memorial Professional Corporation
 NPI type 1:  NPI type 2: 1427492271 Tax ID: 203130844 Currently practicing flag: 1 address 1: 2323 W 5TH AVE STE 225 address 2:  city: COLUMBUS state:  OH zip code: 432044899 accept new medicare: 1 phone: 9372931622 fax: 9372456308 email: IrwinT@tsfhs.org
+Writing to Cucumber file...
 Closing out provider entry
 136
 Starting a new provider entry
@@ -1793,6 +1929,7 @@ Starting a new provider entry
 Change status: changed
 Pulmonary Medicine of Dayton
 NPI type 1:  NPI type 2: 1427492271 Tax ID: 203130844 Currently practicing flag: 1 address 1: 2323 W 5TH AVE STE 225 address 2:  city: COLUMBUS state:  OH zip code: 432044899 accept new medicare: 1 phone: 9372931622 fax: 9372456308 email: IrwinT@tsfhs.org
+Writing to Cucumber file...
 Closing out provider entry
 137
 Starting a new provider entry
@@ -1800,6 +1937,7 @@ Starting a new provider entry
 11964258 Saud    Butt  1063600328
 Change status: changed
 NPI type 1:  NPI type 2: 1427492271 Tax ID: 203130844 Currently practicing flag: 1 address 1: 2323 W 5TH AVE STE 225 address 2:  city: COLUMBUS state:  OH zip code: 432044899 accept new medicare: 1 phone: 9372931622 fax: 9372456308 email: IrwinT@tsfhs.org
+Writing to Cucumber file...
 Closing out provider entry
 138
 Starting a new provider entry
@@ -1814,6 +1952,7 @@ Coshocton County Memorial Hospital Association address1 changed Old value: 1460 
 Coshocton County Memorial Hospital Association city changed Old value: Coshocton New value: COSHOCTON
 Coshocton County Memorial Hospital Association zip_code changed Old value: 43812 New value: 438122229
 NPI type 1:  NPI type 2: 1427492271 Tax ID: 203130844 Currently practicing flag: 1 address 1: 1460 ORANGE ST address 2:  city: COSHOCTON state:  OH zip code: 438122229 accept new medicare: 1 phone: 9372931622 fax: 9372456308 email: IrwinT@tsfhs.org
+Writing to Cucumber file...
 Closing out provider entry
 139
 Starting a new provider entry
@@ -1841,6 +1980,7 @@ OhioHealth Heart and Vascular Physicians address1 changed Old value: 260 Polaris
 OhioHealth Heart and Vascular Physicians city changed Old value: Westerville New value: WESTERVILLE
 OhioHealth Heart and Vascular Physicians zip_code changed Old value: 43082 New value: 430828019
 NPI type 1:  NPI type 2: 1427492271 Tax ID: 203130844 Currently practicing flag: 1 address 1: 260 POLARIS PKWY address 2: STE 102 city: WESTERVILLE state:  OH zip code: 430828019 accept new medicare: 1 phone: 9372931622 fax: 9372456308 email: IrwinT@tsfhs.org
+Writing to Cucumber file...
 Closing out provider entry
 140
 Starting a new provider entry
@@ -1864,6 +2004,7 @@ Orthopedic One address1 changed Old value: 4605 Sawmill Road New value: 4605 SAW
 Orthopedic One city changed Old value: Upper Arlington New value: UPPER ARLNGTN
 Orthopedic One zip_code changed Old value: 43220 New value: 432202246
 NPI type 1:  NPI type 2: 1427492271 Tax ID: 203130844 Currently practicing flag: 1 address 1: 4605 SAWMILL RD address 2: STE 102 city: UPPER ARLNGTN state:  OH zip code: 432202246 accept new medicare: 1 phone: 9372931622 fax: 9372456308 email: IrwinT@tsfhs.org
+Writing to Cucumber file...
 Closing out provider entry
 141
 Starting a new provider entry
@@ -1871,6 +2012,7 @@ Starting a new provider entry
 12061239 Grant    Chow  1184771701
 Change status: changed
 NPI type 1:  NPI type 2: 1427492271 Tax ID: 203130844 Currently practicing flag: 1 address 1: 4605 SAWMILL RD address 2: STE 102 city: UPPER ARLNGTN state:  OH zip code: 432202246 accept new medicare: 1 phone: 9372931622 fax: 9372456308 email: IrwinT@tsfhs.org
+Writing to Cucumber file...
 Closing out provider entry
 142
 Starting a new provider entry
@@ -1883,6 +2025,7 @@ Mercy Health-Internal Medicine, Infectious Disease, Kenwood address2 changed Old
 Mercy Health-Internal Medicine, Infectious Disease, Kenwood city changed Old value: Cincinnati New value: CINCINNATI
 Mercy Health-Internal Medicine, Infectious Disease, Kenwood zip_code changed Old value: 45236 New value: 452366706
 NPI type 1:  NPI type 2: 1427492271 Tax ID: 203130844 Currently practicing flag: 1 address 1: 4750 E GALBRAITH RD address 2: STE 207 city: CINCINNATI state:  OH zip code: 452366706 accept new medicare: 1 phone: 9372931622 fax: 9372456308 email: IrwinT@tsfhs.org
+Writing to Cucumber file...
 Closing out provider entry
 143
 Starting a new provider entry
@@ -1894,6 +2037,7 @@ West Central Ohio Histology, LLC address1 changed Old value: 375 N. Eastown Road
 West Central Ohio Histology, LLC address2 changed Old value: Pathology Dept. New value: PATHOLOGY DEPT.
 West Central Ohio Histology, LLC city changed Old value: Lima New value: LIMA
 NPI type 1:  NPI type 2: 1427492271 Tax ID: 203130844 Currently practicing flag: 1 address 1: 375 N EASTOWN RD address 2: PATHOLOGY DEPT. city: LIMA state:  OH zip code: 452366706 accept new medicare: 1 phone: 9372931622 fax: 9372456308 email: IrwinT@tsfhs.org
+Writing to Cucumber file...
 Closing out provider entry
 144
 Starting a new provider entry
@@ -1914,6 +2058,7 @@ Dayton Physicians, LLC  fax_number added Old value:  New value: 9372456308
 Dayton Physicians, LLC  tax_id added Old value:  New value: 203130844
 Dayton Physicians, LLC  accept_new_medicare_patients_flag added Old value:  New value: 1
 NPI type 1:  NPI type 2: 1902844947 Tax ID: 203130844 Currently practicing flag: 1 address 1: 4940 COTTONVILLE RD address 2: STE 600 city: JAMESTOWN state:  OH zip code: 453351522 accept new medicare: 1 phone: 9372931622 fax: 9372456308 email: apanstingel@daytonphysicians.com
+Writing to Cucumber file...
 Closing out provider entry
 145
 Starting a new provider entry
@@ -1923,6 +2068,7 @@ Change status: changed
 Karen S Gross, LISW-S
 Karen S Gross, LISW-S fax_number changed Old value: 6142730416 New value: 7403443479
 NPI type 1:  NPI type 2: 1902844947 Tax ID: 203130844 Currently practicing flag: 1 address 1: 4940 COTTONVILLE RD address 2: STE 600 city: JAMESTOWN state:  OH zip code: 453351522 accept new medicare: 1 phone: 9372931622 fax: 7403443479 email: apanstingel@daytonphysicians.com
+Writing to Cucumber file...
 Closing out provider entry
 146
 Starting a new provider entry
@@ -1933,6 +2079,7 @@ InPatient Consultants of Ohio, Inc.
 InPatient Consultants of Ohio, Inc. address1 changed Old value: 36123 Schoolcraft Rd. New value: 36123 SCHOOLCRAFT RD
 InPatient Consultants of Ohio, Inc. city changed Old value: Livonia New value: LIVONIA
 NPI type 1:  NPI type 2: 1902844947 Tax ID: 203130844 Currently practicing flag: 1 address 1: 36123 SCHOOLCRAFT RD address 2: STE 600 city: LIVONIA state:  OH zip code: 453351522 accept new medicare: 1 phone: 9372931622 fax: 7403443479 email: apanstingel@daytonphysicians.com
+Writing to Cucumber file...
 Closing out provider entry
 147
 Starting a new provider entry
@@ -1941,6 +2088,7 @@ Starting a new provider entry
 Change status: changed
 Mercy Health - The Heart Institute, Clermont
 NPI type 1:  NPI type 2: 1902844947 Tax ID: 203130844 Currently practicing flag: 1 address 1: 36123 SCHOOLCRAFT RD address 2: STE 600 city: LIVONIA state:  OH zip code: 453351522 accept new medicare: 1 phone: 9372931622 fax: 7403443479 email: apanstingel@daytonphysicians.com
+Writing to Cucumber file...
 Closing out provider entry
 148
 Starting a new provider entry
@@ -1949,6 +2097,7 @@ Starting a new provider entry
 Change status: changed
 COSHOCTON COUNTY MEMORIAL HOSPITAL ASSOCIATION
 NPI type 1:  NPI type 2: 1902844947 Tax ID: 203130844 Currently practicing flag: 1 address 1: 36123 SCHOOLCRAFT RD address 2: STE 600 city: LIVONIA state:  OH zip code: 453351522 accept new medicare: 1 phone: 9372931622 fax: 7403443479 email: apanstingel@daytonphysicians.com
+Writing to Cucumber file...
 Closing out provider entry
 149
 Starting a new provider entry
@@ -1963,6 +2112,7 @@ Tri State Urologic Services, PSC, Inc. address1 changed Old value: 7798 Discover
 Tri State Urologic Services, PSC, Inc. city changed Old value: West Chester New value: WEST CHESTER
 Tri State Urologic Services, PSC, Inc. zip_code changed Old value: 45069 New value: 450697745
 NPI type 1:  NPI type 2: 1902844947 Tax ID: 203130844 Currently practicing flag: 1 address 1: 7798 DISCOVERY DR address 2: STE 600 city: WEST CHESTER state:  OH zip code: 450697745 accept new medicare: 1 phone: 9372931622 fax: 7403443479 email: apanstingel@daytonphysicians.com
+Writing to Cucumber file...
 Closing out provider entry
 150
 Starting a new provider entry
@@ -1983,6 +2133,7 @@ Dayton Physicians, LLC  fax_number added Old value:  New value: 9372456308
 Dayton Physicians, LLC  tax_id added Old value:  New value: 203130844
 Dayton Physicians, LLC  accept_new_medicare_patients_flag added Old value:  New value: 1
 NPI type 1:  NPI type 2: 1902844947 Tax ID: 203130844 Currently practicing flag: 1 address 1: 4940 COTTONVILLE RD address 2: STE 600 city: JAMESTOWN state:  OH zip code: 453351522 accept new medicare: 1 phone: 9372931622 fax: 9372456308 email: apanstingel@daytonphysicians.com
+Writing to Cucumber file...
 Closing out provider entry
 151
 Starting a new provider entry
@@ -2001,6 +2152,7 @@ Tri State Urologic Services, PSC, Inc. address1 changed Old value: 2000 Joseph E
 Tri State Urologic Services, PSC, Inc. city changed Old value: Cincinnati New value: CINCINNATI
 Tri State Urologic Services, PSC, Inc. zip_code changed Old value: 45212 New value: 452121979
 NPI type 1:  NPI type 2: 1902844947 Tax ID: 203130844 Currently practicing flag: 1 address 1: 2000 JOSEPH E SANKER BLVD address 2: STE 200 city: CINCINNATI state:  OH zip code: 452121979 accept new medicare: 1 phone: 9372931622 fax: 9372456308 email: apanstingel@daytonphysicians.com
+Writing to Cucumber file...
 Closing out provider entry
 152
 Starting a new provider entry
@@ -2013,6 +2165,7 @@ CD Hanshaw, D.O.,Inc. address2 changed Old value: Ste 103 New value: STE 103
 CD Hanshaw, D.O.,Inc. city changed Old value: Dayton New value: DAYTON
 CD Hanshaw, D.O.,Inc. zip_code changed Old value: 45458 New value: 454581632
 NPI type 1:  NPI type 2: 1902844947 Tax ID: 203130844 Currently practicing flag: 1 address 1: 8940 KINGSRIDGE DR address 2: STE 103 city: DAYTON state:  OH zip code: 454581632 accept new medicare: 1 phone: 9372931622 fax: 9372456308 email: apanstingel@daytonphysicians.com
+Writing to Cucumber file...
 Closing out provider entry
 153
 Starting a new provider entry
@@ -2021,6 +2174,7 @@ Starting a new provider entry
 Change status: changed
 Northeast Dermatology
 NPI type 1:  NPI type 2: 1902844947 Tax ID: 203130844 Currently practicing flag: 1 address 1: 8940 KINGSRIDGE DR address 2: STE 103 city: DAYTON state:  OH zip code: 454581632 accept new medicare: 1 phone: 9372931622 fax: 9372456308 email: apanstingel@daytonphysicians.com
+Writing to Cucumber file...
 Closing out provider entry
 154
 Starting a new provider entry
@@ -2031,6 +2185,7 @@ Central Ohio Primary Care Physicians, Inc.
 Central Ohio Primary Care Physicians, Inc. address1 changed Old value: 3555 Olentangy River Road, Suite 1080 New value: 3555 OLENTANGY RIVER RD STE 1080
 Central Ohio Primary Care Physicians, Inc. city changed Old value: Columbus New value: COLUMBUS
 NPI type 1:  NPI type 2: 1902844947 Tax ID: 203130844 Currently practicing flag: 1 address 1: 3555 OLENTANGY RIVER RD STE 1080 address 2: STE 103 city: COLUMBUS state:  OH zip code: 454581632 accept new medicare: 1 phone: 9372931622 fax: 9372456308 email: apanstingel@daytonphysicians.com
+Writing to Cucumber file...
 Closing out provider entry
 155
 Starting a new provider entry
@@ -2054,6 +2209,7 @@ Muskingum Valley Health Centers address1 changed Old value: 2845 Bell Street New
 Muskingum Valley Health Centers city changed Old value: Zanesville New value: ZANESVILLE
 Muskingum Valley Health Centers zip_code changed Old value: 43701 New value: 437011720
 NPI type 1:  NPI type 2: 1902844947 Tax ID: 203130844 Currently practicing flag: 1 address 1: 2845 BELL ST address 2: STE 103 city: ZANESVILLE state:  OH zip code: 437011720 accept new medicare: 1 phone: 9372931622 fax: 9372456308 email: apanstingel@daytonphysicians.com
+Writing to Cucumber file...
 Closing out provider entry
 156
 Starting a new provider entry
@@ -2069,6 +2225,7 @@ Adena Surgical address2 changed Old value: Suite 270 New value: STE 270
 Adena Surgical city changed Old value: Chillicothe New value: CHILLICOTHE
 Adena Surgical zip_code changed Old value: 45601 New value: 456017502
 NPI type 1:  NPI type 2: 1902844947 Tax ID: 203130844 Currently practicing flag: 1 address 1: 4439 STATE ROUTE 159 address 2: STE 270 city: CHILLICOTHE state:  OH zip code: 456017502 accept new medicare: 1 phone: 9372931622 fax: 9372456308 email: apanstingel@daytonphysicians.com
+Writing to Cucumber file...
 Closing out provider entry
 157
 Starting a new provider entry
@@ -2089,6 +2246,7 @@ Dayton Physicians, LLC  fax_number added Old value:  New value: 9372456308
 Dayton Physicians, LLC  tax_id added Old value:  New value: 203130844
 Dayton Physicians, LLC  accept_new_medicare_patients_flag added Old value:  New value: 1
 NPI type 1:  NPI type 2: 1902844947 Tax ID: 203130844 Currently practicing flag: 1 address 1: 4940 COTTONVILLE RD address 2: STE 600 city: JAMESTOWN state:  OH zip code: 453351522 accept new medicare: 1 phone: 9372931622 fax: 9372456308 email: apanstingel@daytonphysicians.com
+Writing to Cucumber file...
 Closing out provider entry
 158
 Starting a new provider entry
@@ -2100,6 +2258,7 @@ Brain & Spine Surgeons of New York, PC address1 changed Old value: 244 WESTCHEST
 Brain & Spine Surgeons of New York, PC city changed Old value: WHITE PLAINS New value: POUGHKEEPSIE
 Brain & Spine Surgeons of New York, PC zip_code changed Old value: 106042909 New value: 126013912
 NPI type 1:  NPI type 2: 1902844947 Tax ID: 203130844 Currently practicing flag: 1 address 1: 21 READE PL address 2: STE 600 city: POUGHKEEPSIE state:  OH zip code: 126013912 accept new medicare: 1 phone: 9372931622 fax: 9372456308 email: apanstingel@daytonphysicians.com
+Writing to Cucumber file...
 Closing out provider entry
 159
 Starting a new provider entry
@@ -2127,6 +2286,7 @@ Digestive Specialists Inc address1 changed Old value: 3220 Beaver Vu Dr New valu
 Digestive Specialists Inc city changed Old value: Beavercreek New value: BEAVERCREEK
 Digestive Specialists Inc zip_code changed Old value: 45434 New value: 454346400
 NPI type 1:  NPI type 2: 1902844947 Tax ID: 203130844 Currently practicing flag: 1 address 1: 3220 BEAVER VU DR address 2: STE 101 city: BEAVERCREEK state:  OH zip code: 454346400 accept new medicare: 1 phone: 9372931622 fax: 9372456308 email: jservis@digestivespecialists.com
+Writing to Cucumber file...
 Closing out provider entry
 160
 Starting a new provider entry
@@ -2139,6 +2299,7 @@ Tri State Urologic Services, Inc. address2 changed Old value: 200 New value: STE
 Tri State Urologic Services, Inc. city changed Old value: Ft. Mitchell New value: CRESTVIEW HLS
 Tri State Urologic Services, Inc. zip_code changed Old value: 41017 New value: 410175460
 NPI type 1:  NPI type 2: 1902844947 Tax ID: 203130844 Currently practicing flag: 1 address 1: 350 THOMAS MORE PKWY address 2: STE 200 city: CRESTVIEW HLS state:  OH zip code: 410175460 accept new medicare: 1 phone: 9372931622 fax: 9372456308 email: jservis@digestivespecialists.com
+Writing to Cucumber file...
 Closing out provider entry
 161
 Starting a new provider entry
@@ -2159,6 +2320,7 @@ Dayton Physicians, LLC  fax_number added Old value:  New value: 9372456308
 Dayton Physicians, LLC  tax_id added Old value:  New value: 203130844
 Dayton Physicians, LLC  accept_new_medicare_patients_flag added Old value:  New value: 1
 NPI type 1:  NPI type 2: 1902844947 Tax ID: 203130844 Currently practicing flag: 1 address 1: 4940 COTTONVILLE RD address 2: STE 600 city: JAMESTOWN state:  OH zip code: 453351522 accept new medicare: 1 phone: 9372931622 fax: 9372456308 email: apanstingel@daytonphysicians.com
+Writing to Cucumber file...
 Closing out provider entry
 162
 Starting a new provider entry
@@ -2171,6 +2333,7 @@ Marietta Health Care Physicains, Inc. address2 changed Old value: Suite 306 New 
 Marietta Health Care Physicains, Inc. city changed Old value: Marietta New value: MARIETTA
 Marietta Health Care Physicains, Inc. zip_code changed Old value: 45750 New value: 457501656
 NPI type 1:  NPI type 2: 1902844947 Tax ID: 203130844 Currently practicing flag: 1 address 1: 400 MATTHEW ST address 2: STE 306 city: MARIETTA state:  OH zip code: 457501656 accept new medicare: 1 phone: 9372931622 fax: 9372456308 email: apanstingel@daytonphysicians.com
+Writing to Cucumber file...
 Closing out provider entry
 163
 Starting a new provider entry
@@ -2185,6 +2348,7 @@ The Center for Cognitive and Behavioral Therapy address1 changed Old value: 1100
 The Center for Cognitive and Behavioral Therapy city changed Old value: Gahanna New value: GAHANNA
 The Center for Cognitive and Behavioral Therapy zip_code changed Old value: 43230 New value: 432304565
 NPI type 1:  NPI type 2: 1902844947 Tax ID: 203130844 Currently practicing flag: 1 address 1: 1100 BEECHER XING N address 2: STE 306 city: GAHANNA state:  OH zip code: 432304565 accept new medicare: 1 phone: 9372931622 fax: 9372456308 email: apanstingel@daytonphysicians.com
+Writing to Cucumber file...
 Closing out provider entry
 164
 Starting a new provider entry
@@ -2213,6 +2377,7 @@ Kidney Care Specialists, LLC. address1 changed Old value: 105 E. Washington-Jack
 Kidney Care Specialists, LLC. city changed Old value: Eaton New value: EATON
 Kidney Care Specialists, LLC. zip_code changed Old value: 45320 New value: 453209789
 NPI type 1:  NPI type 2: 1902844947 Tax ID: 203130844 Currently practicing flag: 1 address 1: 105 E WASHINGTON JACKSON RD address 2: STE 4 city: EATON state:  OH zip code: 453209789 accept new medicare: 1 phone: 9372931622 fax: 9372456308 email: apanstingel@daytonphysicians.com
+Writing to Cucumber file...
 Closing out provider entry
 165
 Starting a new provider entry
@@ -2227,6 +2392,7 @@ Sifri Eye Center, LTD, LLC address1 changed Old value: 2745 Anderson Ferry Road 
 Sifri Eye Center, LTD, LLC city changed Old value: Cincinnati New value: CINCINNATI
 Sifri Eye Center, LTD, LLC zip_code changed Old value: 45238 New value: 452382168
 NPI type 1:  NPI type 2: 1902844947 Tax ID: 203130844 Currently practicing flag: 1 address 1: 2745 ANDERSON FERRY RD address 2: STE 4 city: CINCINNATI state:  OH zip code: 452382168 accept new medicare: 1 phone: 9372931622 fax: 9372456308 email: apanstingel@daytonphysicians.com
+Writing to Cucumber file...
 Closing out provider entry
 166
 Starting a new provider entry
@@ -2240,6 +2406,7 @@ Sound Physicians city changed Old value: columbus New value: Columbus
 Sound Physicians fax_number added Old value:  New value: 6142346511
 Sound Physicians tax_id changed Old value: 270750258 New value: 453782550
 NPI type 1:  NPI type 2: 1902844947 Tax ID: 453782550 Currently practicing flag: 1 address 1: 5969 E. Broad St address 2: Suite 403 city: Columbus state:  OH zip code: 452382168 accept new medicare: 1 phone: 9372931622 fax: 6142346511 email: apanstingel@daytonphysicians.com
+Writing to Cucumber file...
 Closing out provider entry
 167
 Starting a new provider entry
@@ -2253,6 +2420,7 @@ Digestive Specialists Inc email_address changed Old value: lfowler@digestivespec
 Digestive Specialists Inc email_address changed Old value: lfowler@digestivespecialists.com New value: jservis@digestivespecialists.com
 Digestive Specialists Inc email_address changed Old value: lfowler@digestivespecialists.com New value: jservis@digestivespecialists.com
 NPI type 1:  NPI type 2: 1902844947 Tax ID: 453782550 Currently practicing flag: 1 address 1: 5969 E. Broad St address 2: Suite 403 city: Columbus state:  OH zip code: 452382168 accept new medicare: 1 phone: 9372931622 fax: 6142346511 email: jservis@digestivespecialists.com
+Writing to Cucumber file...
 Closing out provider entry
 168
 Starting a new provider entry
@@ -2265,6 +2433,7 @@ SPS18, LLC, dba Smith Facial Plastics address2 changed Old value: Suite 300 New 
 SPS18, LLC, dba Smith Facial Plastics city changed Old value: Columbus New value: COLUMBUS
 SPS18, LLC, dba Smith Facial Plastics zip_code changed Old value: 43230 New value: 432301370
 NPI type 1:  NPI type 2: 1902844947 Tax ID: 453782550 Currently practicing flag: 1 address 1: 5175 MORSE RD address 2: STE 300 city: COLUMBUS state:  OH zip code: 432301370 accept new medicare: 1 phone: 9372931622 fax: 6142346511 email: jservis@digestivespecialists.com
+Writing to Cucumber file...
 Closing out provider entry
 169
 Starting a new provider entry
@@ -2276,6 +2445,7 @@ Central Ohio Primary Care Physicians, Inc. address1 changed Old value: 1800 Gran
 Central Ohio Primary Care Physicians, Inc. city changed Old value: Lancaster New value: LANCASTER
 Central Ohio Primary Care Physicians, Inc. zip_code changed Old value: 43130 New value: 431301043
 NPI type 1:  NPI type 2: 1902844947 Tax ID: 453782550 Currently practicing flag: 1 address 1: 1800 GRANVILLE PIKE address 2: STE 300 city: LANCASTER state:  OH zip code: 431301043 accept new medicare: 1 phone: 9372931622 fax: 6142346511 email: jservis@digestivespecialists.com
+Writing to Cucumber file...
 Closing out provider entry
 170
 Starting a new provider entry
@@ -2288,6 +2458,7 @@ Mercy Health - Wellington Orthopaedic and Sports Medicine, Blue Ash address2 cha
 Mercy Health - Wellington Orthopaedic and Sports Medicine, Blue Ash city changed Old value: Cincinnati New value: BLUE ASH
 Mercy Health - Wellington Orthopaedic and Sports Medicine, Blue Ash zip_code changed Old value: 45242 New value: 452428330
 NPI type 1:  NPI type 2: 1902844947 Tax ID: 453782550 Currently practicing flag: 1 address 1: 4701 CREEK RD address 2: STE 110 city: BLUE ASH state:  OH zip code: 452428330 accept new medicare: 1 phone: 9372931622 fax: 6142346511 email: jservis@digestivespecialists.com
+Writing to Cucumber file...
 Closing out provider entry
 171
 Starting a new provider entry
@@ -2303,6 +2474,7 @@ Kettering Acute Care Surgery address1 changed Old value: 3535 Southern Blvd New 
 Kettering Acute Care Surgery city changed Old value: Kettering New value: KETTERING
 Kettering Acute Care Surgery zip_code changed Old value: 45429 New value: 454291221
 NPI type 1:  NPI type 2: 1902844947 Tax ID: 453782550 Currently practicing flag: 1 address 1: 3535 SOUTHERN BLVD address 2: STE 2100 city: KETTERING state:  OH zip code: 454291221 accept new medicare: 1 phone: 9372931622 fax: 6142346511 email: jservis@digestivespecialists.com
+Writing to Cucumber file...
 Closing out provider entry
 172
 Starting a new provider entry
@@ -2314,6 +2486,7 @@ grove city internal medicine address1 changed Old value: 3055 Columbus St New va
 grove city internal medicine city changed Old value: Grove City New value: GROVE CITY
 grove city internal medicine zip_code changed Old value: 43123 New value: 431232751
 NPI type 1:  NPI type 2: 1902844947 Tax ID: 453782550 Currently practicing flag: 1 address 1: 3055 COLUMBUS ST address 2: STE 2100 city: GROVE CITY state:  OH zip code: 431232751 accept new medicare: 1 phone: 9372931622 fax: 6142346511 email: jservis@digestivespecialists.com
+Writing to Cucumber file...
 Closing out provider entry
 173
 Starting a new provider entry
@@ -2321,6 +2494,7 @@ Starting a new provider entry
 12712373 Dominic  A.  Mehling  1497161632
 Change status: changed
 NPI type 1:  NPI type 2: 1902844947 Tax ID: 453782550 Currently practicing flag: 1 address 1: 3055 COLUMBUS ST address 2: STE 2100 city: GROVE CITY state:  OH zip code: 431232751 accept new medicare: 1 phone: 9372931622 fax: 6142346511 email: jservis@digestivespecialists.com
+Writing to Cucumber file...
 Closing out provider entry
 174
 Starting a new provider entry
@@ -2333,6 +2507,7 @@ FCMH Medical and Surgical Associates address2 changed Old value: Suite 230 New v
 FCMH Medical and Surgical Associates city changed Old value: Washington CH New value: WSHNGTN CT HS
 FCMH Medical and Surgical Associates zip_code changed Old value: 43160 New value: 431601987
 NPI type 1:  NPI type 2: 1902844947 Tax ID: 453782550 Currently practicing flag: 1 address 1: 1510 COLUMBUS AVE address 2: STE 230 city: WSHNGTN CT HS state:  OH zip code: 431601987 accept new medicare: 1 phone: 9372931622 fax: 6142346511 email: jservis@digestivespecialists.com
+Writing to Cucumber file...
 Closing out provider entry
 175
 Starting a new provider entry
@@ -2346,6 +2521,7 @@ Adena Cardiology city changed Old value: Chillicothe New value: CHILLICOTHE
 Adena Cardiology zip_code changed Old value: 45601 New value: 456017065
 Adena Cardiology npi_type_2 added Old value:  New value: 1235468083
 NPI type 1:  NPI type 2: 1235468083 Tax ID: 453782550 Currently practicing flag: 1 address 1: 4437 STATE ROUTE 159 address 2: STE 125 city: CHILLICOTHE state:  OH zip code: 456017065 accept new medicare: 1 phone: 9372931622 fax: 6142346511 email: jservis@digestivespecialists.com
+Writing to Cucumber file...
 Closing out provider entry
 176
 Starting a new provider entry
@@ -2354,6 +2530,7 @@ Starting a new provider entry
 Change status: changed
 Mayfield Clinic Inc
 NPI type 1:  NPI type 2: 1235468083 Tax ID: 453782550 Currently practicing flag: 1 address 1: 4437 STATE ROUTE 159 address 2: STE 125 city: CHILLICOTHE state:  OH zip code: 456017065 accept new medicare: 1 phone: 9372931622 fax: 6142346511 email: jservis@digestivespecialists.com
+Writing to Cucumber file...
 Closing out provider entry
 177
 Starting a new provider entry
@@ -2376,6 +2553,7 @@ Wright State Physicians address2 changed Old value: Suite 2200 New value: STE 22
 Wright State Physicians city changed Old value: Dayton New value: DAYTON
 Wright State Physicians zip_code changed Old value: 45435 New value: 454092939
 NPI type 1:  NPI type 2: 1235468083 Tax ID: 453782550 Currently practicing flag: 1 address 1: 30 E APPLE ST address 2: STE 2200 city: DAYTON state:  OH zip code: 454092939 accept new medicare: 1 phone: 9372931622 fax: 6142346511 email: jservis@digestivespecialists.com
+Writing to Cucumber file...
 Closing out provider entry
 178
 Starting a new provider entry
@@ -2390,6 +2568,7 @@ Tri State Urologic Services, PSC, Inc. address1 changed Old value: 2000 Joseph E
 Tri State Urologic Services, PSC, Inc. city changed Old value: Cincinnati New value: CINCINNATI
 Tri State Urologic Services, PSC, Inc. zip_code changed Old value: 45212 New value: 452121979
 NPI type 1:  NPI type 2: 1235468083 Tax ID: 453782550 Currently practicing flag: 1 address 1: 2000 JOSEPH E SANKER BLVD address 2: STE 2200 city: CINCINNATI state:  OH zip code: 452121979 accept new medicare: 1 phone: 9372931622 fax: 6142346511 email: jservis@digestivespecialists.com
+Writing to Cucumber file...
 Closing out provider entry
 179
 Starting a new provider entry
@@ -2398,6 +2577,7 @@ Starting a new provider entry
 Change status: changed
 Genesis Primary Care Physicians, LLC
 NPI type 1:  NPI type 2: 1235468083 Tax ID: 453782550 Currently practicing flag: 1 address 1: 2000 JOSEPH E SANKER BLVD address 2: STE 2200 city: CINCINNATI state:  OH zip code: 452121979 accept new medicare: 1 phone: 9372931622 fax: 6142346511 email: jservis@digestivespecialists.com
+Writing to Cucumber file...
 Closing out provider entry
 180
 Starting a new provider entry
@@ -2405,6 +2585,7 @@ Starting a new provider entry
 11206512 Krishna  K  Mohan  1265482319
 Change status: changed
 NPI type 1:  NPI type 2: 1235468083 Tax ID: 453782550 Currently practicing flag: 1 address 1: 2000 JOSEPH E SANKER BLVD address 2: STE 2200 city: CINCINNATI state:  OH zip code: 452121979 accept new medicare: 1 phone: 9372931622 fax: 6142346511 email: jservis@digestivespecialists.com
+Writing to Cucumber file...
 Closing out provider entry
 181
 Starting a new provider entry
@@ -2412,6 +2593,7 @@ Starting a new provider entry
 12410734 Humberto    Morales-Ramos  1366635203
 Change status: changed
 NPI type 1:  NPI type 2: 1235468083 Tax ID: 453782550 Currently practicing flag: 1 address 1: 2000 JOSEPH E SANKER BLVD address 2: STE 2200 city: CINCINNATI state:  OH zip code: 452121979 accept new medicare: 1 phone: 9372931622 fax: 6142346511 email: jservis@digestivespecialists.com
+Writing to Cucumber file...
 Closing out provider entry
 182
 Starting a new provider entry
@@ -2419,6 +2601,7 @@ Starting a new provider entry
 11390023 Ann  Kerr  Morrison  1801886973
 Change status: changed
 NPI type 1:  NPI type 2: 1235468083 Tax ID: 453782550 Currently practicing flag: 1 address 1: 2000 JOSEPH E SANKER BLVD address 2: STE 2200 city: CINCINNATI state:  OH zip code: 452121979 accept new medicare: 1 phone: 9372931622 fax: 6142346511 email: jservis@digestivespecialists.com
+Writing to Cucumber file...
 Closing out provider entry
 183
 Starting a new provider entry
@@ -2446,6 +2629,7 @@ OhioHealth Heart and Vascular Physicians address2 changed Old value: Suite 100 N
 OhioHealth Heart and Vascular Physicians city changed Old value: Columbus New value: COLUMBUS
 OhioHealth Heart and Vascular Physicians zip_code changed Old value: 43214 New value: 432143467
 NPI type 1:  NPI type 2: 1235468083 Tax ID: 453782550 Currently practicing flag: 1 address 1: 3705 OLENTANGY RIVER RD address 2: STE 100 city: COLUMBUS state:  OH zip code: 432143467 accept new medicare: 1 phone: 9372931622 fax: 6142346511 email: jservis@digestivespecialists.com
+Writing to Cucumber file...
 Closing out provider entry
 184
 Starting a new provider entry
@@ -2454,6 +2638,7 @@ Starting a new provider entry
 Change status: changed
 Neurology Associates of Southern Ohio
 NPI type 1:  NPI type 2: 1235468083 Tax ID: 453782550 Currently practicing flag: 1 address 1: 3705 OLENTANGY RIVER RD address 2: STE 100 city: COLUMBUS state:  OH zip code: 432143467 accept new medicare: 1 phone: 9372931622 fax: 6142346511 email: jservis@digestivespecialists.com
+Writing to Cucumber file...
 Closing out provider entry
 185
 Starting a new provider entry
@@ -2466,6 +2651,7 @@ Columbus Cardiology Care, LLC address2 changed Old value: Suite 610 New value: S
 Columbus Cardiology Care, LLC city changed Old value: Columbus New value: COLUMBUS
 Columbus Cardiology Care, LLC zip_code changed Old value: 43222 New value: 432221575
 NPI type 1:  NPI type 2: 1235468083 Tax ID: 453782550 Currently practicing flag: 1 address 1: 745 W STATE ST address 2: STE 610A city: COLUMBUS state:  OH zip code: 432221575 accept new medicare: 1 phone: 9372931622 fax: 6142346511 email: jservis@digestivespecialists.com
+Writing to Cucumber file...
 Closing out provider entry
 186
 Starting a new provider entry
@@ -2482,6 +2668,7 @@ Mount Carmel Neurosurgery address2 changed Old value: Suite 215 New value: STE 2
 Mount Carmel Neurosurgery city changed Old value: Westerville New value: WESTERVILLE
 Mount Carmel Neurosurgery zip_code changed Old value: 43081 New value: 430818736
 NPI type 1:  NPI type 2: 1235468083 Tax ID: 453782550 Currently practicing flag: 1 address 1: 495 COOPER RD address 2: STE 215 city: WESTERVILLE state:  OH zip code: 430818736 accept new medicare: 1 phone: 9372931622 fax: 6142346511 email: jservis@digestivespecialists.com
+Writing to Cucumber file...
 Closing out provider entry
 187
 Starting a new provider entry
@@ -2494,6 +2681,7 @@ Springfield Urology address2 changed Old value: Suite J New value: STE J
 Springfield Urology city changed Old value: Springfield New value: SPRINGFIELD
 Springfield Urology zip_code changed Old value: 45503 New value: 455032726
 NPI type 1:  NPI type 2: 1235468083 Tax ID: 453782550 Currently practicing flag: 1 address 1: 1164 E HOME RD address 2: STE J city: SPRINGFIELD state:  OH zip code: 455032726 accept new medicare: 1 phone: 9372931622 fax: 6142346511 email: jservis@digestivespecialists.com
+Writing to Cucumber file...
 Closing out provider entry
 188
 Starting a new provider entry
@@ -2508,6 +2696,7 @@ Taylor Anesthesia Consultants, LLC address1 changed Old value: 275 Taylor Statio
 Taylor Anesthesia Consultants, LLC city changed Old value: Columbus New value: COLUMBUS
 Taylor Anesthesia Consultants, LLC zip_code changed Old value: 43213 New value: 432132927
 NPI type 1:  NPI type 2: 1235468083 Tax ID: 453782550 Currently practicing flag: 1 address 1: 275 TAYLOR STATION RD address 2: STE J city: COLUMBUS state:  OH zip code: 432132927 accept new medicare: 1 phone: 9372931622 fax: 6142346511 email: jservis@digestivespecialists.com
+Writing to Cucumber file...
 Closing out provider entry
 189
 Starting a new provider entry
@@ -2524,6 +2713,7 @@ Central Ohio Surgical Associates phone_number changed Old value: 6142228004 New 
 Central Ohio Surgical Associates fax_number changed Old value: 6142226280 New value: 6148642248
 Central Ohio Surgical Associates group_name changed Old value: Central Ohio Surgical Associates, Inc. New value: Central Ohio Surgical Associates
 NPI type 1:  NPI type 2: 1235468083 Tax ID: 453782550 Currently practicing flag: 1 address 1: 750 MOUNT CARMEL MALL address 2: STE 380 city: COLUMBUS state:  OH zip code: 432221589 accept new medicare: 1 phone: 6148646363 fax: 6148642248 email: mridgeway@cosadocs.com
+Writing to Cucumber file...
 Closing out provider entry
 190
 Starting a new provider entry
@@ -2535,6 +2725,7 @@ Marietta Health Care Physicians, Inc. address1 changed Old value: 40 White Oak P
 Marietta Health Care Physicians, Inc. city changed Old value: Vincent New value: VINCENT
 Marietta Health Care Physicians, Inc. zip_code changed Old value: 45784 New value: 457849117
 NPI type 1:  NPI type 2: 1235468083 Tax ID: 453782550 Currently practicing flag: 1 address 1: 40 WHITE OAK PROFESSIONAL CTR address 2: STE 380 city: VINCENT state:  OH zip code: 457849117 accept new medicare: 1 phone: 6148646363 fax: 6148642248 email: mridgeway@cosadocs.com
+Writing to Cucumber file...
 Closing out provider entry
 191
 Starting a new provider entry
@@ -2547,6 +2738,7 @@ Orthopaedic and Spine Center, LLC address2 changed Old value: Suite 200 New valu
 Orthopaedic and Spine Center, LLC city changed Old value: Columbus New value: COLUMBUS
 Orthopaedic and Spine Center, LLC zip_code changed Old value: 43240 New value: 432406035
 NPI type 1:  NPI type 2: 1235468083 Tax ID: 453782550 Currently practicing flag: 1 address 1: 1080 POLARIS PKWY address 2: STE 200 city: COLUMBUS state:  OH zip code: 432406035 accept new medicare: 1 phone: 6148646363 fax: 6148642248 email: mridgeway@cosadocs.com
+Writing to Cucumber file...
 Closing out provider entry
 192
 Starting a new provider entry
@@ -2554,6 +2746,7 @@ Starting a new provider entry
 11590004 Ravi  S  Dhawale  1023051299
 Change status: changed
 NPI type 1:  NPI type 2: 1235468083 Tax ID: 453782550 Currently practicing flag: 1 address 1: 1080 POLARIS PKWY address 2: STE 200 city: COLUMBUS state:  OH zip code: 432406035 accept new medicare: 1 phone: 6148646363 fax: 6148642248 email: mridgeway@cosadocs.com
+Writing to Cucumber file...
 Closing out provider entry
 193
 Starting a new provider entry
@@ -2566,6 +2759,7 @@ Sound Physicians address2 changed Old value: Suite 403 New value: STE 403
 Sound Physicians city changed Old value: Columbus New value: COLUMBUS
 Sound Physicians zip_code changed Old value: 43213 New value: 432131540
 NPI type 1:  NPI type 2: 1235468083 Tax ID: 453782550 Currently practicing flag: 1 address 1: 5969 E BROAD ST address 2: STE 403 city: COLUMBUS state:  OH zip code: 432131540 accept new medicare: 1 phone: 6148646363 fax: 6148642248 email: mridgeway@cosadocs.com
+Writing to Cucumber file...
 Closing out provider entry
 194
 Starting a new provider entry
@@ -2581,6 +2775,7 @@ Tri State Urologic Services, PSC, Inc. address2 changed Old value: 200 New value
 Tri State Urologic Services, PSC, Inc. city changed Old value: Ft. Mitchell New value: CRESTVIEW HLS
 Tri State Urologic Services, PSC, Inc. zip_code changed Old value: 41017 New value: 410175460
 NPI type 1:  NPI type 2: 1235468083 Tax ID: 453782550 Currently practicing flag: 1 address 1: 350 THOMAS MORE PKWY address 2: STE 200 city: CRESTVIEW HLS state:  OH zip code: 410175460 accept new medicare: 1 phone: 6148646363 fax: 6148642248 email: mridgeway@cosadocs.com
+Writing to Cucumber file...
 Closing out provider entry
 195
 Starting a new provider entry
@@ -2589,6 +2784,7 @@ Starting a new provider entry
 Change status: changed
 Family Health Center
 NPI type 1:  NPI type 2: 1235468083 Tax ID: 453782550 Currently practicing flag: 1 address 1: 350 THOMAS MORE PKWY address 2: STE 200 city: CRESTVIEW HLS state:  OH zip code: 410175460 accept new medicare: 1 phone: 6148646363 fax: 6148642248 email: mridgeway@cosadocs.com
+Writing to Cucumber file...
 Closing out provider entry
 196
 Starting a new provider entry
@@ -2596,6 +2792,7 @@ Starting a new provider entry
 10793224 Johnny  Joon  Huh  1962498972
 Change status: changed
 NPI type 1:  NPI type 2: 1235468083 Tax ID: 453782550 Currently practicing flag: 1 address 1: 350 THOMAS MORE PKWY address 2: STE 200 city: CRESTVIEW HLS state:  OH zip code: 410175460 accept new medicare: 1 phone: 6148646363 fax: 6148642248 email: mridgeway@cosadocs.com
+Writing to Cucumber file...
 Closing out provider entry
 197
 Starting a new provider entry
@@ -2605,5 +2802,6 @@ Change status: changed
 CEI PHYSICIANS PSC INC
 CEI PHYSICIANS PSC INC zip_code changed Old value: 452194231 New value: 452194239
 NPI type 1:  NPI type 2: 1235468083 Tax ID: 453782550 Currently practicing flag: 1 address 1: 350 THOMAS MORE PKWY address 2: STE 200 city: CRESTVIEW HLS state:  OH zip code: 452194239 accept new medicare: 1 phone: 6148646363 fax: 6148642248 email: mridgeway@cosadocs.com
+Writing to Cucumber file...
 Closing out provider entry
 198

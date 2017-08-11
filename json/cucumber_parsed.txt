@@ -1,0 +1,202 @@
+
+Opened JSON file
+
+| npi_type_1 | npi_type_2 | tax_id | currently_practicing_flag | address1           |  address2                      | city     | state | zip_code | accept_new_medicare_patients_flag | phone_number | fax_number | email_address               | group_name |
+ | 1609856525 | 311575051 | 0 | 2245 BAUER RD |  | BATAVIA | OH | 451031977 | 1 | 5132313447 | 5132313761 | pgoforth@shwhc.com | SEVEN HILLS OB/GYN ASSOCIATES INC. | 
+ | 1609856525 | 311575051 | 0 | 2245 BAUER RD |  | BATAVIA | OH | 451031977 | 1 | 5132313447 | 5132313761 | pgoforth@shwhc.com | SEVEN HILLS OB/GYN ASSOCIATES INC. | 
+ | 1609856525 | 311575051 | 0 | 2245 BAUER RD | STE 504 | CINCINNATI | OH | 452424400 | 1 | 5132313447 | 5132313761 | pgoforth@shwhc.com | SEVEN HILLS OB/GYN ASSOCIATES INC. | 
+ | 1609856525 | 311575051 | 0 | PO BOX 66 | 24 SIX PINE RANCH ROAD | BATESVILLE | OH | 470060066 | 1 | 5132313447 | 5132313761 | pgoforth@shwhc.com | SEVEN HILLS OB/GYN ASSOCIATES INC. | 
+ | 1609856525 | 311575051 | 0 | 3555 OLENTANGY RIVER RD | STE 1080 | COLUMBUS | OH | 470060066 | 1 | 5132313447 | 5132313761 | pgoforth@shwhc.com | SEVEN HILLS OB/GYN ASSOCIATES INC. | 
+ | 1902844947 | 203130844 | 1 | 4940 COTTONVILLE RD | STE 600 | JAMESTOWN | OH | 453351522 | 1 | 9372931622 | 9372456308 | apanstingel@daytonphysicians.com | SEVEN HILLS OB/GYN ASSOCIATES INC. | 
+ | 1902844947 | 203130844 | 1 | 4940 COTTONVILLE RD | STE 600 | JAMESTOWN | OH | 453351522 | 1 | 9372931622 | 9372456308 | apanstingel@daytonphysicians.com | SEVEN HILLS OB/GYN ASSOCIATES INC. | 
+ | 1902844947 | 203130844 | 1 | 85 MCNAUGHTEN RD | STE 300 | COLUMBUS | OH | 432135112 | 1 | 9372931622 | 9372456308 | apanstingel@daytonphysicians.com | SEVEN HILLS OB/GYN ASSOCIATES INC. | 
+ | 1902844947 | 203130844 | 1 | 2055 HOSPITAL DR | STE 300 | BATAVIA | OH | 451031981 | 1 | 9372931622 | 9372456308 | apanstingel@daytonphysicians.com | SEVEN HILLS OB/GYN ASSOCIATES INC. | 
+ | 1902844947 | 203130844 | 1 | 1955 DIXIE HWY | STE D | FT WRIGHT | OH | 410112882 | 1 | 9372931622 | 9372456308 | apanstingel@daytonphysicians.com | SEVEN HILLS OB/GYN ASSOCIATES INC. | 
+ | 1902844947 | 203130844 | 1 | 10506 MONTGOMERY RD | STE 504 | CINCINNATI | OH | 452424400 | 1 | 9372931622 | 9372456308 | apanstingel@daytonphysicians.com | SEVEN HILLS OB/GYN ASSOCIATES INC. | 
+ | 1902844947 | 203130844 | 1 | 4940 COTTONVILLE RD | STE 600 | JAMESTOWN | OH | 453351522 | 1 | 9372931622 | 9372808373 | apanstingel@daytonphysicians.com | SEVEN HILLS OB/GYN ASSOCIATES INC. | 
+ | 1902844947 | 203130844 | 1 | 9000 N MAIN ST | STE 328 | ENGLEWOOD | OH | 454151185 | 1 | 9372931622 | 9372808373 | apanstingel@daytonphysicians.com | SEVEN HILLS OB/GYN ASSOCIATES INC. | 
+ | 1386084671 | 560845796 | 1 | 9000 N MAIN ST | STE 328 | ENGLEWOOD | OH | 454151185 | 1 | 9106154000 |  | apanstingel@daytonphysicians.com | CAPE FEAR VALLEY CARDIOVASCULAR & THORACIC SURGERY | 
+ | 1386084671 | 560845796 | 1 | 888 DAYTON ST STE 200 | STE 328 | YELLOW SPGS | OH | 453871777 | 1 | 9106154000 |  | apanstingel@daytonphysicians.com | CAPE FEAR VALLEY CARDIOVASCULAR & THORACIC SURGERY | 
+ | 1063507226 | 560845796 | 1 | 888 DAYTON ST STE 200 | STE 328 | YELLOW SPGS | OH | 453871777 | 1 | 9106154000 |  | apanstingel@daytonphysicians.com | CAPE FEAR VALLEY CARDIOVASCULAR & THORACIC SURGERY | 
+ | 1063507226 | 560845796 | 1 | 888 DAYTON ST STE 200 | STE 328 | YELLOW SPGS | OH | 453871777 | 1 | 9106154000 |  | apanstingel@daytonphysicians.com | CAPE FEAR VALLEY CARDIOVASCULAR & THORACIC SURGERY | 
+ | 1063507226 | 560845796 | 1 | 222 SCIO RD SE | ROUTE 332 | CARROLLTON | OH | 446158521 | 1 | 9106154000 |  | apanstingel@daytonphysicians.com | CAPE FEAR VALLEY CARDIOVASCULAR & THORACIC SURGERY | 
+ | 1063507226 | 560845796 | 1 | 793 W STATE ST | ROUTE 332 | COLUMBUS | OH | 432221551 | 1 | 9106154000 |  | apanstingel@daytonphysicians.com | CAPE FEAR VALLEY CARDIOVASCULAR & THORACIC SURGERY | 
+ | 1063507226 | 560845796 | 1 | 7415 BRANDT PIKE | STE 101 | HUBER HEIGHTS | OH | 454243239 | 1 | 9106154000 |  | jservis@digestivespecialists.com | CAPE FEAR VALLEY CARDIOVASCULAR & THORACIC SURGERY | 
+ | 1063507226 | 560845796 | 1 | 104 W WILLIAM ST | STE 101 | DELAWARE | OH | 430152305 | 1 | 9106154000 |  | jservis@digestivespecialists.com | CAPE FEAR VALLEY CARDIOVASCULAR & THORACIC SURGERY | 
+ | 1063507226 | 560845796 | 1 | 1313 OLENTANGY RIVER RD | STE 180 | COLUMBUS | OH | 432123120 | 1 | 9106154000 |  | jservis@digestivespecialists.com | CAPE FEAR VALLEY CARDIOVASCULAR & THORACIC SURGERY | 
+ | 1063507226 | 560845796 | 1 | 1313 OLENTANGY RIVER RD | STE 180 | COLUMBUS | OH | 432123120 | 1 | 9106154000 |  | jservis@digestivespecialists.com | CAPE FEAR VALLEY CARDIOVASCULAR & THORACIC SURGERY | 
+ | 1063507226 | 560845796 | 1 | 77 W ELEANOR DR | STE 101 | SPRINGBORO | OH | 450661615 | 1 | 9106154000 |  | jservis@digestivespecialsits.com | CAPE FEAR VALLEY CARDIOVASCULAR & THORACIC SURGERY | 
+ | 1063507226 | 560845796 | 1 | 77 W ELEANOR DR | STE 101 | SPRINGBORO | OH | 450661615 | 1 | 9106154000 |  | jservis@digestivespecialsits.com | CAPE FEAR VALLEY CARDIOVASCULAR & THORACIC SURGERY | 
+ | 1063507226 | 560845796 | 1 | 807 FARSON ST | STE 204 | BELPRE | OH | 457141069 | 1 | 9106154000 |  | jservis@digestivespecialsits.com | CAPE FEAR VALLEY CARDIOVASCULAR & THORACIC SURGERY | 
+ | 1063507226 | 560845796 | 1 | 2123 AUBURN AVE | STE 210 | CINCINNATI | OH | 452192906 | 1 | 9106154000 |  | jservis@digestivespecialsits.com | CAPE FEAR VALLEY CARDIOVASCULAR & THORACIC SURGERY | 
+ | 1255526471 | 560845796 | 1 | 2123 AUBURN AVE | STE 210 | CINCINNATI | OH | 452192906 | 1 | 9106154000 |  | jservis@digestivespecialsits.com | CAPE FEAR VALLEY CARDIOVASCULAR & THORACIC SURGERY | 
+ | 1255526471 | 560845796 | 1 | 2123 AUBURN AVE | STE 210 | CINCINNATI | OH | 452192906 | 1 | 9106154000 |  | jservis@digestivespecialists.com | CAPE FEAR VALLEY CARDIOVASCULAR & THORACIC SURGERY | 
+ | 1255526471 | 560845796 | 1 | 2123 AUBURN AVE | STE 210 | CINCINNATI | OH | 455042581 | 1 | 9106154000 |  | jservis@digestivespecialists.com | CAPE FEAR VALLEY CARDIOVASCULAR & THORACIC SURGERY | 
+ | 1255526471 | 560845796 | 1 | 435 PARK AVE | STE 210 | HAMILTON | OH | 450133053 | 1 | 9106154000 |  | jservis@digestivespecialists.com | CAPE FEAR VALLEY CARDIOVASCULAR & THORACIC SURGERY | 
+ | 1255526471 | 560845796 | 1 | 435 PARK AVE | STE 210 | HAMILTON | OH | 450133053 | 1 | 9106154000 |  | jservis@digestivespecialists.com | CAPE FEAR VALLEY CARDIOVASCULAR & THORACIC SURGERY | 
+ | 1255526471 | 560845796 | 1 | 1530 NEEDMORE RD | STE 101 | DAYTON | OH | 454143900 | 1 | 9106154000 | 9372972208 | jservis@digestivespecialists.com | CAPE FEAR VALLEY CARDIOVASCULAR & THORACIC SURGERY | 
+ | 1255526471 | 560845796 | 1 | 1530 NEEDMORE RD | STE 101 | DAYTON | OH | 454143900 | 1 | 9106154000 | 9372972208 | jservis@digestivespecialists.com | CAPE FEAR VALLEY CARDIOVASCULAR & THORACIC SURGERY | 
+ | 1255526471 | 560845796 | 1 | 807 FARSON ST | STE 201 | BELPRE | OH | 457141069 | 1 | 9106154000 | 9372972208 | jservis@digestivespecialists.com | CAPE FEAR VALLEY CARDIOVASCULAR & THORACIC SURGERY | 
+ | 1255526471 | 560845796 | 1 | 745 W STATE ST | STE 750 | COLUMBUS | OH | 432221515 | 1 | 9106154000 | 9372972208 | jservis@digestivespecialists.com | CAPE FEAR VALLEY CARDIOVASCULAR & THORACIC SURGERY | 
+ | 1255526471 | 560845796 | 1 | 880 GREENLAWN AVE | STE 750 | COLUMBUS | OH | 432221515 | 1 | 9106154000 | 9372972208 | jservis@digestivespecialists.com | CAPE FEAR VALLEY CARDIOVASCULAR & THORACIC SURGERY | 
+ | 1255526471 | 560845796 | 1 | 925 N HAMILTON RD | STE 100 | GAHANNA | OH | 432308709 | 1 | 9106154000 | 9372972208 | jservis@digestivespecialists.com | CAPE FEAR VALLEY CARDIOVASCULAR & THORACIC SURGERY | 
+ | 1255526471 | 560845796 | 1 | 1450 COLUMBUS AVE | STE 103 | WSHNGTN CT HS | OH | 431603701 | 1 | 9106154000 | 9372972208 | jservis@digestivespecialists.com | CAPE FEAR VALLEY CARDIOVASCULAR & THORACIC SURGERY | 
+ | 1255526471 | 560845796 | 1 | 1330 CLARK ST | STE 103 | CAMBRIDGE | OH | 437259614 | 1 | 9106154000 | 9372972208 | jservis@digestivespecialists.com | CAPE FEAR VALLEY CARDIOVASCULAR & THORACIC SURGERY | 
+ | 1255526471 | 560845796 | 1 | 7921 JESSIES WAY | STE 103 | FAIRFIELD | OH | 450118077 | 1 | 9106154000 | 9372972208 | jservis@digestivespecialists.com | CAPE FEAR VALLEY CARDIOVASCULAR & THORACIC SURGERY | 
+ | 1255526471 | 560845796 | 1 | 7921 JESSIES WAY | STE 103 | FAIRFIELD | OH | 450118077 | 1 | 9106154000 | 9372972208 | jservis@digestivespecialists.com | CAPE FEAR VALLEY CARDIOVASCULAR & THORACIC SURGERY | 
+ | 1326210121 | 560845796 | 1 | 7921 JESSIES WAY | STE 103 | FAIRFIELD | OH | 450118077 | 1 | 9106154000 | 9372972208 | jservis@digestivespecialists.com | CAPE FEAR VALLEY CARDIOVASCULAR & THORACIC SURGERY | 
+ | 1326210121 | 560845796 | 1 | 7921 JESSIES WAY | STE 103 | FAIRFIELD | OH | 450118077 | 1 | 9106154000 | 9372972208 | jservis@digestivespecialists.com | CAPE FEAR VALLEY CARDIOVASCULAR & THORACIC SURGERY | 
+ | 1326210121 | 560845796 | 1 | 6909 GOOD SAMARITAN DR | STE A | CINCINNATI | OH | 452475209 | 1 | 9106154000 | 9372972208 | jservis@digestivespecialists.com | CAPE FEAR VALLEY CARDIOVASCULAR & THORACIC SURGERY | 
+ | 1326210121 | 560845796 | 1 | 92 N 4TH ST | STE A | MARTINS FERRY | OH | 439351600 | 1 | 9106154000 | 9372972208 | jservis@digestivespecialists.com | CAPE FEAR VALLEY CARDIOVASCULAR & THORACIC SURGERY | 
+ | 1326210121 | 560845796 | 1 | 575 COPELAND MILL RD STE 2F, | ATTN: TINA TRAYLOR | WESTERVILLE | OH | 430818977 | 1 | 9106154000 | 9372972208 | jservis@digestivespecialists.com | CAPE FEAR VALLEY CARDIOVASCULAR & THORACIC SURGERY | 
+ | 1326210121 | 560845796 | 1 | 5348 LAMME RD | ATTN: TINA TRAYLOR | MORAINE | OH | 430818977 | 1 | 9106154000 | 9372972208 | jservis@digestivespecialists.com | CAPE FEAR VALLEY CARDIOVASCULAR & THORACIC SURGERY | 
+ | 1689835415 | 262448601 | 1 | 1818 CHAPEL DR | STE C | FINDLAY | OH | 458401344 | 1 | 4194297637 | 4194297641 | jservis@digestivespecialists.com | CAPE FEAR VALLEY CARDIOVASCULAR & THORACIC SURGERY | 
+ | 1689835415 | 262448601 | 1 | 10220 ALLIANCE RD | STE C | BLUE ASH | OH | 452424710 | 1 | 4194297637 | 4194297641 | jservis@digestivespecialists.com | CAPE FEAR VALLEY CARDIOVASCULAR & THORACIC SURGERY | 
+ | 1689835415 | 262448601 | 1 | 85 N GRAND AVE | STE C | FORT THOMAS | OH | 410751793 | 1 | 4194297637 | 4194297641 | jservis@digestivespecialists.com | CAPE FEAR VALLEY CARDIOVASCULAR & THORACIC SURGERY | 
+ | 1609856525 | 311575051 | 0 | 2245 BAUER RD | STE C | BATAVIA | OH | 451031977 | 1 | 5133213447 | 5132313761 | pgoforth@shwhc.com | Seven Hills Women's Health Centers | 
+ | 1609856525 | 311575051 | 0 | 1330 CLARK ST | STE C | CAMBRIDGE | OH | 437259614 | 1 | 5133213447 | 5132313761 | pgoforth@shwhc.com | Seven Hills Women's Health Centers | 
+ | 1609856525 | 311575051 | 0 | 7450 HOSPITAL DR | HEART AND LUNG DEPT | DUBLIN | OH | 430169642 | 1 | 5133213447 | 5132313761 | pgoforth@shwhc.com | Seven Hills Women's Health Centers | 
+ | 1902844947 | 203130844 | 1 | 4940 COTTONVILLE RD | STE 600 | JAMESTOWN | OH | 453351522 | 1 | 9372931622 | 9372456308 | apanstingel@daytonphysicians.com | Seven Hills Women's Health Centers | 
+ | 1902844947 | 203130844 | 1 | 3301 MERCY HEALTH BLVD | STE 525 | CINCINNATI | OH | 452111118 | 1 | 9372931622 | 9372456308 | apanstingel@daytonphysicians.com | Seven Hills Women's Health Centers | 
+ | 1902844947 | 203130844 | 1 | 3617 HERITAGE CLUB DR | STE 525 | HILLIARD | OH | 430261313 | 1 | 9372931622 | 9372456308 | apanstingel@daytonphysicians.com | Seven Hills Women's Health Centers | 
+ | 1902844947 | 203130844 | 1 | 1330 CLARK ST | STE 525 | CAMBRIDGE | OH | 437259614 | 1 | 9372931622 | 9372456308 | apanstingel@daytonphysicians.com | Seven Hills Women's Health Centers | 
+ | 1902844947 | 203130844 | 1 | 1330 CLARK ST | STE 525 | CAMBRIDGE | OH | 437259614 | 1 | 9372931622 | 9372456308 | apanstingel@daytonphysicians.com | Seven Hills Women's Health Centers | 
+ | 1902844947 | 203130844 | 1 | 2000 JOSEPH E SANKER BLVD | STE 525 | CINCINNATI | OH | 452121979 | 1 | 9372931622 | 9372456308 | apanstingel@daytonphysicians.com | Seven Hills Women's Health Centers | 
+ | 1902844947 | 203130844 | 1 | 2000 JOSEPH E SANKER BLVD | STE 525 | CINCINNATI | OH | 452121979 | 1 | 9372931622 | 9372456308 | apanstingel@daytonphysicians.com | Seven Hills Women's Health Centers | 
+ | 1902844947 | 203130844 | 1 | 2000 JOSEPH E SANKER BLVD | STE 525 | CINCINNATI | OH | 452121979 | 1 | 9372931622 | 9372456308 | apanstingel@daytonphysicians.com | Seven Hills Women's Health Centers | 
+ | 1902844947 | 203130844 | 1 | 2283 WAHSUM CIR | STE 525 | CENTERVILLE | OH | 454596600 | 1 | 9372931622 | 9372456308 | apanstingel@daytonphysicians.com | Seven Hills Women's Health Centers | 
+ | 1902844947 | 203130844 | 1 | 805 FARSON ST STE 112 | STE 525 | BELPRE | OH | 457141000 | 1 | 9372931622 | 9372456308 | apanstingel@daytonphysicians.com | Seven Hills Women's Health Centers | 
+ | 1902844947 | 203130844 | 1 | 8000 5 MILE RD | STE 320 | CINCINNATI | OH | 452302188 | 1 | 9372931622 | 9372456308 | apanstingel@daytonphysicians.com | Seven Hills Women's Health Centers | 
+ | 1902844947 | 203130844 | 1 | 8000 5 MILE RD | STE 320 | CINCINNATI | OH | 452302188 | 1 | 9372931622 | 9372456308 | apanstingel@daytonphysicians.com | Seven Hills Women's Health Centers | 
+ | 1902844947 | 203130844 | 1 | 50 N PROGRESS DR | STE 320 | XENIA | OH | 453852666 | 1 | 9372931622 | 9372456308 | apanstingel@daytonphysicians.com | Seven Hills Women's Health Centers | 
+ | 1902844947 | 203130844 | 1 | 975 BETHESDA DR | STE 320 | ZANESVILLE | OH | 437017500 | 1 | 9372931622 | 9372456308 | apanstingel@daytonphysicians.com | Seven Hills Women's Health Centers | 
+ | 1902844947 | 203130844 | 1 | 975 BETHESDA DR | STE 320 | ZANESVILLE | OH | 437017500 | 1 | 9372931622 | 9372456308 | apanstingel@daytonphysicians.com | Seven Hills Women's Health Centers | 
+ | 1902844947 | 203130844 | 1 | 4940 COTTONVILLE RD | STE 600 | JAMESTOWN | OH | 453351522 | 1 | 9372808366 | 9372808373 | apanstingel@daytonphysicians.com | Seven Hills Women's Health Centers | 
+ | 1902844947 | 203130844 | 1 | 4940 COTTONVILLE RD | STE 600 | JAMESTOWN | OH | 453351522 | 1 | 9372808366 | 9372808373 | jservis@digestivespecialists.com | Seven Hills Women's Health Centers | 
+ | 1902844947 | 203130844 | 1 | 111 WEST ST | STE 600 | CALDWELL | OH | 437241359 | 1 | 9372808366 | 9372808373 | jservis@digestivespecialists.com | Seven Hills Women's Health Centers | 
+ | 1902844947 | 203130844 | 1 | 6465 E BROAD ST | STE D | COLUMBUS | OH | 437241359 | 1 | 9372808366 | 9372808373 | jservis@digestivespecialists.com | Seven Hills Women's Health Centers | 
+ | 1902844947 | 203130844 | 1 | 793 W STATE ST | STE D | COLUMBUS | OH | 437241359 | 1 | 9372808366 | 9372808373 | jservis@digestivespecialists.com | Seven Hills Women's Health Centers | 
+ | 1902844947 | 203130844 | 1 | 793 W STATE ST | STE D | COLUMBUS | OH | 437251162 | 1 | 9372808366 | 9372808373 | jservis@digestivespecialists.com | Seven Hills Women's Health Centers | 
+ | 1902844947 | 203130844 | 1 | 793 W STATE ST | STE 102 | COLUMBUS | OH | 455051373 | 1 | 9372808366 | 9372808373 | jservis@digestivespecialists.com | Seven Hills Women's Health Centers | 
+ | 1902844947 | 203130844 | 1 | 793 W STATE ST | STE 102 | COLUMBUS | OH | 455051373 | 1 | 9372808366 | 9372808373 | jservis@digestivespecialists.com | Seven Hills Women's Health Centers | 
+ | 1902844947 | 203130844 | 1 | 10506 MONTGOMERY RD | STE 504 | CINCINNATI | OH | 452424400 | 1 | 9372808366 | 9372808373 | jservis@digestivespecialists.com | Seven Hills Women's Health Centers | 
+ | 1902844947 | 203130844 | 1 | 400 MATTHEW ST | WOUND CARE CENTER | MARIETTA | OH | 457501644 | 1 | 9372808366 | 9372808373 | jservis@digestivespecialists.com | Seven Hills Women's Health Centers | 
+ | 1902844947 | 203130844 | 1 | 400 MATTHEW ST | WOUND CARE CENTER | MARIETTA | OH | 457501644 | 1 | 9372808366 | 9372808373 | jservis@digestivespecialists.com | Seven Hills Women's Health Centers | 
+ | 1902844947 | 203130844 | 1 | 400 MATTHEW ST | WOUND CARE CENTER | MARIETTA | OH | 457501644 | 1 | 9372808366 | 9372808373 | Mariraef@gmail.com | Seven Hills Women's Health Centers | 
+ | 1578545273 | 311351965 | 1 | 10401 Sawmill Pkwy | Ste 40 | Powell | OH | 43065 | 1 | 6147640200 | 6147642782 | Mariraef@gmail.com | OhioHealth Physician Group, Inc. | 
+ | 1578545273 | 311351965 | 1 | 135 N EWING ST | STE 201 | LANCASTER | OH | 431303378 | 1 | 6147640200 | 6147642782 | Mariraef@gmail.com | OhioHealth Physician Group, Inc. | 
+ | 1578545273 | 311351965 | 1 | 3747 W FORK RD | STE 201 | CINCINNATI | OH | 452477548 | 1 | 6147640200 | 6147642782 | Mariraef@gmail.com | OhioHealth Physician Group, Inc. | 
+ | 1578545273 | 311351965 | 1 | 247 S BURNETT RD | STE 201 | SPRINGFIELD | OH | 455052639 | 1 | 6147640200 | 6147642782 | Mariraef@gmail.com | OhioHealth Physician Group, Inc. | 
+ | 1578545273 | 311351965 | 1 | 800 PIKE ST | STE 2 | MARIETTA | OH | 457503507 | 1 | 6147640200 | 6147642782 | Mariraef@gmail.com | OhioHealth Physician Group, Inc. | 
+ | 1578545273 | 311351965 | 1 | 999 BRUBAKER DR | STE 101 | KETTERING | OH | 454293588 | 1 | 6147640200 | 6147642782 | jservis@digestivespecialists.com | OhioHealth Physician Group, Inc. | 
+ | 1578545273 | 311351965 | 1 | 999 BRUBAKER DR | STE 101 | KETTERING | OH | 454293588 | 1 | 6147640200 | 6147642782 | jservis@digestivespecialists.com | OhioHealth Physician Group, Inc. | 
+ | 1578545273 | 311351965 | 1 | 4760 E GALBRAITH RD | STE 203 | CINCINNATI | OH | 452366704 | 1 | 6147640200 | 6147642782 | jservis@digestivespecialists.com | OhioHealth Physician Group, Inc. | 
+ | 1578545273 | 311351965 | 1 | 1403 WAGNER AVE | STE 203 | MIAMISBURG | OH | 452366704 | 1 | 6147640200 | 6147642782 | jservis@digestivespecialists.com | OhioHealth Physician Group, Inc. | 
+ | 1578545273 | 311351965 | 1 | 5232 SOCIALVILLE FOSTER RD | STE 203 | MASON | OH | 450409302 | 1 | 6147640200 | 6147642782 | jservis@digestivespecialists.com | OhioHealth Physician Group, Inc. | 
+ | 1578545273 | 311351965 | 1 | 4030 HENDERSON RD | STE 203 | COLUMBUS | OH | 450409302 | 1 | 6147640200 | 6147642782 | jservis@digestivespecialists.com | OhioHealth Physician Group, Inc. | 
+ | 1578545273 | 311351965 | 1 | 3000 HOSPITAL DR | STE 203 | BATAVIA | OH | 451031921 | 1 | 6147640200 | 6147642782 | jservis@digestivespecialists.com | OhioHealth Physician Group, Inc. | 
+ | 1578545273 | 311351965 | 1 | 1781 COUNTRYSIDE DR | STE 203 | LANCASTER | OH | 431301186 | 1 | 6147640200 | 6147642782 | jservis@digestivespecialists.com | OhioHealth Physician Group, Inc. | 
+ | 1578545273 | 311351965 | 1 | 1781 COUNTRYSIDE DR | STE 203 | LANCASTER | OH | 431301186 | 1 | 6147640200 | 6147642782 | jservis@digestivespecialists.com | OhioHealth Physician Group, Inc. | 
+ | 1902844947 | 203130844 | 1 | 4940 COTTONVILLE RD | STE 600 | JAMESTOWN | OH | 453351522 | 1 | 9372931622 | 9372456308 | apanstingel@daytonphysicians.com | OhioHealth Physician Group, Inc. | 
+ | 1902844947 | 203130844 | 1 | 10506 MONTGOMERY RD | STE 504 | CINCINNATI | OH | 452424400 | 1 | 9372931622 | 9372456308 | apanstingel@daytonphysicians.com | OhioHealth Physician Group, Inc. | 
+ | 1902844947 | 203130844 | 1 | 66840 BELMONT MORRISTOWN RD | STE 504 | BELMONT | OH | 437189665 | 1 | 9372931622 | 9372456308 | apanstingel@daytonphysicians.com | OhioHealth Physician Group, Inc. | 
+ | 1902844947 | 203130844 | 1 | 4940 COTTONVILLE RD | STE 600 | JAMESTOWN | OH | 453351522 | 1 | 9372931622 | 9372456308 | apanstingel@daytonphysicians.com | OhioHealth Physician Group, Inc. | 
+ | 1326072265 | 203130844 | 1 | 1320 W MAIN ST | STE 600 | NEWARK | OH | 430551822 | 1 | 2205644218 | 2205644217 | apanstingel@daytonphysicians.com |  | 
+ | 1326072265 | 203130844 | 1 | 111 S GRANT AVE | STE 600 | NEWARK | OH | 432154701 | 1 | 2205644218 | 2205644217 | apanstingel@daytonphysicians.com |  | 
+ |  | 203130844 | 1 | 5215 N BEND RD | STE 600 | CINCINNATI | OH | 452478006 | 1 | 2205644218 | 2205644217 | apanstingel@daytonphysicians.com |  | 
+ | 1902844947 | 203130844 | 1 | 4940 COTTONVILLE RD | STE 600 | JAMESTOWN | OH | 453351522 | 1 | 9372931622 | 9372456308 | apanstingel@daytonphysicians.com |  | 
+ | 1902844947 | 203130844 | 1 | 4940 COTTONVILLE RD | STE 600 | JAMESTOWN | OH | 453351522 | 1 | 9372931622 | 9372456308 | apanstingel@daytonphysicians.com |  | 
+ | 1902844947 | 203130844 | 1 | 450 ALKYRE RUN | STE 100 | WESTERVILLE | OH | 430826910 | 1 | 9372931622 | 9372456308 | apanstingel@daytonphysicians.com |  | 
+ | 1902844947 | 203130844 | 1 | 450 ALKYRE RUN | STE 100 | WESTERVILLE | OH | 430826910 | 1 | 9372931622 | 9372456308 | apanstingel@daytonphysicians.com |  | 
+ | 1902844947 | 203130844 | 1 | 941 CHATHAM LN | STE 215 | COLUMBUS | OH | 432212416 | 1 | 9372931622 | 9372456308 | apanstingel@daytonphysicians.com |  | 
+ | 1902844947 | 203130844 | 1 | 793 W STATE ST | STE 215 | COLUMBUS | OH | 432212416 | 1 | 9372931622 | 9372456308 | apanstingel@daytonphysicians.com |  | 
+ | 1902844947 | 203130844 | 1 | 2350 MIAMI VALLEY DR | STE 210 | CENTERVILLE | OH | 454594778 | 1 | 9372931622 | 9372456308 | apanstingel@daytonphysicians.com |  | 
+ | 1902844947 | 203130844 | 1 | 2350 MIAMI VALLEY DR | STE 210 | CENTERVILLE | OH | 454594778 | 1 | 9372931622 | 9372456308 | apanstingel@daytonphysicians.com |  | 
+ | 1902844947 | 203130844 | 1 | 1505 STONECREEK DR S | STE 102 | PICKERINGTON | OH | 431479869 | 1 | 9372931622 | 9372456308 | apanstingel@daytonphysicians.com |  | 
+ | 1902844947 | 203130844 | 1 | 1505 STONECREEK DR S | STE 102 | PICKERINGTON | OH | 431479869 | 1 | 9372931622 | 9372456308 | apanstingel@daytonphysicians.com |  | 
+ | 1902844947 | 203130844 | 1 | 2000 JOSEPH E SANKER BLVD | STE 200 | CINCINNATI | OH | 452121979 | 1 | 9372931622 | 9372456308 | apanstingel@daytonphysicians.com |  | 
+ | 1902844947 | 203130844 | 1 | 151 ANDERSON LN | DEPT OF FAMILY MEDICINE | WATERFORD | OH | 457865312 | 1 | 9372931622 | 9372456308 | apanstingel@daytonphysicians.com |  | 
+ | 1902844947 | 203130844 | 1 | 4940 COTTONVILLE RD | STE 600 | JAMESTOWN | OH | 453351522 | 1 | 9372931622 | 9372456308 | apanstingel@daytonphysicians.com |  | 
+ |  | 203130844 | 1 | 4940 COTTONVILLE RD | STE 600 | JAMESTOWN | OH | 453351522 | 1 | 9372931622 | 9372456308 | apanstingel@daytonphysicians.com |  | 
+ |  | 203130844 | 1 | 4940 COTTONVILLE RD | STE 600 | JAMESTOWN | OH | 453351522 | 1 | 9372931622 | 9372456308 | apanstingel@daytonphysicians.com |  | 
+ |  | 203130844 | 1 | 615 COPELAND MILL RD STE 2D | STE 600 | WESTERVILLE | OH | 453351522 | 1 | 9372931622 | 9372456308 | apanstingel@daytonphysicians.com |  | 
+ |  | 203130844 | 1 | 4700 E GALBRAITH RD | STE 202 | CINCINNATI | OH | 452362754 | 1 | 9372931622 | 9372456308 | apanstingel@daytonphysicians.com |  | 
+ |  | 203130844 | 1 | 7333 SMITHS MILL RD | STE 202 | NEW ALBANY | OH | 430549291 | 1 | 9372931622 | 9372456308 | apanstingel@daytonphysicians.com |  | 
+ |  | 203130844 | 1 | 7333 SMITHS MILL RD | STE 202 | NEW ALBANY | OH | 430549291 | 1 | 9372931622 | 9372456308 | apanstingel@daytonphysicians.com |  | 
+ |  | 203130844 | 1 | 2000 JOSEPH E SANKER BLVD | STE 200 | CINCINNATI | OH | 452121979 | 1 | 9372931622 | 9372456308 | apanstingel@daytonphysicians.com |  | 
+ |  | 203130844 | 1 | 2000 JOSEPH E SANKER BLVD | STE 200 | CINCINNATI | OH | 452121979 | 1 | 9372931622 | 9372456308 | apanstingel@daytonphysicians.com |  | 
+ |  | 203130844 | 1 | 7980 N MAIN ST | STE 200 | DAYTON | OH | 454152328 | 1 | 9372931622 | 9372456308 | apanstingel@daytonphysicians.com |  | 
+ |  | 203130844 | 1 | 7980 N MAIN ST | STE 200 | DAYTON | OH | 454152328 | 1 | 9372931622 | 9372456308 | apanstingel@daytonphysicians.com |  | 
+ |  | 203130844 | 1 | 7980 N MAIN ST | STE 200 | DAYTON | OH | 454152328 | 1 | 9372931622 | 9372456308 | apanstingel@daytonphysicians.com |  | 
+ |  | 203130844 | 1 | 2000 TAMARACK RD | STE 200 | NEWARK | OH | 430551183 | 1 | 9372931622 | 9372456308 | apanstingel@daytonphysicians.com |  | 
+ |  | 203130844 | 1 | 2000 TAMARACK RD | STE 200 | NEWARK | OH | 430551183 | 1 | 9372931622 | 9372456308 | apanstingel@daytonphysicians.com |  | 
+ |  | 203130844 | 1 | 2000 TAMARACK RD | STE 200 | NEWARK | OH | 430551183 | 1 | 9372931622 | 9372456308 | apanstingel@daytonphysicians.com |  | 
+ |  | 203130844 | 1 | 320 E 8TH ST | STE 141 | MARIETTA | OH | 457503382 | 1 | 9372931622 | 9372456308 | apanstingel@daytonphysicians.com |  | 
+ |  | 203130844 | 1 | 1500 E MAIN ST | STE 141 | LANCASTER | OH | 431303478 | 1 | 9372931622 | 9372456308 | apanstingel@daytonphysicians.com |  | 
+ |  | 203130844 | 1 | 7794 5 MILE RD | STE 200 | CINCINNATI | OH | 452302369 | 1 | 9372931622 | 9372456308 | apanstingel@daytonphysicians.com |  | 
+ | 1427492271 | 203130844 | 1 | 2131 PARK AVE W | STE 200 | ONTARIO | OH | 449061226 | 1 | 9372931622 | 9372456308 | IrwinT@tsfhs.org |  | 
+ | 1427492271 | 203130844 | 1 | 340 W COSHOCTON ST | STE 200 | JOHNSTOWN | OH | 430311113 | 1 | 9372931622 | 9372456308 | IrwinT@tsfhs.org |  | 
+ | 1427492271 | 203130844 | 1 | 2323 W 5TH AVE STE 225 |  | COLUMBUS | OH | 432044899 | 1 | 9372931622 | 9372456308 | IrwinT@tsfhs.org |  | 
+ | 1427492271 | 203130844 | 1 | 2323 W 5TH AVE STE 225 |  | COLUMBUS | OH | 432044899 | 1 | 9372931622 | 9372456308 | IrwinT@tsfhs.org | Licking Memorial Professional Corporation | 
+ | 1427492271 | 203130844 | 1 | 2323 W 5TH AVE STE 225 |  | COLUMBUS | OH | 432044899 | 1 | 9372931622 | 9372456308 | IrwinT@tsfhs.org | Licking Memorial Professional Corporation | 
+ | 1427492271 | 203130844 | 1 | 2323 W 5TH AVE STE 225 |  | COLUMBUS | OH | 432044899 | 1 | 9372931622 | 9372456308 | IrwinT@tsfhs.org | Licking Memorial Professional Corporation | 
+ | 1427492271 | 203130844 | 1 | 1460 ORANGE ST |  | COSHOCTON | OH | 438122229 | 1 | 9372931622 | 9372456308 | IrwinT@tsfhs.org | Licking Memorial Professional Corporation | 
+ | 1427492271 | 203130844 | 1 | 260 POLARIS PKWY | STE 102 | WESTERVILLE | OH | 430828019 | 1 | 9372931622 | 9372456308 | IrwinT@tsfhs.org | Licking Memorial Professional Corporation | 
+ | 1427492271 | 203130844 | 1 | 4605 SAWMILL RD | STE 102 | UPPER ARLNGTN | OH | 432202246 | 1 | 9372931622 | 9372456308 | IrwinT@tsfhs.org | Licking Memorial Professional Corporation | 
+ | 1427492271 | 203130844 | 1 | 4605 SAWMILL RD | STE 102 | UPPER ARLNGTN | OH | 432202246 | 1 | 9372931622 | 9372456308 | IrwinT@tsfhs.org | Licking Memorial Professional Corporation | 
+ | 1427492271 | 203130844 | 1 | 4750 E GALBRAITH RD | STE 207 | CINCINNATI | OH | 452366706 | 1 | 9372931622 | 9372456308 | IrwinT@tsfhs.org | Licking Memorial Professional Corporation | 
+ | 1427492271 | 203130844 | 1 | 375 N EASTOWN RD | PATHOLOGY DEPT. | LIMA | OH | 452366706 | 1 | 9372931622 | 9372456308 | IrwinT@tsfhs.org | Licking Memorial Professional Corporation | 
+ | 1902844947 | 203130844 | 1 | 4940 COTTONVILLE RD | STE 600 | JAMESTOWN | OH | 453351522 | 1 | 9372931622 | 9372456308 | apanstingel@daytonphysicians.com | Licking Memorial Professional Corporation | 
+ | 1902844947 | 203130844 | 1 | 4940 COTTONVILLE RD | STE 600 | JAMESTOWN | OH | 453351522 | 1 | 9372931622 | 7403443479 | apanstingel@daytonphysicians.com | Licking Memorial Professional Corporation | 
+ | 1902844947 | 203130844 | 1 | 36123 SCHOOLCRAFT RD | STE 600 | LIVONIA | OH | 453351522 | 1 | 9372931622 | 7403443479 | apanstingel@daytonphysicians.com | Licking Memorial Professional Corporation | 
+ | 1902844947 | 203130844 | 1 | 36123 SCHOOLCRAFT RD | STE 600 | LIVONIA | OH | 453351522 | 1 | 9372931622 | 7403443479 | apanstingel@daytonphysicians.com | Licking Memorial Professional Corporation | 
+ | 1902844947 | 203130844 | 1 | 36123 SCHOOLCRAFT RD | STE 600 | LIVONIA | OH | 453351522 | 1 | 9372931622 | 7403443479 | apanstingel@daytonphysicians.com | Licking Memorial Professional Corporation | 
+ | 1902844947 | 203130844 | 1 | 7798 DISCOVERY DR | STE 600 | WEST CHESTER | OH | 450697745 | 1 | 9372931622 | 7403443479 | apanstingel@daytonphysicians.com | Licking Memorial Professional Corporation | 
+ | 1902844947 | 203130844 | 1 | 4940 COTTONVILLE RD | STE 600 | JAMESTOWN | OH | 453351522 | 1 | 9372931622 | 9372456308 | apanstingel@daytonphysicians.com | Licking Memorial Professional Corporation | 
+ | 1902844947 | 203130844 | 1 | 2000 JOSEPH E SANKER BLVD | STE 200 | CINCINNATI | OH | 452121979 | 1 | 9372931622 | 9372456308 | apanstingel@daytonphysicians.com | Licking Memorial Professional Corporation | 
+ | 1902844947 | 203130844 | 1 | 8940 KINGSRIDGE DR | STE 103 | DAYTON | OH | 454581632 | 1 | 9372931622 | 9372456308 | apanstingel@daytonphysicians.com | Licking Memorial Professional Corporation | 
+ | 1902844947 | 203130844 | 1 | 8940 KINGSRIDGE DR | STE 103 | DAYTON | OH | 454581632 | 1 | 9372931622 | 9372456308 | apanstingel@daytonphysicians.com | Licking Memorial Professional Corporation | 
+ | 1902844947 | 203130844 | 1 | 3555 OLENTANGY RIVER RD STE 1080 | STE 103 | COLUMBUS | OH | 454581632 | 1 | 9372931622 | 9372456308 | apanstingel@daytonphysicians.com | Licking Memorial Professional Corporation | 
+ | 1902844947 | 203130844 | 1 | 2845 BELL ST | STE 103 | ZANESVILLE | OH | 437011720 | 1 | 9372931622 | 9372456308 | apanstingel@daytonphysicians.com | Licking Memorial Professional Corporation | 
+ | 1902844947 | 203130844 | 1 | 4439 STATE ROUTE 159 | STE 270 | CHILLICOTHE | OH | 456017502 | 1 | 9372931622 | 9372456308 | apanstingel@daytonphysicians.com | Licking Memorial Professional Corporation | 
+ | 1902844947 | 203130844 | 1 | 4940 COTTONVILLE RD | STE 600 | JAMESTOWN | OH | 453351522 | 1 | 9372931622 | 9372456308 | apanstingel@daytonphysicians.com | Licking Memorial Professional Corporation | 
+ | 1902844947 | 203130844 | 1 | 21 READE PL | STE 600 | POUGHKEEPSIE | OH | 126013912 | 1 | 9372931622 | 9372456308 | apanstingel@daytonphysicians.com | Licking Memorial Professional Corporation | 
+ | 1902844947 | 203130844 | 1 | 3220 BEAVER VU DR | STE 101 | BEAVERCREEK | OH | 454346400 | 1 | 9372931622 | 9372456308 | jservis@digestivespecialists.com | Licking Memorial Professional Corporation | 
+ | 1902844947 | 203130844 | 1 | 350 THOMAS MORE PKWY | STE 200 | CRESTVIEW HLS | OH | 410175460 | 1 | 9372931622 | 9372456308 | jservis@digestivespecialists.com | Licking Memorial Professional Corporation | 
+ | 1902844947 | 203130844 | 1 | 4940 COTTONVILLE RD | STE 600 | JAMESTOWN | OH | 453351522 | 1 | 9372931622 | 9372456308 | apanstingel@daytonphysicians.com | Licking Memorial Professional Corporation | 
+ | 1902844947 | 203130844 | 1 | 400 MATTHEW ST | STE 306 | MARIETTA | OH | 457501656 | 1 | 9372931622 | 9372456308 | apanstingel@daytonphysicians.com | Licking Memorial Professional Corporation | 
+ | 1902844947 | 203130844 | 1 | 1100 BEECHER XING N | STE 306 | GAHANNA | OH | 432304565 | 1 | 9372931622 | 9372456308 | apanstingel@daytonphysicians.com | Licking Memorial Professional Corporation | 
+ | 1902844947 | 203130844 | 1 | 105 E WASHINGTON JACKSON RD | STE 4 | EATON | OH | 453209789 | 1 | 9372931622 | 9372456308 | apanstingel@daytonphysicians.com | Licking Memorial Professional Corporation | 
+ | 1902844947 | 203130844 | 1 | 2745 ANDERSON FERRY RD | STE 4 | CINCINNATI | OH | 452382168 | 1 | 9372931622 | 9372456308 | apanstingel@daytonphysicians.com | Licking Memorial Professional Corporation | 
+ | 1902844947 | 453782550 | 1 | 5969 E. Broad St | Suite 403 | Columbus | OH | 452382168 | 1 | 9372931622 | 6142346511 | apanstingel@daytonphysicians.com | Licking Memorial Professional Corporation | 
+ | 1902844947 | 453782550 | 1 | 5969 E. Broad St | Suite 403 | Columbus | OH | 452382168 | 1 | 9372931622 | 6142346511 | jservis@digestivespecialists.com | Licking Memorial Professional Corporation | 
+ | 1902844947 | 453782550 | 1 | 5175 MORSE RD | STE 300 | COLUMBUS | OH | 432301370 | 1 | 9372931622 | 6142346511 | jservis@digestivespecialists.com | Licking Memorial Professional Corporation | 
+ | 1902844947 | 453782550 | 1 | 1800 GRANVILLE PIKE | STE 300 | LANCASTER | OH | 431301043 | 1 | 9372931622 | 6142346511 | jservis@digestivespecialists.com | Licking Memorial Professional Corporation | 
+ | 1902844947 | 453782550 | 1 | 4701 CREEK RD | STE 110 | BLUE ASH | OH | 452428330 | 1 | 9372931622 | 6142346511 | jservis@digestivespecialists.com | Licking Memorial Professional Corporation | 
+ | 1902844947 | 453782550 | 1 | 3535 SOUTHERN BLVD | STE 2100 | KETTERING | OH | 454291221 | 1 | 9372931622 | 6142346511 | jservis@digestivespecialists.com | Licking Memorial Professional Corporation | 
+ | 1902844947 | 453782550 | 1 | 3055 COLUMBUS ST | STE 2100 | GROVE CITY | OH | 431232751 | 1 | 9372931622 | 6142346511 | jservis@digestivespecialists.com | Licking Memorial Professional Corporation | 
+ | 1902844947 | 453782550 | 1 | 3055 COLUMBUS ST | STE 2100 | GROVE CITY | OH | 431232751 | 1 | 9372931622 | 6142346511 | jservis@digestivespecialists.com | Licking Memorial Professional Corporation | 
+ | 1902844947 | 453782550 | 1 | 1510 COLUMBUS AVE | STE 230 | WSHNGTN CT HS | OH | 431601987 | 1 | 9372931622 | 6142346511 | jservis@digestivespecialists.com | Licking Memorial Professional Corporation | 
+ | 1235468083 | 453782550 | 1 | 4437 STATE ROUTE 159 | STE 125 | CHILLICOTHE | OH | 456017065 | 1 | 9372931622 | 6142346511 | jservis@digestivespecialists.com | Licking Memorial Professional Corporation | 
+ | 1235468083 | 453782550 | 1 | 4437 STATE ROUTE 159 | STE 125 | CHILLICOTHE | OH | 456017065 | 1 | 9372931622 | 6142346511 | jservis@digestivespecialists.com | Licking Memorial Professional Corporation | 
+ | 1235468083 | 453782550 | 1 | 30 E APPLE ST | STE 2200 | DAYTON | OH | 454092939 | 1 | 9372931622 | 6142346511 | jservis@digestivespecialists.com | Licking Memorial Professional Corporation | 
+ | 1235468083 | 453782550 | 1 | 2000 JOSEPH E SANKER BLVD | STE 2200 | CINCINNATI | OH | 452121979 | 1 | 9372931622 | 6142346511 | jservis@digestivespecialists.com | Licking Memorial Professional Corporation | 
+ | 1235468083 | 453782550 | 1 | 2000 JOSEPH E SANKER BLVD | STE 2200 | CINCINNATI | OH | 452121979 | 1 | 9372931622 | 6142346511 | jservis@digestivespecialists.com | Licking Memorial Professional Corporation | 
+ | 1235468083 | 453782550 | 1 | 2000 JOSEPH E SANKER BLVD | STE 2200 | CINCINNATI | OH | 452121979 | 1 | 9372931622 | 6142346511 | jservis@digestivespecialists.com | Licking Memorial Professional Corporation | 
+ | 1235468083 | 453782550 | 1 | 2000 JOSEPH E SANKER BLVD | STE 2200 | CINCINNATI | OH | 452121979 | 1 | 9372931622 | 6142346511 | jservis@digestivespecialists.com | Licking Memorial Professional Corporation | 
+ | 1235468083 | 453782550 | 1 | 2000 JOSEPH E SANKER BLVD | STE 2200 | CINCINNATI | OH | 452121979 | 1 | 9372931622 | 6142346511 | jservis@digestivespecialists.com | Licking Memorial Professional Corporation | 
+ | 1235468083 | 453782550 | 1 | 3705 OLENTANGY RIVER RD | STE 100 | COLUMBUS | OH | 432143467 | 1 | 9372931622 | 6142346511 | jservis@digestivespecialists.com | Licking Memorial Professional Corporation | 
+ | 1235468083 | 453782550 | 1 | 3705 OLENTANGY RIVER RD | STE 100 | COLUMBUS | OH | 432143467 | 1 | 9372931622 | 6142346511 | jservis@digestivespecialists.com | Licking Memorial Professional Corporation | 
+ | 1235468083 | 453782550 | 1 | 745 W STATE ST | STE 610A | COLUMBUS | OH | 432221575 | 1 | 9372931622 | 6142346511 | jservis@digestivespecialists.com | Licking Memorial Professional Corporation | 
+ | 1235468083 | 453782550 | 1 | 495 COOPER RD | STE 215 | WESTERVILLE | OH | 430818736 | 1 | 9372931622 | 6142346511 | jservis@digestivespecialists.com | Licking Memorial Professional Corporation | 
+ | 1235468083 | 453782550 | 1 | 1164 E HOME RD | STE J | SPRINGFIELD | OH | 455032726 | 1 | 9372931622 | 6142346511 | jservis@digestivespecialists.com | Licking Memorial Professional Corporation | 
+ | 1235468083 | 453782550 | 1 | 275 TAYLOR STATION RD | STE J | COLUMBUS | OH | 432132927 | 1 | 9372931622 | 6142346511 | jservis@digestivespecialists.com | Licking Memorial Professional Corporation | 
+ | 1235468083 | 453782550 | 1 | 750 MOUNT CARMEL MALL | STE 380 | COLUMBUS | OH | 432221589 | 1 | 6148646363 | 6148642248 | mridgeway@cosadocs.com | Central Ohio Surgical Associates | 
+ | 1235468083 | 453782550 | 1 | 40 WHITE OAK PROFESSIONAL CTR | STE 380 | VINCENT | OH | 457849117 | 1 | 6148646363 | 6148642248 | mridgeway@cosadocs.com | Central Ohio Surgical Associates | 
+ | 1235468083 | 453782550 | 1 | 1080 POLARIS PKWY | STE 200 | COLUMBUS | OH | 432406035 | 1 | 6148646363 | 6148642248 | mridgeway@cosadocs.com | Central Ohio Surgical Associates | 
+ | 1235468083 | 453782550 | 1 | 1080 POLARIS PKWY | STE 200 | COLUMBUS | OH | 432406035 | 1 | 6148646363 | 6148642248 | mridgeway@cosadocs.com | Central Ohio Surgical Associates | 
+ | 1235468083 | 453782550 | 1 | 5969 E BROAD ST | STE 403 | COLUMBUS | OH | 432131540 | 1 | 6148646363 | 6148642248 | mridgeway@cosadocs.com | Central Ohio Surgical Associates | 
+ | 1235468083 | 453782550 | 1 | 350 THOMAS MORE PKWY | STE 200 | CRESTVIEW HLS | OH | 410175460 | 1 | 6148646363 | 6148642248 | mridgeway@cosadocs.com | Central Ohio Surgical Associates | 
+ | 1235468083 | 453782550 | 1 | 350 THOMAS MORE PKWY | STE 200 | CRESTVIEW HLS | OH | 410175460 | 1 | 6148646363 | 6148642248 | mridgeway@cosadocs.com | Central Ohio Surgical Associates | 
+ | 1235468083 | 453782550 | 1 | 350 THOMAS MORE PKWY | STE 200 | CRESTVIEW HLS | OH | 410175460 | 1 | 6148646363 | 6148642248 | mridgeway@cosadocs.com | Central Ohio Surgical Associates | 
+ | 1235468083 | 453782550 | 1 | 350 THOMAS MORE PKWY | STE 200 | CRESTVIEW HLS | OH | 452194239 | 1 | 6148646363 | 6148642248 | mridgeway@cosadocs.com | Central Ohio Surgical Associates | 
