@@ -13,6 +13,10 @@ def open_json
 end
 
 def initialize_variables
+  $caqh_provider_id = ""
+  $first_name = ""
+  $middle_name = ""
+  $last_name = ""
   $npi_type_1 = ""
   $npi_type_2 = ""
   $tax_id = ""
@@ -33,6 +37,18 @@ end
 
 def do_i_care_about_this_info (info)
   case info
+  when "caqh_provider_id"
+    $do_i_care = "YES"
+    $caqh_provider_id = $holding_value
+  when "first_name"
+    $do_i_care = "YES"
+    $first_name = $holding_value
+  when "middle_name"
+    $do_i_care = "YES"
+    $middle_name = $holding_value
+  when "last_name"
+    $do_i_care = "YES"
+    $last_name = $holding_value
   when "npi_type_1"
     $do_i_care = "YES"
 	  $npi_type_1 = $holding_value
@@ -80,7 +96,7 @@ end
 
 initialize_variables
 open_json
-@cucumber.write "\n" + "| npi_type_1 | npi_type_2 | tax_id | currently_practicing_flag | address1           |  address2                      | city     | state | zip_code | accept_new_medicare_patients_flag | phone_number | fax_number | email_address               | group_name |"
+@cucumber.write "\n" + "| caqh_provider_id | first_name | middle_name | last_name| npi_type_1 | npi_type_2 | tax_id | currently_practicing_flag | address1           |  address2                      | city     | state | zip_code | accept_new_medicare_patients_flag | phone_number | fax_number | email_address               | group_name |"
 data_hash.each do |provider|
   if provider.directory_change_status == "changed"
     @logfile.write "\n" + "Starting a new provider entry"
@@ -104,7 +120,7 @@ data_hash.each do |provider|
 	end
 	@logfile.write "\n" + "NPI type 1: " + $npi_type_1 + " NPI type 2: " + $npi_type_2 + " Tax ID: " +  $tax_id  + " Currently practicing flag: " + $currently_practicing_flag  + " address 1: " + $address1  + " address 2: " + $address2 + " city: " + $city  + " state:  " + $state + " zip code: " +  $zip_code + " accept new medicare: " +  $accept_new_medicare_patients_flag + " phone: " +  $phone_number + " fax: " +  $fax_number + " email: " +  $email_address
   @logfile.write "\n" + "Writing to Cucumber file..."
-  @cucumber.write "\n" + $npi_type_1 + " | " + $npi_type_2 + " | " + $tax_id + " | " + $currently_practicing_flag + " | " + $address1 + " | " + $address2 + " | " + $city + " | " + $state + " | " + $zip_code + " | " + $accept_new_medicare_patients_flag + " | " + $phone_number + " | " + $fax_number + " | " + $email_address + " | " + $group_name + " | "
+  @cucumber.write "\n" + "| " + provider.caqh_provider_id + " | " + provider.first_name + " | " + provider.middle_name + " | " + provider.last_name + " | " + $npi_type_1 + " | " + $npi_type_2 + " | " + $tax_id + " | " + $currently_practicing_flag + " | " + $address1 + " | " + $address2 + " | " + $city + " | " + $state + " | " + $zip_code + " | " + $accept_new_medicare_patients_flag + " | " + $phone_number + " | " + $fax_number + " | " + $email_address + " | " + $group_name + " | "
   @logfile.write "\n" + "Closing out provider entry" + "\n"
   $count += 1
   @logfile.write $count.to_s
