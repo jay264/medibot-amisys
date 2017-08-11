@@ -32,7 +32,7 @@ def initialize_variables
   $email_address = ""
   $do_i_care = "NO"
   $count = 0
-  $group_name
+  $group_name = ""
 end
 
 def do_i_care_about_this_info (info)
@@ -94,10 +94,11 @@ def do_i_care_about_this_info (info)
   end
 end
 
-initialize_variables
+#initialize_variables
 open_json
-@cucumber.write "\n" + "| caqh_provider_id | first_name | middle_name | last_name| npi_type_1 | npi_type_2 | tax_id | currently_practicing_flag | address1           |  address2                      | city     | state | zip_code | accept_new_medicare_patients_flag | phone_number | fax_number | email_address               | group_name |"
+@cucumber.write "\n" + "| practice_name | caqh_provider_id | first_name | middle_name | last_name| npi_type_1 | npi_type_2 | tax_id | currently_practicing_flag | address1           |  address2                      | city     | state | zip_code | accept_new_medicare_patients_flag | phone_number | fax_number | email_address               | group_name |"
 data_hash.each do |provider|
+  initialize_variables
   if provider.directory_change_status == "changed"
     @logfile.write "\n" + "Starting a new provider entry"
     @logfile.write "\n" + provider.to_s
@@ -105,6 +106,7 @@ data_hash.each do |provider|
     @logfile.write "\n" "Change status: " + provider.directory_change_status
 	if provider.practice_locations[0] != nil
 	  @logfile.write "\n" + provider.practice_locations[0].practice_name
+    $practice_name = provider.practice_locations[0].practice_name
 	  i = 0
 	  loop do
 	    break if provider.practice_locations[0].fields[i] == nil
@@ -120,7 +122,7 @@ data_hash.each do |provider|
 	end
 	@logfile.write "\n" + "NPI type 1: " + $npi_type_1 + " NPI type 2: " + $npi_type_2 + " Tax ID: " +  $tax_id  + " Currently practicing flag: " + $currently_practicing_flag  + " address 1: " + $address1  + " address 2: " + $address2 + " city: " + $city  + " state:  " + $state + " zip code: " +  $zip_code + " accept new medicare: " +  $accept_new_medicare_patients_flag + " phone: " +  $phone_number + " fax: " +  $fax_number + " email: " +  $email_address
   @logfile.write "\n" + "Writing to Cucumber file..."
-  @cucumber.write "\n" + "| " + provider.caqh_provider_id + " | " + provider.first_name + " | " + provider.middle_name + " | " + provider.last_name + " | " + $npi_type_1 + " | " + $npi_type_2 + " | " + $tax_id + " | " + $currently_practicing_flag + " | " + $address1 + " | " + $address2 + " | " + $city + " | " + $state + " | " + $zip_code + " | " + $accept_new_medicare_patients_flag + " | " + $phone_number + " | " + $fax_number + " | " + $email_address + " | " + $group_name + " | "
+  @cucumber.write "\n" + "| " + $practice_name + " | " + provider.caqh_provider_id + " | " + provider.first_name + " | " + provider.middle_name + " | " + provider.last_name + " | " + $npi_type_1 + " | " + $npi_type_2 + " | " + $tax_id + " | " + $currently_practicing_flag + " | " + $address1 + " | " + $address2 + " | " + $city + " | " + $state + " | " + $zip_code + " | " + $accept_new_medicare_patients_flag + " | " + $phone_number + " | " + $fax_number + " | " + $email_address + " | " + $group_name + " | "
   @logfile.write "\n" + "Closing out provider entry" + "\n"
   $count += 1
   @logfile.write $count.to_s

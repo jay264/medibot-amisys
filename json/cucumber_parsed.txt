@@ -1,202 +1,202 @@
 
 Opened JSON file
 
-| caqh_provider_id | first_name | middle_name | last_name| npi_type_1 | npi_type_2 | tax_id    | currently_practicing_flag | address1           |  address2                      | city       | state | zip_code  | accept_new_medicare_patients_flag | phone_number | fax_number | email_address               | group_name                         |
-| 11479288         | Susan      | J           | Holden   |            | 1609856525 | 311575051 | 0                         | 2245 BAUER RD      |                                | BATAVIA    | OH    | 451031977 | 1                                 | 5132313447   | 5132313761 | pgoforth@shwhc.com          | SEVEN HILLS OB/GYN ASSOCIATES INC. |
-| 11899120         | Amy        | S           | Hoover   |            | 1609856525 | 311575051 | 0                         | 2245 BAUER RD      |                                | BATAVIA    | OH    | 451031977 | 1                                 | 5132313447   | 5132313761 | pgoforth@shwhc.com          | SEVEN HILLS OB/GYN ASSOCIATES INC. |
-| 10793378         | Mary       | Kathryn     | Jabin    |            | 1609856525 | 311575051 | 0                         | 2245 BAUER RD      | STE 504                        | CINCINNATI | OH    | 452424400 | 1                                 | 5132313447   | 5132313761 | pgoforth@shwhc.com          | SEVEN HILLS OB/GYN ASSOCIATES INC. |
-| 11777417 | Paul | D | Jarvis |  | 1609856525 | 311575051 | 0 | PO BOX 66 | 24 SIX PINE RANCH ROAD | BATESVILLE | OH | 470060066 | 1 | 5132313447 | 5132313761 | pgoforth@shwhc.com | SEVEN HILLS OB/GYN ASSOCIATES INC. |
-| 10793512 | Nishit | G | Jhaveri |  | 1609856525 | 311575051 | 0 | 3555 OLENTANGY RIVER RD | STE 1080 | COLUMBUS | OH | 470060066 | 1 | 5132313447 | 5132313761 | pgoforth@shwhc.com | SEVEN HILLS OB/GYN ASSOCIATES INC. |
-| 10793516 | Shamim | Z | Jilani |  | 1902844947 | 203130844 | 1 | 4940 COTTONVILLE RD | STE 600 | JAMESTOWN | OH | 453351522 | 1 | 9372931622 | 9372456308 | apanstingel@daytonphysicians.com | SEVEN HILLS OB/GYN ASSOCIATES INC. |
-| 10966917 | Daniela | Elena | Jipa |  | 1902844947 | 203130844 | 1 | 4940 COTTONVILLE RD | STE 600 | JAMESTOWN | OH | 453351522 | 1 | 9372931622 | 9372456308 | apanstingel@daytonphysicians.com | SEVEN HILLS OB/GYN ASSOCIATES INC. |
-| 11713960 | Noah | Jesse | Jones |  | 1902844947 | 203130844 | 1 | 85 MCNAUGHTEN RD | STE 300 | COLUMBUS | OH | 432135112 | 1 | 9372931622 | 9372456308 | apanstingel@daytonphysicians.com | SEVEN HILLS OB/GYN ASSOCIATES INC. |
-| 12077054 | Anil | K | Kakumanu |  | 1902844947 | 203130844 | 1 | 2055 HOSPITAL DR | STE 300 | BATAVIA | OH | 451031981 | 1 | 9372931622 | 9372456308 | apanstingel@daytonphysicians.com | SEVEN HILLS OB/GYN ASSOCIATES INC. |
-| 10804277 | Mina | C | Kalfas |  | 1902844947 | 203130844 | 1 | 1955 DIXIE HWY | STE D | FT WRIGHT | OH | 410112882 | 1 | 9372931622 | 9372456308 | apanstingel@daytonphysicians.com | SEVEN HILLS OB/GYN ASSOCIATES INC. |
-| 10793812 | Michael |  | Karram |  | 1902844947 | 203130844 | 1 | 10506 MONTGOMERY RD | STE 504 | CINCINNATI | OH | 452424400 | 1 | 9372931622 | 9372456308 | apanstingel@daytonphysicians.com | SEVEN HILLS OB/GYN ASSOCIATES INC. |
-| 10793829 | Satheesh | Kumar | Kathula |  | 1902844947 | 203130844 | 1 | 4940 COTTONVILLE RD | STE 600 | JAMESTOWN | OH | 453351522 | 1 | 9372931622 | 9372808373 | apanstingel@daytonphysicians.com | SEVEN HILLS OB/GYN ASSOCIATES INC. |
-| 10793849 | JEFFREY |  | KAUFHOLD |  | 1902844947 | 203130844 | 1 | 9000 N MAIN ST | STE 328 | ENGLEWOOD | OH | 454151185 | 1 | 9372931622 | 9372808373 | apanstingel@daytonphysicians.com | SEVEN HILLS OB/GYN ASSOCIATES INC. |
-| 11194921 | Gregory | S | Keagy |  | 1386084671 | 560845796 | 1 | 9000 N MAIN ST | STE 328 | ENGLEWOOD | OH | 454151185 | 1 | 9106154000 |  | apanstingel@daytonphysicians.com | CAPE FEAR VALLEY CARDIOVASCULAR & THORACIC SURGERY |
-| 12000027 | Courtney | M | Stroble |  | 1386084671 | 560845796 | 1 | 888 DAYTON ST STE 200 | STE 328 | YELLOW SPGS | OH | 453871777 | 1 | 9106154000 |  | apanstingel@daytonphysicians.com | CAPE FEAR VALLEY CARDIOVASCULAR & THORACIC SURGERY |
-| 10800033 | Desmond | J | Stutzman |  | 1063507226 | 560845796 | 1 | 888 DAYTON ST STE 200 | STE 328 | YELLOW SPGS | OH | 453871777 | 1 | 9106154000 |  | apanstingel@daytonphysicians.com | CAPE FEAR VALLEY CARDIOVASCULAR & THORACIC SURGERY |
-| 10800079 | Qixin |  | Sun |  | 1063507226 | 560845796 | 1 | 888 DAYTON ST STE 200 | STE 328 | YELLOW SPGS | OH | 453871777 | 1 | 9106154000 |  | apanstingel@daytonphysicians.com | CAPE FEAR VALLEY CARDIOVASCULAR & THORACIC SURGERY |
-| 10813545 | Ardeshir | T | Tamboli |  | 1063507226 | 560845796 | 1 | 222 SCIO RD SE | ROUTE 332 | CARROLLTON | OH | 446158521 | 1 | 9106154000 |  | apanstingel@daytonphysicians.com | CAPE FEAR VALLEY CARDIOVASCULAR & THORACIC SURGERY |
-| 12240298 | Kristen | Nicole | Terranova |  | 1063507226 | 560845796 | 1 | 793 W STATE ST | ROUTE 332 | COLUMBUS | OH | 432221551 | 1 | 9106154000 |  | apanstingel@daytonphysicians.com | CAPE FEAR VALLEY CARDIOVASCULAR & THORACIC SURGERY |
-| 11754038 | Jigna |  | Thakore |  | 1063507226 | 560845796 | 1 | 7415 BRANDT PIKE | STE 101 | HUBER HEIGHTS | OH | 454243239 | 1 | 9106154000 |  | jservis@digestivespecialists.com | CAPE FEAR VALLEY CARDIOVASCULAR & THORACIC SURGERY |
-| 10800358 | David | Christopher | Thomas |  | 1063507226 | 560845796 | 1 | 104 W WILLIAM ST | STE 101 | DELAWARE | OH | 430152305 | 1 | 9106154000 |  | jservis@digestivespecialists.com | CAPE FEAR VALLEY CARDIOVASCULAR & THORACIC SURGERY |
-| 10800467 | Larry | T. | Todd |  | 1063507226 | 560845796 | 1 | 1313 OLENTANGY RIVER RD | STE 180 | COLUMBUS | OH | 432123120 | 1 | 9106154000 |  | jservis@digestivespecialists.com | CAPE FEAR VALLEY CARDIOVASCULAR & THORACIC SURGERY |
-| 11858690 | Cynthia | B | Tuck |  | 1063507226 | 560845796 | 1 | 1313 OLENTANGY RIVER RD | STE 180 | COLUMBUS | OH | 432123120 | 1 | 9106154000 |  | jservis@digestivespecialists.com | CAPE FEAR VALLEY CARDIOVASCULAR & THORACIC SURGERY |
-| 11317930 | Bikram |  | Verma Ansil |  | 1063507226 | 560845796 | 1 | 77 W ELEANOR DR | STE 101 | SPRINGBORO | OH | 450661615 | 1 | 9106154000 |  | jservis@digestivespecialsits.com | CAPE FEAR VALLEY CARDIOVASCULAR & THORACIC SURGERY |
-| 12082044 | Vincent | Stuart | Nerone |  | 1063507226 | 560845796 | 1 | 77 W ELEANOR DR | STE 101 | SPRINGBORO | OH | 450661615 | 1 | 9106154000 |  | jservis@digestivespecialsits.com | CAPE FEAR VALLEY CARDIOVASCULAR & THORACIC SURGERY |
-| 11912624 | Tuan | C | Nguyen |  | 1063507226 | 560845796 | 1 | 807 FARSON ST | STE 204 | BELPRE | OH | 457141069 | 1 | 9106154000 |  | jservis@digestivespecialsits.com | CAPE FEAR VALLEY CARDIOVASCULAR & THORACIC SURGERY |
-| 12004185 | Lisa | A | Niehaus |  | 1063507226 | 560845796 | 1 | 2123 AUBURN AVE | STE 210 | CINCINNATI | OH | 452192906 | 1 | 9106154000 |  | jservis@digestivespecialsits.com | CAPE FEAR VALLEY CARDIOVASCULAR & THORACIC SURGERY |
-| 10796842 | Eric | S | Nordin |  | 1255526471 | 560845796 | 1 | 2123 AUBURN AVE | STE 210 | CINCINNATI | OH | 452192906 | 1 | 9106154000 |  | jservis@digestivespecialsits.com | CAPE FEAR VALLEY CARDIOVASCULAR & THORACIC SURGERY |
-| 10797051 | Nagaraja | Sharma | Oruganti |  | 1255526471 | 560845796 | 1 | 2123 AUBURN AVE | STE 210 | CINCINNATI | OH | 452192906 | 1 | 9106154000 |  | jservis@digestivespecialists.com | CAPE FEAR VALLEY CARDIOVASCULAR & THORACIC SURGERY |
-| 10797171 | MARIOS | P | PANAYIDES |  | 1255526471 | 560845796 | 1 | 2123 AUBURN AVE | STE 210 | CINCINNATI | OH | 455042581 | 1 | 9106154000 |  | jservis@digestivespecialists.com | CAPE FEAR VALLEY CARDIOVASCULAR & THORACIC SURGERY |
-| 11211452 | Mini | Peterson | Pathrose |  | 1255526471 | 560845796 | 1 | 435 PARK AVE | STE 210 | HAMILTON | OH | 450133053 | 1 | 9106154000 |  | jservis@digestivespecialists.com | CAPE FEAR VALLEY CARDIOVASCULAR & THORACIC SURGERY |
-| 12274569 | Jessica | M | Patrich |  | 1255526471 | 560845796 | 1 | 435 PARK AVE | STE 210 | HAMILTON | OH | 450133053 | 1 | 9106154000 |  | jservis@digestivespecialists.com | CAPE FEAR VALLEY CARDIOVASCULAR & THORACIC SURGERY |
-| 10797339 | Teressa | J | Patrick |  | 1255526471 | 560845796 | 1 | 1530 NEEDMORE RD | STE 101 | DAYTON | OH | 454143900 | 1 | 9106154000 | 9372972208 | jservis@digestivespecialists.com | CAPE FEAR VALLEY CARDIOVASCULAR & THORACIC SURGERY |
-| 10491375 | Narayan | S | Peddanna |  | 1255526471 | 560845796 | 1 | 1530 NEEDMORE RD | STE 101 | DAYTON | OH | 454143900 | 1 | 9106154000 | 9372972208 | jservis@digestivespecialists.com | CAPE FEAR VALLEY CARDIOVASCULAR & THORACIC SURGERY |
-| 12718856 | Angela | M | Perkins |  | 1255526471 | 560845796 | 1 | 807 FARSON ST | STE 201 | BELPRE | OH | 457141069 | 1 | 9106154000 | 9372972208 | jservis@digestivespecialists.com | CAPE FEAR VALLEY CARDIOVASCULAR & THORACIC SURGERY |
-| 12121475 | Kyle | W | Pfahl |  | 1255526471 | 560845796 | 1 | 745 W STATE ST | STE 750 | COLUMBUS | OH | 432221515 | 1 | 9106154000 | 9372972208 | jservis@digestivespecialists.com | CAPE FEAR VALLEY CARDIOVASCULAR & THORACIC SURGERY |
-| 12273879 | Kathleen |  | Pfeifer |  | 1255526471 | 560845796 | 1 | 880 GREENLAWN AVE | STE 750 | COLUMBUS | OH | 432221515 | 1 | 9106154000 | 9372972208 | jservis@digestivespecialists.com | CAPE FEAR VALLEY CARDIOVASCULAR & THORACIC SURGERY |
-| 10819907 | Stephanie | L | Cotell |  | 1255526471 | 560845796 | 1 | 925 N HAMILTON RD | STE 100 | GAHANNA | OH | 432308709 | 1 | 9106154000 | 9372972208 | jservis@digestivespecialists.com | CAPE FEAR VALLEY CARDIOVASCULAR & THORACIC SURGERY |
-| 12468473 | Amy | Noble | Davidson |  | 1255526471 | 560845796 | 1 | 1450 COLUMBUS AVE | STE 103 | WSHNGTN CT HS | OH | 431603701 | 1 | 9106154000 | 9372972208 | jservis@digestivespecialists.com | CAPE FEAR VALLEY CARDIOVASCULAR & THORACIC SURGERY |
-| 11844818 | Kristin | Richelle | Davis |  | 1255526471 | 560845796 | 1 | 1330 CLARK ST | STE 103 | CAMBRIDGE | OH | 437259614 | 1 | 9106154000 | 9372972208 | jservis@digestivespecialists.com | CAPE FEAR VALLEY CARDIOVASCULAR & THORACIC SURGERY |
-| 10790407 | James | F | Davison |  | 1255526471 | 560845796 | 1 | 7921 JESSIES WAY | STE 103 | FAIRFIELD | OH | 450118077 | 1 | 9106154000 | 9372972208 | jservis@digestivespecialists.com | CAPE FEAR VALLEY CARDIOVASCULAR & THORACIC SURGERY |
-| 12333272 | Samuel |  | Essandoh |  | 1255526471 | 560845796 | 1 | 7921 JESSIES WAY | STE 103 | FAIRFIELD | OH | 450118077 | 1 | 9106154000 | 9372972208 | jservis@digestivespecialists.com | CAPE FEAR VALLEY CARDIOVASCULAR & THORACIC SURGERY |
-| 11778335 | Chukwuma | E | Eze |  | 1326210121 | 560845796 | 1 | 7921 JESSIES WAY | STE 103 | FAIRFIELD | OH | 450118077 | 1 | 9106154000 | 9372972208 | jservis@digestivespecialists.com | CAPE FEAR VALLEY CARDIOVASCULAR & THORACIC SURGERY |
-| 13624949 | Rachel | Ann | Falsone |  | 1326210121 | 560845796 | 1 | 7921 JESSIES WAY | STE 103 | FAIRFIELD | OH | 450118077 | 1 | 9106154000 | 9372972208 | jservis@digestivespecialists.com | CAPE FEAR VALLEY CARDIOVASCULAR & THORACIC SURGERY |
-| 10791299 | Paul | Joseph | Favorito |  | 1326210121 | 560845796 | 1 | 6909 GOOD SAMARITAN DR | STE A | CINCINNATI | OH | 452475209 | 1 | 9106154000 | 9372972208 | jservis@digestivespecialists.com | CAPE FEAR VALLEY CARDIOVASCULAR & THORACIC SURGERY |
-| 12295194 | Kirby | Mae | Fazio |  | 1326210121 | 560845796 | 1 | 92 N 4TH ST | STE A | MARTINS FERRY | OH | 439351600 | 1 | 9106154000 | 9372972208 | jservis@digestivespecialists.com | CAPE FEAR VALLEY CARDIOVASCULAR & THORACIC SURGERY |
-| 11956328 | Bryan | M | Feldner |  | 1326210121 | 560845796 | 1 | 575 COPELAND MILL RD STE 2F, | ATTN: TINA TRAYLOR | WESTERVILLE | OH | 430818977 | 1 | 9106154000 | 9372972208 | jservis@digestivespecialists.com | CAPE FEAR VALLEY CARDIOVASCULAR & THORACIC SURGERY |
-| 12103242 | Andrew | R | Khavari |  | 1326210121 | 560845796 | 1 | 5348 LAMME RD | ATTN: TINA TRAYLOR | MORAINE | OH | 430818977 | 1 | 9106154000 | 9372972208 | jservis@digestivespecialists.com | CAPE FEAR VALLEY CARDIOVASCULAR & THORACIC SURGERY |
-| 11665173 | Rizwan | E | Kibria |  | 1689835415 | 262448601 | 1 | 1818 CHAPEL DR | STE C | FINDLAY | OH | 458401344 | 1 | 4194297637 | 4194297641 | jservis@digestivespecialists.com | CAPE FEAR VALLEY CARDIOVASCULAR & THORACIC SURGERY |
-| 10794164 | Gary | M | Kirsh |  | 1689835415 | 262448601 | 1 | 10220 ALLIANCE RD | STE C | BLUE ASH | OH | 452424710 | 1 | 4194297637 | 4194297641 | jservis@digestivespecialists.com | CAPE FEAR VALLEY CARDIOVASCULAR & THORACIC SURGERY |
-| 11771805 | Lisa |  | Kiser |  | 1689835415 | 262448601 | 1 | 85 N GRAND AVE | STE C | FORT THOMAS | OH | 410751793 | 1 | 4194297637 | 4194297641 | jservis@digestivespecialists.com | CAPE FEAR VALLEY CARDIOVASCULAR & THORACIC SURGERY |
-| 12103247 | Renee | L | Klee |  | 1609856525 | 311575051 | 0 | 2245 BAUER RD | STE C | BATAVIA | OH | 451031977 | 1 | 5133213447 | 5132313761 | pgoforth@shwhc.com | Seven Hills Women's Health Centers |
-| 11858670 | David | L | Klein |  | 1609856525 | 311575051 | 0 | 1330 CLARK ST | STE C | CAMBRIDGE | OH | 437259614 | 1 | 5133213447 | 5132313761 | pgoforth@shwhc.com | Seven Hills Women's Health Centers |
-| 10794216 | James | M | Kleman |  | 1609856525 | 311575051 | 0 | 7450 HOSPITAL DR | HEART AND LUNG DEPT | DUBLIN | OH | 430169642 | 1 | 5133213447 | 5132313761 | pgoforth@shwhc.com | Seven Hills Women's Health Centers |
-| 11360963 | Jhansi | L | Koduri |  | 1902844947 | 203130844 | 1 | 4940 COTTONVILLE RD | STE 600 | JAMESTOWN | OH | 453351522 | 1 | 9372931622 | 9372456308 | apanstingel@daytonphysicians.com | Seven Hills Women's Health Centers |
-| 10794530 | Eric | Joseph | Kuhn |  | 1902844947 | 203130844 | 1 | 3301 MERCY HEALTH BLVD | STE 525 | CINCINNATI | OH | 452111118 | 1 | 9372931622 | 9372456308 | apanstingel@daytonphysicians.com | Seven Hills Women's Health Centers |
-| 12082425 | Tina | X | Lee |  | 1902844947 | 203130844 | 1 | 3617 HERITAGE CLUB DR | STE 525 | HILLIARD | OH | 430261313 | 1 | 9372931622 | 9372456308 | apanstingel@daytonphysicians.com | Seven Hills Women's Health Centers |
-| 13611113 | Kadi | Lepi | Addy |  | 1902844947 | 203130844 | 1 | 1330 CLARK ST | STE 525 | CAMBRIDGE | OH | 437259614 | 1 | 9372931622 | 9372456308 | apanstingel@daytonphysicians.com | Seven Hills Women's Health Centers |
-| 10831294 | Kalpana | K | Vishnupad |  | 1902844947 | 203130844 | 1 | 1330 CLARK ST | STE 525 | CAMBRIDGE | OH | 437259614 | 1 | 9372931622 | 9372456308 | apanstingel@daytonphysicians.com | Seven Hills Women's Health Centers |
-| 10801002 | Martin | J | Walsh |  | 1902844947 | 203130844 | 1 | 2000 JOSEPH E SANKER BLVD | STE 525 | CINCINNATI | OH | 452121979 | 1 | 9372931622 | 9372456308 | apanstingel@daytonphysicians.com | Seven Hills Women's Health Centers |
-| 12640826 | Benjamin | Collier | Watson |  | 1902844947 | 203130844 | 1 | 2000 JOSEPH E SANKER BLVD | STE 525 | CINCINNATI | OH | 452121979 | 1 | 9372931622 | 9372456308 | apanstingel@daytonphysicians.com | Seven Hills Women's Health Centers |
-| 10801138 | Stephen | A | Weeber |  | 1902844947 | 203130844 | 1 | 2000 JOSEPH E SANKER BLVD | STE 525 | CINCINNATI | OH | 452121979 | 1 | 9372931622 | 9372456308 | apanstingel@daytonphysicians.com | Seven Hills Women's Health Centers |
-| 10801219 | Christine | Buchanan | Weller |  | 1902844947 | 203130844 | 1 | 2283 WAHSUM CIR | STE 525 | CENTERVILLE | OH | 454596600 | 1 | 9372931622 | 9372456308 | apanstingel@daytonphysicians.com | Seven Hills Women's Health Centers |
-| 12433817 | Kimberly | D | Williams |  | 1902844947 | 203130844 | 1 | 805 FARSON ST STE 112 | STE 525 | BELPRE | OH | 457141000 | 1 | 9372931622 | 9372456308 | apanstingel@daytonphysicians.com | Seven Hills Women's Health Centers |
-| 10801430 | David | G | Wilson |  | 1902844947 | 203130844 | 1 | 8000 5 MILE RD | STE 320 | CINCINNATI | OH | 452302188 | 1 | 9372931622 | 9372456308 | apanstingel@daytonphysicians.com | Seven Hills Women's Health Centers |
-| 10801449 | Arthur | H | Win |  | 1902844947 | 203130844 | 1 | 8000 5 MILE RD | STE 320 | CINCINNATI | OH | 452302188 | 1 | 9372931622 | 9372456308 | apanstingel@daytonphysicians.com | Seven Hills Women's Health Centers |
-| 10801551 | Wayne | Charles | Woodard |  | 1902844947 | 203130844 | 1 | 50 N PROGRESS DR | STE 320 | XENIA | OH | 453852666 | 1 | 9372931622 | 9372456308 | apanstingel@daytonphysicians.com | Seven Hills Women's Health Centers |
-| 12100691 | Kelly | L | Wycinski |  | 1902844947 | 203130844 | 1 | 975 BETHESDA DR | STE 320 | ZANESVILLE | OH | 437017500 | 1 | 9372931622 | 9372456308 | apanstingel@daytonphysicians.com | Seven Hills Women's Health Centers |
-| 12021293 | Suresh | K | Yadav |  | 1902844947 | 203130844 | 1 | 975 BETHESDA DR | STE 320 | ZANESVILLE | OH | 437017500 | 1 | 9372931622 | 9372456308 | apanstingel@daytonphysicians.com | Seven Hills Women's Health Centers |
-| 10801630 | Burhan |  | Yanes |  | 1902844947 | 203130844 | 1 | 4940 COTTONVILLE RD | STE 600 | JAMESTOWN | OH | 453351522 | 1 | 9372808366 | 9372808373 | apanstingel@daytonphysicians.com | Seven Hills Women's Health Centers |
-| 10797590 | Marios | C | Pouagare |  | 1902844947 | 203130844 | 1 | 4940 COTTONVILLE RD | STE 600 | JAMESTOWN | OH | 453351522 | 1 | 9372808366 | 9372808373 | jservis@digestivespecialists.com | Seven Hills Women's Health Centers |
-| 11935773 | Elizabeth | A | Purvis Archer |  | 1902844947 | 203130844 | 1 | 111 WEST ST | STE 600 | CALDWELL | OH | 437241359 | 1 | 9372808366 | 9372808373 | jservis@digestivespecialists.com | Seven Hills Women's Health Centers |
-| 11088223 | Asif | Q | Qazi |  | 1902844947 | 203130844 | 1 | 6465 E BROAD ST | STE D | COLUMBUS | OH | 437241359 | 1 | 9372808366 | 9372808373 | jservis@digestivespecialists.com | Seven Hills Women's Health Centers |
-| 13562728 | Malolan | S | Rajagopalan |  | 1902844947 | 203130844 | 1 | 793 W STATE ST | STE D | COLUMBUS | OH | 437241359 | 1 | 9372808366 | 9372808373 | jservis@digestivespecialists.com | Seven Hills Women's Health Centers |
-| 10797844 | BILLIAMAGGA |  | RANGASWAMY |  | 1902844947 | 203130844 | 1 | 793 W STATE ST | STE D | COLUMBUS | OH | 437251162 | 1 | 9372808366 | 9372808373 | jservis@digestivespecialists.com | Seven Hills Women's Health Centers |
-| 10797847 | MUJEEB | A | RANGINWALA |  | 1902844947 | 203130844 | 1 | 793 W STATE ST | STE 102 | COLUMBUS | OH | 455051373 | 1 | 9372808366 | 9372808373 | jservis@digestivespecialists.com | Seven Hills Women's Health Centers |
-| 11517347 | Edward | P | Rapach |  | 1902844947 | 203130844 | 1 | 793 W STATE ST | STE 102 | COLUMBUS | OH | 455051373 | 1 | 9372808366 | 9372808373 | jservis@digestivespecialists.com | Seven Hills Women's Health Centers |
-| 12128245 | Bonnie |  | Rebella |  | 1902844947 | 203130844 | 1 | 10506 MONTGOMERY RD | STE 504 | CINCINNATI | OH | 452424400 | 1 | 9372808366 | 9372808373 | jservis@digestivespecialists.com | Seven Hills Women's Health Centers |
-| 11102290 | Steven | Douglas | Richards |  | 1902844947 | 203130844 | 1 | 400 MATTHEW ST | WOUND CARE CENTER | MARIETTA | OH | 457501644 | 1 | 9372808366 | 9372808373 | jservis@digestivespecialists.com | Seven Hills Women's Health Centers |
-| 11822662 | Forrest | T | Fornash |  | 1902844947 | 203130844 | 1 | 400 MATTHEW ST | WOUND CARE CENTER | MARIETTA | OH | 457501644 | 1 | 9372808366 | 9372808373 | jservis@digestivespecialists.com | Seven Hills Women's Health Centers |
-| 11689422 | Gregory | A | Frankenfield |  | 1902844947 | 203130844 | 1 | 400 MATTHEW ST | WOUND CARE CENTER | MARIETTA | OH | 457501644 | 1 | 9372808366 | 9372808373 | Mariraef@gmail.com | Seven Hills Women's Health Centers |
-| 12280453 | Mary | B | Frey |  | 1578545273 | 311351965 | 1 | 10401 Sawmill Pkwy | Ste 40 | Powell | OH | 43065 | 1 | 6147640200 | 6147642782 | Mariraef@gmail.com | OhioHealth Physician Group, Inc. |
-| 10791687 | Sarah | L | Froman |  | 1578545273 | 311351965 | 1 | 135 N EWING ST | STE 201 | LANCASTER | OH | 431303378 | 1 | 6147640200 | 6147642782 | Mariraef@gmail.com | OhioHealth Physician Group, Inc. |
-| 12543870 | Matthew | J | Funch |  | 1578545273 | 311351965 | 1 | 3747 W FORK RD | STE 201 | CINCINNATI | OH | 452477548 | 1 | 6147640200 | 6147642782 | Mariraef@gmail.com | OhioHealth Physician Group, Inc. |
-| 10791733 | Alan | LANIER | Gabbard |  | 1578545273 | 311351965 | 1 | 247 S BURNETT RD | STE 201 | SPRINGFIELD | OH | 455052639 | 1 | 6147640200 | 6147642782 | Mariraef@gmail.com | OhioHealth Physician Group, Inc. |
-| 11076560 | Leandro | P | Galang |  | 1578545273 | 311351965 | 1 | 800 PIKE ST | STE 2 | MARIETTA | OH | 457503507 | 1 | 6147640200 | 6147642782 | Mariraef@gmail.com | OhioHealth Physician Group, Inc. |
-| 10791870 | Robert | E | Gaylor |  | 1578545273 | 311351965 | 1 | 999 BRUBAKER DR | STE 101 | KETTERING | OH | 454293588 | 1 | 6147640200 | 6147642782 | jservis@digestivespecialists.com | OhioHealth Physician Group, Inc. |
-| 11076573 | Seyed Abdi |  | Ghodsi |  | 1578545273 | 311351965 | 1 | 999 BRUBAKER DR | STE 101 | KETTERING | OH | 454293588 | 1 | 6147640200 | 6147642782 | jservis@digestivespecialists.com | OhioHealth Physician Group, Inc. |
-| 10792058 | Victor | Philip | Glassman |  | 1578545273 | 311351965 | 1 | 4760 E GALBRAITH RD | STE 203 | CINCINNATI | OH | 452366704 | 1 | 6147640200 | 6147642782 | jservis@digestivespecialists.com | OhioHealth Physician Group, Inc. |
-| 11801613 | Scott | A | Golde |  | 1578545273 | 311351965 | 1 | 1403 WAGNER AVE | STE 203 | MIAMISBURG | OH | 452366704 | 1 | 6147640200 | 6147642782 | jservis@digestivespecialists.com | OhioHealth Physician Group, Inc. |
-| 11512983 | Naila | M | Goldenberg |  | 1578545273 | 311351965 | 1 | 5232 SOCIALVILLE FOSTER RD | STE 203 | MASON | OH | 450409302 | 1 | 6147640200 | 6147642782 | jservis@digestivespecialists.com | OhioHealth Physician Group, Inc. |
-| 11772215 | Amanda | E | Gordon |  | 1578545273 | 311351965 | 1 | 4030 HENDERSON RD | STE 203 | COLUMBUS | OH | 450409302 | 1 | 6147640200 | 6147642782 | jservis@digestivespecialists.com | OhioHealth Physician Group, Inc. |
-| 10820817 | Larry | A | Graham |  | 1578545273 | 311351965 | 1 | 3000 HOSPITAL DR | STE 203 | BATAVIA | OH | 451031921 | 1 | 6147640200 | 6147642782 | jservis@digestivespecialists.com | OhioHealth Physician Group, Inc. |
-| 10792210 | Michelle | L | Graham |  | 1578545273 | 311351965 | 1 | 1781 COUNTRYSIDE DR | STE 203 | LANCASTER | OH | 431301186 | 1 | 6147640200 | 6147642782 | jservis@digestivespecialists.com | OhioHealth Physician Group, Inc. |
-| 10813676 | Rebecca | R | Balaj |  | 1578545273 | 311351965 | 1 | 1781 COUNTRYSIDE DR | STE 203 | LANCASTER | OH | 431301186 | 1 | 6147640200 | 6147642782 | jservis@digestivespecialists.com | OhioHealth Physician Group, Inc. |
-| 10788165 | Charles | L | Bane |  | 1902844947 | 203130844 | 1 | 4940 COTTONVILLE RD | STE 600 | JAMESTOWN | OH | 453351522 | 1 | 9372931622 | 9372456308 | apanstingel@daytonphysicians.com | OhioHealth Physician Group, Inc. |
-| 12137911 | Alzira | B | Leques |  | 1902844947 | 203130844 | 1 | 10506 MONTGOMERY RD | STE 504 | CINCINNATI | OH | 452424400 | 1 | 9372931622 | 9372456308 | apanstingel@daytonphysicians.com | OhioHealth Physician Group, Inc. |
-| 12192889 | Shaun | E | Roe |  | 1902844947 | 203130844 | 1 | 66840 BELMONT MORRISTOWN RD | STE 504 | BELMONT | OH | 437189665 | 1 | 9372931622 | 9372456308 | apanstingel@daytonphysicians.com | OhioHealth Physician Group, Inc. |
-| 10798313 | Mark | D | Romer |  | 1902844947 | 203130844 | 1 | 4940 COTTONVILLE RD | STE 600 | JAMESTOWN | OH | 453351522 | 1 | 9372931622 | 9372456308 | apanstingel@daytonphysicians.com | OhioHealth Physician Group, Inc. |
-| 11912957 | Andrew | R | Roth |  | 1326072265 | 203130844 | 1 | 1320 W MAIN ST | STE 600 | NEWARK | OH | 430551822 | 1 | 2205644218 | 2205644217 | apanstingel@daytonphysicians.com |  |
-| 11921486 | Eric | A | Barua |  | 1326072265 | 203130844 | 1 | 111 S GRANT AVE | STE 600 | NEWARK | OH | 432154701 | 1 | 2205644218 | 2205644217 | apanstingel@daytonphysicians.com |  |
-| 10795153 | John | R | Loughrey |  |  | 203130844 | 1 | 5215 N BEND RD | STE 600 | CINCINNATI | OH | 452478006 | 1 | 2205644218 | 2205644217 | apanstingel@daytonphysicians.com |  |
-| 10765981 | Tarek | M | Sabagh |  | 1902844947 | 203130844 | 1 | 4940 COTTONVILLE RD | STE 600 | JAMESTOWN | OH | 453351522 | 1 | 9372931622 | 9372456308 | apanstingel@daytonphysicians.com |  |
-| 10830662 | James | H | Sabiers |  | 1902844947 | 203130844 | 1 | 4940 COTTONVILLE RD | STE 600 | JAMESTOWN | OH | 453351522 | 1 | 9372931622 | 9372456308 | apanstingel@daytonphysicians.com |  |
-| 10788378 | Kenneth | A | Beckman |  | 1902844947 | 203130844 | 1 | 450 ALKYRE RUN | STE 100 | WESTERVILLE | OH | 430826910 | 1 | 9372931622 | 9372456308 | apanstingel@daytonphysicians.com |  |
-| 10788437 | HOWARD | J. | BELLIN |  | 1902844947 | 203130844 | 1 | 450 ALKYRE RUN | STE 100 | WESTERVILLE | OH | 430826910 | 1 | 9372931622 | 9372456308 | apanstingel@daytonphysicians.com |  |
-| 10795230 | Kenneth | S | Lutter |  | 1902844947 | 203130844 | 1 | 941 CHATHAM LN | STE 215 | COLUMBUS | OH | 432212416 | 1 | 9372931622 | 9372456308 | apanstingel@daytonphysicians.com |  |
-| 12679967 | Robin |  | Machado |  | 1902844947 | 203130844 | 1 | 793 W STATE ST | STE 215 | COLUMBUS | OH | 432212416 | 1 | 9372931622 | 9372456308 | apanstingel@daytonphysicians.com |  |
-| 10788544 | Jack | Mark | Bernstein |  | 1902844947 | 203130844 | 1 | 2350 MIAMI VALLEY DR | STE 210 | CENTERVILLE | OH | 454594778 | 1 | 9372931622 | 9372456308 | apanstingel@daytonphysicians.com |  |
-| 11668020 | Ambareen | A. | Bharmal |  | 1902844947 | 203130844 | 1 | 2350 MIAMI VALLEY DR | STE 210 | CENTERVILLE | OH | 454594778 | 1 | 9372931622 | 9372456308 | apanstingel@daytonphysicians.com |  |
-| 10775688 | Gregory | S | Manning |  | 1902844947 | 203130844 | 1 | 1505 STONECREEK DR S | STE 102 | PICKERINGTON | OH | 431479869 | 1 | 9372931622 | 9372456308 | apanstingel@daytonphysicians.com |  |
-| 13590718 | Caitlyn |  | Santer |  | 1902844947 | 203130844 | 1 | 1505 STONECREEK DR S | STE 102 | PICKERINGTON | OH | 431479869 | 1 | 9372931622 | 9372456308 | apanstingel@daytonphysicians.com |  |
-| 11834933 | Rachel | E | Savage |  | 1902844947 | 203130844 | 1 | 2000 JOSEPH E SANKER BLVD | STE 200 | CINCINNATI | OH | 452121979 | 1 | 9372931622 | 9372456308 | apanstingel@daytonphysicians.com |  |
-| 12748992 | Rachel | L | March |  | 1902844947 | 203130844 | 1 | 151 ANDERSON LN | DEPT OF FAMILY MEDICINE | WATERFORD | OH | 457865312 | 1 | 9372931622 | 9372456308 | apanstingel@daytonphysicians.com |  |
-| 10795496 | Mark | A | Marinella |  | 1902844947 | 203130844 | 1 | 4940 COTTONVILLE RD | STE 600 | JAMESTOWN | OH | 453351522 | 1 | 9372931622 | 9372456308 | apanstingel@daytonphysicians.com |  |
-| 10788735 | Robert | A | Blank |  |  | 203130844 | 1 | 4940 COTTONVILLE RD | STE 600 | JAMESTOWN | OH | 453351522 | 1 | 9372931622 | 9372456308 | apanstingel@daytonphysicians.com |  |
-| 10788760 | James | D | Bloch |  |  | 203130844 | 1 | 4940 COTTONVILLE RD | STE 600 | JAMESTOWN | OH | 453351522 | 1 | 9372931622 | 9372456308 | apanstingel@daytonphysicians.com |  |
-| 12126183 | Steven | Mark | Bobula |  |  | 203130844 | 1 | 615 COPELAND MILL RD STE 2D | STE 600 | WESTERVILLE | OH | 453351522 | 1 | 9372931622 | 9372456308 | apanstingel@daytonphysicians.com |  |
-| 10795661 | Suzanne | Frances | Matunis |  |  | 203130844 | 1 | 4700 E GALBRAITH RD | STE 202 | CINCINNATI | OH | 452362754 | 1 | 9372931622 | 9372456308 | apanstingel@daytonphysicians.com |  |
-| 12283835 | Marc |  | Bowman |  |  | 203130844 | 1 | 7333 SMITHS MILL RD | STE 202 | NEW ALBANY | OH | 430549291 | 1 | 9372931622 | 9372456308 | apanstingel@daytonphysicians.com |  |
-| 11563282 | Michael | Todd | Mckelvey |  |  | 203130844 | 1 | 7333 SMITHS MILL RD | STE 202 | NEW ALBANY | OH | 430549291 | 1 | 9372931622 | 9372456308 | apanstingel@daytonphysicians.com |  |
-| 10818464 | B | Robert | Schwartz |  |  | 203130844 | 1 | 2000 JOSEPH E SANKER BLVD | STE 200 | CINCINNATI | OH | 452121979 | 1 | 9372931622 | 9372456308 | apanstingel@daytonphysicians.com |  |
-| 10798965 | Mark | Wayne | Scott |  |  | 203130844 | 1 | 2000 JOSEPH E SANKER BLVD | STE 200 | CINCINNATI | OH | 452121979 | 1 | 9372931622 | 9372456308 | apanstingel@daytonphysicians.com |  |
-| 11211471 | Melinda | A | Scott |  |  | 203130844 | 1 | 7980 N MAIN ST | STE 200 | DAYTON | OH | 454152328 | 1 | 9372931622 | 9372456308 | apanstingel@daytonphysicians.com |  |
-| 10787591 | Ibrahim |  | Ahmad |  |  | 203130844 | 1 | 7980 N MAIN ST | STE 200 | DAYTON | OH | 454152328 | 1 | 9372931622 | 9372456308 | apanstingel@daytonphysicians.com |  |
-| 12016487 | Rao | K | Ali |  |  | 203130844 | 1 | 7980 N MAIN ST | STE 200 | DAYTON | OH | 454152328 | 1 | 9372931622 | 9372456308 | apanstingel@daytonphysicians.com |  |
-| 11921401 | Abhay | J | Anand |  |  | 203130844 | 1 | 2000 TAMARACK RD | STE 200 | NEWARK | OH | 430551183 | 1 | 9372931622 | 9372456308 | apanstingel@daytonphysicians.com |  |
-| 12182877 | Norberto | O | Andaluz |  |  | 203130844 | 1 | 2000 TAMARACK RD | STE 200 | NEWARK | OH | 430551183 | 1 | 9372931622 | 9372456308 | apanstingel@daytonphysicians.com |  |
-| 11060177 | Timothy | W | Anderson |  |  | 203130844 | 1 | 2000 TAMARACK RD | STE 200 | NEWARK | OH | 430551183 | 1 | 9372931622 | 9372456308 | apanstingel@daytonphysicians.com |  |
-| 12665219 | Megan | M | Archer |  |  | 203130844 | 1 | 320 E 8TH ST | STE 141 | MARIETTA | OH | 457503382 | 1 | 9372931622 | 9372456308 | apanstingel@daytonphysicians.com |  |
-| 10788992 | JUDITH | L | BRATTON |  |  | 203130844 | 1 | 1500 E MAIN ST | STE 141 | LANCASTER | OH | 431303478 | 1 | 9372931622 | 9372456308 | apanstingel@daytonphysicians.com |  |
-| 10788995 | Karl | B | Braun |  |  | 203130844 | 1 | 7794 5 MILE RD | STE 200 | CINCINNATI | OH | 452302369 | 1 | 9372931622 | 9372456308 | apanstingel@daytonphysicians.com |  |
-| 12006702 | Jessica | Rose | Brent |  | 1427492271 | 203130844 | 1 | 2131 PARK AVE W | STE 200 | ONTARIO | OH | 449061226 | 1 | 9372931622 | 9372456308 | IrwinT@tsfhs.org |  |
-| 10789037 | Timothy | John | Bright |  | 1427492271 | 203130844 | 1 | 340 W COSHOCTON ST | STE 200 | JOHNSTOWN | OH | 430311113 | 1 | 9372931622 | 9372456308 | IrwinT@tsfhs.org |  |
-| 10827897 | Jonathan | B | Brooks |  | 1427492271 | 203130844 | 1 | 2323 W 5TH AVE STE 225 |  | COLUMBUS | OH | 432044899 | 1 | 9372931622 | 9372456308 | IrwinT@tsfhs.org |  |
-| 12578665 | Darren | L | Burgin |  | 1427492271 | 203130844 | 1 | 2323 W 5TH AVE STE 225 |  | COLUMBUS | OH | 432044899 | 1 | 9372931622 | 9372456308 | IrwinT@tsfhs.org | Licking Memorial Professional Corporation |
-| 12291372 | Hayley | R | Burnett |  | 1427492271 | 203130844 | 1 | 2323 W 5TH AVE STE 225 |  | COLUMBUS | OH | 432044899 | 1 | 9372931622 | 9372456308 | IrwinT@tsfhs.org | Licking Memorial Professional Corporation |
-| 11964258 | Saud |  | Butt |  | 1427492271 | 203130844 | 1 | 2323 W 5TH AVE STE 225 |  | COLUMBUS | OH | 432044899 | 1 | 9372931622 | 9372456308 | IrwinT@tsfhs.org | Licking Memorial Professional Corporation |
-| 10789497 | Gary | J | Carver |  | 1427492271 | 203130844 | 1 | 1460 ORANGE ST |  | COSHOCTON | OH | 438122229 | 1 | 9372931622 | 9372456308 | IrwinT@tsfhs.org | Licking Memorial Professional Corporation |
-| 10789612 | Anthony | T | Chapekis |  | 1427492271 | 203130844 | 1 | 260 POLARIS PKWY | STE 102 | WESTERVILLE | OH | 430828019 | 1 | 9372931622 | 9372456308 | IrwinT@tsfhs.org | Licking Memorial Professional Corporation |
-| 10789715 | Stephen | J | Choban |  | 1427492271 | 203130844 | 1 | 4605 SAWMILL RD | STE 102 | UPPER ARLNGTN | OH | 432202246 | 1 | 9372931622 | 9372456308 | IrwinT@tsfhs.org | Licking Memorial Professional Corporation |
-| 12061239 | Grant |  | Chow |  | 1427492271 | 203130844 | 1 | 4605 SAWMILL RD | STE 102 | UPPER ARLNGTN | OH | 432202246 | 1 | 9372931622 | 9372456308 | IrwinT@tsfhs.org | Licking Memorial Professional Corporation |
-| 10792267 | Bruce | A | Greenberg |  | 1427492271 | 203130844 | 1 | 4750 E GALBRAITH RD | STE 207 | CINCINNATI | OH | 452366706 | 1 | 9372931622 | 9372456308 | IrwinT@tsfhs.org | Licking Memorial Professional Corporation |
-| 12577100 | Melissa | A | Grilliot |  | 1427492271 | 203130844 | 1 | 375 N EASTOWN RD | PATHOLOGY DEPT. | LIMA | OH | 452366706 | 1 | 9372931622 | 9372456308 | IrwinT@tsfhs.org | Licking Memorial Professional Corporation |
-| 10792342 | Howard | M | Gross |  | 1902844947 | 203130844 | 1 | 4940 COTTONVILLE RD | STE 600 | JAMESTOWN | OH | 453351522 | 1 | 9372931622 | 9372456308 | apanstingel@daytonphysicians.com | Licking Memorial Professional Corporation |
-| 11471636 | Karen | S | Gross |  | 1902844947 | 203130844 | 1 | 4940 COTTONVILLE RD | STE 600 | JAMESTOWN | OH | 453351522 | 1 | 9372931622 | 7403443479 | apanstingel@daytonphysicians.com | Licking Memorial Professional Corporation |
-| 10814081 | Robert | T | Grossmann |  | 1902844947 | 203130844 | 1 | 36123 SCHOOLCRAFT RD | STE 600 | LIVONIA | OH | 453351522 | 1 | 9372931622 | 7403443479 | apanstingel@daytonphysicians.com | Licking Memorial Professional Corporation |
-| 10792428 | Rakesh | K | Gupta |  | 1902844947 | 203130844 | 1 | 36123 SCHOOLCRAFT RD | STE 600 | LIVONIA | OH | 453351522 | 1 | 9372931622 | 7403443479 | apanstingel@daytonphysicians.com | Licking Memorial Professional Corporation |
-| 11989490 | Betty |  | Gwinn-Hall |  | 1902844947 | 203130844 | 1 | 36123 SCHOOLCRAFT RD | STE 600 | LIVONIA | OH | 453351522 | 1 | 9372931622 | 7403443479 | apanstingel@daytonphysicians.com | Licking Memorial Professional Corporation |
-| 10792460 | Eric | O | Haaff |  | 1902844947 | 203130844 | 1 | 7798 DISCOVERY DR | STE 600 | WEST CHESTER | OH | 450697745 | 1 | 9372931622 | 7403443479 | apanstingel@daytonphysicians.com | Licking Memorial Professional Corporation |
-| 10792547 | John | J | Haluschak |  | 1902844947 | 203130844 | 1 | 4940 COTTONVILLE RD | STE 600 | JAMESTOWN | OH | 453351522 | 1 | 9372931622 | 9372456308 | apanstingel@daytonphysicians.com | Licking Memorial Professional Corporation |
-| 13625450 | Barbara | Bracken | Hankin |  | 1902844947 | 203130844 | 1 | 2000 JOSEPH E SANKER BLVD | STE 200 | CINCINNATI | OH | 452121979 | 1 | 9372931622 | 9372456308 | apanstingel@daytonphysicians.com | Licking Memorial Professional Corporation |
-| 11951636 | Aaron | P | Hanshaw |  | 1902844947 | 203130844 | 1 | 8940 KINGSRIDGE DR | STE 103 | DAYTON | OH | 454581632 | 1 | 9372931622 | 9372456308 | apanstingel@daytonphysicians.com | Licking Memorial Professional Corporation |
-| 10821073 | Joel | B | Herron |  | 1902844947 | 203130844 | 1 | 8940 KINGSRIDGE DR | STE 103 | DAYTON | OH | 454581632 | 1 | 9372931622 | 9372456308 | apanstingel@daytonphysicians.com | Licking Memorial Professional Corporation |
-| 11591110 | Louis | W | Hevezi |  | 1902844947 | 203130844 | 1 | 3555 OLENTANGY RIVER RD STE 1080 | STE 103 | COLUMBUS | OH | 454581632 | 1 | 9372931622 | 9372456308 | apanstingel@daytonphysicians.com | Licking Memorial Professional Corporation |
-| 13573769 | Cara |  | Hindel |  | 1902844947 | 203130844 | 1 | 2845 BELL ST | STE 103 | ZANESVILLE | OH | 437011720 | 1 | 9372931622 | 9372456308 | apanstingel@daytonphysicians.com | Licking Memorial Professional Corporation |
-| 11505439 | Wilbur | E | Sever |  | 1902844947 | 203130844 | 1 | 4439 STATE ROUTE 159 | STE 270 | CHILLICOTHE | OH | 456017502 | 1 | 9372931622 | 9372456308 | apanstingel@daytonphysicians.com | Licking Memorial Professional Corporation |
-| 10766073 | Ketan | S | Shah |  | 1902844947 | 203130844 | 1 | 4940 COTTONVILLE RD | STE 600 | JAMESTOWN | OH | 453351522 | 1 | 9372931622 | 9372456308 | apanstingel@daytonphysicians.com | Licking Memorial Professional Corporation |
-| 10799157 | Michael | B | Shannon |  | 1902844947 | 203130844 | 1 | 21 READE PL | STE 600 | POUGHKEEPSIE | OH | 126013912 | 1 | 9372931622 | 9372456308 | apanstingel@daytonphysicians.com | Licking Memorial Professional Corporation |
-| 11977954 | Kanan |  | Sharma |  | 1902844947 | 203130844 | 1 | 3220 BEAVER VU DR | STE 101 | BEAVERCREEK | OH | 454346400 | 1 | 9372931622 | 9372456308 | jservis@digestivespecialists.com | Licking Memorial Professional Corporation |
-| 11108341 | Brian | F | Shay |  | 1902844947 | 203130844 | 1 | 350 THOMAS MORE PKWY | STE 200 | CRESTVIEW HLS | OH | 410175460 | 1 | 9372931622 | 9372456308 | jservis@digestivespecialists.com | Licking Memorial Professional Corporation |
-| 11301717 | Manish | R | Sheth |  | 1902844947 | 203130844 | 1 | 4940 COTTONVILLE RD | STE 600 | JAMESTOWN | OH | 453351522 | 1 | 9372931622 | 9372456308 | apanstingel@daytonphysicians.com | Licking Memorial Professional Corporation |
-| 12324404 | Chad | M | Showen |  | 1902844947 | 203130844 | 1 | 400 MATTHEW ST | STE 306 | MARIETTA | OH | 457501656 | 1 | 9372931622 | 9372456308 | apanstingel@daytonphysicians.com | Licking Memorial Professional Corporation |
-| 11618679 | Noam |  | Shpancer |  | 1902844947 | 203130844 | 1 | 1100 BEECHER XING N | STE 306 | GAHANNA | OH | 432304565 | 1 | 9372931622 | 9372456308 | apanstingel@daytonphysicians.com | Licking Memorial Professional Corporation |
-| 12698241 | Jabulani |  | Sidile |  | 1902844947 | 203130844 | 1 | 105 E WASHINGTON JACKSON RD | STE 4 | EATON | OH | 453209789 | 1 | 9372931622 | 9372456308 | apanstingel@daytonphysicians.com | Licking Memorial Professional Corporation |
-| 10799364 | Michael | D | Sifri |  | 1902844947 | 203130844 | 1 | 2745 ANDERSON FERRY RD | STE 4 | CINCINNATI | OH | 452382168 | 1 | 9372931622 | 9372456308 | apanstingel@daytonphysicians.com | Licking Memorial Professional Corporation |
-| 11685793 | John | Elias | Sifuentes |  | 1902844947 | 453782550 | 1 | 5969 E. Broad St | Suite 403 | Columbus | OH | 452382168 | 1 | 9372931622 | 6142346511 | apanstingel@daytonphysicians.com | Licking Memorial Professional Corporation |
-| 11077085 | Urmee |  | Siraj |  | 1902844947 | 453782550 | 1 | 5969 E. Broad St | Suite 403 | Columbus | OH | 452382168 | 1 | 9372931622 | 6142346511 | jservis@digestivespecialists.com | Licking Memorial Professional Corporation |
-| 11884904 | Stephen | Puntenney | Smith |  | 1902844947 | 453782550 | 1 | 5175 MORSE RD | STE 300 | COLUMBUS | OH | 432301370 | 1 | 9372931622 | 6142346511 | jservis@digestivespecialists.com | Licking Memorial Professional Corporation |
-| 10799769 | Robert | J. | Sprouse |  | 1902844947 | 453782550 | 1 | 1800 GRANVILLE PIKE | STE 300 | LANCASTER | OH | 431301043 | 1 | 9372931622 | 6142346511 | jservis@digestivespecialists.com | Licking Memorial Professional Corporation |
-| 12537124 | Megan | M | Stanfield |  | 1902844947 | 453782550 | 1 | 4701 CREEK RD | STE 110 | BLUE ASH | OH | 452428330 | 1 | 9372931622 | 6142346511 | jservis@digestivespecialists.com | Licking Memorial Professional Corporation |
-| 11480383 | Gregory | J | Staten |  | 1902844947 | 453782550 | 1 | 3535 SOUTHERN BLVD | STE 2100 | KETTERING | OH | 454291221 | 1 | 9372931622 | 6142346511 | jservis@digestivespecialists.com | Licking Memorial Professional Corporation |
-| 10799915 | Phillip | J | Stern |  | 1902844947 | 453782550 | 1 | 3055 COLUMBUS ST | STE 2100 | GROVE CITY | OH | 431232751 | 1 | 9372931622 | 6142346511 | jservis@digestivespecialists.com | Licking Memorial Professional Corporation |
-| 12712373 | Dominic | A. | Mehling |  | 1902844947 | 453782550 | 1 | 3055 COLUMBUS ST | STE 2100 | GROVE CITY | OH | 431232751 | 1 | 9372931622 | 6142346511 | jservis@digestivespecialists.com | Licking Memorial Professional Corporation |
-| 11496908 | Tabitha | S. | Melvin |  | 1902844947 | 453782550 | 1 | 1510 COLUMBUS AVE | STE 230 | WSHNGTN CT HS | OH | 431601987 | 1 | 9372931622 | 6142346511 | jservis@digestivespecialists.com | Licking Memorial Professional Corporation |
-| 10795988 | SANTOSH | G | MENON |  | 1235468083 | 453782550 | 1 | 4437 STATE ROUTE 159 | STE 125 | CHILLICOTHE | OH | 456017065 | 1 | 9372931622 | 6142346511 | jservis@digestivespecialists.com | Licking Memorial Professional Corporation |
-| 12774925 | Nancy | M | Meyer |  | 1235468083 | 453782550 | 1 | 4437 STATE ROUTE 159 | STE 125 | CHILLICOTHE | OH | 456017065 | 1 | 9372931622 | 6142346511 | jservis@digestivespecialists.com | Licking Memorial Professional Corporation |
-| 12419169 | Eleina |  | Mikhaylov |  | 1235468083 | 453782550 | 1 | 30 E APPLE ST | STE 2200 | DAYTON | OH | 454092939 | 1 | 9372931622 | 6142346511 | jservis@digestivespecialists.com | Licking Memorial Professional Corporation |
-| 10796110 | David | C | Miller |  | 1235468083 | 453782550 | 1 | 2000 JOSEPH E SANKER BLVD | STE 2200 | CINCINNATI | OH | 452121979 | 1 | 9372931622 | 6142346511 | jservis@digestivespecialists.com | Licking Memorial Professional Corporation |
-| 10796193 | Stephen | A | Minnis |  | 1235468083 | 453782550 | 1 | 2000 JOSEPH E SANKER BLVD | STE 2200 | CINCINNATI | OH | 452121979 | 1 | 9372931622 | 6142346511 | jservis@digestivespecialists.com | Licking Memorial Professional Corporation |
-| 11206512 | Krishna | K | Mohan |  | 1235468083 | 453782550 | 1 | 2000 JOSEPH E SANKER BLVD | STE 2200 | CINCINNATI | OH | 452121979 | 1 | 9372931622 | 6142346511 | jservis@digestivespecialists.com | Licking Memorial Professional Corporation |
-| 12410734 | Humberto |  | Morales-Ramos |  | 1235468083 | 453782550 | 1 | 2000 JOSEPH E SANKER BLVD | STE 2200 | CINCINNATI | OH | 452121979 | 1 | 9372931622 | 6142346511 | jservis@digestivespecialists.com | Licking Memorial Professional Corporation |
-| 11390023 | Ann | Kerr | Morrison |  | 1235468083 | 453782550 | 1 | 2000 JOSEPH E SANKER BLVD | STE 2200 | CINCINNATI | OH | 452121979 | 1 | 9372931622 | 6142346511 | jservis@digestivespecialists.com | Licking Memorial Professional Corporation |
-| 11667619 | Daniel | W | Mudrick |  | 1235468083 | 453782550 | 1 | 3705 OLENTANGY RIVER RD | STE 100 | COLUMBUS | OH | 432143467 | 1 | 9372931622 | 6142346511 | jservis@digestivespecialists.com | Licking Memorial Professional Corporation |
-| 11356023 | Omar |  | Mulla-Ossmann |  | 1235468083 | 453782550 | 1 | 3705 OLENTANGY RIVER RD | STE 100 | COLUMBUS | OH | 432143467 | 1 | 9372931622 | 6142346511 | jservis@digestivespecialists.com | Licking Memorial Professional Corporation |
-| 10796514 | Michael | R | Murnane |  | 1235468083 | 453782550 | 1 | 745 W STATE ST | STE 610A | COLUMBUS | OH | 432221575 | 1 | 9372931622 | 6142346511 | jservis@digestivespecialists.com | Licking Memorial Professional Corporation |
-| 10789913 | Arthur | Neil | Cole |  | 1235468083 | 453782550 | 1 | 495 COOPER RD | STE 215 | WESTERVILLE | OH | 430818736 | 1 | 9372931622 | 6142346511 | jservis@digestivespecialists.com | Licking Memorial Professional Corporation |
-| 11565411 | James | B | Colombo |  | 1235468083 | 453782550 | 1 | 1164 E HOME RD | STE J | SPRINGFIELD | OH | 455032726 | 1 | 9372931622 | 6142346511 | jservis@digestivespecialists.com | Licking Memorial Professional Corporation |
-| 10828142 | George | Raymond | Connell |  | 1235468083 | 453782550 | 1 | 275 TAYLOR STATION RD | STE J | COLUMBUS | OH | 432132927 | 1 | 9372931622 | 6142346511 | jservis@digestivespecialists.com | Licking Memorial Professional Corporation |
-| 11507054 | Lowell | W | Chambers |  | 1235468083 | 453782550 | 1 | 750 MOUNT CARMEL MALL | STE 380 | COLUMBUS | OH | 432221589 | 1 | 6148646363 | 6148642248 | mridgeway@cosadocs.com | Central Ohio Surgical Associates |
-| 10790528 | Lloyd | D | Dennis |  | 1235468083 | 453782550 | 1 | 40 WHITE OAK PROFESSIONAL CTR | STE 380 | VINCENT | OH | 457849117 | 1 | 6148646363 | 6148642248 | mridgeway@cosadocs.com | Central Ohio Surgical Associates |
-| 11312119 | Kedar | Krishna | Deshpande |  | 1235468083 | 453782550 | 1 | 1080 POLARIS PKWY | STE 200 | COLUMBUS | OH | 432406035 | 1 | 6148646363 | 6148642248 | mridgeway@cosadocs.com | Central Ohio Surgical Associates |
-| 11590004 | Ravi | S | Dhawale |  | 1235468083 | 453782550 | 1 | 1080 POLARIS PKWY | STE 200 | COLUMBUS | OH | 432406035 | 1 | 6148646363 | 6148642248 | mridgeway@cosadocs.com | Central Ohio Surgical Associates |
-| 12729993 | Kristen |  | Dunlap |  | 1235468083 | 453782550 | 1 | 5969 E BROAD ST | STE 403 | COLUMBUS | OH | 432131540 | 1 | 6148646363 | 6148642248 | mridgeway@cosadocs.com | Central Ohio Surgical Associates |
-| 11953835 | Michael | W | Dusing |  | 1235468083 | 453782550 | 1 | 350 THOMAS MORE PKWY | STE 200 | CRESTVIEW HLS | OH | 410175460 | 1 | 6148646363 | 6148642248 | mridgeway@cosadocs.com | Central Ohio Surgical Associates |
-| 12623877 | Andrea | Kathleen | Howard |  | 1235468083 | 453782550 | 1 | 350 THOMAS MORE PKWY | STE 200 | CRESTVIEW HLS | OH | 410175460 | 1 | 6148646363 | 6148642248 | mridgeway@cosadocs.com | Central Ohio Surgical Associates |
-| 10793224 | Johnny | Joon | Huh |  | 1235468083 | 453782550 | 1 | 350 THOMAS MORE PKWY | STE 200 | CRESTVIEW HLS | OH | 410175460 | 1 | 6148646363 | 6148642248 | mridgeway@cosadocs.com | Central Ohio Surgical Associates |
-| 10793291 | Robert | Karl | Hutchins |  | 1235468083 | 453782550 | 1 | 350 THOMAS MORE PKWY | STE 200 | CRESTVIEW HLS | OH | 452194239 | 1 | 6148646363 | 6148642248 | mridgeway@cosadocs.com | Central Ohio Surgical Associates |
+| practice_name | caqh_provider_id | first_name | middle_name | last_name| npi_type_1 | npi_type_2 | tax_id | currently_practicing_flag | address1           |  address2                      | city     | state | zip_code | accept_new_medicare_patients_flag | phone_number | fax_number | email_address               | group_name |
+| SEVEN HILLS WOMEN'S HEALTH CENTERS | 11479288 | Susan | J | Holden |  | 1609856525 | 311575051 | 0 | 2245 BAUER RD |  | BATAVIA | OH | 451031977 | 1 | 5132313447 | 5132313761 | pgoforth@shwhc.com | SEVEN HILLS OB/GYN ASSOCIATES INC. |
+| InPatient Consultants of Ohio, Inc. | 11899120 | Amy | S | Hoover |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
+| Seven Hills Women's Health Centers | 10793378 | Mary | Kathryn | Jabin |  |  |  |  |  | STE 504 | CINCINNATI |  | 452424400 |  |  |  |  |  |
+| Batesville Urology | 11777417 | Paul | D | Jarvis |  |  |  |  | PO BOX 66 | 24 SIX PINE RANCH ROAD | BATESVILLE |  | 470060066 |  |  |  |  |  |
+| Central Ohio Primary Care Physicians Inc | 10793512 | Nishit | G | Jhaveri |  |  |  |  | 3555 OLENTANGY RIVER RD | STE 1080 | COLUMBUS |  |  |  |  |  |  |  |
+| Dayton Physicians, LLC  | 10793516 | Shamim | Z | Jilani |  | 1902844947 | 203130844 | 1 | 4940 COTTONVILLE RD | STE 600 | JAMESTOWN | OH | 453351522 | 1 | 9372931622 | 9372456308 | apanstingel@daytonphysicians.com |  |
+| PrimaryOne Health | 10966917 | Daniela | Elena | Jipa |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
+|  Mount Carmel Columbus Cardiology Consultants | 11713960 | Noah | Jesse | Jones |  |  |  |  | 85 MCNAUGHTEN RD | STE 300 | COLUMBUS |  | 432135112 |  |  |  |  |  |
+| Clermont Internists Associates, Inc. | 12077054 | Anil | K | Kakumanu |  |  |  |  | 2055 HOSPITAL DR | STE 300 | BATAVIA |  | 451031981 |  |  |  |  |  |
+| The Christ Hospital Medical Assoiates II | 10804277 | Mina | C | Kalfas |  |  |  |  | 1955 DIXIE HWY | STE D | FT WRIGHT |  | 410112882 |  |  |  |  |  |
+| SEVEN HILLS WOMEN'S HEALTH CENTERS | 10793812 | Michael |  | Karram |  |  |  |  | 10506 MONTGOMERY RD | STE 504 | CINCINNATI |  | 452424400 |  |  |  |  |  |
+| Dayton Physicians, LLC  | 10793829 | Satheesh | Kumar | Kathula |  | 1902844947 | 203130844 | 1 | 4940 COTTONVILLE RD | STE 600 | JAMESTOWN | OH | 453351522 | 1 | 9372931622 | 9372808373 | apanstingel@daytonphysicians.com |  |
+| Nephrology Associates of Dayton Inc. | 10793849 | JEFFREY |  | KAUFHOLD |  |  |  |  | 9000 N MAIN ST | STE 328 | ENGLEWOOD |  | 454151185 |  |  |  |  |  |
+| CAPE FEAR VALLEY CARDIOVASCULAR & THORACIC SURGERY | 11194921 | Gregory | S | Keagy |  | 1386084671 | 560845796 |  |  |  |  |  |  |  | 9106154000 |  |  | CAPE FEAR VALLEY CARDIOVASCULAR & THORACIC SURGERY |
+| Greene Memorial Hospital, Inc. (Community Physicians of Yellow Springs) | 12000027 | Courtney | M | Stroble |  |  |  |  | 888 DAYTON ST STE 200 |  | YELLOW SPGS |  | 453871777 |  |  |  |  |  |
+| Orthopedic & Neurological Consultants, Inc | 10800033 | Desmond | J | Stutzman |  | 1063507226 |  |  |  |  |  |  |  |  |  |  |  |  |
+| PrimaryOne Health | 10800079 | Qixin |  | Sun |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
+| A T Tamboli MD Inc | 10813545 | Ardeshir | T | Tamboli |  |  |  |  | 222 SCIO RD SE | ROUTE 332 | CARROLLTON |  | 446158521 |  |  |  |  |  |
+| Mount Carmel Health System | 12240298 | Kristen | Nicole | Terranova |  |  |  |  | 793 W STATE ST |  | COLUMBUS |  | 432221551 |  |  |  |  |  |
+| Digestive Specialists Inc | 11754038 | Jigna |  | Thakore |  |  |  |  | 7415 BRANDT PIKE | STE 101 | HUBER HEIGHTS |  | 454243239 |  |  |  | jservis@digestivespecialists.com |  |
+| Delaware Chiropractic, LLC | 10800358 | David | Christopher | Thomas |  |  |  |  | 104 W WILLIAM ST |  | DELAWARE |  | 430152305 |  |  |  |  |  |
+| Orthopedic & Neurological Consultants, Inc. | 10800467 | Larry | T. | Todd |  |  |  |  | 1313 OLENTANGY RIVER RD | STE 180 | COLUMBUS |  | 432123120 |  |  |  |  |  |
+| Muskingum Valley Health Centers | 11858690 | Cynthia | B | Tuck |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
+| Digestive Specialists Inc | 11317930 | Bikram |  | Verma Ansil |  |  |  |  | 77 W ELEANOR DR | STE 101 | SPRINGBORO |  | 450661615 |  |  |  | jservis@digestivespecialsits.com |  |
+| Marietta Health Care Physicians Inc | 12082044 | Vincent | Stuart | Nerone |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
+| Marietta Health Care Physicians, Inc. | 11912624 | Tuan | C | Nguyen |  |  |  |  | 807 FARSON ST | STE 204 | BELPRE |  | 457141069 |  |  |  |  |  |
+| The Christ Hospital Medical Associates, LLC | 12004185 | Lisa | A | Niehaus |  |  |  |  | 2123 AUBURN AVE | STE 210 | CINCINNATI |  | 452192906 |  |  |  |  |  |
+| Shiloh Family Medicine | 10796842 | Eric | S | Nordin |  | 1255526471 |  |  |  |  |  |  |  |  |  |  |  |  |
+| Digestive Specialists Inc. | 10797051 | Nagaraja | Sharma | Oruganti |  |  |  |  |  |  |  |  |  |  |  |  | jservis@digestivespecialists.com |  |
+| SAS SURGERY & VEIN SPECIALISTS | 10797171 | MARIOS | P | PANAYIDES |  |  |  |  |  |  |  |  | 455042581 |  |  |  |  |  |
+| TriHealth G LLC dba Heritage Family Medicine | 11211452 | Mini | Peterson | Pathrose |  |  |  |  | 435 PARK AVE |  | HAMILTON |  | 450133053 |  |  |  |  |  |
+| TriHealth G LLC dba Heritage Family Medicine | 12274569 | Jessica | M | Patrich |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
+| Digestive Specialists Inc | 10797339 | Teressa | J | Patrick |  |  |  |  | 1530 NEEDMORE RD | STE 101 | DAYTON |  | 454143900 |  |  | 9372972208 | jservis@digestivespecialists.com |  |
+| Digestive Specialists Inc | 10491375 | Narayan | S | Peddanna |  |  |  |  | 1530 NEEDMORE RD | STE 101 | DAYTON |  | 454143900 |  |  |  | jservis@digestivespecialists.com |  |
+| Marietta Memorial Hospital | 12718856 | Angela | M | Perkins |  |  |  |  | 807 FARSON ST | STE 201 | BELPRE |  | 457141069 |  |  |  |  |  |
+| Mount Carmel Columbus Cardiology Consultants | 12121475 | Kyle | W | Pfahl |  |  |  |  | 745 W STATE ST | STE 750 | COLUMBUS |  | 432221515 |  |  |  |  |  |
+| Ohio Hospital for Psychiatry | 12273879 | Kathleen |  | Pfeifer |  |  |  |  | 880 GREENLAWN AVE |  | COLUMBUS |  |  |  |  |  |  |  |
+| Northeast Dermatology | 10819907 | Stephanie | L | Cotell |  |  |  |  | 925 N HAMILTON RD | STE 100 | GAHANNA |  | 432308709 |  |  |  |  |  |
+| FCMH Medical and Surgical Associates | 12468473 | Amy | Noble | Davidson |  |  |  |  | 1450 COLUMBUS AVE | STE 103 | WSHNGTN CT HS |  | 431603701 |  |  |  |  |  |
+| Muskingum Valley Health Centers | 11844818 | Kristin | Richelle | Davis |  |  |  |  | 1330 CLARK ST |  | CAMBRIDGE |  | 437259614 |  |  |  |  |  |
+| Tri State Urologic Services, PSC, Inc. | 10790407 | James | F | Davison |  |  |  |  | 7921 JESSIES WAY |  | FAIRFIELD |  | 450118077 |  |  |  |  |  |
+| Tri State Urologic Services, PSC, Inc. | 12333272 | Samuel |  | Essandoh |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
+| InPatient Consultants of Ohio, Inc. | 11778335 | Chukwuma | E | Eze |  | 1326210121 |  |  |  |  |  |  |  |  |  |  |  |  |
+| InPatient Consultants of Ohio, Inc. | 13624949 | Rachel | Ann | Falsone |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
+| Mercy Health - Wellington Orthopaedic and Sports Medicine, Western Ridge | 10791299 | Paul | Joseph | Favorito |  |  |  |  | 6909 GOOD SAMARITAN DR | STE A | CINCINNATI |  | 452475209 |  |  |  |  |  |
+| Valley Gastroenterology & Endoscopy | 12295194 | Kirby | Mae | Fazio |  |  |  |  | 92 N 4TH ST | STE A | MARTINS FERRY |  | 439351600 |  |  |  |  |  |
+| Central Ohio Comprehensive Foot Care LLC | 11956328 | Bryan | M | Feldner |  |  |  |  | 575 COPELAND MILL RD STE 2F, | ATTN: TINA TRAYLOR | WESTERVILLE |  | 430818977 |  |  |  |  |  |
+| Kettering Behavioral Professional Group  | 12103242 | Andrew | R | Khavari |  |  |  |  | 5348 LAMME RD |  | MORAINE |  |  |  |  |  |  |  |
+| Gastroenterology Associates of Northwest Ohio LLC | 11665173 | Rizwan | E | Kibria |  | 1689835415 | 262448601 | 1 | 1818 CHAPEL DR | STE C | FINDLAY | OH | 458401344 | 1 | 4194297637 | 4194297641 |  |  |
+| Tri State Urologic Services, PSC, Inc. | 10794164 | Gary | M | Kirsh |  |  |  |  | 10220 ALLIANCE RD |  | BLUE ASH |  | 452424710 |  |  |  |  |  |
+| Compass Emergency Physicians. | 11771805 | Lisa |  | Kiser |  |  |  |  | 85 N GRAND AVE |  | FORT THOMAS |  | 410751793 |  |  |  |  |  |
+| Seven Hills Women's Health Centers | 12103247 | Renee | L | Klee |  | 1609856525 | 311575051 | 0 | 2245 BAUER RD |  | BATAVIA | OH | 451031977 | 1 | 5133213447 | 5132313761 | pgoforth@shwhc.com | Seven Hills Women's Health Centers |
+| Muskingum Valley Health Centers | 11858670 | David | L | Klein |  |  |  |  | 1330 CLARK ST |  | CAMBRIDGE |  | 437259614 |  |  |  |  |  |
+| OhioHealth Heart and Vascular Physicians | 10794216 | James | M | Kleman |  |  |  |  | 7450 HOSPITAL DR | HEART AND LUNG DEPT | DUBLIN |  | 430169642 |  |  |  |  |  |
+| Dayton Physicians, LLC  | 11360963 | Jhansi | L | Koduri |  | 1902844947 | 203130844 | 1 | 4940 COTTONVILLE RD | STE 600 | JAMESTOWN | OH | 453351522 | 1 | 9372931622 | 9372456308 | apanstingel@daytonphysicians.com |  |
+| Tri State Urologic Services, PSC, Inc. | 10794530 | Eric | Joseph | Kuhn |  |  |  |  | 3301 MERCY HEALTH BLVD | STE 525 | CINCINNATI |  | 452111118 |  |  |  |  |  |
+| Mount Carmel HealthProviders, Inc | 12082425 | Tina | X | Lee |  |  |  |  | 3617 HERITAGE CLUB DR |  | HILLIARD |  | 430261313 |  |  |  |  |  |
+| Muskingum Valley Health Centers | 13611113 | Kadi | Lepi | Addy |  |  |  |  | 1330 CLARK ST |  | CAMBRIDGE |  | 437259614 |  |  |  |  |  |
+| Mental Health Services for Clark and Madison Co | 10831294 | Kalpana | K | Vishnupad |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
+| Tri State Urologic Services, PSC, Inc. | 10801002 | Martin | J | Walsh |  |  |  |  | 2000 JOSEPH E SANKER BLVD |  | CINCINNATI |  | 452121979 |  |  |  |  |  |
+| Hughston Clinic, P.C.. | 12640826 | Benjamin | Collier | Watson |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
+| Stephen A. Weeber, DPM | 10801138 | Stephen | A | Weeber |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
+| Weller Health Transitions | 10801219 | Christine | Buchanan | Weller |  |  |  |  | 2283 WAHSUM CIR |  | CENTERVILLE |  | 454596600 |  |  |  |  |  |
+| Marietta Health Care Physicians, Inc. | 12433817 | Kimberly | D | Williams |  |  |  |  | 805 FARSON ST STE 112 |  | BELPRE |  | 457141000 |  |  |  |  |  |
+| Eastern Hills Internal Medicine | 10801430 | David | G | Wilson |  |  |  |  | 8000 5 MILE RD | STE 320 | CINCINNATI |  | 452302188 |  |  |  |  |  |
+| Arthur H Win MD LLC | 10801449 | Arthur | H | Win |  |  |  |  |  |  |  |  |  | 1 |  |  |  |  |
+| Alliance Physicians, Inc. (Wayne C. Woodard, MD) | 10801551 | Wayne | Charles | Woodard |  |  |  |  | 50 N PROGRESS DR |  | XENIA |  | 453852666 |  |  |  |  |  |
+| Genesis Primary Care Physicians, LLC | 12100691 | Kelly | L | Wycinski |  |  |  |  | 975 BETHESDA DR |  | ZANESVILLE |  | 437017500 |  |  |  |  |  |
+| Genesis Primary Care Physicians, LLC | 12021293 | Suresh | K | Yadav |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
+| Dayton Physicians, LLC  | 10801630 | Burhan |  | Yanes |  | 1902844947 | 203130844 | 1 | 4940 COTTONVILLE RD | STE 600 | JAMESTOWN | OH | 453351522 | 1 | 9372808366 | 9372808373 | apanstingel@daytonphysicians.com |  |
+| Digestive Specialists Inc | 10797590 | Marios | C | Pouagare |  |  |  |  |  |  |  |  |  |  |  |  | jservis@digestivespecialists.com |  |
+| Purvis Chiropractic | 11935773 | Elizabeth | A | Purvis Archer |  |  |  |  | 111 WEST ST |  | CALDWELL |  | 437241359 |  |  |  |  |  |
+| Central Ohio Primary Care Physicians, Inc. | 11088223 | Asif | Q | Qazi |  |  |  |  | 6465 E BROAD ST | STE D | COLUMBUS |  |  |  |  |  |  |  |
+| Radiology Incorporated | 13562728 | Malolan | S | Rajagopalan |  |  |  |  | 793 W STATE ST |  | COLUMBUS |  |  |  |  |  |  |  |
+| B.V. Rangaswamy, MD | 10797844 | BILLIAMAGGA |  | RANGASWAMY |  |  |  |  |  |  |  |  | 437251162 |  |  |  |  |  |
+| MUJEEB RANGINWALA MD | 10797847 | MUJEEB | A | RANGINWALA |  |  |  |  |  | STE 102 |  |  | 455051373 |  |  |  |  |  |
+| MUJEEB RANGINWALA MD | 11517347 | Edward | P | Rapach |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
+| Seven HIlls OB/GYN Associates, Inc. | 12128245 | Bonnie |  | Rebella |  |  |  |  | 10506 MONTGOMERY RD | STE 504 | CINCINNATI |  | 452424400 |  |  |  |  |  |
+| Marietta Health Care Physicians, Inc. | 11102290 | Steven | Douglas | Richards |  |  |  |  | 400 MATTHEW ST | WOUND CARE CENTER | MARIETTA |  | 457501644 |  |  |  |  |  |
+| Kidney Care Specialists, LLC. | 11822662 | Forrest | T | Fornash |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
+| Greg Frankenfield, LISW, LLC | 11689422 | Gregory | A | Frankenfield |  |  |  |  |  |  |  |  |  |  |  |  | Mariraef@gmail.com |  |
+| OhioHealth Primary Care Physicians - MARK AS SILENT IN ALL DIRECTORIES | 12280453 | Mary | B | Frey |  | 1578545273 | 311351965 | 1 | 10401 Sawmill Pkwy | Ste 40 | Powell | OH | 43065 | 1 | 6147640200 | 6147642782 |  | OhioHealth Physician Group, Inc. |
+| OB/GYN Associates of Lancaster, Inc. | 10791687 | Sarah | L | Froman |  |  |  |  | 135 N EWING ST | STE 201 | LANCASTER |  | 431303378 |  |  |  |  |  |
+| Mercy Health-General, Laparoscopic & Vascular Surgery, Westside | 12543870 | Matthew | J | Funch |  |  |  |  | 3747 W FORK RD |  | CINCINNATI |  | 452477548 |  |  |  |  |  |
+| alan l. gabbard.m.d. | 10791733 | Alan | LANIER | Gabbard |  |  |  |  | 247 S BURNETT RD |  | SPRINGFIELD |  | 455052639 |  |  |  |  |  |
+| Marietta Health Care Physicians Inc. | 11076560 | Leandro | P | Galang |  |  |  |  | 800 PIKE ST | STE 2 | MARIETTA |  | 457503507 |  |  |  |  |  |
+| Digestive Specialists Inc | 10791870 | Robert | E | Gaylor |  |  |  |  | 999 BRUBAKER DR | STE 101 | KETTERING |  | 454293588 |  |  |  | jservis@digestivespecialists.com |  |
+| Digestive Specialists Inc | 11076573 | Seyed Abdi |  | Ghodsi |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
+| Mercy Health - Kenwood Internal Medicine and Pulmonary | 10792058 | Victor | Philip | Glassman |  |  |  |  | 4760 E GALBRAITH RD | STE 203 | CINCINNATI |  | 452366704 |  |  |  |  |  |
+| MIAMI VALLEY URGENT CARE LLC | 11801613 | Scott | A | Golde |  |  |  |  | 1403 WAGNER AVE |  | MIAMISBURG |  |  |  |  |  |  |  |
+| Mercy Health-Endocrinology, Cholesterol and Diabetes, Deerfield | 11512983 | Naila | M | Goldenberg |  |  |  |  | 5232 SOCIALVILLE FOSTER RD |  | MASON |  | 450409302 |  |  |  |  |  |
+| Central Ohio Primary Care Physicians, Inc. | 11772215 | Amanda | E | Gordon |  |  |  |  | 4030 HENDERSON RD |  | COLUMBUS |  |  |  |  |  |  |  |
+| Mercy Health- Clermont Psychiatry | 10820817 | Larry | A | Graham |  |  |  |  | 3000 HOSPITAL DR |  | BATAVIA |  | 451031921 |  |  |  |  |  |
+| Fairfield Medical Associates | 10792210 | Michelle | L | Graham |  |  |  |  | 1781 COUNTRYSIDE DR |  | LANCASTER |  | 431301186 |  |  |  |  |  |
+| Fairfield Medical Associates | 10813676 | Rebecca | R | Balaj |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
+| Dayton Physicians, LLC  | 10788165 | Charles | L | Bane |  | 1902844947 | 203130844 | 1 | 4940 COTTONVILLE RD | STE 600 | JAMESTOWN | OH | 453351522 | 1 | 9372931622 | 9372456308 | apanstingel@daytonphysicians.com |  |
+| Seven Hills OB/GYN Associates, Inc. | 12137911 | Alzira | B | Leques |  |  |  |  | 10506 MONTGOMERY RD | STE 504 | CINCINNATI |  | 452424400 |  |  |  |  |  |
+| Belmont Professional Associates | 12192889 | Shaun | E | Roe |  |  |  |  | 66840 BELMONT MORRISTOWN RD |  | BELMONT |  | 437189665 |  |  |  |  |  |
+| Dayton Physicians, LLC  | 10798313 | Mark | D | Romer |  | 1902844947 | 203130844 | 1 | 4940 COTTONVILLE RD | STE 600 | JAMESTOWN | OH | 453351522 | 1 | 9372931622 | 9372456308 | apanstingel@daytonphysicians.com |  |
+| Licking Memorial Anesthesiology | 11912957 | Andrew | R | Roth |  | 1326072265 |  |  | 1320 W MAIN ST |  | NEWARK |  | 430551822 |  | 2205644218 | 2205644217 |  |  |
+| GRANT ANESTHESIA SERVICES | 11921486 | Eric | A | Barua |  |  |  |  | 111 S GRANT AVE |  |  |  | 432154701 |  |  |  |  |  |
+| John Loughrey MD | 10795153 | John | R | Loughrey |  |  |  |  | 5215 N BEND RD |  | CINCINNATI |  | 452478006 |  |  |  |  |  |
+| Dayton Physicians, LLC  | 10765981 | Tarek | M | Sabagh |  | 1902844947 | 203130844 | 1 | 4940 COTTONVILLE RD | STE 600 | JAMESTOWN | OH | 453351522 | 1 | 9372931622 | 9372456308 | apanstingel@daytonphysicians.com |  |
+| Dayton Physicians, LLC | 10830662 | James | H | Sabiers |  | 1902844947 | 203130844 | 1 | 4940 COTTONVILLE RD | STE 600 | JAMESTOWN | OH | 453351522 | 1 | 9372931622 | 9372456308 | apanstingel@daytonphysicians.com |  |
+| Comprehensive EyeCare of Central OH Inc | 10788378 | Kenneth | A | Beckman |  |  |  |  | 450 ALKYRE RUN | STE 100 | WESTERVILLE |  | 430826910 |  |  |  |  |  |
+| PrimaryOne Health | 10788437 | HOWARD | J. | BELLIN |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
+| Ohio Vascular Surgery, Inc. | 10795230 | Kenneth | S | Lutter |  |  |  |  | 941 CHATHAM LN | STE 215 | COLUMBUS |  | 432212416 |  |  |  |  |  |
+| Premier Anesthesia of Ohio, LLC | 12679967 | Robin |  | Machado |  |  |  |  | 793 W STATE ST |  | COLUMBUS |  |  |  |  |  |  |  |
+| Infectious Diseases Associates | 10788544 | Jack | Mark | Bernstein |  |  |  |  | 2350 MIAMI VALLEY DR | STE 210 | CENTERVILLE |  | 454594778 |  |  |  |  |  |
+| Mount Carmel HealthProviders, Inc dba MCMG Grove City | 11668020 | Ambareen | A. | Bharmal |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
+| Gregory Manning, D.C. | 10775688 | Gregory | S | Manning |  |  |  |  | 1505 STONECREEK DR S | STE 102 | PICKERINGTON |  | 431479869 |  |  |  |  |  |
+| Gregory Manning, D.C. | 13590718 | Caitlyn |  | Santer |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
+| Tri State Urologic Services, PSC, Inc. | 11834933 | Rachel | E | Savage |  |  |  |  | 2000 JOSEPH E SANKER BLVD | STE 200 | CINCINNATI |  | 452121979 |  |  |  |  |  |
+| Marietta Memorial Hospital | 12748992 | Rachel | L | March |  |  |  |  | 151 ANDERSON LN | DEPT OF FAMILY MEDICINE | WATERFORD |  | 457865312 |  |  |  |  |  |
+| Dayton Physicians, LLC  | 10795496 | Mark | A | Marinella |  | 1902844947 | 203130844 | 1 | 4940 COTTONVILLE RD | STE 600 | JAMESTOWN | OH | 453351522 | 1 | 9372931622 | 9372456308 | apanstingel@daytonphysicians.com |  |
+| Robert A. Blank, D.C., Inc. | 10788735 | Robert | A | Blank |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
+| Robert A. Blank, D.C., Inc. | 10788760 | James | D | Bloch |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
+| Central Ohio Primary Care Physicians, Inc. | 12126183 | Steven | Mark | Bobula |  |  |  |  | 615 COPELAND MILL RD STE 2D |  | WESTERVILLE |  |  |  |  |  |  |  |
+| Mercy Health - Blue Ash Family Medicine | 10795661 | Suzanne | Frances | Matunis |  |  |  |  | 4700 E GALBRAITH RD | STE 202 | CINCINNATI |  | 452362754 |  |  |  |  |  |
+| New Albany Orthopedic Anesthesia LLC | 12283835 | Marc |  | Bowman |  |  |  |  | 7333 SMITHS MILL RD |  | NEW ALBANY |  | 430549291 |  |  |  |  |  |
+| Northeast Dematology | 11563282 | Michael | Todd | Mckelvey |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
+| Tri State Urologic Services, PSC, Inc. | 10818464 | B | Robert | Schwartz |  |  |  |  | 2000 JOSEPH E SANKER BLVD | STE 200 | CINCINNATI |  | 452121979 |  |  |  |  |  |
+| Tri State Urologic Services, PSC, Inc. | 10798965 | Mark | Wayne | Scott |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
+| Orthopedic Associates of Dayton | 11211471 | Melinda | A | Scott |  |  |  |  | 7980 N MAIN ST |  | DAYTON |  | 454152328 |  |  |  |  |  |
+| Orthopedic Associates of Dayton | 10787591 | Ibrahim |  | Ahmad |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
+| MANSFIELD PAIN CLINIC LLC | 12016487 | Rao | K | Ali |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
+| Licking Memorial Anesthesiology & Pain Management | 11921401 | Abhay | J | Anand |  |  |  |  | 2000 TAMARACK RD |  | NEWARK |  | 430551183 |  |  |  |  |  |
+| Licking Memorial Anesthesiology & Pain Management | 12182877 | Norberto | O | Andaluz |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
+| Licking Memorial Anesthesiology & Pain Management | 11060177 | Timothy | W | Anderson |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
+| Marietta Health Care Physicians, Inc. | 12665219 | Megan | M | Archer |  |  |  |  | 320 E 8TH ST | STE 141 | MARIETTA |  | 457503382 |  |  |  |  |  |
+| Judith L. Bratton M.D. LLC | 10788992 | JUDITH | L | BRATTON |  |  |  |  | 1500 E MAIN ST |  | LANCASTER |  | 431303478 |  |  |  |  |  |
+| Tri State Urologic Services, PSC, Inc. | 10788995 | Karl | B | Braun |  |  |  |  | 7794 5 MILE RD | STE 200 | CINCINNATI |  | 452302369 |  |  |  |  |  |
+| Hawkins Medical Center | 12006702 | Jessica | Rose | Brent |  | 1427492271 |  |  | 2131 PARK AVE W | STE 200 | ONTARIO |  | 449061226 |  |  |  | IrwinT@tsfhs.org |  |
+| T.J. Bright & R.G. Vargo, D.O.'s, Inc. | 10789037 | Timothy | John | Bright |  |  |  |  | 340 W COSHOCTON ST |  | JOHNSTOWN |  | 430311113 |  |  |  |  |  |
+| Emergency Services, Inc. | 10827897 | Jonathan | B | Brooks |  |  |  |  | 2323 W 5TH AVE STE 225 |  | COLUMBUS |  | 432044899 |  |  |  |  |  |
+| Licking Memorial Behavioral Health | 12578665 | Darren | L | Burgin |  |  |  |  |  |  |  |  |  |  |  |  |  | Licking Memorial Professional Corporation |
+| Pulmonary Medicine of Dayton | 12291372 | Hayley | R | Burnett |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
+| Pulmonary Medicine of Dayton | 11964258 | Saud |  | Butt |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
+| Coshocton County Memorial Hospital Association | 10789497 | Gary | J | Carver |  |  |  |  | 1460 ORANGE ST |  | COSHOCTON |  | 438122229 |  |  |  |  |  |
+| OhioHealth Heart and Vascular Physicians | 10789612 | Anthony | T | Chapekis |  |  |  |  | 260 POLARIS PKWY | STE 102 | WESTERVILLE |  | 430828019 |  |  |  |  |  |
+| Orthopedic One | 10789715 | Stephen | J | Choban |  |  |  |  | 4605 SAWMILL RD |  | UPPER ARLNGTN |  | 432202246 |  |  |  |  |  |
+| Orthopedic One | 12061239 | Grant |  | Chow |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
+| Mercy Health-Internal Medicine, Infectious Disease, Kenwood | 10792267 | Bruce | A | Greenberg |  |  |  |  | 4750 E GALBRAITH RD | STE 207 | CINCINNATI |  | 452366706 |  |  |  |  |  |
+| West Central Ohio Histology, LLC | 12577100 | Melissa | A | Grilliot |  |  |  |  | 375 N EASTOWN RD | PATHOLOGY DEPT. | LIMA |  |  |  |  |  |  |  |
+| Dayton Physicians, LLC  | 10792342 | Howard | M | Gross |  | 1902844947 | 203130844 | 1 | 4940 COTTONVILLE RD | STE 600 | JAMESTOWN | OH | 453351522 | 1 | 9372931622 | 9372456308 | apanstingel@daytonphysicians.com |  |
+| Karen S Gross, LISW-S | 11471636 | Karen | S | Gross |  |  |  |  |  |  |  |  |  |  |  | 7403443479 |  |  |
+| InPatient Consultants of Ohio, Inc. | 10814081 | Robert | T | Grossmann |  |  |  |  | 36123 SCHOOLCRAFT RD |  | LIVONIA |  |  |  |  |  |  |  |
+| Mercy Health - The Heart Institute, Clermont | 10792428 | Rakesh | K | Gupta |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
+| COSHOCTON COUNTY MEMORIAL HOSPITAL ASSOCIATION | 11989490 | Betty |  | Gwinn-Hall |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
+| Tri State Urologic Services, PSC, Inc. | 10792460 | Eric | O | Haaff |  |  |  |  | 7798 DISCOVERY DR |  | WEST CHESTER |  | 450697745 |  |  |  |  |  |
+| Dayton Physicians, LLC  | 10792547 | John | J | Haluschak |  | 1902844947 | 203130844 | 1 | 4940 COTTONVILLE RD | STE 600 | JAMESTOWN | OH | 453351522 | 1 | 9372931622 | 9372456308 | apanstingel@daytonphysicians.com |  |
+| Tri State Urologic Services, PSC, Inc. | 13625450 | Barbara | Bracken | Hankin |  |  |  |  | 2000 JOSEPH E SANKER BLVD | STE 200 | CINCINNATI |  | 452121979 |  |  |  |  |  |
+| CD Hanshaw, D.O.,Inc. | 11951636 | Aaron | P | Hanshaw |  |  |  |  | 8940 KINGSRIDGE DR | STE 103 | DAYTON |  | 454581632 |  |  |  |  |  |
+| Northeast Dermatology | 10821073 | Joel | B | Herron |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
+| Central Ohio Primary Care Physicians, Inc. | 11591110 | Louis | W | Hevezi |  |  |  |  | 3555 OLENTANGY RIVER RD STE 1080 |  | COLUMBUS |  |  |  |  |  |  |  |
+| Muskingum Valley Health Centers | 13573769 | Cara |  | Hindel |  |  |  |  | 2845 BELL ST |  | ZANESVILLE |  | 437011720 |  |  |  |  |  |
+| Adena Surgical | 11505439 | Wilbur | E | Sever |  |  |  |  | 4439 STATE ROUTE 159 | STE 270 | CHILLICOTHE |  | 456017502 |  |  |  |  |  |
+| Dayton Physicians, LLC  | 10766073 | Ketan | S | Shah |  | 1902844947 | 203130844 | 1 | 4940 COTTONVILLE RD | STE 600 | JAMESTOWN | OH | 453351522 | 1 | 9372931622 | 9372456308 | apanstingel@daytonphysicians.com |  |
+| Brain & Spine Surgeons of New York, PC | 10799157 | Michael | B | Shannon |  |  |  |  | 21 READE PL |  | POUGHKEEPSIE |  | 126013912 |  |  |  |  |  |
+| Digestive Specialists Inc | 11977954 | Kanan |  | Sharma |  |  |  |  | 3220 BEAVER VU DR | STE 101 | BEAVERCREEK |  | 454346400 |  |  |  | jservis@digestivespecialists.com |  |
+| Tri State Urologic Services, Inc. | 11108341 | Brian | F | Shay |  |  |  |  | 350 THOMAS MORE PKWY | STE 200 | CRESTVIEW HLS |  | 410175460 |  |  |  |  |  |
+| Dayton Physicians, LLC  | 11301717 | Manish | R | Sheth |  | 1902844947 | 203130844 | 1 | 4940 COTTONVILLE RD | STE 600 | JAMESTOWN | OH | 453351522 | 1 | 9372931622 | 9372456308 | apanstingel@daytonphysicians.com |  |
+| Marietta Health Care Physicains, Inc. | 12324404 | Chad | M | Showen |  |  |  |  | 400 MATTHEW ST | STE 306 | MARIETTA |  | 457501656 |  |  |  |  |  |
+| The Center for Cognitive and Behavioral Therapy | 11618679 | Noam |  | Shpancer |  |  |  |  | 1100 BEECHER XING N |  | GAHANNA |  | 432304565 |  |  |  |  |  |
+| Kidney Care Specialists, LLC. | 12698241 | Jabulani |  | Sidile |  |  |  |  | 105 E WASHINGTON JACKSON RD | STE 4 | EATON |  | 453209789 |  |  |  |  |  |
+| Sifri Eye Center, LTD, LLC | 10799364 | Michael | D | Sifri |  |  |  |  | 2745 ANDERSON FERRY RD |  | CINCINNATI |  | 452382168 |  |  |  |  |  |
+| Sound Physicians | 11685793 | John | Elias | Sifuentes |  |  | 453782550 |  | 5969 E. Broad St | Suite 403 | Columbus |  |  |  |  | 6142346511 |  |  |
+| Digestive Specialists Inc | 11077085 | Urmee |  | Siraj |  |  |  |  |  |  |  |  |  |  |  |  | jservis@digestivespecialists.com |  |
+| SPS18, LLC, dba Smith Facial Plastics | 11884904 | Stephen | Puntenney | Smith |  |  |  |  | 5175 MORSE RD | STE 300 | COLUMBUS |  | 432301370 |  |  |  |  |  |
+| Central Ohio Primary Care Physicians, Inc. | 10799769 | Robert | J. | Sprouse |  |  |  |  | 1800 GRANVILLE PIKE |  | LANCASTER |  | 431301043 |  |  |  |  |  |
+| Mercy Health - Wellington Orthopaedic and Sports Medicine, Blue Ash | 12537124 | Megan | M | Stanfield |  |  |  |  | 4701 CREEK RD | STE 110 | BLUE ASH |  | 452428330 |  |  |  |  |  |
+| Kettering Acute Care Surgery | 11480383 | Gregory | J | Staten |  |  |  |  | 3535 SOUTHERN BLVD | STE 2100 | KETTERING |  | 454291221 |  |  |  |  |  |
+| grove city internal medicine | 10799915 | Phillip | J | Stern |  |  |  |  | 3055 COLUMBUS ST |  | GROVE CITY |  | 431232751 |  |  |  |  |  |
+| grove city internal medicine | 12712373 | Dominic | A. | Mehling |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
+| FCMH Medical and Surgical Associates | 11496908 | Tabitha | S. | Melvin |  |  |  |  | 1510 COLUMBUS AVE | STE 230 | WSHNGTN CT HS |  | 431601987 |  |  |  |  |  |
+| Adena Cardiology | 10795988 | SANTOSH | G | MENON |  | 1235468083 |  |  | 4437 STATE ROUTE 159 | STE 125 | CHILLICOTHE |  | 456017065 |  |  |  |  |  |
+| Mayfield Clinic Inc | 12774925 | Nancy | M | Meyer |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
+| Wright State Physicians | 12419169 | Eleina |  | Mikhaylov |  |  |  |  | 30 E APPLE ST | STE 2200 | DAYTON |  | 454092939 |  |  |  |  |  |
+| Tri State Urologic Services, PSC, Inc. | 10796110 | David | C | Miller |  |  |  |  | 2000 JOSEPH E SANKER BLVD |  | CINCINNATI |  | 452121979 |  |  |  |  |  |
+| Genesis Primary Care Physicians, LLC | 10796193 | Stephen | A | Minnis |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
+| Genesis Primary Care Physicians, LLC | 11206512 | Krishna | K | Mohan |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
+| Genesis Primary Care Physicians, LLC | 12410734 | Humberto |  | Morales-Ramos |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
+| Genesis Primary Care Physicians, LLC | 11390023 | Ann | Kerr | Morrison |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
+| OhioHealth Heart and Vascular Physicians | 11667619 | Daniel | W | Mudrick |  |  |  |  | 3705 OLENTANGY RIVER RD | STE 100 | COLUMBUS |  | 432143467 |  |  |  |  |  |
+| Neurology Associates of Southern Ohio | 11356023 | Omar |  | Mulla-Ossmann |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
+| Columbus Cardiology Care, LLC | 10796514 | Michael | R | Murnane |  |  |  |  | 745 W STATE ST | STE 610A | COLUMBUS |  | 432221575 |  |  |  |  |  |
+| Mount Carmel Neurosurgery | 10789913 | Arthur | Neil | Cole |  |  |  |  | 495 COOPER RD | STE 215 | WESTERVILLE |  | 430818736 |  |  |  |  |  |
+| Springfield Urology | 11565411 | James | B | Colombo |  |  |  |  | 1164 E HOME RD | STE J | SPRINGFIELD |  | 455032726 |  |  |  |  |  |
+| Taylor Anesthesia Consultants, LLC | 10828142 | George | Raymond | Connell |  |  |  |  | 275 TAYLOR STATION RD |  | COLUMBUS |  | 432132927 |  |  |  |  |  |
+| Central Ohio Surgical Associates | 11507054 | Lowell | W | Chambers |  |  |  |  | 750 MOUNT CARMEL MALL | STE 380 | COLUMBUS |  | 432221589 |  | 6148646363 | 6148642248 | mridgeway@cosadocs.com | Central Ohio Surgical Associates |
+| Marietta Health Care Physicians, Inc. | 10790528 | Lloyd | D | Dennis |  |  |  |  | 40 WHITE OAK PROFESSIONAL CTR |  | VINCENT |  | 457849117 |  |  |  |  |  |
+| Orthopaedic and Spine Center, LLC | 11312119 | Kedar | Krishna | Deshpande |  |  |  |  | 1080 POLARIS PKWY | STE 200 | COLUMBUS |  | 432406035 |  |  |  |  |  |
+| Orthopaedic and Spine Center, LLC | 11590004 | Ravi | S | Dhawale |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
+| Sound Physicians | 12729993 | Kristen |  | Dunlap |  |  |  |  | 5969 E BROAD ST | STE 403 | COLUMBUS |  | 432131540 |  |  |  |  |  |
+| Tri State Urologic Services, PSC, Inc. | 11953835 | Michael | W | Dusing |  |  |  |  | 350 THOMAS MORE PKWY | STE 200 | CRESTVIEW HLS |  | 410175460 |  |  |  |  |  |
+| Family Health Center | 12623877 | Andrea | Kathleen | Howard |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
+| Family Health Center | 10793224 | Johnny | Joon | Huh |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
+| CEI PHYSICIANS PSC INC | 10793291 | Robert | Karl | Hutchins |  |  |  |  |  |  |  |  | 452194239 |  |  |  |  |  |
