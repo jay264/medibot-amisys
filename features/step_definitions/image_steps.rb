@@ -1074,6 +1074,8 @@ def determine_ex_code (essette_sub_class, status, status_reason)
     ex_code = "BC"
   elsif essette_sub_class == "Out of Network Services" && status == "Denied" && status_reason == "Criteria Not Met"
     ex_code = "WS"
+  elsif essette_sub_class == "Out of Network Services" && status == "Denied" && status_reason == "Not a Covered Benefit"
+    ex_code = "WL"
   elsif essette_sub_class == "Outpatient Surgery/Procedure" && status == "Denied" && status_reason == "Administrative Denial"
     ex_code = "9A"
   elsif essette_sub_class == "Outpatient Surgery/Procedure" && status == "Denied" && status_reason == "Member Not Eligible"
