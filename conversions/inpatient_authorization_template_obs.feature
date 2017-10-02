@@ -102,6 +102,7 @@
 	And in the "remarks_maintenance" page I enter "UM" into the "sub_type" image
 	And in the "remarks_maintenance" page I enter "Authorization Numbers" into the "remark_summary" image
 	And in the "remarks_maintenance" page I enter "<auth_number>" into the "remark_text_1" image
+	And the test pauses for "4" seconds
 	And I press "Tab"
 	And I enter the "<other_reference_#>" text
 	And in the "remarks_maintenance" page I click on the "save" image
