@@ -223,6 +223,8 @@ when "EMR"
     sorted_modality = "RP"
   when "Member"
     sorted_modality = "MN"
+  when "Member Representative"
+    sorted_modality = "MN"
   end
 get_element(page, element)
 @element.when_present.set(sorted_modality)
