@@ -164,17 +164,18 @@
 	And in the "Functions Menu" page I click on "Remarks"
 	And in the "remarks_maintenance" page I should see the "remarks_maintenance" image
 	And I press "Control + N"
-	And the test pauses for "3" seconds
+	And the test pauses for "4" seconds
 	And in the "remarks_maintenance" page I enter "UM" into the "sub_type" image
 	And in the "remarks_maintenance" page I enter "Authorization Numbers" into the "remark_summary" image
+	And the test pauses for "3" seconds
 	And in the "remarks_maintenance" page I enter "<auth_number>" into the "remark_text_1" image
-	And the test pauses for "4" seconds
+	And the test pauses for "2" seconds
 	And I press "Tab"
 	And I enter the "<other_reference_#>" text
 	And in the "remarks_maintenance" page I click on the "save" image
-	And the test pauses for "4" seconds
+	And the test pauses for "3" seconds
 	And I press "F8"
-	And the test pauses for "4" seconds
+	And the test pauses for "3" seconds
 
 	And in the "Certification" page I should see the "Auth Number" authorization number and print it to the error report
 
