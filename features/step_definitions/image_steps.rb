@@ -476,6 +476,8 @@ def determine_ex_code (essette_sub_class, status, status_reason)
     ex_code = "WS"
   elsif essette_sub_class == "Inpatient" && status == "Denied" && status_reason == "Not Medically Necessary"
     ex_code = "WR"
+  elsif essette_sub_class == "Inpatient" && status == "Denied" && status_reason == "Services Available In-Network"
+    ex_code = "BC"
   elsif essette_sub_class == "Inpatient Rehabilitation" && status == "Denied" && status_reason == "Services Available In-Network"
     ex_code = "BC"
   elsif essette_sub_class == "Inpatient Rehabilitation" && status == "Denied" && status_reason == "Non-Covered Services (SNF, Rehabs)"
