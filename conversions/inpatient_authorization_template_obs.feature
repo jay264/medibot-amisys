@@ -97,6 +97,7 @@
 
 	And in the "Functions Menu" page I click on "Remarks"
 	And in the "remarks_maintenance" page I should see the "remarks_maintenance" image
+	And the test pauses for "3" seconds
 	And I press "Control + N"
 	And the test pauses for "4" seconds
 	And in the "remarks_maintenance" page I enter "UM" into the "sub_type" image
