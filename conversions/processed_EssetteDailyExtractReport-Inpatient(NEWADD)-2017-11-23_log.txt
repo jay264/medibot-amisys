@@ -1,0 +1,420 @@
+
+Opened spreadsheet EssetteDailyExtractReport-Inpatient(NEWADD)-2017-11-23
+Added the spreadsheet to a book in the worksheet
+Opened a new feature file for the spreadsheet data
+Initializing Variables 
+
+Processing New Row [nil, "Requested Date/Time", "Other Reference #", "Member ID", "Member First Name", "Member Last Name", "Facility", "Requesting Provider ID", "Requesting Provider First Name", "Requesting Provider Last Name", "Requesting Provider NPI #", "Facility", "Servicing Provider ID", "Provider Facility NPI", "Servicing Provider Name", "Servicing Provider NPI #", "Sub Class", "Sub Class Code", "Type", "Type Code", "Servicing Provider First Name", "Servicing Provider Last Name", "Status Date", "Status", "Health Plan", "Source", "Status Reason", "Class", "Authorized Date", "Expiration Date", "Priority", "Type and Payment", "Antiatelectasis Antiembolic", "ADM", "Auth For Payment", "Days Used Prior", "DC", "DENC Date", "MDS Date", "NOMNC Date", "Total Days", "Total Skilled Days", "Final Reimb Amt", "Amisys Auth #", "Add Drug Doses", "Add Drug Reimb", "Dischrg Date", "Final Reimb Amt", "Per Diem Level 1", "Per Diem Level 2", "Total Days", "Total Per Diem", "Guidelines met"]
+Initial Row Type Indicator = 
+Row[2] = Other Reference #
+Revised Row Type Indicator = Headers
+Processing Header
+
+Processing New Row [nil, 43059.62405092592, nil, 110954.0, "Ruth", "Mault", "S DAYTON ACUTE CARE CNSL", 930272.0, "ISAAC P", "HUMPHREY", 1649357724.0, "GREENE MEMORIAL HOSPITAL", 939279, 1255317848.0, "GREENE MEMORIAL HOSPITAL", 1255317848.0, "Observation", "OBSV", "Concurrent Review", "CONC", nil, "GREENE MEMORIAL HOSPITAL", 43061.0, "Approved", "MediGold Essential Care", "Fax", "Observation", "Inpatient", 43057.0, 43059.0, "Standard", nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil]
+Initial Row Type Indicator = Headers
+Row[2] = 
+Revised Row Type Indicator = New Auth
+First Time Through = YES
+Saving Row 1 Info [nil, 43059.62405092592, nil, 110954.0, "Ruth", "Mault", "S DAYTON ACUTE CARE CNSL", 930272.0, "ISAAC P", "HUMPHREY", 1649357724.0, "GREENE MEMORIAL HOSPITAL", 939279, 1255317848.0, "GREENE MEMORIAL HOSPITAL", 1255317848.0, "Observation", "OBSV", "Concurrent Review", "CONC", nil, "GREENE MEMORIAL HOSPITAL", 43061.0, "Approved", "MediGold Essential Care", "Fax", "Observation", "Inpatient", 43057.0, 43059.0, "Standard", nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil]
+Set first time through to false
+
+Processing New Row [nil, "Auth Type", "Auth Status", "Auth Number", "Diagnosis Code", "Diagnosis", "Diagnosis Type", "Auth Modified Date", "Auth Admission Date", "Auth Discharge Date"]
+Initial Row Type Indicator = New Auth
+Row[2] = Auth Status
+Revised Row Type Indicator = Auth Status
+Just wrote entire row 1
+["11202017", #<DateTime: 2017-11-20T14:58:38+00:00 ((2458078j,53918s,0n),+0s,2299161j)>, nil, "000110954-01", "Ruth", "Mault", "S DAYTON ACUTE CARE CNSL", "930272", "ISAAC P", "HUMPHREY", "1649357724", "GREENE MEMORIAL HOSPITAL", "939279", "1255317848", "GREENE MEMORIAL HOSPITAL", "1255317848", "Observation", "OBSV", "Concurrent Review", "CONC", nil, "GREENE MEMORIAL HOSPITAL", "11222017", "Approved", "MediGold Essential Care", "Fax", "Observation", "Inpatient", "11182017", "11202017", "Standard", nil, nil, nil, nil, "0", nil, nil, nil, nil, "0", "0", nil, nil, nil, nil, nil, nil, nil, nil, nil, nil]
+
+
+Processing New Row [nil, "Concurrent Review", "Approved", "A171120114", "R296", "Repeated falls", "ICD10", 43061.0, 43057.0, 43059.0]
+Initial Row Type Indicator = Auth Status
+Row[2] = Approved
+Revised Row Type Indicator = Auth Status Detail
+Saving Row 2 Info [nil, "Concurrent Review", "Approved", "A171120114", "R296", "Repeated falls", "ICD10", 43061.0, 43057.0, 43059.0]
+
+Processing New Row [nil, "Concurrent Review", "Approved", "A171120114", "R531", "Weakness", "ICD10", 43061.0, 43057.0, 43059.0]
+Initial Row Type Indicator = Auth Status Detail
+Row[2] = Approved
+Second Detail Record
+Revised Row Type Indicator = Auth Status Detail
+Saving Row 2 Info [nil, "Concurrent Review", "Approved", "A171120114", "R531", "Weakness", "ICD10", 43061.0, 43057.0, 43059.0]
+
+Processing New Row [nil, nil, "Service Code", "Service Description", "Service Type", "Qty Appr", "Qty Req'd", "Determination", "Auth Approval Days", "Type", "Type Code", nil, nil]
+Initial Row Type Indicator = Auth Status Detail
+Row[2] = Service Code
+Revised Row Type Indicator = Service Code
+Just wrote entire row 2
+["Concurrent Review", "Approved", "A171120114", "R296, R531", "Weakness", "ICD10", "11222017", "11182017", "11202017"]
+
+
+Processing New Row [nil, "No child records to display.", nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil]
+Initial Row Type Indicator = Service Code
+Row[2] = 
+Revised Row Type Indicator = Service Code Detail
+Saving Row 3 Info [nil, "No child records to display.", nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil]
+
+Processing New Row [nil, nil, "Note", nil, nil]
+Initial Row Type Indicator = Service Code Detail
+Row[2] = Note
+Revised Row Type Indicator = Note
+Just wrote entire row 3
+["", nil, nil, "0", "0", "", "0", nil, nil]
+
+
+Processing New Row [nil, nil, "Discharge information received and Discharge Assessment complete.", nil, nil]
+Initial Row Type Indicator = Note
+Row[2] = Discharge information received and Discharge Assessment complete.
+Revised Row Type Indicator = Note Detail
+Saving Row 4 Info [nil, nil, "Discharge information received and Discharge Assessment complete.", nil, nil]
+
+Processing New Row [nil, nil, "Qty", nil, nil]
+Initial Row Type Indicator = Note Detail
+Row[2] = Qty
+Revised Row Type Indicator = Qty
+
+Processing New Row [nil, nil, 2.0, nil, nil]
+Initial Row Type Indicator = Qty
+Row[2] = 2.0
+Revised Row Type Indicator = Qty Detail
+Saving Row 6 Info [nil, nil, 2.0, nil, nil]
+ THE QTY DETAIL ROW IS:  |  | 2.0
+
+Processing New Row [nil, 43058.47561342592, nil, 74833.0, "Arthur", "Arnett", "MIAMI VALLEY HSPISTS GRP", 931966.0, "SRAVYA S", "SURAPANENI", 1932405297.0, "KETTERING MEDICAL CENTER", 936443, 1043233984.0, "KETTERING MEDICAL CENTER", 1043233984.0, "Observation", "OBSV", "Concurrent Review", "CONC", nil, "KETTERING MEDICAL CENTER", 43061.0, "Approved", "MediGold Essential Care", "Fax", "Observation", "Inpatient", 43056.0, 43059.0, "Standard", nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil]
+Initial Row Type Indicator = Qty Detail
+Row[2] = 
+Revised Row Type Indicator = New Auth
+First Time Through = NO
+Just wrote entire row 5
+[]
+
+Just wrote entire row 6 and ended Example
+[nil, nil, 2.0]
+
+Saving Row 1 Info [nil, 43058.47561342592, nil, 74833.0, "Arthur", "Arnett", "MIAMI VALLEY HSPISTS GRP", 931966.0, "SRAVYA S", "SURAPANENI", 1932405297.0, "KETTERING MEDICAL CENTER", 936443, 1043233984.0, "KETTERING MEDICAL CENTER", 1043233984.0, "Observation", "OBSV", "Concurrent Review", "CONC", nil, "KETTERING MEDICAL CENTER", 43061.0, "Approved", "MediGold Essential Care", "Fax", "Observation", "Inpatient", 43056.0, 43059.0, "Standard", nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil]
+
+Processing New Row [nil, "Auth Type", "Auth Status", "Auth Number", "Diagnosis Code", "Diagnosis", "Diagnosis Type", "Auth Modified Date", "Auth Admission Date", "Auth Discharge Date"]
+Initial Row Type Indicator = New Auth
+Row[2] = Auth Status
+Revised Row Type Indicator = Auth Status
+Just wrote entire row 1
+["11192017", #<DateTime: 2017-11-19T11:24:53+00:00 ((2458077j,41093s,0n),+0s,2299161j)>, nil, "000074833-01", "Arthur", "Arnett", "MIAMI VALLEY HSPISTS GRP", "931966", "SRAVYA S", "SURAPANENI", "1932405297", "KETTERING MEDICAL CENTER", "936443", "1043233984", "KETTERING MEDICAL CENTER", "1043233984", "Observation", "OBSV", "Concurrent Review", "CONC", nil, "KETTERING MEDICAL CENTER", "11222017", "Approved", "MediGold Essential Care", "Fax", "Observation", "Inpatient", "11172017", "11202017", "Standard", nil, nil, nil, nil, "0", nil, nil, nil, nil, "0", "0", nil, nil, nil, nil, nil, nil, nil, nil, nil, nil]
+
+
+Processing New Row [nil, "Concurrent Review", "Approved", "A171120025", "A09", "Infectious gastroenteritis and colitis, unspecified", "ICD10", 43061.0, 43056.0, 43059.0]
+Initial Row Type Indicator = Auth Status
+Row[2] = Approved
+Revised Row Type Indicator = Auth Status Detail
+Saving Row 2 Info [nil, "Concurrent Review", "Approved", "A171120025", "A09", "Infectious gastroenteritis and colitis, unspecified", "ICD10", 43061.0, 43056.0, 43059.0]
+
+Processing New Row [nil, nil, "Service Code", "Service Description", "Service Type", "Qty Appr", "Qty Req'd", "Determination", "Auth Approval Days", "Type", "Type Code", nil, nil]
+Initial Row Type Indicator = Auth Status Detail
+Row[2] = Service Code
+Revised Row Type Indicator = Service Code
+Just wrote entire row 2
+["Concurrent Review", "Approved", "A171120025", "A09", "Infectious gastroenteritis and colitis, unspecified", "ICD10", "11222017", "11172017", "11202017"]
+
+
+Processing New Row [nil, "No child records to display.", nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil]
+Initial Row Type Indicator = Service Code
+Row[2] = 
+Revised Row Type Indicator = Service Code Detail
+Saving Row 3 Info [nil, "No child records to display.", nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil]
+
+Processing New Row [nil, nil, "Note", nil, nil]
+Initial Row Type Indicator = Service Code Detail
+Row[2] = Note
+Revised Row Type Indicator = Note
+Just wrote entire row 3
+["", nil, nil, "0", "0", "", "0", nil, nil]
+
+
+Processing New Row [nil, nil, "Discharge information received and Discharge Assessment complete.", nil, nil]
+Initial Row Type Indicator = Note
+Row[2] = Discharge information received and Discharge Assessment complete.
+Revised Row Type Indicator = Note Detail
+Saving Row 4 Info [nil, nil, "Discharge information received and Discharge Assessment complete.", nil, nil]
+
+Processing New Row [nil, nil, "Qty", nil, nil]
+Initial Row Type Indicator = Note Detail
+Row[2] = Qty
+Revised Row Type Indicator = Qty
+
+Processing New Row [nil, nil, 3.0, nil, nil]
+Initial Row Type Indicator = Qty
+Row[2] = 3.0
+Revised Row Type Indicator = Qty Detail
+Saving Row 6 Info [nil, nil, 3.0, nil, nil]
+ THE QTY DETAIL ROW IS:  |  | 3.0
+
+Processing New Row [nil, 43058.57802083333, nil, 77625.0, "Rex", "Gray", "MARIETTA MEM HSP", 927682.0, "ADEKUNLE G", "KUKU", 1033225248.0, "SOUTHEASTERN OHIO REGION", 920580.0, 1346247350.0, "SOUTHEASTERN OH REGIONAL MEDICAL CTR", 1346247350.0, "Observation", "OBSV", "Concurrent Review", "CONC", nil, "SOUTHEASTERN OH REGIONAL MEDICAL CTR", 43061.0, "Approved", "MediGold Southeast OH Classic Preferred", "Fax", "Observation", "Inpatient", 43056.0, 43058.0, "Standard", nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil]
+Initial Row Type Indicator = Qty Detail
+Row[2] = 
+Revised Row Type Indicator = New Auth
+First Time Through = NO
+Just wrote entire row 5
+[]
+
+Just wrote entire row 6 and ended Example
+[nil, nil, 3.0]
+
+Saving Row 1 Info [nil, 43058.57802083333, nil, 77625.0, "Rex", "Gray", "MARIETTA MEM HSP", 927682.0, "ADEKUNLE G", "KUKU", 1033225248.0, "SOUTHEASTERN OHIO REGION", 920580.0, 1346247350.0, "SOUTHEASTERN OH REGIONAL MEDICAL CTR", 1346247350.0, "Observation", "OBSV", "Concurrent Review", "CONC", nil, "SOUTHEASTERN OH REGIONAL MEDICAL CTR", 43061.0, "Approved", "MediGold Southeast OH Classic Preferred", "Fax", "Observation", "Inpatient", 43056.0, 43058.0, "Standard", nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil]
+
+Processing New Row [nil, "Auth Type", "Auth Status", "Auth Number", "Diagnosis Code", "Diagnosis", "Diagnosis Type", "Auth Modified Date", "Auth Admission Date", "Auth Discharge Date"]
+Initial Row Type Indicator = New Auth
+Row[2] = Auth Status
+Revised Row Type Indicator = Auth Status
+Just wrote entire row 1
+["11192017", #<DateTime: 2017-11-19T13:52:21+00:00 ((2458077j,49941s,0n),+0s,2299161j)>, nil, "000077625-01", "Rex", "Gray", "MARIETTA MEM HSP", "927682", "ADEKUNLE G", "KUKU", "1033225248", "SOUTHEASTERN OHIO REGION", "920580", "1346247350", "SOUTHEASTERN OH REGIONAL MEDICAL CTR", "1346247350", "Observation", "OBSV", "Concurrent Review", "CONC", nil, "SOUTHEASTERN OH REGIONAL MEDICAL CTR", "11222017", "Approved", "MediGold Southeast OH Classic Preferred", "Fax", "Observation", "Inpatient", "11172017", "11192017", "Standard", nil, nil, nil, nil, "0", nil, nil, nil, nil, "0", "0", nil, nil, nil, nil, nil, nil, nil, nil, nil, nil]
+
+
+Processing New Row [nil, "Concurrent Review", "Approved", "A171120067", "J189", "Pneumonia, unspecified organism", "ICD10", 43061.0, 43056.0, 43058.0]
+Initial Row Type Indicator = Auth Status
+Row[2] = Approved
+Revised Row Type Indicator = Auth Status Detail
+Saving Row 2 Info [nil, "Concurrent Review", "Approved", "A171120067", "J189", "Pneumonia, unspecified organism", "ICD10", 43061.0, 43056.0, 43058.0]
+
+Processing New Row [nil, "Concurrent Review", "Approved", "A171120067", "J9601", "Acute respiratory failure with hypoxia", "ICD10", 43061.0, 43056.0, 43058.0]
+Initial Row Type Indicator = Auth Status Detail
+Row[2] = Approved
+Second Detail Record
+Revised Row Type Indicator = Auth Status Detail
+Saving Row 2 Info [nil, "Concurrent Review", "Approved", "A171120067", "J9601", "Acute respiratory failure with hypoxia", "ICD10", 43061.0, 43056.0, 43058.0]
+
+Processing New Row [nil, nil, "Service Code", "Service Description", "Service Type", "Qty Appr", "Qty Req'd", "Determination", "Auth Approval Days", "Type", "Type Code", nil, nil]
+Initial Row Type Indicator = Auth Status Detail
+Row[2] = Service Code
+Revised Row Type Indicator = Service Code
+Just wrote entire row 2
+["Concurrent Review", "Approved", "A171120067", "J189, J9601", "Acute respiratory failure with hypoxia", "ICD10", "11222017", "11172017", "11192017"]
+
+
+Processing New Row [nil, "No child records to display.", nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil]
+Initial Row Type Indicator = Service Code
+Row[2] = 
+Revised Row Type Indicator = Service Code Detail
+Saving Row 3 Info [nil, "No child records to display.", nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil]
+
+Processing New Row [nil, nil, "Note", nil, nil]
+Initial Row Type Indicator = Service Code Detail
+Row[2] = Note
+Revised Row Type Indicator = Note
+Just wrote entire row 3
+["", nil, nil, "0", "0", "", "0", nil, nil]
+
+
+Processing New Row [nil, nil, "Discharge information received and Discharge Assessment complete.", nil, nil]
+Initial Row Type Indicator = Note
+Row[2] = Discharge information received and Discharge Assessment complete.
+Revised Row Type Indicator = Note Detail
+Saving Row 4 Info [nil, nil, "Discharge information received and Discharge Assessment complete.", nil, nil]
+
+Processing New Row [nil, nil, "Qty", nil, nil]
+Initial Row Type Indicator = Note Detail
+Row[2] = Qty
+Revised Row Type Indicator = Qty
+
+Processing New Row [nil, nil, 2.0, nil, nil]
+Initial Row Type Indicator = Qty
+Row[2] = 2.0
+Revised Row Type Indicator = Qty Detail
+Saving Row 6 Info [nil, nil, 2.0, nil, nil]
+ THE QTY DETAIL ROW IS:  |  | 2.0
+
+Processing New Row [nil, 43053.49849537037, nil, 96612.0, "JUDY", "MCKNIGHT", "KNOX COMMUNITY HSP PHYS", 904518.0, "DAVID A", "KITTOE", 1730149154.0, "KNOX COMMUNITY HOSPITAL", 936422.0, 1295761963.0, "KNOX COMMUNITY HOSPITAL", 1295761963.0, "Inpatient", "IP", "Concurrent Review", "CONC", nil, "KNOX COMMUNITY HOSPITAL", 43061.0, "Approved", "MediGold Classic Preferred", "Fax", "Inpatient", "Inpatient", 43052.0, 43061.0, "Standard", nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil]
+Initial Row Type Indicator = Qty Detail
+Row[2] = 
+Revised Row Type Indicator = New Auth
+First Time Through = NO
+Just wrote entire row 5
+[]
+
+Just wrote entire row 6 and ended Example
+[nil, nil, 2.0]
+
+Saving Row 1 Info [nil, 43053.49849537037, nil, 96612.0, "JUDY", "MCKNIGHT", "KNOX COMMUNITY HSP PHYS", 904518.0, "DAVID A", "KITTOE", 1730149154.0, "KNOX COMMUNITY HOSPITAL", 936422.0, 1295761963.0, "KNOX COMMUNITY HOSPITAL", 1295761963.0, "Inpatient", "IP", "Concurrent Review", "CONC", nil, "KNOX COMMUNITY HOSPITAL", 43061.0, "Approved", "MediGold Classic Preferred", "Fax", "Inpatient", "Inpatient", 43052.0, 43061.0, "Standard", nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil]
+
+Processing New Row [nil, "Auth Type", "Auth Status", "Auth Number", "Diagnosis Code", "Diagnosis", "Diagnosis Type", "Auth Modified Date", "Auth Admission Date", "Auth Discharge Date"]
+Initial Row Type Indicator = New Auth
+Row[2] = Auth Status
+Revised Row Type Indicator = Auth Status
+Just wrote entire row 1
+["11142017", #<DateTime: 2017-11-14T11:57:50+00:00 ((2458072j,43070s,0n),+0s,2299161j)>, nil, "000096612-01", "JUDY", "MCKNIGHT", "KNOX COMMUNITY HSP PHYS", "904518", "DAVID A", "KITTOE", "1730149154", "KNOX COMMUNITY HOSPITAL", "936422", "1295761963", "KNOX COMMUNITY HOSPITAL", "1295761963", "Inpatient", "IP", "Concurrent Review", "CONC", nil, "KNOX COMMUNITY HOSPITAL", "11222017", "Approved", "MediGold Classic Preferred", "Fax", "Inpatient", "Inpatient", "11132017", "11222017", "Standard", nil, nil, nil, nil, "0", nil, nil, nil, nil, "0", "0", nil, nil, nil, nil, nil, nil, nil, nil, nil, nil]
+
+
+Processing New Row [nil, "Concurrent Review", "Approved", "A171115026", "I499", "Cardiac arrhythmia, unspecified", "ICD10", 43061.0, 43052.0, 43061.0]
+Initial Row Type Indicator = Auth Status
+Row[2] = Approved
+Revised Row Type Indicator = Auth Status Detail
+Saving Row 2 Info [nil, "Concurrent Review", "Approved", "A171115026", "I499", "Cardiac arrhythmia, unspecified", "ICD10", 43061.0, 43052.0, 43061.0]
+
+Processing New Row [nil, nil, "Service Code", "Service Description", "Service Type", "Qty Appr", "Qty Req'd", "Determination", "Auth Approval Days", "Type", "Type Code", nil, nil]
+Initial Row Type Indicator = Auth Status Detail
+Row[2] = Service Code
+Revised Row Type Indicator = Service Code
+Just wrote entire row 2
+["Concurrent Review", "Approved", "A171115026", "I499", "Cardiac arrhythmia, unspecified", "ICD10", "11222017", "11132017", "11222017"]
+
+
+Processing New Row [nil, "No child records to display.", nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil]
+Initial Row Type Indicator = Service Code
+Row[2] = 
+Revised Row Type Indicator = Service Code Detail
+Saving Row 3 Info [nil, "No child records to display.", nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil]
+
+Processing New Row [nil, nil, "Note", nil, nil]
+Initial Row Type Indicator = Service Code Detail
+Row[2] = Note
+Revised Row Type Indicator = Note
+Just wrote entire row 3
+["", nil, nil, "0", "0", "", "0", nil, nil]
+
+
+Processing New Row [nil, nil, "Cal placed to Jim Morehead w KCH- 740 393-9751 requested initial clinical review to be faxed - VM left requesting review.", nil, nil]
+Initial Row Type Indicator = Note
+Row[2] = Cal placed to Jim Morehead w KCH- 740 393-9751 requested initial clinical review to be faxed - VM left requesting review.
+Revised Row Type Indicator = Note Detail
+Saving Row 4 Info [nil, nil, "Cal placed to Jim Morehead w KCH- 740 393-9751 requested initial clinical review to be faxed - VM left requesting review.", nil, nil]
+
+Processing New Row [nil, nil, "Discharge information received and Discharge Assessment complete.", nil, nil]
+Initial Row Type Indicator = Note Detail
+Row[2] = Discharge information received and Discharge Assessment complete.
+Second Detail Record
+Revised Row Type Indicator = Note Detail
+Saving Row 4 Info [nil, nil, "Discharge information received and Discharge Assessment complete.", nil, nil]
+
+Processing New Row [nil, nil, "Qty", nil, nil]
+Initial Row Type Indicator = Note Detail
+Row[2] = Qty
+Revised Row Type Indicator = Qty
+
+Processing New Row [nil, nil, 9.0, nil, nil]
+Initial Row Type Indicator = Qty
+Row[2] = 9.0
+Revised Row Type Indicator = Qty Detail
+Saving Row 6 Info [nil, nil, 9.0, nil, nil]
+ THE QTY DETAIL ROW IS:  |  | 9.0
+
+Processing New Row [nil, 43061.404861111114, 168426747325.0, 54408.0, "CAROL", "WALLAR", "DR. BHAVESH PRAVIN PATEL", 910322.0, "BHAVESH P", "PATEL", 1669632469.0, "MOUNT CARMEL MEDICAL CTR", 920184.0, 1710067376.0, "MOUNT CARMEL MEDICAL CENTER", 1710067376.0, "Observation", "OBSV", "Concurrent Review", "CONC", nil, "MOUNT CARMEL MEDICAL CENTER", 43062.0, "Approved", "MediGold Classic Preferred", "Reports", "Observation", "Inpatient", 43060.0, 43061.0, "Standard", nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil]
+Initial Row Type Indicator = Qty Detail
+Row[2] = 168426747325.0
+Revised Row Type Indicator = New Auth
+First Time Through = NO
+Just wrote entire row 5
+[]
+
+Just wrote entire row 6 and ended Example
+[nil, nil, 9.0]
+
+Saving Row 1 Info [nil, 43061.404861111114, 168426747325.0, 54408.0, "CAROL", "WALLAR", "DR. BHAVESH PRAVIN PATEL", 910322.0, "BHAVESH P", "PATEL", 1669632469.0, "MOUNT CARMEL MEDICAL CTR", 920184.0, 1710067376.0, "MOUNT CARMEL MEDICAL CENTER", 1710067376.0, "Observation", "OBSV", "Concurrent Review", "CONC", nil, "MOUNT CARMEL MEDICAL CENTER", 43062.0, "Approved", "MediGold Classic Preferred", "Reports", "Observation", "Inpatient", 43060.0, 43061.0, "Standard", nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil]
+
+Processing New Row [nil, "Auth Type", "Auth Status", "Auth Number", "Diagnosis Code", "Diagnosis", "Diagnosis Type", "Auth Modified Date", "Auth Admission Date", "Auth Discharge Date"]
+Initial Row Type Indicator = New Auth
+Row[2] = Auth Status
+Revised Row Type Indicator = Auth Status
+Just wrote entire row 1
+["11222017", #<DateTime: 2017-11-22T09:43:00+00:00 ((2458080j,34980s,0n),+0s,2299161j)>, "168426747325", "000054408-01", "CAROL", "WALLAR", "DR. BHAVESH PRAVIN PATEL", "910322", "BHAVESH P", "PATEL", "1669632469", "MOUNT CARMEL MEDICAL CTR", "920184", "1710067376", "MOUNT CARMEL MEDICAL CENTER", "1710067376", "Observation", "OBSV", "Concurrent Review", "CONC", nil, "MOUNT CARMEL MEDICAL CENTER", "11232017", "Approved", "MediGold Classic Preferred", "Reports", "Observation", "Inpatient", "11212017", "11222017", "Standard", nil, nil, nil, nil, "0", nil, nil, nil, nil, "0", "0", nil, nil, nil, nil, nil, nil, nil, nil, nil, nil]
+
+
+Processing New Row [nil, "Concurrent Review", "Approved", "A171122025", "I639", "Cerebral infarction, unspecified", "ICD10", 43062.0, 43060.0, 43061.0]
+Initial Row Type Indicator = Auth Status
+Row[2] = Approved
+Revised Row Type Indicator = Auth Status Detail
+Saving Row 2 Info [nil, "Concurrent Review", "Approved", "A171122025", "I639", "Cerebral infarction, unspecified", "ICD10", 43062.0, 43060.0, 43061.0]
+
+Processing New Row [nil, nil, "Service Code", "Service Description", "Service Type", "Qty Appr", "Qty Req'd", "Determination", "Auth Approval Days", "Type", "Type Code", nil, nil]
+Initial Row Type Indicator = Auth Status Detail
+Row[2] = Service Code
+Revised Row Type Indicator = Service Code
+Just wrote entire row 2
+["Concurrent Review", "Approved", "A171122025", "I639", "Cerebral infarction, unspecified", "ICD10", "11232017", "11212017", "11222017"]
+
+
+Processing New Row [nil, "No child records to display.", nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil]
+Initial Row Type Indicator = Service Code
+Row[2] = 
+Revised Row Type Indicator = Service Code Detail
+Saving Row 3 Info [nil, "No child records to display.", nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil]
+
+Processing New Row [nil, nil, "Note", nil, nil]
+Initial Row Type Indicator = Service Code Detail
+Row[2] = Note
+Revised Row Type Indicator = Note
+Just wrote entire row 3
+["", nil, nil, "0", "0", "", "0", nil, nil]
+
+
+Processing New Row [nil, nil, "CLINICAL NOTES REVIEWED IN POWER CHART", nil, nil]
+Initial Row Type Indicator = Note
+Row[2] = CLINICAL NOTES REVIEWED IN POWER CHART
+Revised Row Type Indicator = Note Detail
+Saving Row 4 Info [nil, nil, "CLINICAL NOTES REVIEWED IN POWER CHART", nil, nil]
+
+Processing New Row [nil, nil, "11/21/17 74 y/o Female patient with a prior stroke that left her with a trach and PEG tube in June of this year presenting with worsening slurred speech over the last few weeks. She actually just saw Dr. Idris with neurology for the first time yesterday. I did speak with him via telephone after my evaluation of her. He requested that we get an MRI of her brain without contrast. He also wants to get speech and swallow studies on her for further workup of this. He thinks it will be best to do this via a hospital admission. I did order basic lab work, urinalysis, chest x-ray, an MRI of her brain without contrast here in the emergency department. Her EKG does not show any acute ischemic findings. A troponin will also be performed to rule out an atypical cardiac presentation with the left sided neck pain that she is having.", nil, nil]
+Initial Row Type Indicator = Note Detail
+Row[2] = 11/21/17 74 y/o Female patient with a prior stroke that left her with a trach and PEG tube in June of this year presenting with worsening slurred speech over the last few weeks. She actually just saw Dr. Idris with neurology for the first time yesterday. I did speak with him via telephone after my evaluation of her. He requested that we get an MRI of her brain without contrast. He also wants to get speech and swallow studies on her for further workup of this. He thinks it will be best to do this via a hospital admission. I did order basic lab work, urinalysis, chest x-ray, an MRI of her brain without contrast here in the emergency department. Her EKG does not show any acute ischemic findings. A troponin will also be performed to rule out an atypical cardiac presentation with the left sided neck pain that she is having.
+Second Detail Record
+Revised Row Type Indicator = Note Detail
+Saving Row 4 Info [nil, nil, "11/21/17 74 y/o Female patient with a prior stroke that left her with a trach and PEG tube in June of this year presenting with worsening slurred speech over the last few weeks. She actually just saw Dr. Idris with neurology for the first time yesterday. I did speak with him via telephone after my evaluation of her. He requested that we get an MRI of her brain without contrast. He also wants to get speech and swallow studies on her for further workup of this. He thinks it will be best to do this via a hospital admission. I did order basic lab work, urinalysis, chest x-ray, an MRI of her brain without contrast here in the emergency department. Her EKG does not show any acute ischemic findings. A troponin will also be performed to rule out an atypical cardiac presentation with the left sided neck pain that she is having.", nil, nil]
+
+Processing New Row [nil, nil, "Her troponin was negative. Her blood sugar was elevated at 317. Urinalysis resulted after she was already upstairs. This shows 500 leukocyte esterase with many bacteria. I will defer to the hospitalist on whether to treat or await urine culture.", nil, nil]
+Initial Row Type Indicator = Note Detail
+Row[2] = Her troponin was negative. Her blood sugar was elevated at 317. Urinalysis resulted after she was already upstairs. This shows 500 leukocyte esterase with many bacteria. I will defer to the hospitalist on whether to treat or await urine culture.
+Second Detail Record
+Revised Row Type Indicator = Note Detail
+Saving Row 4 Info [nil, nil, "Her troponin was negative. Her blood sugar was elevated at 317. Urinalysis resulted after she was already upstairs. This shows 500 leukocyte esterase with many bacteria. I will defer to the hospitalist on whether to treat or await urine culture.", nil, nil]
+
+Processing New Row [nil, nil, "MRI BRAIN - IMPRESSION:", nil, nil]
+Initial Row Type Indicator = Note Detail
+Row[2] = MRI BRAIN - IMPRESSION:
+Second Detail Record
+Revised Row Type Indicator = Note Detail
+Saving Row 4 Info [nil, nil, "MRI BRAIN - IMPRESSION:", nil, nil]
+
+Processing New Row [nil, nil, "Mild white matter changes and small old infarct, no acute infarct", nil, nil]
+Initial Row Type Indicator = Note Detail
+Row[2] = Mild white matter changes and small old infarct, no acute infarct
+Second Detail Record
+Revised Row Type Indicator = Note Detail
+Saving Row 4 Info [nil, nil, "Mild white matter changes and small old infarct, no acute infarct", nil, nil]
+
+Processing New Row [nil, nil, "11/22/17 SPEECH THERAPY CONSULT", nil, nil]
+Initial Row Type Indicator = Note Detail
+Row[2] = 11/22/17 SPEECH THERAPY CONSULT
+Second Detail Record
+Revised Row Type Indicator = Note Detail
+Saving Row 4 Info [nil, nil, "11/22/17 SPEECH THERAPY CONSULT", nil, nil]
+
+Processing New Row [nil, nil, "The patient was given trials of the following at bedside: pureed and solid textures, and thin liquids via spoon, cup, and straw. Slightly prolonged mastication was noted with solid textures due to lack of lower dentition; however adequate oral manipulation, bolus formation, and a-p transit were noted with no oral residue following the swallow. No overt s/s of penetration/aspiration were noted with approximately 10 trials of thin liquids, 6 trials of pureed, and 4/5 trials of solids. A dry cough was noted x1 with solid textures; however this was while patient was noted to be talking while chewing/swallowing. No overt s/s of penetration/aspiration were noted when patient was focused on chewing/swallowing and not talking.", nil, nil]
+Initial Row Type Indicator = Note Detail
+Row[2] = The patient was given trials of the following at bedside: pureed and solid textures, and thin liquids via spoon, cup, and straw. Slightly prolonged mastication was noted with solid textures due to lack of lower dentition; however adequate oral manipulation, bolus formation, and a-p transit were noted with no oral residue following the swallow. No overt s/s of penetration/aspiration were noted with approximately 10 trials of thin liquids, 6 trials of pureed, and 4/5 trials of solids. A dry cough was noted x1 with solid textures; however this was while patient was noted to be talking while chewing/swallowing. No overt s/s of penetration/aspiration were noted when patient was focused on chewing/swallowing and not talking.
+Second Detail Record
+Revised Row Type Indicator = Note Detail
+Saving Row 4 Info [nil, nil, "The patient was given trials of the following at bedside: pureed and solid textures, and thin liquids via spoon, cup, and straw. Slightly prolonged mastication was noted with solid textures due to lack of lower dentition; however adequate oral manipulation, bolus formation, and a-p transit were noted with no oral residue following the swallow. No overt s/s of penetration/aspiration were noted with approximately 10 trials of thin liquids, 6 trials of pureed, and 4/5 trials of solids. A dry cough was noted x1 with solid textures; however this was while patient was noted to be talking while chewing/swallowing. No overt s/s of penetration/aspiration were noted when patient was focused on chewing/swallowing and not talking.", nil, nil]
+
+Processing New Row [nil, nil, "It is recommended that the patient receive a soft texture diet with thin liquids at this time with use of safe swallowing strategies (fully upright, small bites/drinks, slow rate, no talking while eating/drinking). ST will continue to follow to assess diet/liquid tolerance and review swallowing strategies with the patient/family.", nil, nil]
+Initial Row Type Indicator = Note Detail
+Row[2] = It is recommended that the patient receive a soft texture diet with thin liquids at this time with use of safe swallowing strategies (fully upright, small bites/drinks, slow rate, no talking while eating/drinking). ST will continue to follow to assess diet/liquid tolerance and review swallowing strategies with the patient/family.
+Second Detail Record
+Revised Row Type Indicator = Note Detail
+Saving Row 4 Info [nil, nil, "It is recommended that the patient receive a soft texture diet with thin liquids at this time with use of safe swallowing strategies (fully upright, small bites/drinks, slow rate, no talking while eating/drinking). ST will continue to follow to assess diet/liquid tolerance and review swallowing strategies with the patient/family.", nil, nil]
+
+Processing New Row [nil, nil, "Qty", nil, nil]
+Initial Row Type Indicator = Note Detail
+Row[2] = Qty
+Revised Row Type Indicator = Qty
+
+Processing New Row [nil, nil, 1.0, nil, nil]
+Initial Row Type Indicator = Qty
+Row[2] = 1.0
+Revised Row Type Indicator = Qty Detail
+Saving Row 6 Info [nil, nil, 1.0, nil, nil]
+ THE QTY DETAIL ROW IS:  |  | 1.0
+Just wrote entire row 5
+[]
+
+Just wrote entire row 6 and ended Example
+[nil, nil, 1.0]
+
+Just appended new example
+| 11222017 | 2017-11-22T09:43:00+00:00 | 168426747325 | 000054408-01 | CAROL | WALLAR | DR. BHAVESH PRAVIN PATEL | 910322 | BHAVESH P | PATEL | 1669632469 | MOUNT CARMEL MEDICAL CTR | 920184 | 1710067376 | MOUNT CARMEL MEDICAL CENTER | 1710067376 | Observation | OBSV | Concurrent Review | CONC |  | MOUNT CARMEL MEDICAL CENTER | 11232017 | Approved | MediGold Classic Preferred | Reports | Observation | Inpatient | 11212017 | 11222017 | Standard |  |  |  |  | 0 |  |  |  |  | 0 | 0 |  |  |  |  |  |  |  |  |  |  | Concurrent Review | Approved | A171122025 | I639 | Cerebral infarction, unspecified | ICD10 | 11232017 | 11212017 | 11222017 |  |  |  | 0 | 0 |  | 0 |  |  |  |  |  | 1.0 |
+
