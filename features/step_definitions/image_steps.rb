@@ -982,7 +982,7 @@ def determine_ex_code (essette_sub_class, status, status_reason)
     ex_code = "WS"
   elsif essette_sub_class == "DME" && status == "Denied" && status_reason == "Administrative Denial"
     ex_code = "9A"
-  elsif essette_sub_class == "DME" && status == "Out of Network Services" && status_reason == "Not a Covered Benefit (PA)"
+  elsif essette_sub_class == "DME" && status == "Denied" && status_reason == "Not a Covered Benefit (PA)"
     ex_code = "WL"
   elsif essette_sub_class == "DME" && status == "Denied" && status_reason == "Member Not Eligible"
     ex_code = "M3"
