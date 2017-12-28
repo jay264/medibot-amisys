@@ -1,0 +1,1600 @@
+
+Opened spreadsheet EssetteDailyExtractReport-Outpatient(NEWADD)-2017-12-26
+Added the spreadsheet to a book in the worksheet
+Opened a new feature file for the spreadsheet data
+Initializing Variables 
+
+Processing New Row [nil, "Requested Date/Time", "Other Reference #", "Member ID", "Member First Name", "Member Last Name", "Facility", "Requesting Provider ID", "Requesting Provider First Name", "Requesting Provider Last Name", "Requesting Provider NPI #", "Facility", "Servicing Provider ID", "Provider Facility NPI", "Servicing Provider Name", "Servicing Provider NPI #", "Sub Class", "Sub Class Code", "Type", "Type Code", "Servicing Provider First Name", "Servicing Provider Last Name", "Status Date", "Status", "Health Plan", "Source", "Status Reason", "Class", "Authorized Date", "Expiration Date", "Priority", "Type and Payment", "Antiatelectasis Antiembolic", "ADM", "Auth For Payment", "Days Used Prior", "DC", "DENC Date", "MDS Date", "NOMNC Date", "Total Days", "Total Skilled Days", "Amisys Auth #"]
+Initial Row Type Indicator = 
+Row[2] = Other Reference #
+Revised Row Type Indicator = Headers
+Processing Header
+
+Processing New Row [nil, 43095.37819444444, nil, 106367.0, "Paul", "Frase", "CEN OH UROLOGY GRP INC", 937296.0, "RASHMI I", "PATEL", 1295775930.0, "CENTRAL OHIO UROLOGY SURGERY CTR LLC", 928505, 1881948073.0, "CENTRAL OHIO UROLOGY SURGERY CTR LLC", 1881948073.0, "Out of Network Services", "OONS", "Pre-Service", "PRE", nil, "CENTRAL OHIO UROLOGY SURGERY CTR LLC", 43095.0, "Approved", "MediGold Essential Care", "Fax", "Medical Criteria Met", "Outpatient", 43108.0, 43139.0, "Expedited", nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil]
+Initial Row Type Indicator = Headers
+Row[2] = 
+Revised Row Type Indicator = New Auth
+First Time Through = YES
+Saving Row 1 Info [nil, 43095.37819444444, nil, 106367.0, "Paul", "Frase", "CEN OH UROLOGY GRP INC", 937296.0, "RASHMI I", "PATEL", 1295775930.0, "CENTRAL OHIO UROLOGY SURGERY CTR LLC", 928505, 1881948073.0, "CENTRAL OHIO UROLOGY SURGERY CTR LLC", 1881948073.0, "Out of Network Services", "OONS", "Pre-Service", "PRE", nil, "CENTRAL OHIO UROLOGY SURGERY CTR LLC", 43095.0, "Approved", "MediGold Essential Care", "Fax", "Medical Criteria Met", "Outpatient", 43108.0, 43139.0, "Expedited", nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil]
+Set first time through to false
+
+Processing New Row [nil, "Auth Type", "Auth Status", "Auth Number", "Diagnosis Code", "Diagnosis", "Diagnosis Type", "Auth Modified Date"]
+Initial Row Type Indicator = New Auth
+Row[2] = Auth Status
+Revised Row Type Indicator = Auth Status
+Just wrote entire row 1
+["12262017", #<DateTime: 2017-12-26T09:04:36+00:00 ((2458114j,32676s,0n),+0s,2299161j)>, nil, "000106367-01", "Paul", "Frase", "CEN OH UROLOGY GRP INC", "937296", "RASHMI I", "PATEL", "1295775930", "CENTRAL OHIO UROLOGY SURGERY CTR LLC", "928505", "1881948073", "CENTRAL OHIO UROLOGY SURGERY CTR LLC", "1881948073", "Out of Network Services", "OONS", "Pre-Service", "PRE", nil, "CENTRAL OHIO UROLOGY SURGERY CTR LLC", "12262017", "Approved", "MediGold Essential Care", "Fax", "Medical Criteria Met", "Outpatient", "01082018", "02082018", "Expedited", nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil]
+
+
+Processing New Row [nil, "Pre-Service", "Approved", "X171226004", "C61", "Malignant neoplasm of prostate", "ICD10", 43095.0]
+Initial Row Type Indicator = Auth Status
+Row[2] = Approved
+Revised Row Type Indicator = Auth Status Detail
+Saving Row 2 Info [nil, "Pre-Service", "Approved", "X171226004", "C61", "Malignant neoplasm of prostate", "ICD10", 43095.0]
+
+Processing New Row [nil, nil, "Service Code", "Service Description", "Service Type", "Qty Appr", "Qty Req'd", "Determination", "Auth Approval Days", "Type", "Type Code", nil, nil]
+Initial Row Type Indicator = Auth Status Detail
+Row[2] = Service Code
+Revised Row Type Indicator = Service Code
+Just wrote entire row 2
+["Pre-Service", "Approved", "X171226004", "C61", "Malignant neoplasm of prostate", "ICD10", "12262017"]
+
+
+Processing New Row [nil, nil, 55700.0, "BIOPSY PROSTATE-NEEDLE-1 OR MORE", "CPT", 1.0, 1.0, "Approved", 32.0, "CPT", "C4", nil, nil]
+Initial Row Type Indicator = Service Code
+Row[2] = 55700.0
+Revised Row Type Indicator = Service Code Detail
+Saving Row 3 Info [nil, nil, 55700.0, "BIOPSY PROSTATE-NEEDLE-1 OR MORE", "CPT", 1.0, 1.0, "Approved", 32.0, "CPT", "C4", nil, nil]
+
+Processing New Row [nil, nil, "Note", nil, nil]
+Initial Row Type Indicator = Service Code Detail
+Row[2] = Note
+Revised Row Type Indicator = Note
+Just wrote entire row 3
+["55700", "BIOPSY PROSTATE-NEEDLE-1 OR MORE", "CPT", "1", "1", "Approved", "32", "CPT", "C4"]
+
+
+Processing New Row [nil, "No child records to display.", nil, nil, nil]
+Initial Row Type Indicator = Note
+Row[2] = 
+Revised Row Type Indicator = Note Detail
+Saving Row 4 Info [nil, "No child records to display.", nil, nil, nil]
+
+Processing New Row [nil, nil, "Care Date", "Actual Level of Care", "Approved Level of Care", "Determination", "Auth Approval Days", nil, nil]
+Initial Row Type Indicator = Note Detail
+Row[2] = Care Date
+Revised Row Type Indicator = Care Date
+Just wrote entire row 4 and ended Example
+[""]
+
+
+Processing New Row [nil, "No child records to display.", nil, nil, nil, nil, nil, nil, nil]
+Initial Row Type Indicator = Care Date
+Row[2] = 
+Revised Row Type Indicator = Care Date Detail
+Saving Row 5 Info [nil, "No child records to display.", nil, nil, nil, nil, nil, nil, nil]
+
+Processing New Row [nil, 43091.55554398148, nil, 5404.0, "CHARLES", "PREEST", "MOUNT CARMEL HLTH PRVDRS", 950862.0, "ALISSA", "NELSON", 1750827135.0, "REHAB MEDICAL OF COLUMBUS", 914581, 1851320774.0, "REHAB MEDICAL OF COLUMBUS", 1851320774.0, "DME", "DME", "Pre-Service", "PRE", nil, "REHAB MEDICAL OF COLUMBUS", 43095.0, "Approved", "MediGold Classic Preferred", "Fax", "Medical Criteria Met", "Outpatient", 43088.0, 43484.0, "Standard", nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil]
+Initial Row Type Indicator = Care Date Detail
+Row[2] = 
+Revised Row Type Indicator = New Auth
+First Time Through = NO
+Just wrote entire row 5 and ended Example
+["", "", "", "", "0"]
+
+Just appended new example
+| 12262017 | 2017-12-26T09:04:36+00:00 |  | 000106367-01 | Paul | Frase | CEN OH UROLOGY GRP INC | 937296 | RASHMI I | PATEL | 1295775930 | CENTRAL OHIO UROLOGY SURGERY CTR LLC | 928505 | 1881948073 | CENTRAL OHIO UROLOGY SURGERY CTR LLC | 1881948073 | Out of Network Services | OONS | Pre-Service | PRE |  | CENTRAL OHIO UROLOGY SURGERY CTR LLC | 12262017 | Approved | MediGold Essential Care | Fax | Medical Criteria Met | Outpatient | 01082018 | 02082018 | Expedited |  |  |  |  |  |  |  |  |  |  |  | Pre-Service | Approved | X171226004 | C61 | Malignant neoplasm of prostate | ICD10 | 12262017 | 55700 | BIOPSY PROSTATE-NEEDLE-1 OR MORE | CPT | 1 | 1 | Approved | 32 | CPT | C4 |  |  |  |  |  | 0 |
+
+
+Saving Row 1 Info [nil, 43091.55554398148, nil, 5404.0, "CHARLES", "PREEST", "MOUNT CARMEL HLTH PRVDRS", 950862.0, "ALISSA", "NELSON", 1750827135.0, "REHAB MEDICAL OF COLUMBUS", 914581, 1851320774.0, "REHAB MEDICAL OF COLUMBUS", 1851320774.0, "DME", "DME", "Pre-Service", "PRE", nil, "REHAB MEDICAL OF COLUMBUS", 43095.0, "Approved", "MediGold Classic Preferred", "Fax", "Medical Criteria Met", "Outpatient", 43088.0, 43484.0, "Standard", nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil]
+
+Processing New Row [nil, "Auth Type", "Auth Status", "Auth Number", "Diagnosis Code", "Diagnosis", "Diagnosis Type", "Auth Modified Date"]
+Initial Row Type Indicator = New Auth
+Row[2] = Auth Status
+Revised Row Type Indicator = Auth Status
+Just wrote entire row 1
+["12222017", #<DateTime: 2017-12-22T13:19:59+00:00 ((2458110j,47999s,0n),+0s,2299161j)>, nil, "000005404-01", "CHARLES", "PREEST", "MOUNT CARMEL HLTH PRVDRS", "950862", "ALISSA", "NELSON", "1750827135", "REHAB MEDICAL OF COLUMBUS", "914581", "1851320774", "REHAB MEDICAL OF COLUMBUS", "1851320774", "DME", "DME", "Pre-Service", "PRE", nil, "REHAB MEDICAL OF COLUMBUS", "12262017", "Approved", "MediGold Classic Preferred", "Fax", "Medical Criteria Met", "Outpatient", "12192017", "01192019", "Standard", nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil]
+
+
+Processing New Row [nil, "Pre-Service", "Approved", "X171222111", "G8220", "Paraplegia, unspecified", "ICD10", 43095.0]
+Initial Row Type Indicator = Auth Status
+Row[2] = Approved
+Revised Row Type Indicator = Auth Status Detail
+Saving Row 2 Info [nil, "Pre-Service", "Approved", "X171222111", "G8220", "Paraplegia, unspecified", "ICD10", 43095.0]
+
+Processing New Row [nil, nil, "Service Code", "Service Description", "Service Type", "Qty Appr", "Qty Req'd", "Determination", "Auth Approval Days", "Type", "Type Code", nil, nil]
+Initial Row Type Indicator = Auth Status Detail
+Row[2] = Service Code
+Revised Row Type Indicator = Service Code
+Just wrote entire row 2
+["Pre-Service", "Approved", "X171222111", "G8220", "Paraplegia, unspecified", "ICD10", "12262017"]
+
+
+Processing New Row [nil, nil, "E2361", "POWER WHEELCHAIR ACCESSORY, 22NF SEALED LEAD ACID BATTERY, EACH, (E.G. G", "HCPCS", 2.0, 2.0, "Approved", 397.0, "HCPCS", "HC", nil, nil]
+Initial Row Type Indicator = Service Code
+Row[2] = E2361
+Revised Row Type Indicator = Service Code Detail
+Saving Row 3 Info [nil, nil, "E2361", "POWER WHEELCHAIR ACCESSORY, 22NF SEALED LEAD ACID BATTERY, EACH, (E.G. G", "HCPCS", 2.0, 2.0, "Approved", 397.0, "HCPCS", "HC", nil, nil]
+
+Processing New Row [nil, nil, "E1028", "WHEELCHAIR ACCESSORY, MANUAL SWINGAWAY, RETRACTABLE OR REMOVABLE MOUNTIN", "HCPCS", 4.0, 4.0, "Approved", 397.0, "HCPCS", "HC", nil, nil]
+Initial Row Type Indicator = Service Code Detail
+Row[2] = E1028
+Second Detail Record
+Revised Row Type Indicator = Service Code Detail
+Saving Row 3 Info [nil, nil, "E1028", "WHEELCHAIR ACCESSORY, MANUAL SWINGAWAY, RETRACTABLE OR REMOVABLE MOUNTIN", "HCPCS", 4.0, 4.0, "Approved", 397.0, "HCPCS", "HC", nil, nil]
+
+Processing New Row [nil, nil, "E1007", "WHEELCHAIR ACCESSORY, POWER SEATING SYSTEM, COMBINATION TILT AND RECLINE", "HCPCS", 1.0, 1.0, "Approved", 397.0, "HCPCS", "HC", nil, nil]
+Initial Row Type Indicator = Service Code Detail
+Row[2] = E1007
+Second Detail Record
+Revised Row Type Indicator = Service Code Detail
+Saving Row 3 Info [nil, nil, "E1007", "WHEELCHAIR ACCESSORY, POWER SEATING SYSTEM, COMBINATION TILT AND RECLINE", "HCPCS", 1.0, 1.0, "Approved", 397.0, "HCPCS", "HC", nil, nil]
+
+Processing New Row [nil, nil, "E2620", "POSITIONING WHEELCHAIR BACK CUSHION, PLANAR BACK WITH LATERA", "HCPCS", 1.0, 1.0, "Approved", 397.0, "HCPCS", "HC", nil, nil]
+Initial Row Type Indicator = Service Code Detail
+Row[2] = E2620
+Second Detail Record
+Revised Row Type Indicator = Service Code Detail
+Saving Row 3 Info [nil, nil, "E2620", "POSITIONING WHEELCHAIR BACK CUSHION, PLANAR BACK WITH LATERA", "HCPCS", 1.0, 1.0, "Approved", 397.0, "HCPCS", "HC", nil, nil]
+
+Processing New Row [nil, nil, "E2311", "POWER WHEELCHAIR ACCESSORY, ELECTRONIC CONNECTION BETWEEN WHEELCHAIR CON", "HCPCS", 1.0, 1.0, "Approved", 397.0, "HCPCS", "HC", nil, nil]
+Initial Row Type Indicator = Service Code Detail
+Row[2] = E2311
+Second Detail Record
+Revised Row Type Indicator = Service Code Detail
+Saving Row 3 Info [nil, nil, "E2311", "POWER WHEELCHAIR ACCESSORY, ELECTRONIC CONNECTION BETWEEN WHEELCHAIR CON", "HCPCS", 1.0, 1.0, "Approved", 397.0, "HCPCS", "HC", nil, nil]
+
+Processing New Row [nil, nil, "K0040", "ADJUSTABLE ANGLE FOOTPLATE, EACH", "HCPCS", 1.0, 1.0, "Approved", 397.0, "HCPCS", "HC", nil, nil]
+Initial Row Type Indicator = Service Code Detail
+Row[2] = K0040
+Second Detail Record
+Revised Row Type Indicator = Service Code Detail
+Saving Row 3 Info [nil, nil, "K0040", "ADJUSTABLE ANGLE FOOTPLATE, EACH", "HCPCS", 1.0, 1.0, "Approved", 397.0, "HCPCS", "HC", nil, nil]
+
+Processing New Row [nil, nil, "E0956", "WHEELCHAIR ACCESSORY, LATERAL TRUNK OR HIP SUPPORT, PREFABRICATED, INCLU", "HCPCS", 2.0, 2.0, "Approved", 397.0, "HCPCS", "HC", nil, nil]
+Initial Row Type Indicator = Service Code Detail
+Row[2] = E0956
+Second Detail Record
+Revised Row Type Indicator = Service Code Detail
+Saving Row 3 Info [nil, nil, "E0956", "WHEELCHAIR ACCESSORY, LATERAL TRUNK OR HIP SUPPORT, PREFABRICATED, INCLU", "HCPCS", 2.0, 2.0, "Approved", 397.0, "HCPCS", "HC", nil, nil]
+
+Processing New Row [nil, nil, "E2624", "Adj skin pro/pos cus<22in", "HCPCS", 1.0, 1.0, "Approved", 397.0, "HCPCS", "HC", nil, nil]
+Initial Row Type Indicator = Service Code Detail
+Row[2] = E2624
+Second Detail Record
+Revised Row Type Indicator = Service Code Detail
+Saving Row 3 Info [nil, nil, "E2624", "Adj skin pro/pos cus<22in", "HCPCS", 1.0, 1.0, "Approved", 397.0, "HCPCS", "HC", nil, nil]
+
+Processing New Row [nil, nil, "E0955", "WHEELCHAIR ACCESSORY, HEADREST, CUSHIONED, PREFABRICATED, INCLUDING FIXE", "HCPCS", 1.0, 1.0, "Approved", 397.0, "HCPCS", "HC", nil, nil]
+Initial Row Type Indicator = Service Code Detail
+Row[2] = E0955
+Second Detail Record
+Revised Row Type Indicator = Service Code Detail
+Saving Row 3 Info [nil, nil, "E0955", "WHEELCHAIR ACCESSORY, HEADREST, CUSHIONED, PREFABRICATED, INCLUDING FIXE", "HCPCS", 1.0, 1.0, "Approved", 397.0, "HCPCS", "HC", nil, nil]
+
+Processing New Row [nil, nil, "K0861", "PWC gp3 std mult pow opt s/b", "HCPCS", 1.0, 1.0, "Approved", 397.0, "HCPCS", "HC", nil, nil]
+Initial Row Type Indicator = Service Code Detail
+Row[2] = K0861
+Second Detail Record
+Revised Row Type Indicator = Service Code Detail
+Saving Row 3 Info [nil, nil, "K0861", "PWC gp3 std mult pow opt s/b", "HCPCS", 1.0, 1.0, "Approved", 397.0, "HCPCS", "HC", nil, nil]
+
+Processing New Row [nil, nil, "Note", nil, nil]
+Initial Row Type Indicator = Service Code Detail
+Row[2] = Note
+Revised Row Type Indicator = Note
+Just wrote entire row 3
+["E2361, E1028, E1007, E2620, E2311, K0040, E0956, E2624, E0955, K0861", "PWC gp3 std mult pow opt s/b", "HCPCS", "2, 4, 1, 1, 1, 1, 2, 1, 1, 1", "2, 4, 1, 1, 1, 1, 2, 1, 1, 1", "Approved, Approved, Approved, Approved, Approved, Approved, Approved, Approved, Approved, Approved", "397, 397, 397, 397, 397, 397, 397, 397, 397, 397", "HCPCS", "HC"]
+
+
+Processing New Row [nil, "No child records to display.", nil, nil, nil]
+Initial Row Type Indicator = Note
+Row[2] = 
+Revised Row Type Indicator = Note Detail
+Saving Row 4 Info [nil, "No child records to display.", nil, nil, nil]
+
+Processing New Row [nil, nil, "Care Date", "Actual Level of Care", "Approved Level of Care", "Determination", "Auth Approval Days", nil, nil]
+Initial Row Type Indicator = Note Detail
+Row[2] = Care Date
+Revised Row Type Indicator = Care Date
+Just wrote entire row 4 and ended Example
+[""]
+
+
+Processing New Row [nil, "No child records to display.", nil, nil, nil, nil, nil, nil, nil]
+Initial Row Type Indicator = Care Date
+Row[2] = 
+Revised Row Type Indicator = Care Date Detail
+Saving Row 5 Info [nil, "No child records to display.", nil, nil, nil, nil, nil, nil, nil]
+
+Processing New Row [nil, 43087.488900462966, nil, 31488.0, "LEONARD", "PRESTON", "OSU UROLOGY LLC", 939464.0, "KAMAL S", "POHAR", 1952350985.0, "OSU HOSPITAL", 936446.0, 1447359997.0, "THE OH STATE UNIVERSITY HOSPITAL", 1447359997.0, "Out of Network Services", "OONS", "Pre-Service", "PRE", nil, "THE OH STATE UNIVERSITY HOSPITAL", 43095.0, "Approved", "MediGold Classic Preferred", "Fax", "Services Not Available In-Network", "Outpatient", 43095.0, 43157.0, "Standard", nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil]
+Initial Row Type Indicator = Care Date Detail
+Row[2] = 
+Revised Row Type Indicator = New Auth
+First Time Through = NO
+Just wrote entire row 5 and ended Example
+["", "", "", "", "0"]
+
+Just appended new example
+| 12222017 | 2017-12-22T13:19:59+00:00 |  | 000005404-01 | CHARLES | PREEST | MOUNT CARMEL HLTH PRVDRS | 950862 | ALISSA | NELSON | 1750827135 | REHAB MEDICAL OF COLUMBUS | 914581 | 1851320774 | REHAB MEDICAL OF COLUMBUS | 1851320774 | DME | DME | Pre-Service | PRE |  | REHAB MEDICAL OF COLUMBUS | 12262017 | Approved | MediGold Classic Preferred | Fax | Medical Criteria Met | Outpatient | 12192017 | 01192019 | Standard |  |  |  |  |  |  |  |  |  |  |  | Pre-Service | Approved | X171222111 | G8220 | Paraplegia, unspecified | ICD10 | 12262017 | E2361, E1028, E1007, E2620, E2311, K0040, E0956, E2624, E0955, K0861 | PWC gp3 std mult pow opt s/b | HCPCS | 2, 4, 1, 1, 1, 1, 2, 1, 1, 1 | 2, 4, 1, 1, 1, 1, 2, 1, 1, 1 | Approved, Approved, Approved, Approved, Approved, Approved, Approved, Approved, Approved, Approved | 397, 397, 397, 397, 397, 397, 397, 397, 397, 397 | HCPCS | HC |  |  |  |  |  | 0 |
+
+
+Saving Row 1 Info [nil, 43087.488900462966, nil, 31488.0, "LEONARD", "PRESTON", "OSU UROLOGY LLC", 939464.0, "KAMAL S", "POHAR", 1952350985.0, "OSU HOSPITAL", 936446.0, 1447359997.0, "THE OH STATE UNIVERSITY HOSPITAL", 1447359997.0, "Out of Network Services", "OONS", "Pre-Service", "PRE", nil, "THE OH STATE UNIVERSITY HOSPITAL", 43095.0, "Approved", "MediGold Classic Preferred", "Fax", "Services Not Available In-Network", "Outpatient", 43095.0, 43157.0, "Standard", nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil]
+
+Processing New Row [nil, "Auth Type", "Auth Status", "Auth Number", "Diagnosis Code", "Diagnosis", "Diagnosis Type", "Auth Modified Date"]
+Initial Row Type Indicator = New Auth
+Row[2] = Auth Status
+Revised Row Type Indicator = Auth Status
+Just wrote entire row 1
+["12182017", #<DateTime: 2017-12-18T11:44:01+00:00 ((2458106j,42241s,0n),+0s,2299161j)>, nil, "000031488-01", "LEONARD", "PRESTON", "OSU UROLOGY LLC", "939464", "KAMAL S", "POHAR", "1952350985", "OSU HOSPITAL", "936446", "1447359997", "THE OH STATE UNIVERSITY HOSPITAL", "1447359997", "Out of Network Services", "OONS", "Pre-Service", "PRE", nil, "THE OH STATE UNIVERSITY HOSPITAL", "12262017", "Approved", "MediGold Classic Preferred", "Fax", "Services Not Available In-Network", "Outpatient", "12262017", "02262018", "Standard", nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil]
+
+
+Processing New Row [nil, "Pre-Service", "Approved", "X171218108", "C61", "Malignant neoplasm of prostate", "ICD10", 43095.0]
+Initial Row Type Indicator = Auth Status
+Row[2] = Approved
+Revised Row Type Indicator = Auth Status Detail
+Saving Row 2 Info [nil, "Pre-Service", "Approved", "X171218108", "C61", "Malignant neoplasm of prostate", "ICD10", 43095.0]
+
+Processing New Row [nil, "Pre-Service", "Approved", "X171218108", "C671", "Malignant neoplasm of dome of bladder", "ICD10", 43095.0]
+Initial Row Type Indicator = Auth Status Detail
+Row[2] = Approved
+Second Detail Record
+Revised Row Type Indicator = Auth Status Detail
+Saving Row 2 Info [nil, "Pre-Service", "Approved", "X171218108", "C671", "Malignant neoplasm of dome of bladder", "ICD10", 43095.0]
+
+Processing New Row [nil, "Pre-Service", "Approved", "X171218108", "C672", "Malignant neoplasm of lateral wall of bladder", "ICD10", 43095.0]
+Initial Row Type Indicator = Auth Status Detail
+Row[2] = Approved
+Second Detail Record
+Revised Row Type Indicator = Auth Status Detail
+Saving Row 2 Info [nil, "Pre-Service", "Approved", "X171218108", "C672", "Malignant neoplasm of lateral wall of bladder", "ICD10", 43095.0]
+
+Processing New Row [nil, "Pre-Service", "Approved", "X171218108", "D090", "Carcinoma in situ of bladder", "ICD10", 43095.0]
+Initial Row Type Indicator = Auth Status Detail
+Row[2] = Approved
+Second Detail Record
+Revised Row Type Indicator = Auth Status Detail
+Saving Row 2 Info [nil, "Pre-Service", "Approved", "X171218108", "D090", "Carcinoma in situ of bladder", "ICD10", 43095.0]
+
+Processing New Row [nil, nil, "Service Code", "Service Description", "Service Type", "Qty Appr", "Qty Req'd", "Determination", "Auth Approval Days", "Type", "Type Code", nil, nil]
+Initial Row Type Indicator = Auth Status Detail
+Row[2] = Service Code
+Revised Row Type Indicator = Service Code
+Just wrote entire row 2
+["Pre-Service", "Approved", "X171218108", "C61, C671, C672, D090", "Carcinoma in situ of bladder", "ICD10", "12262017"]
+
+
+Processing New Row [nil, nil, 99201.0, "OFFICE CALL - NEW PATIENT", "CPT", 1.0, 1.0, "Approved", 63.0, "CPT", "C4", nil, nil]
+Initial Row Type Indicator = Service Code
+Row[2] = 99201.0
+Revised Row Type Indicator = Service Code Detail
+Saving Row 3 Info [nil, nil, 99201.0, "OFFICE CALL - NEW PATIENT", "CPT", 1.0, 1.0, "Approved", 63.0, "CPT", "C4", nil, nil]
+
+Processing New Row [nil, nil, 99202.0, "OFFICE CALL - NEW PATIENT", "CPT", 1.0, 1.0, "Approved", 63.0, "CPT", "C4", nil, nil]
+Initial Row Type Indicator = Service Code Detail
+Row[2] = 99202.0
+Second Detail Record
+Revised Row Type Indicator = Service Code Detail
+Saving Row 3 Info [nil, nil, 99202.0, "OFFICE CALL - NEW PATIENT", "CPT", 1.0, 1.0, "Approved", 63.0, "CPT", "C4", nil, nil]
+
+Processing New Row [nil, nil, 99203.0, "OFFICE CALL - NEW PATIENT", "CPT", 1.0, 1.0, "Approved", 63.0, "CPT", "C4", nil, nil]
+Initial Row Type Indicator = Service Code Detail
+Row[2] = 99203.0
+Second Detail Record
+Revised Row Type Indicator = Service Code Detail
+Saving Row 3 Info [nil, nil, 99203.0, "OFFICE CALL - NEW PATIENT", "CPT", 1.0, 1.0, "Approved", 63.0, "CPT", "C4", nil, nil]
+
+Processing New Row [nil, nil, 99204.0, "OFFICE CALL - NEW PATIENT", "CPT", 1.0, 1.0, "Approved", 63.0, "CPT", "C4", nil, nil]
+Initial Row Type Indicator = Service Code Detail
+Row[2] = 99204.0
+Second Detail Record
+Revised Row Type Indicator = Service Code Detail
+Saving Row 3 Info [nil, nil, 99204.0, "OFFICE CALL - NEW PATIENT", "CPT", 1.0, 1.0, "Approved", 63.0, "CPT", "C4", nil, nil]
+
+Processing New Row [nil, nil, 99205.0, "OFFICE CALL - NEW PATIENT", "CPT", 1.0, 1.0, "Approved", 63.0, "CPT", "C4", nil, nil]
+Initial Row Type Indicator = Service Code Detail
+Row[2] = 99205.0
+Second Detail Record
+Revised Row Type Indicator = Service Code Detail
+Saving Row 3 Info [nil, nil, 99205.0, "OFFICE CALL - NEW PATIENT", "CPT", 1.0, 1.0, "Approved", 63.0, "CPT", "C4", nil, nil]
+
+Processing New Row [nil, nil, "G0463", "HOSPITAL OUTPT CLINIC VISIT", "HCPCS", 1.0, 1.0, "Approved", 63.0, "HCPCS", "HC", nil, nil]
+Initial Row Type Indicator = Service Code Detail
+Row[2] = G0463
+Second Detail Record
+Revised Row Type Indicator = Service Code Detail
+Saving Row 3 Info [nil, nil, "G0463", "HOSPITAL OUTPT CLINIC VISIT", "HCPCS", 1.0, 1.0, "Approved", 63.0, "HCPCS", "HC", nil, nil]
+
+Processing New Row [nil, nil, "Note", nil, nil]
+Initial Row Type Indicator = Service Code Detail
+Row[2] = Note
+Revised Row Type Indicator = Note
+Just wrote entire row 3
+["99201, 99202, 99203, 99204, 99205, G0463", "HOSPITAL OUTPT CLINIC VISIT", "HCPCS", "1, 1, 1, 1, 1, 1", "1, 1, 1, 1, 1, 1", "Approved, Approved, Approved, Approved, Approved, Approved", "63, 63, 63, 63, 63, 63", "HCPCS", "HC"]
+
+
+Processing New Row [nil, "No child records to display.", nil, nil, nil]
+Initial Row Type Indicator = Note
+Row[2] = 
+Revised Row Type Indicator = Note Detail
+Saving Row 4 Info [nil, "No child records to display.", nil, nil, nil]
+
+Processing New Row [nil, nil, "Care Date", "Actual Level of Care", "Approved Level of Care", "Determination", "Auth Approval Days", nil, nil]
+Initial Row Type Indicator = Note Detail
+Row[2] = Care Date
+Revised Row Type Indicator = Care Date
+Just wrote entire row 4 and ended Example
+[""]
+
+
+Processing New Row [nil, "No child records to display.", nil, nil, nil, nil, nil, nil, nil]
+Initial Row Type Indicator = Care Date
+Row[2] = 
+Revised Row Type Indicator = Care Date Detail
+Saving Row 5 Info [nil, "No child records to display.", nil, nil, nil, nil, nil, nil, nil]
+
+Processing New Row [nil, 43088.39806712963, nil, 28194.0, "LISA", "FORD", "NEUROSCIENCE CENTER", 912936.0, "ADAM D", "QUICK", 1437283918.0, "OSU HOSPITAL", 936446.0, 1447359997.0, "THE OH STATE UNIVERSITY HOSPITAL", 1447359997.0, "Out of Network Services", "OONS", "Pre-Service", "PRE", nil, "THE OH STATE UNIVERSITY HOSPITAL", 43095.0, "Approved", "MediGold Classic Preferred", "Fax", "Services Not Available In-Network", "Outpatient", 43088.0, 43119.0, "Standard", nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil]
+Initial Row Type Indicator = Care Date Detail
+Row[2] = 
+Revised Row Type Indicator = New Auth
+First Time Through = NO
+Just wrote entire row 5 and ended Example
+["", "", "", "", "0"]
+
+Just appended new example
+| 12182017 | 2017-12-18T11:44:01+00:00 |  | 000031488-01 | LEONARD | PRESTON | OSU UROLOGY LLC | 939464 | KAMAL S | POHAR | 1952350985 | OSU HOSPITAL | 936446 | 1447359997 | THE OH STATE UNIVERSITY HOSPITAL | 1447359997 | Out of Network Services | OONS | Pre-Service | PRE |  | THE OH STATE UNIVERSITY HOSPITAL | 12262017 | Approved | MediGold Classic Preferred | Fax | Services Not Available In-Network | Outpatient | 12262017 | 02262018 | Standard |  |  |  |  |  |  |  |  |  |  |  | Pre-Service | Approved | X171218108 | C61, C671, C672, D090 | Carcinoma in situ of bladder | ICD10 | 12262017 | 99201, 99202, 99203, 99204, 99205, G0463 | HOSPITAL OUTPT CLINIC VISIT | HCPCS | 1, 1, 1, 1, 1, 1 | 1, 1, 1, 1, 1, 1 | Approved, Approved, Approved, Approved, Approved, Approved | 63, 63, 63, 63, 63, 63 | HCPCS | HC |  |  |  |  |  | 0 |
+
+
+Saving Row 1 Info [nil, 43088.39806712963, nil, 28194.0, "LISA", "FORD", "NEUROSCIENCE CENTER", 912936.0, "ADAM D", "QUICK", 1437283918.0, "OSU HOSPITAL", 936446.0, 1447359997.0, "THE OH STATE UNIVERSITY HOSPITAL", 1447359997.0, "Out of Network Services", "OONS", "Pre-Service", "PRE", nil, "THE OH STATE UNIVERSITY HOSPITAL", 43095.0, "Approved", "MediGold Classic Preferred", "Fax", "Services Not Available In-Network", "Outpatient", 43088.0, 43119.0, "Standard", nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil]
+
+Processing New Row [nil, "Auth Type", "Auth Status", "Auth Number", "Diagnosis Code", "Diagnosis", "Diagnosis Type", "Auth Modified Date"]
+Initial Row Type Indicator = New Auth
+Row[2] = Auth Status
+Revised Row Type Indicator = Auth Status
+Just wrote entire row 1
+["12192017", #<DateTime: 2017-12-19T09:33:13+00:00 ((2458107j,34393s,0n),+0s,2299161j)>, nil, "000028194-01", "LISA", "FORD", "NEUROSCIENCE CENTER", "912936", "ADAM D", "QUICK", "1437283918", "OSU HOSPITAL", "936446", "1447359997", "THE OH STATE UNIVERSITY HOSPITAL", "1447359997", "Out of Network Services", "OONS", "Pre-Service", "PRE", nil, "THE OH STATE UNIVERSITY HOSPITAL", "12262017", "Approved", "MediGold Classic Preferred", "Fax", "Services Not Available In-Network", "Outpatient", "12192017", "01192018", "Standard", nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil]
+
+
+Processing New Row [nil, "Pre-Service", "Approved", "X171219130", "D869", "Sarcoidosis, unspecified", "ICD10", 43095.0]
+Initial Row Type Indicator = Auth Status
+Row[2] = Approved
+Revised Row Type Indicator = Auth Status Detail
+Saving Row 2 Info [nil, "Pre-Service", "Approved", "X171219130", "D869", "Sarcoidosis, unspecified", "ICD10", 43095.0]
+
+Processing New Row [nil, nil, "Service Code", "Service Description", "Service Type", "Qty Appr", "Qty Req'd", "Determination", "Auth Approval Days", "Type", "Type Code", nil, nil]
+Initial Row Type Indicator = Auth Status Detail
+Row[2] = Service Code
+Revised Row Type Indicator = Service Code
+Just wrote entire row 2
+["Pre-Service", "Approved", "X171219130", "D869", "Sarcoidosis, unspecified", "ICD10", "12262017"]
+
+
+Processing New Row [nil, nil, 95921.0, "TEST OF AUTONOMIC NERV SYST FUNCT; CARDIOVAGAL INNERVATION", "CPT", 1.0, 1.0, "Approved", 32.0, "CPT", "C4", nil, nil]
+Initial Row Type Indicator = Service Code
+Row[2] = 95921.0
+Revised Row Type Indicator = Service Code Detail
+Saving Row 3 Info [nil, nil, 95921.0, "TEST OF AUTONOMIC NERV SYST FUNCT; CARDIOVAGAL INNERVATION", "CPT", 1.0, 1.0, "Approved", 32.0, "CPT", "C4", nil, nil]
+
+Processing New Row [nil, nil, 95921.0, "TEST OF AUTONOMIC NERV SYST FUNCT; CARDIOVAGAL INNERVATION", "CPT", 1.0, 1.0, "Approved", 32.0, "CPT", "C4", nil, nil]
+Initial Row Type Indicator = Service Code Detail
+Row[2] = 95921.0
+Second Detail Record
+Revised Row Type Indicator = Service Code Detail
+Saving Row 3 Info [nil, nil, 95921.0, "TEST OF AUTONOMIC NERV SYST FUNCT; CARDIOVAGAL INNERVATION", "CPT", 1.0, 1.0, "Approved", 32.0, "CPT", "C4", nil, nil]
+
+Processing New Row [nil, nil, 95923.0, "TEST OF AUTONOMIC NERV SYST FUNCT; SUDOMOTOR", "CPT", 1.0, 1.0, "Approved", 32.0, "CPT", "C4", nil, nil]
+Initial Row Type Indicator = Service Code Detail
+Row[2] = 95923.0
+Second Detail Record
+Revised Row Type Indicator = Service Code Detail
+Saving Row 3 Info [nil, nil, 95923.0, "TEST OF AUTONOMIC NERV SYST FUNCT; SUDOMOTOR", "CPT", 1.0, 1.0, "Approved", 32.0, "CPT", "C4", nil, nil]
+
+Processing New Row [nil, nil, 95922.0, "TEST OF AUTONOMIC NERV SYST FUNCT; VASCOMOTOR ADRENERGIG INNERVATION", "CPT", 1.0, 1.0, "Approved", 32.0, "CPT", "C4", nil, nil]
+Initial Row Type Indicator = Service Code Detail
+Row[2] = 95922.0
+Second Detail Record
+Revised Row Type Indicator = Service Code Detail
+Saving Row 3 Info [nil, nil, 95922.0, "TEST OF AUTONOMIC NERV SYST FUNCT; VASCOMOTOR ADRENERGIG INNERVATION", "CPT", 1.0, 1.0, "Approved", 32.0, "CPT", "C4", nil, nil]
+
+Processing New Row [nil, nil, "G0463", "HOSPITAL OUTPT CLINIC VISIT", "HCPCS", 1.0, 1.0, "Approved", 32.0, "HCPCS", "HC", nil, nil]
+Initial Row Type Indicator = Service Code Detail
+Row[2] = G0463
+Second Detail Record
+Revised Row Type Indicator = Service Code Detail
+Saving Row 3 Info [nil, nil, "G0463", "HOSPITAL OUTPT CLINIC VISIT", "HCPCS", 1.0, 1.0, "Approved", 32.0, "HCPCS", "HC", nil, nil]
+
+Processing New Row [nil, nil, "Note", nil, nil]
+Initial Row Type Indicator = Service Code Detail
+Row[2] = Note
+Revised Row Type Indicator = Note
+Just wrote entire row 3
+["95921, 95921, 95923, 95922, G0463", "HOSPITAL OUTPT CLINIC VISIT", "HCPCS", "1, 1, 1, 1, 1", "1, 1, 1, 1, 1", "Approved, Approved, Approved, Approved, Approved", "32, 32, 32, 32, 32", "HCPCS", "HC"]
+
+
+Processing New Row [nil, "No child records to display.", nil, nil, nil]
+Initial Row Type Indicator = Note
+Row[2] = 
+Revised Row Type Indicator = Note Detail
+Saving Row 4 Info [nil, "No child records to display.", nil, nil, nil]
+
+Processing New Row [nil, nil, "Care Date", "Actual Level of Care", "Approved Level of Care", "Determination", "Auth Approval Days", nil, nil]
+Initial Row Type Indicator = Note Detail
+Row[2] = Care Date
+Revised Row Type Indicator = Care Date
+Just wrote entire row 4 and ended Example
+[""]
+
+
+Processing New Row [nil, "No child records to display.", nil, nil, nil, nil, nil, nil, nil]
+Initial Row Type Indicator = Care Date
+Row[2] = 
+Revised Row Type Indicator = Care Date Detail
+Saving Row 5 Info [nil, "No child records to display.", nil, nil, nil, nil, nil, nil, nil]
+
+Processing New Row [nil, 43095.506840277776, "Q20043936", 100483.0, "Joseph", "Mcclain", "LICKING MEM HLTH PROF", 919172.0, "ARUNA C", "GOWDA", 1407070576.0, "LICKING MEMORIAL HOSPITAL", 936497, 1568446755.0, "LICKING MEMORIAL HOSPITAL", 1568446755.0, "Integrated Oncology (HH)", "ONCOL", "Pre-Service", "PRE", nil, "LICKING MEMORIAL HOSPITAL", 43095.0, "Approved", "MediGold Medical Only", "HealthHelp", "Medical Criteria Met", "Outpatient", 43095.0, 43275.0, "Expedited", nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil]
+Initial Row Type Indicator = Care Date Detail
+Row[2] = Q20043936
+Revised Row Type Indicator = New Auth
+First Time Through = NO
+Just wrote entire row 5 and ended Example
+["", "", "", "", "0"]
+
+Just appended new example
+| 12192017 | 2017-12-19T09:33:13+00:00 |  | 000028194-01 | LISA | FORD | NEUROSCIENCE CENTER | 912936 | ADAM D | QUICK | 1437283918 | OSU HOSPITAL | 936446 | 1447359997 | THE OH STATE UNIVERSITY HOSPITAL | 1447359997 | Out of Network Services | OONS | Pre-Service | PRE |  | THE OH STATE UNIVERSITY HOSPITAL | 12262017 | Approved | MediGold Classic Preferred | Fax | Services Not Available In-Network | Outpatient | 12192017 | 01192018 | Standard |  |  |  |  |  |  |  |  |  |  |  | Pre-Service | Approved | X171219130 | D869 | Sarcoidosis, unspecified | ICD10 | 12262017 | 95921, 95921, 95923, 95922, G0463 | HOSPITAL OUTPT CLINIC VISIT | HCPCS | 1, 1, 1, 1, 1 | 1, 1, 1, 1, 1 | Approved, Approved, Approved, Approved, Approved | 32, 32, 32, 32, 32 | HCPCS | HC |  |  |  |  |  | 0 |
+
+
+Saving Row 1 Info [nil, 43095.506840277776, "Q20043936", 100483.0, "Joseph", "Mcclain", "LICKING MEM HLTH PROF", 919172.0, "ARUNA C", "GOWDA", 1407070576.0, "LICKING MEMORIAL HOSPITAL", 936497, 1568446755.0, "LICKING MEMORIAL HOSPITAL", 1568446755.0, "Integrated Oncology (HH)", "ONCOL", "Pre-Service", "PRE", nil, "LICKING MEMORIAL HOSPITAL", 43095.0, "Approved", "MediGold Medical Only", "HealthHelp", "Medical Criteria Met", "Outpatient", 43095.0, 43275.0, "Expedited", nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil]
+
+Processing New Row [nil, "Auth Type", "Auth Status", "Auth Number", "Diagnosis Code", "Diagnosis", "Diagnosis Type", "Auth Modified Date"]
+Initial Row Type Indicator = New Auth
+Row[2] = Auth Status
+Revised Row Type Indicator = Auth Status
+Just wrote entire row 1
+["12262017", #<DateTime: 2017-12-26T12:09:51+00:00 ((2458114j,43791s,0n),+0s,2299161j)>, "Q20043936", "000100483-01", "Joseph", "Mcclain", "LICKING MEM HLTH PROF", "919172", "ARUNA C", "GOWDA", "1407070576", "LICKING MEMORIAL HOSPITAL", "936497", "1568446755", "LICKING MEMORIAL HOSPITAL", "1568446755", "Integrated Oncology (HH)", "ONCOL", "Pre-Service", "PRE", nil, "LICKING MEMORIAL HOSPITAL", "12262017", "Approved", "MediGold Medical Only", "HealthHelp", "Medical Criteria Met", "Outpatient", "12262017", "06242018", "Expedited", nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil]
+
+
+Processing New Row [nil, "Pre-Service", "Approved", "X171226007", "C158", "Malignant neoplasm of overlapping sites of esophagus", "ICD10", 43095.0]
+Initial Row Type Indicator = Auth Status
+Row[2] = Approved
+Revised Row Type Indicator = Auth Status Detail
+Saving Row 2 Info [nil, "Pre-Service", "Approved", "X171226007", "C158", "Malignant neoplasm of overlapping sites of esophagus", "ICD10", 43095.0]
+
+Processing New Row [nil, nil, "Service Code", "Service Description", "Service Type", "Qty Appr", "Qty Req'd", "Determination", "Auth Approval Days", "Type", "Type Code", nil, nil]
+Initial Row Type Indicator = Auth Status Detail
+Row[2] = Service Code
+Revised Row Type Indicator = Service Code
+Just wrote entire row 2
+["Pre-Service", "Approved", "X171226007", "C158", "Malignant neoplasm of overlapping sites of esophagus", "ICD10", "12262017"]
+
+
+Processing New Row [nil, nil, "J9267", "PACLITAXEL INJECTION", "HCPCS", 5.0, 5.0, "Approved", 181.0, "HCPCS", "HC", nil, nil]
+Initial Row Type Indicator = Service Code
+Row[2] = J9267
+Revised Row Type Indicator = Service Code Detail
+Saving Row 3 Info [nil, nil, "J9267", "PACLITAXEL INJECTION", "HCPCS", 5.0, 5.0, "Approved", 181.0, "HCPCS", "HC", nil, nil]
+
+Processing New Row [nil, nil, "J9045", "CARBOPLATIN, 50 MG", "HCPCS", 5.0, 5.0, "Approved", 181.0, "HCPCS", "HC", nil, nil]
+Initial Row Type Indicator = Service Code Detail
+Row[2] = J9045
+Second Detail Record
+Revised Row Type Indicator = Service Code Detail
+Saving Row 3 Info [nil, nil, "J9045", "CARBOPLATIN, 50 MG", "HCPCS", 5.0, 5.0, "Approved", 181.0, "HCPCS", "HC", nil, nil]
+
+Processing New Row [nil, nil, "J1100", "INJECTION, DEXAMETHOSONE SODIUM PHOSPHATE, UP TO 4MG/ML", "HCPCS", 20.0, 20.0, "Approved", 181.0, "HCPCS", "HC", nil, nil]
+Initial Row Type Indicator = Service Code Detail
+Row[2] = J1100
+Second Detail Record
+Revised Row Type Indicator = Service Code Detail
+Saving Row 3 Info [nil, nil, "J1100", "INJECTION, DEXAMETHOSONE SODIUM PHOSPHATE, UP TO 4MG/ML", "HCPCS", 20.0, 20.0, "Approved", 181.0, "HCPCS", "HC", nil, nil]
+
+Processing New Row [nil, nil, "J2469", "INJECTION, PALONOSETRON HCL, 25 MCG", "HCPCS", 5.0, 5.0, "Approved", 181.0, "HCPCS", "HC", nil, nil]
+Initial Row Type Indicator = Service Code Detail
+Row[2] = J2469
+Second Detail Record
+Revised Row Type Indicator = Service Code Detail
+Saving Row 3 Info [nil, nil, "J2469", "INJECTION, PALONOSETRON HCL, 25 MCG", "HCPCS", 5.0, 5.0, "Approved", 181.0, "HCPCS", "HC", nil, nil]
+
+Processing New Row [nil, nil, "Note", nil, nil]
+Initial Row Type Indicator = Service Code Detail
+Row[2] = Note
+Revised Row Type Indicator = Note
+Just wrote entire row 3
+["J9267, J9045, J1100, J2469", "INJECTION, PALONOSETRON HCL, 25 MCG", "HCPCS", "5, 5, 20, 5", "5, 5, 20, 5", "Approved, Approved, Approved, Approved", "181, 181, 181, 181", "HCPCS", "HC"]
+
+
+Processing New Row [nil, "No child records to display.", nil, nil, nil]
+Initial Row Type Indicator = Note
+Row[2] = 
+Revised Row Type Indicator = Note Detail
+Saving Row 4 Info [nil, "No child records to display.", nil, nil, nil]
+
+Processing New Row [nil, nil, "Care Date", "Actual Level of Care", "Approved Level of Care", "Determination", "Auth Approval Days", nil, nil]
+Initial Row Type Indicator = Note Detail
+Row[2] = Care Date
+Revised Row Type Indicator = Care Date
+Just wrote entire row 4 and ended Example
+[""]
+
+
+Processing New Row [nil, "No child records to display.", nil, nil, nil, nil, nil, nil, nil]
+Initial Row Type Indicator = Care Date
+Row[2] = 
+Revised Row Type Indicator = Care Date Detail
+Saving Row 5 Info [nil, "No child records to display.", nil, nil, nil, nil, nil, nil, nil]
+
+Processing New Row [nil, 43095.51231481481, "Q20044128", 34652.0, "STEPHEN", "TOROK", "ORTHO FOOT & ANKLE CNTR", 949420.0, "JUSTIN R", "HUDSON", 1487649000.0, "ORTHO FOOT & ANKLE CNTR", 938451, 1659364503.0, "ORTHO FOOT & ANKLE CNTR INC", 1659364503.0, "Radiology (HH)", "OP RAD", "Pre-Service", "PRE", nil, "ORTHO FOOT & ANKLE CNTR INC", 43095.0, "Approved", "MediGold Classic Preferred", "HealthHelp", "Medical Criteria Met", "Outpatient", 43095.0, 43125.0, "Expedited", nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil]
+Initial Row Type Indicator = Care Date Detail
+Row[2] = Q20044128
+Revised Row Type Indicator = New Auth
+First Time Through = NO
+Just wrote entire row 5 and ended Example
+["", "", "", "", "0"]
+
+Just appended new example
+| 12262017 | 2017-12-26T12:09:51+00:00 | Q20043936 | 000100483-01 | Joseph | Mcclain | LICKING MEM HLTH PROF | 919172 | ARUNA C | GOWDA | 1407070576 | LICKING MEMORIAL HOSPITAL | 936497 | 1568446755 | LICKING MEMORIAL HOSPITAL | 1568446755 | Integrated Oncology (HH) | ONCOL | Pre-Service | PRE |  | LICKING MEMORIAL HOSPITAL | 12262017 | Approved | MediGold Medical Only | HealthHelp | Medical Criteria Met | Outpatient | 12262017 | 06242018 | Expedited |  |  |  |  |  |  |  |  |  |  |  | Pre-Service | Approved | X171226007 | C158 | Malignant neoplasm of overlapping sites of esophagus | ICD10 | 12262017 | J9267, J9045, J1100, J2469 | INJECTION, PALONOSETRON HCL, 25 MCG | HCPCS | 5, 5, 20, 5 | 5, 5, 20, 5 | Approved, Approved, Approved, Approved | 181, 181, 181, 181 | HCPCS | HC |  |  |  |  |  | 0 |
+
+
+Saving Row 1 Info [nil, 43095.51231481481, "Q20044128", 34652.0, "STEPHEN", "TOROK", "ORTHO FOOT & ANKLE CNTR", 949420.0, "JUSTIN R", "HUDSON", 1487649000.0, "ORTHO FOOT & ANKLE CNTR", 938451, 1659364503.0, "ORTHO FOOT & ANKLE CNTR INC", 1659364503.0, "Radiology (HH)", "OP RAD", "Pre-Service", "PRE", nil, "ORTHO FOOT & ANKLE CNTR INC", 43095.0, "Approved", "MediGold Classic Preferred", "HealthHelp", "Medical Criteria Met", "Outpatient", 43095.0, 43125.0, "Expedited", nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil]
+
+Processing New Row [nil, "Auth Type", "Auth Status", "Auth Number", "Diagnosis Code", "Diagnosis", "Diagnosis Type", "Auth Modified Date"]
+Initial Row Type Indicator = New Auth
+Row[2] = Auth Status
+Revised Row Type Indicator = Auth Status
+Just wrote entire row 1
+["12262017", #<DateTime: 2017-12-26T12:17:44+00:00 ((2458114j,44264s,0n),+0s,2299161j)>, "Q20044128", "000034652-01", "STEPHEN", "TOROK", "ORTHO FOOT & ANKLE CNTR", "949420", "JUSTIN R", "HUDSON", "1487649000", "ORTHO FOOT & ANKLE CNTR", "938451", "1659364503", "ORTHO FOOT & ANKLE CNTR INC", "1659364503", "Radiology (HH)", "OP RAD", "Pre-Service", "PRE", nil, "ORTHO FOOT & ANKLE CNTR INC", "12262017", "Approved", "MediGold Classic Preferred", "HealthHelp", "Medical Criteria Met", "Outpatient", "12262017", "01252018", "Expedited", nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil]
+
+
+Processing New Row [nil, "Pre-Service", "Approved", "X171226008", "M722", "Plantar fascial fibromatosis", "ICD10", 43095.0]
+Initial Row Type Indicator = Auth Status
+Row[2] = Approved
+Revised Row Type Indicator = Auth Status Detail
+Saving Row 2 Info [nil, "Pre-Service", "Approved", "X171226008", "M722", "Plantar fascial fibromatosis", "ICD10", 43095.0]
+
+Processing New Row [nil, nil, "Service Code", "Service Description", "Service Type", "Qty Appr", "Qty Req'd", "Determination", "Auth Approval Days", "Type", "Type Code", nil, nil]
+Initial Row Type Indicator = Auth Status Detail
+Row[2] = Service Code
+Revised Row Type Indicator = Service Code
+Just wrote entire row 2
+["Pre-Service", "Approved", "X171226008", "M722", "Plantar fascial fibromatosis", "ICD10", "12262017"]
+
+
+Processing New Row [nil, nil, 73718.0, "MRI LOWER EXTREMITY W/O DYE", "CPT", 1.0, 1.0, "Approved", 31.0, "CPT", "C4", nil, nil]
+Initial Row Type Indicator = Service Code
+Row[2] = 73718.0
+Revised Row Type Indicator = Service Code Detail
+Saving Row 3 Info [nil, nil, 73718.0, "MRI LOWER EXTREMITY W/O DYE", "CPT", 1.0, 1.0, "Approved", 31.0, "CPT", "C4", nil, nil]
+
+Processing New Row [nil, nil, "Note", nil, nil]
+Initial Row Type Indicator = Service Code Detail
+Row[2] = Note
+Revised Row Type Indicator = Note
+Just wrote entire row 3
+["73718", "MRI LOWER EXTREMITY W/O DYE", "CPT", "1", "1", "Approved", "31", "CPT", "C4"]
+
+
+Processing New Row [nil, "No child records to display.", nil, nil, nil]
+Initial Row Type Indicator = Note
+Row[2] = 
+Revised Row Type Indicator = Note Detail
+Saving Row 4 Info [nil, "No child records to display.", nil, nil, nil]
+
+Processing New Row [nil, nil, "Care Date", "Actual Level of Care", "Approved Level of Care", "Determination", "Auth Approval Days", nil, nil]
+Initial Row Type Indicator = Note Detail
+Row[2] = Care Date
+Revised Row Type Indicator = Care Date
+Just wrote entire row 4 and ended Example
+[""]
+
+
+Processing New Row [nil, "No child records to display.", nil, nil, nil, nil, nil, nil, nil]
+Initial Row Type Indicator = Care Date
+Row[2] = 
+Revised Row Type Indicator = Care Date Detail
+Saving Row 5 Info [nil, "No child records to display.", nil, nil, nil, nil, nil, nil, nil]
+
+Processing New Row [nil, 43088.526666666665, nil, 65207.0, "HAZEL", "CURTIS", "FAIRFIELD HLTHCARE PROFS", 902681, "JOHN A", "IRETON", 1821087610.0, "REHAB MEDICAL OF COLUMBUS", 914581, 1851320774.0, "REHAB MEDICAL OF COLUMBUS", 1851320774.0, "DME", "DME", "Pre-Service", "PRE", nil, "REHAB MEDICAL OF COLUMBUS", 43095.0, "Approved", "MediGold Classic Preferred", "Fax", "Medical Criteria Met", "Outpatient", 43088.0, 43484.0, "Standard", nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil]
+Initial Row Type Indicator = Care Date Detail
+Row[2] = 
+Revised Row Type Indicator = New Auth
+First Time Through = NO
+Just wrote entire row 5 and ended Example
+["", "", "", "", "0"]
+
+Just appended new example
+| 12262017 | 2017-12-26T12:17:44+00:00 | Q20044128 | 000034652-01 | STEPHEN | TOROK | ORTHO FOOT & ANKLE CNTR | 949420 | JUSTIN R | HUDSON | 1487649000 | ORTHO FOOT & ANKLE CNTR | 938451 | 1659364503 | ORTHO FOOT & ANKLE CNTR INC | 1659364503 | Radiology (HH) | OP RAD | Pre-Service | PRE |  | ORTHO FOOT & ANKLE CNTR INC | 12262017 | Approved | MediGold Classic Preferred | HealthHelp | Medical Criteria Met | Outpatient | 12262017 | 01252018 | Expedited |  |  |  |  |  |  |  |  |  |  |  | Pre-Service | Approved | X171226008 | M722 | Plantar fascial fibromatosis | ICD10 | 12262017 | 73718 | MRI LOWER EXTREMITY W/O DYE | CPT | 1 | 1 | Approved | 31 | CPT | C4 |  |  |  |  |  | 0 |
+
+
+Saving Row 1 Info [nil, 43088.526666666665, nil, 65207.0, "HAZEL", "CURTIS", "FAIRFIELD HLTHCARE PROFS", 902681, "JOHN A", "IRETON", 1821087610.0, "REHAB MEDICAL OF COLUMBUS", 914581, 1851320774.0, "REHAB MEDICAL OF COLUMBUS", 1851320774.0, "DME", "DME", "Pre-Service", "PRE", nil, "REHAB MEDICAL OF COLUMBUS", 43095.0, "Approved", "MediGold Classic Preferred", "Fax", "Medical Criteria Met", "Outpatient", 43088.0, 43484.0, "Standard", nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil]
+
+Processing New Row [nil, "Auth Type", "Auth Status", "Auth Number", "Diagnosis Code", "Diagnosis", "Diagnosis Type", "Auth Modified Date"]
+Initial Row Type Indicator = New Auth
+Row[2] = Auth Status
+Revised Row Type Indicator = Auth Status
+Just wrote entire row 1
+["12192017", #<DateTime: 2017-12-19T12:38:24+00:00 ((2458107j,45504s,0n),+0s,2299161j)>, nil, "000065207-01", "HAZEL", "CURTIS", "FAIRFIELD HLTHCARE PROFS", "902681", "JOHN A", "IRETON", "1821087610", "REHAB MEDICAL OF COLUMBUS", "914581", "1851320774", "REHAB MEDICAL OF COLUMBUS", "1851320774", "DME", "DME", "Pre-Service", "PRE", nil, "REHAB MEDICAL OF COLUMBUS", "12262017", "Approved", "MediGold Classic Preferred", "Fax", "Medical Criteria Met", "Outpatient", "12192017", "01192019", "Standard", nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil]
+
+
+Processing New Row [nil, "Pre-Service", "Approved", "X171219135", "G8310", "Monoplegia of lower limb affecting unspecified side", "ICD10", 43095.0]
+Initial Row Type Indicator = Auth Status
+Row[2] = Approved
+Revised Row Type Indicator = Auth Status Detail
+Saving Row 2 Info [nil, "Pre-Service", "Approved", "X171219135", "G8310", "Monoplegia of lower limb affecting unspecified side", "ICD10", 43095.0]
+
+Processing New Row [nil, nil, "Service Code", "Service Description", "Service Type", "Qty Appr", "Qty Req'd", "Determination", "Auth Approval Days", "Type", "Type Code", nil, nil]
+Initial Row Type Indicator = Auth Status Detail
+Row[2] = Service Code
+Revised Row Type Indicator = Service Code
+Just wrote entire row 2
+["Pre-Service", "Approved", "X171219135", "G8310", "Monoplegia of lower limb affecting unspecified side", "ICD10", "12262017"]
+
+
+Processing New Row [nil, nil, "K0821", "PWC gp 2 std port cap chair", "HCPCS", 1.0, 1.0, "Approved", 397.0, "HCPCS", "HC", nil, nil]
+Initial Row Type Indicator = Service Code
+Row[2] = K0821
+Revised Row Type Indicator = Service Code Detail
+Saving Row 3 Info [nil, nil, "K0821", "PWC gp 2 std port cap chair", "HCPCS", 1.0, 1.0, "Approved", 397.0, "HCPCS", "HC", nil, nil]
+
+Processing New Row [nil, nil, "E2365", "POWER WHEELCHAIR ACCESSORY, U-1 SEALED LEAD ACID BATTERY, EACH (E.G. GEL", "HCPCS", 2.0, 2.0, "Approved", 397.0, "HCPCS", "HC", nil, nil]
+Initial Row Type Indicator = Service Code Detail
+Row[2] = E2365
+Second Detail Record
+Revised Row Type Indicator = Service Code Detail
+Saving Row 3 Info [nil, nil, "E2365", "POWER WHEELCHAIR ACCESSORY, U-1 SEALED LEAD ACID BATTERY, EACH (E.G. GEL", "HCPCS", 2.0, 2.0, "Approved", 397.0, "HCPCS", "HC", nil, nil]
+
+Processing New Row [nil, nil, "Note", nil, nil]
+Initial Row Type Indicator = Service Code Detail
+Row[2] = Note
+Revised Row Type Indicator = Note
+Just wrote entire row 3
+["K0821, E2365", "POWER WHEELCHAIR ACCESSORY, U-1 SEALED LEAD ACID BATTERY, EACH (E.G. GEL", "HCPCS", "1, 2", "1, 2", "Approved, Approved", "397, 397", "HCPCS", "HC"]
+
+
+Processing New Row [nil, "No child records to display.", nil, nil, nil]
+Initial Row Type Indicator = Note
+Row[2] = 
+Revised Row Type Indicator = Note Detail
+Saving Row 4 Info [nil, "No child records to display.", nil, nil, nil]
+
+Processing New Row [nil, nil, "Care Date", "Actual Level of Care", "Approved Level of Care", "Determination", "Auth Approval Days", nil, nil]
+Initial Row Type Indicator = Note Detail
+Row[2] = Care Date
+Revised Row Type Indicator = Care Date
+Just wrote entire row 4 and ended Example
+[""]
+
+
+Processing New Row [nil, "No child records to display.", nil, nil, nil, nil, nil, nil, nil]
+Initial Row Type Indicator = Care Date
+Row[2] = 
+Revised Row Type Indicator = Care Date Detail
+Saving Row 5 Info [nil, "No child records to display.", nil, nil, nil, nil, nil, nil, nil]
+
+Processing New Row [nil, 43088.481990740744, nil, 51842.0, "GARRY", "BIRD", "OSU INTERNAL MED LLC", 935661, "JOHN C", "BYRD", 1770599664.0, "OSU HOSPITAL", 936446.0, 1447359997.0, "THE OH STATE UNIVERSITY HOSPITAL", 1447359997.0, "Out of Network Services", "OONS", "Pre-Service", "PRE", nil, "THE OH STATE UNIVERSITY HOSPITAL", 43095.0, "Approved", "MediGold Medical Only", "Fax", "Services Not Available In-Network", "Outpatient", 43090.0, 43180.0, "Standard", nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil]
+Initial Row Type Indicator = Care Date Detail
+Row[2] = 
+Revised Row Type Indicator = New Auth
+First Time Through = NO
+Just wrote entire row 5 and ended Example
+["", "", "", "", "0"]
+
+Just appended new example
+| 12192017 | 2017-12-19T12:38:24+00:00 |  | 000065207-01 | HAZEL | CURTIS | FAIRFIELD HLTHCARE PROFS | 902681 | JOHN A | IRETON | 1821087610 | REHAB MEDICAL OF COLUMBUS | 914581 | 1851320774 | REHAB MEDICAL OF COLUMBUS | 1851320774 | DME | DME | Pre-Service | PRE |  | REHAB MEDICAL OF COLUMBUS | 12262017 | Approved | MediGold Classic Preferred | Fax | Medical Criteria Met | Outpatient | 12192017 | 01192019 | Standard |  |  |  |  |  |  |  |  |  |  |  | Pre-Service | Approved | X171219135 | G8310 | Monoplegia of lower limb affecting unspecified side | ICD10 | 12262017 | K0821, E2365 | POWER WHEELCHAIR ACCESSORY, U-1 SEALED LEAD ACID BATTERY, EACH (E.G. GEL | HCPCS | 1, 2 | 1, 2 | Approved, Approved | 397, 397 | HCPCS | HC |  |  |  |  |  | 0 |
+
+
+Saving Row 1 Info [nil, 43088.481990740744, nil, 51842.0, "GARRY", "BIRD", "OSU INTERNAL MED LLC", 935661, "JOHN C", "BYRD", 1770599664.0, "OSU HOSPITAL", 936446.0, 1447359997.0, "THE OH STATE UNIVERSITY HOSPITAL", 1447359997.0, "Out of Network Services", "OONS", "Pre-Service", "PRE", nil, "THE OH STATE UNIVERSITY HOSPITAL", 43095.0, "Approved", "MediGold Medical Only", "Fax", "Services Not Available In-Network", "Outpatient", 43090.0, 43180.0, "Standard", nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil]
+
+Processing New Row [nil, "Auth Type", "Auth Status", "Auth Number", "Diagnosis Code", "Diagnosis", "Diagnosis Type", "Auth Modified Date"]
+Initial Row Type Indicator = New Auth
+Row[2] = Auth Status
+Revised Row Type Indicator = Auth Status
+Just wrote entire row 1
+["12192017", #<DateTime: 2017-12-19T11:34:04+00:00 ((2458107j,41644s,0n),+0s,2299161j)>, nil, "000051842-01", "GARRY", "BIRD", "OSU INTERNAL MED LLC", "935661", "JOHN C", "BYRD", "1770599664", "OSU HOSPITAL", "936446", "1447359997", "THE OH STATE UNIVERSITY HOSPITAL", "1447359997", "Out of Network Services", "OONS", "Pre-Service", "PRE", nil, "THE OH STATE UNIVERSITY HOSPITAL", "12262017", "Approved", "MediGold Medical Only", "Fax", "Services Not Available In-Network", "Outpatient", "12212017", "03212018", "Standard", nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil]
+
+
+Processing New Row [nil, "Pre-Service", "Approved", "X171219140", "C9100", "Acute lymphoblastic leukemia not having achieved remission", "ICD10", 43095.0]
+Initial Row Type Indicator = Auth Status
+Row[2] = Approved
+Revised Row Type Indicator = Auth Status Detail
+Saving Row 2 Info [nil, "Pre-Service", "Approved", "X171219140", "C9100", "Acute lymphoblastic leukemia not having achieved remission", "ICD10", 43095.0]
+
+Processing New Row [nil, nil, "Service Code", "Service Description", "Service Type", "Qty Appr", "Qty Req'd", "Determination", "Auth Approval Days", "Type", "Type Code", nil, nil]
+Initial Row Type Indicator = Auth Status Detail
+Row[2] = Service Code
+Revised Row Type Indicator = Service Code
+Just wrote entire row 2
+["Pre-Service", "Approved", "X171219140", "C9100", "Acute lymphoblastic leukemia not having achieved remission", "ICD10", "12262017"]
+
+
+Processing New Row [nil, nil, 99211.0, "OFFICE CALL - ESTABLISHED PATIENT", "CPT", 3.0, 3.0, "Approved", 91.0, "CPT", "C4", nil, nil]
+Initial Row Type Indicator = Service Code
+Row[2] = 99211.0
+Revised Row Type Indicator = Service Code Detail
+Saving Row 3 Info [nil, nil, 99211.0, "OFFICE CALL - ESTABLISHED PATIENT", "CPT", 3.0, 3.0, "Approved", 91.0, "CPT", "C4", nil, nil]
+
+Processing New Row [nil, nil, 99212.0, "OFFICE CALL - ESTABLISHED PATIENT", "CPT", 3.0, 3.0, "Approved", 91.0, "CPT", "C4", nil, nil]
+Initial Row Type Indicator = Service Code Detail
+Row[2] = 99212.0
+Second Detail Record
+Revised Row Type Indicator = Service Code Detail
+Saving Row 3 Info [nil, nil, 99212.0, "OFFICE CALL - ESTABLISHED PATIENT", "CPT", 3.0, 3.0, "Approved", 91.0, "CPT", "C4", nil, nil]
+
+Processing New Row [nil, nil, 99213.0, "OFFICE CALL - ESTABLISHED PATIENT", "CPT", 3.0, 3.0, "Approved", 91.0, "CPT", "C4", nil, nil]
+Initial Row Type Indicator = Service Code Detail
+Row[2] = 99213.0
+Second Detail Record
+Revised Row Type Indicator = Service Code Detail
+Saving Row 3 Info [nil, nil, 99213.0, "OFFICE CALL - ESTABLISHED PATIENT", "CPT", 3.0, 3.0, "Approved", 91.0, "CPT", "C4", nil, nil]
+
+Processing New Row [nil, nil, 99214.0, "OFFICE CALL - ESTABLISHED PATIENT", "CPT", 3.0, 3.0, "Approved", 91.0, "CPT", "C4", nil, nil]
+Initial Row Type Indicator = Service Code Detail
+Row[2] = 99214.0
+Second Detail Record
+Revised Row Type Indicator = Service Code Detail
+Saving Row 3 Info [nil, nil, 99214.0, "OFFICE CALL - ESTABLISHED PATIENT", "CPT", 3.0, 3.0, "Approved", 91.0, "CPT", "C4", nil, nil]
+
+Processing New Row [nil, nil, 99215.0, "OFFICE CALL - ESTABLISHED PATIENT", "CPT", 3.0, 3.0, "Approved", 91.0, "CPT", "C4", nil, nil]
+Initial Row Type Indicator = Service Code Detail
+Row[2] = 99215.0
+Second Detail Record
+Revised Row Type Indicator = Service Code Detail
+Saving Row 3 Info [nil, nil, 99215.0, "OFFICE CALL - ESTABLISHED PATIENT", "CPT", 3.0, 3.0, "Approved", 91.0, "CPT", "C4", nil, nil]
+
+Processing New Row [nil, nil, 36415.0, "ROUTINE VENIPUNCTURE FOR SPEC COL.", "CPT", 3.0, 3.0, "Approved", 91.0, "CPT", "C4", nil, nil]
+Initial Row Type Indicator = Service Code Detail
+Row[2] = 36415.0
+Second Detail Record
+Revised Row Type Indicator = Service Code Detail
+Saving Row 3 Info [nil, nil, 36415.0, "ROUTINE VENIPUNCTURE FOR SPEC COL.", "CPT", 3.0, 3.0, "Approved", 91.0, "CPT", "C4", nil, nil]
+
+Processing New Row [nil, nil, 85027.0, "AUTOMATED HEMOGRAM C PLATELET", "CPT", 3.0, 3.0, "Approved", 91.0, "CPT", "C4", nil, nil]
+Initial Row Type Indicator = Service Code Detail
+Row[2] = 85027.0
+Second Detail Record
+Revised Row Type Indicator = Service Code Detail
+Saving Row 3 Info [nil, nil, 85027.0, "AUTOMATED HEMOGRAM C PLATELET", "CPT", 3.0, 3.0, "Approved", 91.0, "CPT", "C4", nil, nil]
+
+Processing New Row [nil, nil, 83615.0, "LACTIC DEHYDROGENASE(LDH), U-V", "CPT", 3.0, 3.0, "Approved", 91.0, "CPT", "C4", nil, nil]
+Initial Row Type Indicator = Service Code Detail
+Row[2] = 83615.0
+Second Detail Record
+Revised Row Type Indicator = Service Code Detail
+Saving Row 3 Info [nil, nil, 83615.0, "LACTIC DEHYDROGENASE(LDH), U-V", "CPT", 3.0, 3.0, "Approved", 91.0, "CPT", "C4", nil, nil]
+
+Processing New Row [nil, nil, 82040.0, "ALBUMIN, BLOOD", "CPT", 3.0, 3.0, "Approved", 91.0, "CPT", "C4", nil, nil]
+Initial Row Type Indicator = Service Code Detail
+Row[2] = 82040.0
+Second Detail Record
+Revised Row Type Indicator = Service Code Detail
+Saving Row 3 Info [nil, nil, 82040.0, "ALBUMIN, BLOOD", "CPT", 3.0, 3.0, "Approved", 91.0, "CPT", "C4", nil, nil]
+
+Processing New Row [nil, nil, 84075.0, "PHOSPHATASE,ALKALINE,BLOOD", "CPT", 3.0, 3.0, "Approved", 91.0, "CPT", "C4", nil, nil]
+Initial Row Type Indicator = Service Code Detail
+Row[2] = 84075.0
+Second Detail Record
+Revised Row Type Indicator = Service Code Detail
+Saving Row 3 Info [nil, nil, 84075.0, "PHOSPHATASE,ALKALINE,BLOOD", "CPT", 3.0, 3.0, "Approved", 91.0, "CPT", "C4", nil, nil]
+
+Processing New Row [nil, nil, 84460.0, "SERUM GLUTANIC PYRUVIC TRANSAMINASE", "CPT", 3.0, 3.0, "Approved", 91.0, "CPT", "C4", nil, nil]
+Initial Row Type Indicator = Service Code Detail
+Row[2] = 84460.0
+Second Detail Record
+Revised Row Type Indicator = Service Code Detail
+Saving Row 3 Info [nil, nil, 84460.0, "SERUM GLUTANIC PYRUVIC TRANSAMINASE", "CPT", 3.0, 3.0, "Approved", 91.0, "CPT", "C4", nil, nil]
+
+Processing New Row [nil, nil, 84450.0, "TRANSAMINASE, SGOT, KINETIC U-V", "CPT", 3.0, 3.0, "Approved", 91.0, "CPT", "C4", nil, nil]
+Initial Row Type Indicator = Service Code Detail
+Row[2] = 84450.0
+Second Detail Record
+Revised Row Type Indicator = Service Code Detail
+Saving Row 3 Info [nil, nil, 84450.0, "TRANSAMINASE, SGOT, KINETIC U-V", "CPT", 3.0, 3.0, "Approved", 91.0, "CPT", "C4", nil, nil]
+
+Processing New Row [nil, nil, 82248.0, "BILIRUBIN, DIRECT", "CPT", 3.0, 3.0, "Approved", 91.0, "CPT", "C4", nil, nil]
+Initial Row Type Indicator = Service Code Detail
+Row[2] = 82248.0
+Second Detail Record
+Revised Row Type Indicator = Service Code Detail
+Saving Row 3 Info [nil, nil, 82248.0, "BILIRUBIN, DIRECT", "CPT", 3.0, 3.0, "Approved", 91.0, "CPT", "C4", nil, nil]
+
+Processing New Row [nil, nil, 82247.0, "BILIRUBIN, TOTAL", "CPT", 3.0, 3.0, "Approved", 91.0, "CPT", "C4", nil, nil]
+Initial Row Type Indicator = Service Code Detail
+Row[2] = 82247.0
+Second Detail Record
+Revised Row Type Indicator = Service Code Detail
+Saving Row 3 Info [nil, nil, 82247.0, "BILIRUBIN, TOTAL", "CPT", 3.0, 3.0, "Approved", 91.0, "CPT", "C4", nil, nil]
+
+Processing New Row [nil, nil, 84155.0, "PROTEIN, TOTAL, SERUM, CHEMICAL", "CPT", 3.0, 3.0, "Approved", 91.0, "CPT", "C4", nil, nil]
+Initial Row Type Indicator = Service Code Detail
+Row[2] = 84155.0
+Second Detail Record
+Revised Row Type Indicator = Service Code Detail
+Saving Row 3 Info [nil, nil, 84155.0, "PROTEIN, TOTAL, SERUM, CHEMICAL", "CPT", 3.0, 3.0, "Approved", 91.0, "CPT", "C4", nil, nil]
+
+Processing New Row [nil, nil, 82565.0, "CREATININE,BLOOD", "CPT", 3.0, 3.0, "Approved", 91.0, "CPT", "C4", nil, nil]
+Initial Row Type Indicator = Service Code Detail
+Row[2] = 82565.0
+Second Detail Record
+Revised Row Type Indicator = Service Code Detail
+Saving Row 3 Info [nil, nil, 82565.0, "CREATININE,BLOOD", "CPT", 3.0, 3.0, "Approved", 91.0, "CPT", "C4", nil, nil]
+
+Processing New Row [nil, nil, 84520.0, "UREA(BUN)", "CPT", 3.0, 3.0, "Approved", 91.0, "CPT", "C4", nil, nil]
+Initial Row Type Indicator = Service Code Detail
+Row[2] = 84520.0
+Second Detail Record
+Revised Row Type Indicator = Service Code Detail
+Saving Row 3 Info [nil, nil, 84520.0, "UREA(BUN)", "CPT", 3.0, 3.0, "Approved", 91.0, "CPT", "C4", nil, nil]
+
+Processing New Row [nil, nil, 82374.0, "CO2 COMBINING POWER OR CONTENT", "CPT", 3.0, 3.0, "Approved", 91.0, "CPT", "C4", nil, nil]
+Initial Row Type Indicator = Service Code Detail
+Row[2] = 82374.0
+Second Detail Record
+Revised Row Type Indicator = Service Code Detail
+Saving Row 3 Info [nil, nil, 82374.0, "CO2 COMBINING POWER OR CONTENT", "CPT", 3.0, 3.0, "Approved", 91.0, "CPT", "C4", nil, nil]
+
+Processing New Row [nil, nil, 82435.0, "CHLORIDES; BLOOD (SPECIFY CHEMICAL OR ELECTROMETRIC)", "CPT", 3.0, 3.0, "Approved", 91.0, "CPT", "C4", nil, nil]
+Initial Row Type Indicator = Service Code Detail
+Row[2] = 82435.0
+Second Detail Record
+Revised Row Type Indicator = Service Code Detail
+Saving Row 3 Info [nil, nil, 82435.0, "CHLORIDES; BLOOD (SPECIFY CHEMICAL OR ELECTROMETRIC)", "CPT", 3.0, 3.0, "Approved", 91.0, "CPT", "C4", nil, nil]
+
+Processing New Row [nil, nil, 84295.0, "SODIUM, BLOOD", "CPT", 3.0, 3.0, "Approved", 91.0, "CPT", "C4", nil, nil]
+Initial Row Type Indicator = Service Code Detail
+Row[2] = 84295.0
+Second Detail Record
+Revised Row Type Indicator = Service Code Detail
+Saving Row 3 Info [nil, nil, 84295.0, "SODIUM, BLOOD", "CPT", 3.0, 3.0, "Approved", 91.0, "CPT", "C4", nil, nil]
+
+Processing New Row [nil, nil, 84132.0, "POTASSIUM,BLOOD", "CPT", 3.0, 3.0, "Approved", 91.0, "CPT", "C4", nil, nil]
+Initial Row Type Indicator = Service Code Detail
+Row[2] = 84132.0
+Second Detail Record
+Revised Row Type Indicator = Service Code Detail
+Saving Row 3 Info [nil, nil, 84132.0, "POTASSIUM,BLOOD", "CPT", 3.0, 3.0, "Approved", 91.0, "CPT", "C4", nil, nil]
+
+Processing New Row [nil, nil, 82947.0, "GLUCOSE; EXC. UA (EG BLD, SP FLD)", "CPT", 3.0, 3.0, "Approved", 91.0, "CPT", "C4", nil, nil]
+Initial Row Type Indicator = Service Code Detail
+Row[2] = 82947.0
+Second Detail Record
+Revised Row Type Indicator = Service Code Detail
+Saving Row 3 Info [nil, nil, 82947.0, "GLUCOSE; EXC. UA (EG BLD, SP FLD)", "CPT", 3.0, 3.0, "Approved", 91.0, "CPT", "C4", nil, nil]
+
+Processing New Row [nil, nil, 84550.0, "URIC ACID,BLOOD", "CPT", 3.0, 3.0, "Approved", 91.0, "CPT", "C4", nil, nil]
+Initial Row Type Indicator = Service Code Detail
+Row[2] = 84550.0
+Second Detail Record
+Revised Row Type Indicator = Service Code Detail
+Saving Row 3 Info [nil, nil, 84550.0, "URIC ACID,BLOOD", "CPT", 3.0, 3.0, "Approved", 91.0, "CPT", "C4", nil, nil]
+
+Processing New Row [nil, nil, 85730.0, "PARTIAL THROMBOPLASTIN TIME (PTT)", "CPT", 3.0, 3.0, "Approved", 91.0, "CPT", "C4", nil, nil]
+Initial Row Type Indicator = Service Code Detail
+Row[2] = 85730.0
+Second Detail Record
+Revised Row Type Indicator = Service Code Detail
+Saving Row 3 Info [nil, nil, 85730.0, "PARTIAL THROMBOPLASTIN TIME (PTT)", "CPT", 3.0, 3.0, "Approved", 91.0, "CPT", "C4", nil, nil]
+
+Processing New Row [nil, nil, 85610.0, "PROTHROMBIN TIME", "CPT", 3.0, 3.0, "Approved", 91.0, "CPT", "C4", nil, nil]
+Initial Row Type Indicator = Service Code Detail
+Row[2] = 85610.0
+Second Detail Record
+Revised Row Type Indicator = Service Code Detail
+Saving Row 3 Info [nil, nil, 85610.0, "PROTHROMBIN TIME", "CPT", 3.0, 3.0, "Approved", 91.0, "CPT", "C4", nil, nil]
+
+Processing New Row [nil, nil, 83735.0, "MAGNESIUM, BLOOD, CHEMICAL", "CPT", 3.0, 3.0, "Approved", 91.0, "CPT", "C4", nil, nil]
+Initial Row Type Indicator = Service Code Detail
+Row[2] = 83735.0
+Second Detail Record
+Revised Row Type Indicator = Service Code Detail
+Saving Row 3 Info [nil, nil, 83735.0, "MAGNESIUM, BLOOD, CHEMICAL", "CPT", 3.0, 3.0, "Approved", 91.0, "CPT", "C4", nil, nil]
+
+Processing New Row [nil, nil, "G0463", "HOSPITAL OUTPT CLINIC VISIT", "HCPCS", 3.0, 3.0, "Approved", 91.0, "HCPCS", "HC", nil, nil]
+Initial Row Type Indicator = Service Code Detail
+Row[2] = G0463
+Second Detail Record
+Revised Row Type Indicator = Service Code Detail
+Saving Row 3 Info [nil, nil, "G0463", "HOSPITAL OUTPT CLINIC VISIT", "HCPCS", 3.0, 3.0, "Approved", 91.0, "HCPCS", "HC", nil, nil]
+
+Processing New Row [nil, nil, "Note", nil, nil]
+Initial Row Type Indicator = Service Code Detail
+Row[2] = Note
+Revised Row Type Indicator = Note
+Just wrote entire row 3
+["99211, 99212, 99213, 99214, 99215, 36415, 85027, 83615, 82040, 84075, 84460, 84450, 82248, 82247, 84155, 82565, 84520, 82374, 82435, 84295, 84132, 82947, 84550, 85730, 85610, 83735, G0463", "HOSPITAL OUTPT CLINIC VISIT", "HCPCS", "3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3", "3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3", "Approved, Approved, Approved, Approved, Approved, Approved, Approved, Approved, Approved, Approved, Approved, Approved, Approved, Approved, Approved, Approved, Approved, Approved, Approved, Approved, Approved, Approved, Approved, Approved, Approved, Approved, Approved", "91, 91, 91, 91, 91, 91, 91, 91, 91, 91, 91, 91, 91, 91, 91, 91, 91, 91, 91, 91, 91, 91, 91, 91, 91, 91, 91", "HCPCS", "HC"]
+
+
+Processing New Row [nil, "No child records to display.", nil, nil, nil]
+Initial Row Type Indicator = Note
+Row[2] = 
+Revised Row Type Indicator = Note Detail
+Saving Row 4 Info [nil, "No child records to display.", nil, nil, nil]
+
+Processing New Row [nil, nil, "Care Date", "Actual Level of Care", "Approved Level of Care", "Determination", "Auth Approval Days", nil, nil]
+Initial Row Type Indicator = Note Detail
+Row[2] = Care Date
+Revised Row Type Indicator = Care Date
+Just wrote entire row 4 and ended Example
+[""]
+
+
+Processing New Row [nil, "No child records to display.", nil, nil, nil, nil, nil, nil, nil]
+Initial Row Type Indicator = Care Date
+Row[2] = 
+Revised Row Type Indicator = Care Date Detail
+Saving Row 5 Info [nil, "No child records to display.", nil, nil, nil, nil, nil, nil, nil]
+
+Processing New Row [nil, 43088.589837962965, nil, 27430.0, "SALLY", "SALT", "CLEVELAND CLINIC FNDN", 943517, "SUMMER", "BUCKENMEYER", 1841668803.0, "CLEVELAND CLINIC FNDN", 936488.0, 1679525919.0, "CLEVELAND CLINIC FNDN", 1679525919.0, "Out of Network Services", "OONS", "Pre-Service", "PRE", nil, "CLEVELAND CLINIC FNDN", 43095.0, "Approved", "MediGold Classic Preferred", "Fax", "Services Not Available In-Network", "Outpatient", 43118.0, 43149.0, "Standard", nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil]
+Initial Row Type Indicator = Care Date Detail
+Row[2] = 
+Revised Row Type Indicator = New Auth
+First Time Through = NO
+Just wrote entire row 5 and ended Example
+["", "", "", "", "0"]
+
+Just appended new example
+| 12192017 | 2017-12-19T11:34:04+00:00 |  | 000051842-01 | GARRY | BIRD | OSU INTERNAL MED LLC | 935661 | JOHN C | BYRD | 1770599664 | OSU HOSPITAL | 936446 | 1447359997 | THE OH STATE UNIVERSITY HOSPITAL | 1447359997 | Out of Network Services | OONS | Pre-Service | PRE |  | THE OH STATE UNIVERSITY HOSPITAL | 12262017 | Approved | MediGold Medical Only | Fax | Services Not Available In-Network | Outpatient | 12212017 | 03212018 | Standard |  |  |  |  |  |  |  |  |  |  |  | Pre-Service | Approved | X171219140 | C9100 | Acute lymphoblastic leukemia not having achieved remission | ICD10 | 12262017 | 99211, 99212, 99213, 99214, 99215, 36415, 85027, 83615, 82040, 84075, 84460, 84450, 82248, 82247, 84155, 82565, 84520, 82374, 82435, 84295, 84132, 82947, 84550, 85730, 85610, 83735, G0463 | HOSPITAL OUTPT CLINIC VISIT | HCPCS | 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3 | 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3 | Approved, Approved, Approved, Approved, Approved, Approved, Approved, Approved, Approved, Approved, Approved, Approved, Approved, Approved, Approved, Approved, Approved, Approved, Approved, Approved, Approved, Approved, Approved, Approved, Approved, Approved, Approved | 91, 91, 91, 91, 91, 91, 91, 91, 91, 91, 91, 91, 91, 91, 91, 91, 91, 91, 91, 91, 91, 91, 91, 91, 91, 91, 91 | HCPCS | HC |  |  |  |  |  | 0 |
+
+
+Saving Row 1 Info [nil, 43088.589837962965, nil, 27430.0, "SALLY", "SALT", "CLEVELAND CLINIC FNDN", 943517, "SUMMER", "BUCKENMEYER", 1841668803.0, "CLEVELAND CLINIC FNDN", 936488.0, 1679525919.0, "CLEVELAND CLINIC FNDN", 1679525919.0, "Out of Network Services", "OONS", "Pre-Service", "PRE", nil, "CLEVELAND CLINIC FNDN", 43095.0, "Approved", "MediGold Classic Preferred", "Fax", "Services Not Available In-Network", "Outpatient", 43118.0, 43149.0, "Standard", nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil]
+
+Processing New Row [nil, "Auth Type", "Auth Status", "Auth Number", "Diagnosis Code", "Diagnosis", "Diagnosis Type", "Auth Modified Date"]
+Initial Row Type Indicator = New Auth
+Row[2] = Auth Status
+Revised Row Type Indicator = Auth Status
+Just wrote entire row 1
+["12192017", #<DateTime: 2017-12-19T14:09:22+00:00 ((2458107j,50962s,0n),+0s,2299161j)>, nil, "000027430-01", "SALLY", "SALT", "CLEVELAND CLINIC FNDN", "943517", "SUMMER", "BUCKENMEYER", "1841668803", "CLEVELAND CLINIC FNDN", "936488", "1679525919", "CLEVELAND CLINIC FNDN", "1679525919", "Out of Network Services", "OONS", "Pre-Service", "PRE", nil, "CLEVELAND CLINIC FNDN", "12262017", "Approved", "MediGold Classic Preferred", "Fax", "Services Not Available In-Network", "Outpatient", "01182018", "02182018", "Standard", nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil]
+
+
+Processing New Row [nil, "Pre-Service", "Approved", "X171219148", "K449", "Diaphragmatic hernia without obstruction or gangrene", "ICD10", 43095.0]
+Initial Row Type Indicator = Auth Status
+Row[2] = Approved
+Revised Row Type Indicator = Auth Status Detail
+Saving Row 2 Info [nil, "Pre-Service", "Approved", "X171219148", "K449", "Diaphragmatic hernia without obstruction or gangrene", "ICD10", 43095.0]
+
+Processing New Row [nil, nil, "Service Code", "Service Description", "Service Type", "Qty Appr", "Qty Req'd", "Determination", "Auth Approval Days", "Type", "Type Code", nil, nil]
+Initial Row Type Indicator = Auth Status Detail
+Row[2] = Service Code
+Revised Row Type Indicator = Service Code
+Just wrote entire row 2
+["Pre-Service", "Approved", "X171219148", "K449", "Diaphragmatic hernia without obstruction or gangrene", "ICD10", "12262017"]
+
+
+Processing New Row [nil, nil, 91034.0, "GASTROESOPHAGEAL REFLUX TEST", "CPT", 1.0, 1.0, "Approved", 32.0, "CPT", "C4", nil, nil]
+Initial Row Type Indicator = Service Code
+Row[2] = 91034.0
+Revised Row Type Indicator = Service Code Detail
+Saving Row 3 Info [nil, nil, 91034.0, "GASTROESOPHAGEAL REFLUX TEST", "CPT", 1.0, 1.0, "Approved", 32.0, "CPT", "C4", nil, nil]
+
+Processing New Row [nil, nil, 91010.0, "ESOPHAGEAL MOTILITY STUDY", "CPT", 1.0, 1.0, "Approved", 32.0, "CPT", "C4", nil, nil]
+Initial Row Type Indicator = Service Code Detail
+Row[2] = 91010.0
+Second Detail Record
+Revised Row Type Indicator = Service Code Detail
+Saving Row 3 Info [nil, nil, 91010.0, "ESOPHAGEAL MOTILITY STUDY", "CPT", 1.0, 1.0, "Approved", 32.0, "CPT", "C4", nil, nil]
+
+Processing New Row [nil, nil, 74220.0, "X-RAY ESOPHAGUS", "CPT", 1.0, 1.0, "Approved", 32.0, "CPT", "C4", nil, nil]
+Initial Row Type Indicator = Service Code Detail
+Row[2] = 74220.0
+Second Detail Record
+Revised Row Type Indicator = Service Code Detail
+Saving Row 3 Info [nil, nil, 74220.0, "X-RAY ESOPHAGUS", "CPT", 1.0, 1.0, "Approved", 32.0, "CPT", "C4", nil, nil]
+
+Processing New Row [nil, nil, 71020.0, "CHEST 2 VIEWS, POSTEROANT. & LATRL", "CPT", 1.0, 1.0, "Approved", 32.0, "CPT", "C4", nil, nil]
+Initial Row Type Indicator = Service Code Detail
+Row[2] = 71020.0
+Second Detail Record
+Revised Row Type Indicator = Service Code Detail
+Saving Row 3 Info [nil, nil, 71020.0, "CHEST 2 VIEWS, POSTEROANT. & LATRL", "CPT", 1.0, 1.0, "Approved", 32.0, "CPT", "C4", nil, nil]
+
+Processing New Row [nil, nil, "G0463", "HOSPITAL OUTPT CLINIC VISIT", "HCPCS", 3.0, 3.0, "Approved", 32.0, "HCPCS", "HC", nil, nil]
+Initial Row Type Indicator = Service Code Detail
+Row[2] = G0463
+Second Detail Record
+Revised Row Type Indicator = Service Code Detail
+Saving Row 3 Info [nil, nil, "G0463", "HOSPITAL OUTPT CLINIC VISIT", "HCPCS", 3.0, 3.0, "Approved", 32.0, "HCPCS", "HC", nil, nil]
+
+Processing New Row [nil, nil, "Note", nil, nil]
+Initial Row Type Indicator = Service Code Detail
+Row[2] = Note
+Revised Row Type Indicator = Note
+Just wrote entire row 3
+["91034, 91010, 74220, 71020, G0463", "HOSPITAL OUTPT CLINIC VISIT", "HCPCS", "1, 1, 1, 1, 3", "1, 1, 1, 1, 3", "Approved, Approved, Approved, Approved, Approved", "32, 32, 32, 32, 32", "HCPCS", "HC"]
+
+
+Processing New Row [nil, "No child records to display.", nil, nil, nil]
+Initial Row Type Indicator = Note
+Row[2] = 
+Revised Row Type Indicator = Note Detail
+Saving Row 4 Info [nil, "No child records to display.", nil, nil, nil]
+
+Processing New Row [nil, nil, "Care Date", "Actual Level of Care", "Approved Level of Care", "Determination", "Auth Approval Days", nil, nil]
+Initial Row Type Indicator = Note Detail
+Row[2] = Care Date
+Revised Row Type Indicator = Care Date
+Just wrote entire row 4 and ended Example
+[""]
+
+
+Processing New Row [nil, "No child records to display.", nil, nil, nil, nil, nil, nil, nil]
+Initial Row Type Indicator = Care Date
+Row[2] = 
+Revised Row Type Indicator = Care Date Detail
+Saving Row 5 Info [nil, "No child records to display.", nil, nil, nil, nil, nil, nil, nil]
+
+Processing New Row [nil, 43087.44305555556, "Q20001713", 119929.0, "Diane", "Ward", "MOUNT CARMEL HLTH PRVDRS", 934904.0, "LORI A", "SULLIVAN", 1417028697.0, "DOCTORS HOSPITAL WEST", 936474.0, nil, "DOCTORS HOSPITAL WEST", nil, "Radiology (HH)", "OP RAD", "Pre-Service", "PRE", nil, "DOCTORS HOSPITAL WEST", 43095.0, "Denied", "MediGold Essential Care", "HealthHelp", "Services Available In-Network", "Outpatient", nil, nil, "Standard", nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil]
+Initial Row Type Indicator = Care Date Detail
+Row[2] = Q20001713
+Revised Row Type Indicator = New Auth
+First Time Through = NO
+Just wrote entire row 5 and ended Example
+["", "", "", "", "0"]
+
+Just appended new example
+| 12192017 | 2017-12-19T14:09:22+00:00 |  | 000027430-01 | SALLY | SALT | CLEVELAND CLINIC FNDN | 943517 | SUMMER | BUCKENMEYER | 1841668803 | CLEVELAND CLINIC FNDN | 936488 | 1679525919 | CLEVELAND CLINIC FNDN | 1679525919 | Out of Network Services | OONS | Pre-Service | PRE |  | CLEVELAND CLINIC FNDN | 12262017 | Approved | MediGold Classic Preferred | Fax | Services Not Available In-Network | Outpatient | 01182018 | 02182018 | Standard |  |  |  |  |  |  |  |  |  |  |  | Pre-Service | Approved | X171219148 | K449 | Diaphragmatic hernia without obstruction or gangrene | ICD10 | 12262017 | 91034, 91010, 74220, 71020, G0463 | HOSPITAL OUTPT CLINIC VISIT | HCPCS | 1, 1, 1, 1, 3 | 1, 1, 1, 1, 3 | Approved, Approved, Approved, Approved, Approved | 32, 32, 32, 32, 32 | HCPCS | HC |  |  |  |  |  | 0 |
+
+
+Saving Row 1 Info [nil, 43087.44305555556, "Q20001713", 119929.0, "Diane", "Ward", "MOUNT CARMEL HLTH PRVDRS", 934904.0, "LORI A", "SULLIVAN", 1417028697.0, "DOCTORS HOSPITAL WEST", 936474.0, nil, "DOCTORS HOSPITAL WEST", nil, "Radiology (HH)", "OP RAD", "Pre-Service", "PRE", nil, "DOCTORS HOSPITAL WEST", 43095.0, "Denied", "MediGold Essential Care", "HealthHelp", "Services Available In-Network", "Outpatient", nil, nil, "Standard", nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil]
+
+Processing New Row [nil, "Auth Type", "Auth Status", "Auth Number", "Diagnosis Code", "Diagnosis", "Diagnosis Type", "Auth Modified Date"]
+Initial Row Type Indicator = New Auth
+Row[2] = Auth Status
+Revised Row Type Indicator = Auth Status
+Just wrote entire row 1
+["12182017", #<DateTime: 2017-12-18T10:38:00+00:00 ((2458106j,38280s,0n),+0s,2299161j)>, "Q20001713", "000119929-01", "Diane", "Ward", "MOUNT CARMEL HLTH PRVDRS", "934904", "LORI A", "SULLIVAN", "1417028697", "DOCTORS HOSPITAL WEST", "936474", "0", "DOCTORS HOSPITAL WEST", "0", "Radiology (HH)", "OP RAD", "Pre-Service", "PRE", nil, "DOCTORS HOSPITAL WEST", "12262017", "Denied", "MediGold Essential Care", "HealthHelp", "Services Available In-Network", "Outpatient", "12262017", "12272017", "Standard", nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil]
+
+
+Processing New Row [nil, "Pre-Service", "Denied", "X171219146", "Z122", "Encntr screen for malignant neoplasm of respiratory organs", "ICD10", 43095.0]
+Initial Row Type Indicator = Auth Status
+Row[2] = Denied
+Revised Row Type Indicator = Auth Status Detail
+Saving Row 2 Info [nil, "Pre-Service", "Denied", "X171219146", "Z122", "Encntr screen for malignant neoplasm of respiratory organs", "ICD10", 43095.0]
+
+Processing New Row [nil, nil, "Service Code", "Service Description", "Service Type", "Qty Appr", "Qty Req'd", "Determination", "Auth Approval Days", "Type", "Type Code", nil, nil]
+Initial Row Type Indicator = Auth Status Detail
+Row[2] = Service Code
+Revised Row Type Indicator = Service Code
+Just wrote entire row 2
+["Pre-Service", "Denied", "X171219146", "Z122", "Encntr screen for malignant neoplasm of respiratory organs", "ICD10", "12262017"]
+
+
+Processing New Row [nil, nil, "G0297", "LDCT FOR LUNG CA SCREEN", "HCPCS", 0.0, 1.0, "Denied", nil, "HCPCS", "HC", nil, nil]
+Initial Row Type Indicator = Service Code
+Row[2] = G0297
+Revised Row Type Indicator = Service Code Detail
+Saving Row 3 Info [nil, nil, "G0297", "LDCT FOR LUNG CA SCREEN", "HCPCS", 0.0, 1.0, "Denied", nil, "HCPCS", "HC", nil, nil]
+
+Processing New Row [nil, nil, "Note", nil, nil]
+Initial Row Type Indicator = Service Code Detail
+Row[2] = Note
+Revised Row Type Indicator = Note
+Just wrote entire row 3
+["G0297", "LDCT FOR LUNG CA SCREEN", "HCPCS", "0", "1", "Denied", "0", "HCPCS", "HC"]
+
+
+Processing New Row [nil, nil, "Letter is written in appropriate language with no abbreviations and is therefore approved.", nil, nil]
+Initial Row Type Indicator = Note
+Row[2] = Letter is written in appropriate language with no abbreviations and is therefore approved.
+Revised Row Type Indicator = Note Detail
+Saving Row 4 Info [nil, nil, "Letter is written in appropriate language with no abbreviations and is therefore approved.", nil, nil]
+
+Processing New Row [nil, nil, "Care Date", "Actual Level of Care", "Approved Level of Care", "Determination", "Auth Approval Days", nil, nil]
+Initial Row Type Indicator = Note Detail
+Row[2] = Care Date
+Revised Row Type Indicator = Care Date
+Just wrote entire row 4 and ended Example
+["Letter is written in appropriate language with no abbreviations and is therefore approved."]
+
+
+Processing New Row [nil, "No child records to display.", nil, nil, nil, nil, nil, nil, nil]
+Initial Row Type Indicator = Care Date
+Row[2] = 
+Revised Row Type Indicator = Care Date Detail
+Saving Row 5 Info [nil, "No child records to display.", nil, nil, nil, nil, nil, nil, nil]
+
+Processing New Row [nil, 43091.38055555556, "Q20037385", 27780.0, "PHILLIP", "ALSPACH", "OSU INTERNAL MED LLC", 935943, "MANISHA H", "SHAH", 1679581896.0, "JAMES CANCER HOSPITAL", 936501, 1124127683.0, "JAMES CANCER HOSPITAL", 1124127683.0, "Radiology (HH)", "OP RAD", "Pre-Service", "PRE", nil, "JAMES CANCER HOSPITAL", 43095.0, "Approved", "MediGold Classic Preferred", "HealthHelp", "Medical Criteria Met", "Outpatient", 43091.0, 43121.0, "Standard", nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil]
+Initial Row Type Indicator = Care Date Detail
+Row[2] = Q20037385
+Revised Row Type Indicator = New Auth
+First Time Through = NO
+Just wrote entire row 5 and ended Example
+["", "", "", "", "0"]
+
+Just appended new example
+| 12182017 | 2017-12-18T10:38:00+00:00 | Q20001713 | 000119929-01 | Diane | Ward | MOUNT CARMEL HLTH PRVDRS | 934904 | LORI A | SULLIVAN | 1417028697 | DOCTORS HOSPITAL WEST | 936474 | 0 | DOCTORS HOSPITAL WEST | 0 | Radiology (HH) | OP RAD | Pre-Service | PRE |  | DOCTORS HOSPITAL WEST | 12262017 | Denied | MediGold Essential Care | HealthHelp | Services Available In-Network | Outpatient | 12262017 | 12272017 | Standard |  |  |  |  |  |  |  |  |  |  |  | Pre-Service | Denied | X171219146 | Z122 | Encntr screen for malignant neoplasm of respiratory organs | ICD10 | 12262017 | G0297 | LDCT FOR LUNG CA SCREEN | HCPCS | 0 | 1 | Denied | 0 | HCPCS | HC | Letter is written in appropriate language with no abbreviations and is therefore approved. |  |  |  |  | 0 |
+
+
+Saving Row 1 Info [nil, 43091.38055555556, "Q20037385", 27780.0, "PHILLIP", "ALSPACH", "OSU INTERNAL MED LLC", 935943, "MANISHA H", "SHAH", 1679581896.0, "JAMES CANCER HOSPITAL", 936501, 1124127683.0, "JAMES CANCER HOSPITAL", 1124127683.0, "Radiology (HH)", "OP RAD", "Pre-Service", "PRE", nil, "JAMES CANCER HOSPITAL", 43095.0, "Approved", "MediGold Classic Preferred", "HealthHelp", "Medical Criteria Met", "Outpatient", 43091.0, 43121.0, "Standard", nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil]
+
+Processing New Row [nil, "Auth Type", "Auth Status", "Auth Number", "Diagnosis Code", "Diagnosis", "Diagnosis Type", "Auth Modified Date"]
+Initial Row Type Indicator = New Auth
+Row[2] = Auth Status
+Revised Row Type Indicator = Auth Status
+Just wrote entire row 1
+["12222017", #<DateTime: 2017-12-22T09:08:00+00:00 ((2458110j,32880s,0n),+0s,2299161j)>, "Q20037385", "000027780-01", "PHILLIP", "ALSPACH", "OSU INTERNAL MED LLC", "935943", "MANISHA H", "SHAH", "1679581896", "JAMES CANCER HOSPITAL", "936501", "1124127683", "JAMES CANCER HOSPITAL", "1124127683", "Radiology (HH)", "OP RAD", "Pre-Service", "PRE", nil, "JAMES CANCER HOSPITAL", "12262017", "Approved", "MediGold Classic Preferred", "HealthHelp", "Medical Criteria Met", "Outpatient", "12222017", "01212018", "Standard", nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil]
+
+
+Processing New Row [nil, "Pre-Service", "Approved", "X171226011", "C73", "Malignant neoplasm of thyroid gland", "ICD10", 43095.0]
+Initial Row Type Indicator = Auth Status
+Row[2] = Approved
+Revised Row Type Indicator = Auth Status Detail
+Saving Row 2 Info [nil, "Pre-Service", "Approved", "X171226011", "C73", "Malignant neoplasm of thyroid gland", "ICD10", 43095.0]
+
+Processing New Row [nil, nil, "Service Code", "Service Description", "Service Type", "Qty Appr", "Qty Req'd", "Determination", "Auth Approval Days", "Type", "Type Code", nil, nil]
+Initial Row Type Indicator = Auth Status Detail
+Row[2] = Service Code
+Revised Row Type Indicator = Service Code
+Just wrote entire row 2
+["Pre-Service", "Approved", "X171226011", "C73", "Malignant neoplasm of thyroid gland", "ICD10", "12262017"]
+
+
+Processing New Row [nil, nil, 71250.0, "CAT SCAN THORAX WO IV CONTRAST", "CPT", 1.0, 1.0, "Approved", 31.0, "CPT", "C4", nil, nil]
+Initial Row Type Indicator = Service Code
+Row[2] = 71250.0
+Revised Row Type Indicator = Service Code Detail
+Saving Row 3 Info [nil, nil, 71250.0, "CAT SCAN THORAX WO IV CONTRAST", "CPT", 1.0, 1.0, "Approved", 31.0, "CPT", "C4", nil, nil]
+
+Processing New Row [nil, nil, "Note", nil, nil]
+Initial Row Type Indicator = Service Code Detail
+Row[2] = Note
+Revised Row Type Indicator = Note
+Just wrote entire row 3
+["71250", "CAT SCAN THORAX WO IV CONTRAST", "CPT", "1", "1", "Approved", "31", "CPT", "C4"]
+
+
+Processing New Row [nil, "No child records to display.", nil, nil, nil]
+Initial Row Type Indicator = Note
+Row[2] = 
+Revised Row Type Indicator = Note Detail
+Saving Row 4 Info [nil, "No child records to display.", nil, nil, nil]
+
+Processing New Row [nil, nil, "Care Date", "Actual Level of Care", "Approved Level of Care", "Determination", "Auth Approval Days", nil, nil]
+Initial Row Type Indicator = Note Detail
+Row[2] = Care Date
+Revised Row Type Indicator = Care Date
+Just wrote entire row 4 and ended Example
+[""]
+
+
+Processing New Row [nil, "No child records to display.", nil, nil, nil, nil, nil, nil, nil]
+Initial Row Type Indicator = Care Date
+Row[2] = 
+Revised Row Type Indicator = Care Date Detail
+Saving Row 5 Info [nil, "No child records to display.", nil, nil, nil, nil, nil, nil, nil]
+
+Processing New Row [nil, 43091.56180555555, "Q20041059", 82226.0, "Neil", "Fultz", "OSU OTOLARYNGOLOGISTS LL", 932317, "STEPHEN Y", "KANG", 1699903971.0, "JAMES CANCER HOSPITAL", 936501, 1124127683.0, "JAMES CANCER HOSPITAL", 1124127683.0, "Radiology (HH)", "OP RAD", "Pre-Service", "PRE", nil, "JAMES CANCER HOSPITAL", 43095.0, "Approved", "MediGold Classic Preferred", "HealthHelp", "Medical Criteria Met", "Outpatient", 43091.0, 43121.0, "Standard", nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil]
+Initial Row Type Indicator = Care Date Detail
+Row[2] = Q20041059
+Revised Row Type Indicator = New Auth
+First Time Through = NO
+Just wrote entire row 5 and ended Example
+["", "", "", "", "0"]
+
+Just appended new example
+| 12222017 | 2017-12-22T09:08:00+00:00 | Q20037385 | 000027780-01 | PHILLIP | ALSPACH | OSU INTERNAL MED LLC | 935943 | MANISHA H | SHAH | 1679581896 | JAMES CANCER HOSPITAL | 936501 | 1124127683 | JAMES CANCER HOSPITAL | 1124127683 | Radiology (HH) | OP RAD | Pre-Service | PRE |  | JAMES CANCER HOSPITAL | 12262017 | Approved | MediGold Classic Preferred | HealthHelp | Medical Criteria Met | Outpatient | 12222017 | 01212018 | Standard |  |  |  |  |  |  |  |  |  |  |  | Pre-Service | Approved | X171226011 | C73 | Malignant neoplasm of thyroid gland | ICD10 | 12262017 | 71250 | CAT SCAN THORAX WO IV CONTRAST | CPT | 1 | 1 | Approved | 31 | CPT | C4 |  |  |  |  |  | 0 |
+
+
+Saving Row 1 Info [nil, 43091.56180555555, "Q20041059", 82226.0, "Neil", "Fultz", "OSU OTOLARYNGOLOGISTS LL", 932317, "STEPHEN Y", "KANG", 1699903971.0, "JAMES CANCER HOSPITAL", 936501, 1124127683.0, "JAMES CANCER HOSPITAL", 1124127683.0, "Radiology (HH)", "OP RAD", "Pre-Service", "PRE", nil, "JAMES CANCER HOSPITAL", 43095.0, "Approved", "MediGold Classic Preferred", "HealthHelp", "Medical Criteria Met", "Outpatient", 43091.0, 43121.0, "Standard", nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil]
+
+Processing New Row [nil, "Auth Type", "Auth Status", "Auth Number", "Diagnosis Code", "Diagnosis", "Diagnosis Type", "Auth Modified Date"]
+Initial Row Type Indicator = New Auth
+Row[2] = Auth Status
+Revised Row Type Indicator = Auth Status
+Just wrote entire row 1
+["12222017", #<DateTime: 2017-12-22T13:29:00+00:00 ((2458110j,48540s,0n),+0s,2299161j)>, "Q20041059", "000082226-01", "Neil", "Fultz", "OSU OTOLARYNGOLOGISTS LL", "932317", "STEPHEN Y", "KANG", "1699903971", "JAMES CANCER HOSPITAL", "936501", "1124127683", "JAMES CANCER HOSPITAL", "1124127683", "Radiology (HH)", "OP RAD", "Pre-Service", "PRE", nil, "JAMES CANCER HOSPITAL", "12262017", "Approved", "MediGold Classic Preferred", "HealthHelp", "Medical Criteria Met", "Outpatient", "12222017", "01212018", "Standard", nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil]
+
+
+Processing New Row [nil, "Pre-Service", "Approved", "X171226012", "C4490", "Unspecified malignant neoplasm of skin, unspecified", "ICD10", 43095.0]
+Initial Row Type Indicator = Auth Status
+Row[2] = Approved
+Revised Row Type Indicator = Auth Status Detail
+Saving Row 2 Info [nil, "Pre-Service", "Approved", "X171226012", "C4490", "Unspecified malignant neoplasm of skin, unspecified", "ICD10", 43095.0]
+
+Processing New Row [nil, nil, "Service Code", "Service Description", "Service Type", "Qty Appr", "Qty Req'd", "Determination", "Auth Approval Days", "Type", "Type Code", nil, nil]
+Initial Row Type Indicator = Auth Status Detail
+Row[2] = Service Code
+Revised Row Type Indicator = Service Code
+Just wrote entire row 2
+["Pre-Service", "Approved", "X171226012", "C4490", "Unspecified malignant neoplasm of skin, unspecified", "ICD10", "12262017"]
+
+
+Processing New Row [nil, nil, 70543.0, "MRI ORBT/FAC/NCK W/O&W DYE", "CPT", 1.0, 1.0, "Approved", 31.0, "CPT", "C4", nil, nil]
+Initial Row Type Indicator = Service Code
+Row[2] = 70543.0
+Revised Row Type Indicator = Service Code Detail
+Saving Row 3 Info [nil, nil, 70543.0, "MRI ORBT/FAC/NCK W/O&W DYE", "CPT", 1.0, 1.0, "Approved", 31.0, "CPT", "C4", nil, nil]
+
+Processing New Row [nil, nil, "Note", nil, nil]
+Initial Row Type Indicator = Service Code Detail
+Row[2] = Note
+Revised Row Type Indicator = Note
+Just wrote entire row 3
+["70543", "MRI ORBT/FAC/NCK W/O&W DYE", "CPT", "1", "1", "Approved", "31", "CPT", "C4"]
+
+
+Processing New Row [nil, "No child records to display.", nil, nil, nil]
+Initial Row Type Indicator = Note
+Row[2] = 
+Revised Row Type Indicator = Note Detail
+Saving Row 4 Info [nil, "No child records to display.", nil, nil, nil]
+
+Processing New Row [nil, nil, "Care Date", "Actual Level of Care", "Approved Level of Care", "Determination", "Auth Approval Days", nil, nil]
+Initial Row Type Indicator = Note Detail
+Row[2] = Care Date
+Revised Row Type Indicator = Care Date
+Just wrote entire row 4 and ended Example
+[""]
+
+
+Processing New Row [nil, "No child records to display.", nil, nil, nil, nil, nil, nil, nil]
+Initial Row Type Indicator = Care Date
+Row[2] = 
+Revised Row Type Indicator = Care Date Detail
+Saving Row 5 Info [nil, "No child records to display.", nil, nil, nil, nil, nil, nil, nil]
+
+Processing New Row [nil, 43089.47430555556, "Q20022464", 88634.0, "Jerry", "Van Dyne", "MERRITT, ROBERT E", 930196.0, "ROBERT E", "MERRITT", 1508051319.0, "JAMES CANCER HOSPITAL", 936501, 1124127683.0, "JAMES CANCER HOSPITAL", 1124127683.0, "Radiology (HH)", "OP RAD", "Pre-Service", "PRE", nil, "JAMES CANCER HOSPITAL", 43095.0, "Approved", "MediGold Southeast OH Essential Care", "HealthHelp", "Medical Criteria Met", "Outpatient", 43089.0, 43119.0, "Standard", nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil]
+Initial Row Type Indicator = Care Date Detail
+Row[2] = Q20022464
+Revised Row Type Indicator = New Auth
+First Time Through = NO
+Just wrote entire row 5 and ended Example
+["", "", "", "", "0"]
+
+Just appended new example
+| 12222017 | 2017-12-22T13:29:00+00:00 | Q20041059 | 000082226-01 | Neil | Fultz | OSU OTOLARYNGOLOGISTS LL | 932317 | STEPHEN Y | KANG | 1699903971 | JAMES CANCER HOSPITAL | 936501 | 1124127683 | JAMES CANCER HOSPITAL | 1124127683 | Radiology (HH) | OP RAD | Pre-Service | PRE |  | JAMES CANCER HOSPITAL | 12262017 | Approved | MediGold Classic Preferred | HealthHelp | Medical Criteria Met | Outpatient | 12222017 | 01212018 | Standard |  |  |  |  |  |  |  |  |  |  |  | Pre-Service | Approved | X171226012 | C4490 | Unspecified malignant neoplasm of skin, unspecified | ICD10 | 12262017 | 70543 | MRI ORBT/FAC/NCK W/O&W DYE | CPT | 1 | 1 | Approved | 31 | CPT | C4 |  |  |  |  |  | 0 |
+
+
+Saving Row 1 Info [nil, 43089.47430555556, "Q20022464", 88634.0, "Jerry", "Van Dyne", "MERRITT, ROBERT E", 930196.0, "ROBERT E", "MERRITT", 1508051319.0, "JAMES CANCER HOSPITAL", 936501, 1124127683.0, "JAMES CANCER HOSPITAL", 1124127683.0, "Radiology (HH)", "OP RAD", "Pre-Service", "PRE", nil, "JAMES CANCER HOSPITAL", 43095.0, "Approved", "MediGold Southeast OH Essential Care", "HealthHelp", "Medical Criteria Met", "Outpatient", 43089.0, 43119.0, "Standard", nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil]
+
+Processing New Row [nil, "Auth Type", "Auth Status", "Auth Number", "Diagnosis Code", "Diagnosis", "Diagnosis Type", "Auth Modified Date"]
+Initial Row Type Indicator = New Auth
+Row[2] = Auth Status
+Revised Row Type Indicator = Auth Status
+Just wrote entire row 1
+["12202017", #<DateTime: 2017-12-20T11:23:00+00:00 ((2458108j,40980s,0n),+0s,2299161j)>, "Q20022464", "000088634-01", "Jerry", "Van Dyne", "MERRITT, ROBERT E", "930196", "ROBERT E", "MERRITT", "1508051319", "JAMES CANCER HOSPITAL", "936501", "1124127683", "JAMES CANCER HOSPITAL", "1124127683", "Radiology (HH)", "OP RAD", "Pre-Service", "PRE", nil, "JAMES CANCER HOSPITAL", "12262017", "Approved", "MediGold Southeast OH Essential Care", "HealthHelp", "Medical Criteria Met", "Outpatient", "12202017", "01192018", "Standard", nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil]
+
+
+Processing New Row [nil, "Pre-Service", "Approved", "X171226013", "J852", "Abscess of lung without pneumonia", "ICD10", 43095.0]
+Initial Row Type Indicator = Auth Status
+Row[2] = Approved
+Revised Row Type Indicator = Auth Status Detail
+Saving Row 2 Info [nil, "Pre-Service", "Approved", "X171226013", "J852", "Abscess of lung without pneumonia", "ICD10", 43095.0]
+
+Processing New Row [nil, nil, "Service Code", "Service Description", "Service Type", "Qty Appr", "Qty Req'd", "Determination", "Auth Approval Days", "Type", "Type Code", nil, nil]
+Initial Row Type Indicator = Auth Status Detail
+Row[2] = Service Code
+Revised Row Type Indicator = Service Code
+Just wrote entire row 2
+["Pre-Service", "Approved", "X171226013", "J852", "Abscess of lung without pneumonia", "ICD10", "12262017"]
+
+
+Processing New Row [nil, nil, 71260.0, "CAT SCAN THORAC C IV CONTRAST", "CPT", 1.0, 1.0, "Approved", 31.0, "CPT", "C4", nil, nil]
+Initial Row Type Indicator = Service Code
+Row[2] = 71260.0
+Revised Row Type Indicator = Service Code Detail
+Saving Row 3 Info [nil, nil, 71260.0, "CAT SCAN THORAC C IV CONTRAST", "CPT", 1.0, 1.0, "Approved", 31.0, "CPT", "C4", nil, nil]
+
+Processing New Row [nil, nil, "Note", nil, nil]
+Initial Row Type Indicator = Service Code Detail
+Row[2] = Note
+Revised Row Type Indicator = Note
+Just wrote entire row 3
+["71260", "CAT SCAN THORAC C IV CONTRAST", "CPT", "1", "1", "Approved", "31", "CPT", "C4"]
+
+
+Processing New Row [nil, "No child records to display.", nil, nil, nil]
+Initial Row Type Indicator = Note
+Row[2] = 
+Revised Row Type Indicator = Note Detail
+Saving Row 4 Info [nil, "No child records to display.", nil, nil, nil]
+
+Processing New Row [nil, nil, "Care Date", "Actual Level of Care", "Approved Level of Care", "Determination", "Auth Approval Days", nil, nil]
+Initial Row Type Indicator = Note Detail
+Row[2] = Care Date
+Revised Row Type Indicator = Care Date
+Just wrote entire row 4 and ended Example
+[""]
+
+
+Processing New Row [nil, "No child records to display.", nil, nil, nil, nil, nil, nil, nil]
+Initial Row Type Indicator = Care Date
+Row[2] = 
+Revised Row Type Indicator = Care Date Detail
+Saving Row 5 Info [nil, "No child records to display.", nil, nil, nil, nil, nil, nil, nil]
+
+Processing New Row [nil, 43088.69105324074, nil, 71942.0, "Helen", "Adams", "FAIRFIELD HLTHCARE PROFS", 910849, "JEREMY W", "BUCKLEY", 1720106248.0, "IRHYTHM TECHNOLOGIES INC", 932882.0, 1710130539.0, "IRHYTHM TECHNOLOGIES INC", 1710130539.0, "DME", "DME", "Pre-Service", "PRE", nil, "IRHYTHM TECHNOLOGIES INC", 43095.0, "Approved", "MediGold Classic Preferred", "Fax", "Medical Criteria Met", "Outpatient", 43081.0, 43112.0, "Standard", nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil]
+Initial Row Type Indicator = Care Date Detail
+Row[2] = 
+Revised Row Type Indicator = New Auth
+First Time Through = NO
+Just wrote entire row 5 and ended Example
+["", "", "", "", "0"]
+
+Just appended new example
+| 12202017 | 2017-12-20T11:23:00+00:00 | Q20022464 | 000088634-01 | Jerry | Van Dyne | MERRITT, ROBERT E | 930196 | ROBERT E | MERRITT | 1508051319 | JAMES CANCER HOSPITAL | 936501 | 1124127683 | JAMES CANCER HOSPITAL | 1124127683 | Radiology (HH) | OP RAD | Pre-Service | PRE |  | JAMES CANCER HOSPITAL | 12262017 | Approved | MediGold Southeast OH Essential Care | HealthHelp | Medical Criteria Met | Outpatient | 12202017 | 01192018 | Standard |  |  |  |  |  |  |  |  |  |  |  | Pre-Service | Approved | X171226013 | J852 | Abscess of lung without pneumonia | ICD10 | 12262017 | 71260 | CAT SCAN THORAC C IV CONTRAST | CPT | 1 | 1 | Approved | 31 | CPT | C4 |  |  |  |  |  | 0 |
+
+
+Saving Row 1 Info [nil, 43088.69105324074, nil, 71942.0, "Helen", "Adams", "FAIRFIELD HLTHCARE PROFS", 910849, "JEREMY W", "BUCKLEY", 1720106248.0, "IRHYTHM TECHNOLOGIES INC", 932882.0, 1710130539.0, "IRHYTHM TECHNOLOGIES INC", 1710130539.0, "DME", "DME", "Pre-Service", "PRE", nil, "IRHYTHM TECHNOLOGIES INC", 43095.0, "Approved", "MediGold Classic Preferred", "Fax", "Medical Criteria Met", "Outpatient", 43081.0, 43112.0, "Standard", nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil]
+
+Processing New Row [nil, "Auth Type", "Auth Status", "Auth Number", "Diagnosis Code", "Diagnosis", "Diagnosis Type", "Auth Modified Date"]
+Initial Row Type Indicator = New Auth
+Row[2] = Auth Status
+Revised Row Type Indicator = Auth Status
+Just wrote entire row 1
+["12192017", #<DateTime: 2017-12-19T16:35:07+00:00 ((2458107j,59707s,0n),+0s,2299161j)>, nil, "000071942-01", "Helen", "Adams", "FAIRFIELD HLTHCARE PROFS", "910849", "JEREMY W", "BUCKLEY", "1720106248", "IRHYTHM TECHNOLOGIES INC", "932882", "1710130539", "IRHYTHM TECHNOLOGIES INC", "1710130539", "DME", "DME", "Pre-Service", "PRE", nil, "IRHYTHM TECHNOLOGIES INC", "12262017", "Approved", "MediGold Classic Preferred", "Fax", "Medical Criteria Met", "Outpatient", "12122017", "01122018", "Standard", nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil]
+
+
+Processing New Row [nil, "Pre-Service", "Approved", "X171220034", "R002", "Palpitations", "ICD10", 43095.0]
+Initial Row Type Indicator = Auth Status
+Row[2] = Approved
+Revised Row Type Indicator = Auth Status Detail
+Saving Row 2 Info [nil, "Pre-Service", "Approved", "X171220034", "R002", "Palpitations", "ICD10", 43095.0]
+
+Processing New Row [nil, nil, "Service Code", "Service Description", "Service Type", "Qty Appr", "Qty Req'd", "Determination", "Auth Approval Days", "Type", "Type Code", nil, nil]
+Initial Row Type Indicator = Auth Status Detail
+Row[2] = Service Code
+Revised Row Type Indicator = Service Code
+Just wrote entire row 2
+["Pre-Service", "Approved", "X171220034", "R002", "Palpitations", "ICD10", "12262017"]
+
+
+Processing New Row [nil, nil, "0297T", "EXT ECG SCAN W/REPORT", "CPT", 1.0, 1.0, "Approved", 32.0, "CPT", "C4", nil, nil]
+Initial Row Type Indicator = Service Code
+Row[2] = 0297T
+Revised Row Type Indicator = Service Code Detail
+Saving Row 3 Info [nil, nil, "0297T", "EXT ECG SCAN W/REPORT", "CPT", 1.0, 1.0, "Approved", 32.0, "CPT", "C4", nil, nil]
+
+Processing New Row [nil, nil, "Note", nil, nil]
+Initial Row Type Indicator = Service Code Detail
+Row[2] = Note
+Revised Row Type Indicator = Note
+Just wrote entire row 3
+["0297T", "EXT ECG SCAN W/REPORT", "CPT", "1", "1", "Approved", "32", "CPT", "C4"]
+
+
+Processing New Row [nil, "No child records to display.", nil, nil, nil]
+Initial Row Type Indicator = Note
+Row[2] = 
+Revised Row Type Indicator = Note Detail
+Saving Row 4 Info [nil, "No child records to display.", nil, nil, nil]
+
+Processing New Row [nil, nil, "Care Date", "Actual Level of Care", "Approved Level of Care", "Determination", "Auth Approval Days", nil, nil]
+Initial Row Type Indicator = Note Detail
+Row[2] = Care Date
+Revised Row Type Indicator = Care Date
+Just wrote entire row 4 and ended Example
+[""]
+
+
+Processing New Row [nil, "No child records to display.", nil, nil, nil, nil, nil, nil, nil]
+Initial Row Type Indicator = Care Date
+Row[2] = 
+Revised Row Type Indicator = Care Date Detail
+Saving Row 5 Info [nil, "No child records to display.", nil, nil, nil, nil, nil, nil, nil]
+
+Processing New Row [nil, 43089.4125462963, nil, 84948.0, "Kay", "Fenn", "OSU HLTH SYSTEM NEUROSUR", 908648.0, "PUNIT", "AGRAWAL", 1578787990.0, "OSU HOSPITAL", 936446.0, 1447359997.0, "THE OH STATE UNIVERSITY HOSPITAL", 1447359997.0, "Out of Network Services", "OONS", "Pre-Service", "PRE", nil, "THE OH STATE UNIVERSITY HOSPITAL", 43095.0, "Approved", "MediGold Classic Preferred", "Fax", "Services Not Available In-Network", "Outpatient", 43101.0, 43190.0, "Standard", nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil]
+Initial Row Type Indicator = Care Date Detail
+Row[2] = 
+Revised Row Type Indicator = New Auth
+First Time Through = NO
+Just wrote entire row 5 and ended Example
+["", "", "", "", "0"]
+
+Just appended new example
+| 12192017 | 2017-12-19T16:35:07+00:00 |  | 000071942-01 | Helen | Adams | FAIRFIELD HLTHCARE PROFS | 910849 | JEREMY W | BUCKLEY | 1720106248 | IRHYTHM TECHNOLOGIES INC | 932882 | 1710130539 | IRHYTHM TECHNOLOGIES INC | 1710130539 | DME | DME | Pre-Service | PRE |  | IRHYTHM TECHNOLOGIES INC | 12262017 | Approved | MediGold Classic Preferred | Fax | Medical Criteria Met | Outpatient | 12122017 | 01122018 | Standard |  |  |  |  |  |  |  |  |  |  |  | Pre-Service | Approved | X171220034 | R002 | Palpitations | ICD10 | 12262017 | 0297T | EXT ECG SCAN W/REPORT | CPT | 1 | 1 | Approved | 32 | CPT | C4 |  |  |  |  |  | 0 |
+
+
+Saving Row 1 Info [nil, 43089.4125462963, nil, 84948.0, "Kay", "Fenn", "OSU HLTH SYSTEM NEUROSUR", 908648.0, "PUNIT", "AGRAWAL", 1578787990.0, "OSU HOSPITAL", 936446.0, 1447359997.0, "THE OH STATE UNIVERSITY HOSPITAL", 1447359997.0, "Out of Network Services", "OONS", "Pre-Service", "PRE", nil, "THE OH STATE UNIVERSITY HOSPITAL", 43095.0, "Approved", "MediGold Classic Preferred", "Fax", "Services Not Available In-Network", "Outpatient", 43101.0, 43190.0, "Standard", nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil]
+
+Processing New Row [nil, "Auth Type", "Auth Status", "Auth Number", "Diagnosis Code", "Diagnosis", "Diagnosis Type", "Auth Modified Date"]
+Initial Row Type Indicator = New Auth
+Row[2] = Auth Status
+Revised Row Type Indicator = Auth Status
+Just wrote entire row 1
+["12202017", #<DateTime: 2017-12-20T09:54:04+00:00 ((2458108j,35644s,0n),+0s,2299161j)>, nil, "000084948-01", "Kay", "Fenn", "OSU HLTH SYSTEM NEUROSUR", "908648", "PUNIT", "AGRAWAL", "1578787990", "OSU HOSPITAL", "936446", "1447359997", "THE OH STATE UNIVERSITY HOSPITAL", "1447359997", "Out of Network Services", "OONS", "Pre-Service", "PRE", nil, "THE OH STATE UNIVERSITY HOSPITAL", "12262017", "Approved", "MediGold Classic Preferred", "Fax", "Services Not Available In-Network", "Outpatient", "01012018", "03312018", "Standard", nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil]
+
+
+Processing New Row [nil, "Pre-Service", "Approved", "X171220112", "G250", "Essential tremor", "ICD10", 43095.0]
+Initial Row Type Indicator = Auth Status
+Row[2] = Approved
+Revised Row Type Indicator = Auth Status Detail
+Saving Row 2 Info [nil, "Pre-Service", "Approved", "X171220112", "G250", "Essential tremor", "ICD10", 43095.0]
+
+Processing New Row [nil, nil, "Service Code", "Service Description", "Service Type", "Qty Appr", "Qty Req'd", "Determination", "Auth Approval Days", "Type", "Type Code", nil, nil]
+Initial Row Type Indicator = Auth Status Detail
+Row[2] = Service Code
+Revised Row Type Indicator = Service Code
+Just wrote entire row 2
+["Pre-Service", "Approved", "X171220112", "G250", "Essential tremor", "ICD10", "12262017"]
+
+
+Processing New Row [nil, nil, 95978.0, "ANALYZE NEUROSTIM BRAIN/1H", "CPT", 3.0, 3.0, "Approved", 90.0, "CPT", "C4", nil, nil]
+Initial Row Type Indicator = Service Code
+Row[2] = 95978.0
+Revised Row Type Indicator = Service Code Detail
+Saving Row 3 Info [nil, nil, 95978.0, "ANALYZE NEUROSTIM BRAIN/1H", "CPT", 3.0, 3.0, "Approved", 90.0, "CPT", "C4", nil, nil]
+
+Processing New Row [nil, nil, 95979.0, "ANALYZ NEUROSTIM BRAIN ADDON", "CPT", 3.0, 3.0, "Approved", 90.0, "CPT", "C4", nil, nil]
+Initial Row Type Indicator = Service Code Detail
+Row[2] = 95979.0
+Second Detail Record
+Revised Row Type Indicator = Service Code Detail
+Saving Row 3 Info [nil, nil, 95979.0, "ANALYZ NEUROSTIM BRAIN ADDON", "CPT", 3.0, 3.0, "Approved", 90.0, "CPT", "C4", nil, nil]
+
+Processing New Row [nil, nil, "G0463", "HOSPITAL OUTPT CLINIC VISIT", "HCPCS", 3.0, 3.0, "Approved", 90.0, "HCPCS", "HC", nil, nil]
+Initial Row Type Indicator = Service Code Detail
+Row[2] = G0463
+Second Detail Record
+Revised Row Type Indicator = Service Code Detail
+Saving Row 3 Info [nil, nil, "G0463", "HOSPITAL OUTPT CLINIC VISIT", "HCPCS", 3.0, 3.0, "Approved", 90.0, "HCPCS", "HC", nil, nil]
+
+Processing New Row [nil, nil, "Note", nil, nil]
+Initial Row Type Indicator = Service Code Detail
+Row[2] = Note
+Revised Row Type Indicator = Note
+Just wrote entire row 3
+["95978, 95979, G0463", "HOSPITAL OUTPT CLINIC VISIT", "HCPCS", "3, 3, 3", "3, 3, 3", "Approved, Approved, Approved", "90, 90, 90", "HCPCS", "HC"]
+
+
+Processing New Row [nil, "No child records to display.", nil, nil, nil]
+Initial Row Type Indicator = Note
+Row[2] = 
+Revised Row Type Indicator = Note Detail
+Saving Row 4 Info [nil, "No child records to display.", nil, nil, nil]
+
+Processing New Row [nil, nil, "Care Date", "Actual Level of Care", "Approved Level of Care", "Determination", "Auth Approval Days", nil, nil]
+Initial Row Type Indicator = Note Detail
+Row[2] = Care Date
+Revised Row Type Indicator = Care Date
+Just wrote entire row 4 and ended Example
+[""]
+
+
+Processing New Row [nil, "No child records to display.", nil, nil, nil, nil, nil, nil, nil]
+Initial Row Type Indicator = Care Date
+Row[2] = 
+Revised Row Type Indicator = Care Date Detail
+Saving Row 5 Info [nil, "No child records to display.", nil, nil, nil, nil, nil, nil, nil]
+
+Processing New Row [nil, 43089.47215277778, nil, 96277.0, "Beverly", "Callander", "OSU OTOLARYNGOLOGISTS LL", 907810.0, "ENVER", "OZER", 1689626285.0, "JAMES CANCER HOSPITAL", 936501, 1124127683.0, "JAMES CANCER HOSPITAL", 1124127683.0, "Out of Network Services", "OONS", "Pre-Service", "PRE", nil, "JAMES CANCER HOSPITAL", 43095.0, "Approved", "MediGold Essential Care", "Fax", "Services Not Available In-Network", "Outpatient", 43089.0, 43179.0, "Standard", nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil]
+Initial Row Type Indicator = Care Date Detail
+Row[2] = 
+Revised Row Type Indicator = New Auth
+First Time Through = NO
+Just wrote entire row 5 and ended Example
+["", "", "", "", "0"]
+
+Just appended new example
+| 12202017 | 2017-12-20T09:54:04+00:00 |  | 000084948-01 | Kay | Fenn | OSU HLTH SYSTEM NEUROSUR | 908648 | PUNIT | AGRAWAL | 1578787990 | OSU HOSPITAL | 936446 | 1447359997 | THE OH STATE UNIVERSITY HOSPITAL | 1447359997 | Out of Network Services | OONS | Pre-Service | PRE |  | THE OH STATE UNIVERSITY HOSPITAL | 12262017 | Approved | MediGold Classic Preferred | Fax | Services Not Available In-Network | Outpatient | 01012018 | 03312018 | Standard |  |  |  |  |  |  |  |  |  |  |  | Pre-Service | Approved | X171220112 | G250 | Essential tremor | ICD10 | 12262017 | 95978, 95979, G0463 | HOSPITAL OUTPT CLINIC VISIT | HCPCS | 3, 3, 3 | 3, 3, 3 | Approved, Approved, Approved | 90, 90, 90 | HCPCS | HC |  |  |  |  |  | 0 |
+
+
+Saving Row 1 Info [nil, 43089.47215277778, nil, 96277.0, "Beverly", "Callander", "OSU OTOLARYNGOLOGISTS LL", 907810.0, "ENVER", "OZER", 1689626285.0, "JAMES CANCER HOSPITAL", 936501, 1124127683.0, "JAMES CANCER HOSPITAL", 1124127683.0, "Out of Network Services", "OONS", "Pre-Service", "PRE", nil, "JAMES CANCER HOSPITAL", 43095.0, "Approved", "MediGold Essential Care", "Fax", "Services Not Available In-Network", "Outpatient", 43089.0, 43179.0, "Standard", nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil]
+
+Processing New Row [nil, "Auth Type", "Auth Status", "Auth Number", "Diagnosis Code", "Diagnosis", "Diagnosis Type", "Auth Modified Date"]
+Initial Row Type Indicator = New Auth
+Row[2] = Auth Status
+Revised Row Type Indicator = Auth Status
+Just wrote entire row 1
+["12202017", #<DateTime: 2017-12-20T11:19:54+00:00 ((2458108j,40794s,0n),+0s,2299161j)>, nil, "000096277-01", "Beverly", "Callander", "OSU OTOLARYNGOLOGISTS LL", "907810", "ENVER", "OZER", "1689626285", "JAMES CANCER HOSPITAL", "936501", "1124127683", "JAMES CANCER HOSPITAL", "1124127683", "Out of Network Services", "OONS", "Pre-Service", "PRE", nil, "JAMES CANCER HOSPITAL", "12262017", "Approved", "MediGold Essential Care", "Fax", "Services Not Available In-Network", "Outpatient", "12202017", "03202018", "Standard", nil, nil, nil, nil, nil, nil, nil, nil, nil, nil, nil]
+
+
+Processing New Row [nil, "Pre-Service", "Approved", "X171220122", "C089", "Malignant neoplasm of major salivary gland, unspecified", "ICD10", 43095.0]
+Initial Row Type Indicator = Auth Status
+Row[2] = Approved
+Revised Row Type Indicator = Auth Status Detail
+Saving Row 2 Info [nil, "Pre-Service", "Approved", "X171220122", "C089", "Malignant neoplasm of major salivary gland, unspecified", "ICD10", 43095.0]
+
+Processing New Row [nil, nil, "Service Code", "Service Description", "Service Type", "Qty Appr", "Qty Req'd", "Determination", "Auth Approval Days", "Type", "Type Code", nil, nil]
+Initial Row Type Indicator = Auth Status Detail
+Row[2] = Service Code
+Revised Row Type Indicator = Service Code
+Just wrote entire row 2
+["Pre-Service", "Approved", "X171220122", "C089", "Malignant neoplasm of major salivary gland, unspecified", "ICD10", "12262017"]
+
+
+Processing New Row [nil, nil, 99201.0, "OFFICE CALL - NEW PATIENT", "CPT", 1.0, 1.0, "Approved", 91.0, "CPT", "C4", nil, nil]
+Initial Row Type Indicator = Service Code
+Row[2] = 99201.0
+Revised Row Type Indicator = Service Code Detail
+Saving Row 3 Info [nil, nil, 99201.0, "OFFICE CALL - NEW PATIENT", "CPT", 1.0, 1.0, "Approved", 91.0, "CPT", "C4", nil, nil]
+
+Processing New Row [nil, nil, 99202.0, "OFFICE CALL - NEW PATIENT", "CPT", 1.0, 1.0, "Approved", 91.0, "CPT", "C4", nil, nil]
+Initial Row Type Indicator = Service Code Detail
+Row[2] = 99202.0
+Second Detail Record
+Revised Row Type Indicator = Service Code Detail
+Saving Row 3 Info [nil, nil, 99202.0, "OFFICE CALL - NEW PATIENT", "CPT", 1.0, 1.0, "Approved", 91.0, "CPT", "C4", nil, nil]
+
+Processing New Row [nil, nil, 99203.0, "OFFICE CALL - NEW PATIENT", "CPT", 1.0, 1.0, "Approved", 91.0, "CPT", "C4", nil, nil]
+Initial Row Type Indicator = Service Code Detail
+Row[2] = 99203.0
+Second Detail Record
+Revised Row Type Indicator = Service Code Detail
+Saving Row 3 Info [nil, nil, 99203.0, "OFFICE CALL - NEW PATIENT", "CPT", 1.0, 1.0, "Approved", 91.0, "CPT", "C4", nil, nil]
+
+Processing New Row [nil, nil, 99204.0, "OFFICE CALL - NEW PATIENT", "CPT", 1.0, 1.0, "Approved", 91.0, "CPT", "C4", nil, nil]
+Initial Row Type Indicator = Service Code Detail
+Row[2] = 99204.0
+Second Detail Record
+Revised Row Type Indicator = Service Code Detail
+Saving Row 3 Info [nil, nil, 99204.0, "OFFICE CALL - NEW PATIENT", "CPT", 1.0, 1.0, "Approved", 91.0, "CPT", "C4", nil, nil]
+
+Processing New Row [nil, nil, 99205.0, "OFFICE CALL - NEW PATIENT", "CPT", 1.0, 1.0, "Approved", 91.0, "CPT", "C4", nil, nil]
+Initial Row Type Indicator = Service Code Detail
+Row[2] = 99205.0
+Second Detail Record
+Revised Row Type Indicator = Service Code Detail
+Saving Row 3 Info [nil, nil, 99205.0, "OFFICE CALL - NEW PATIENT", "CPT", 1.0, 1.0, "Approved", 91.0, "CPT", "C4", nil, nil]
+
+Processing New Row [nil, nil, 99211.0, "OFFICE CALL - ESTABLISHED PATIENT", "CPT", 2.0, 2.0, "Approved", 91.0, "CPT", "C4", nil, nil]
+Initial Row Type Indicator = Service Code Detail
+Row[2] = 99211.0
+Second Detail Record
+Revised Row Type Indicator = Service Code Detail
+Saving Row 3 Info [nil, nil, 99211.0, "OFFICE CALL - ESTABLISHED PATIENT", "CPT", 2.0, 2.0, "Approved", 91.0, "CPT", "C4", nil, nil]
+
+Processing New Row [nil, nil, 99212.0, "OFFICE CALL - ESTABLISHED PATIENT", "CPT", 2.0, 2.0, "Approved", 91.0, "CPT", "C4", nil, nil]
+Initial Row Type Indicator = Service Code Detail
+Row[2] = 99212.0
+Second Detail Record
+Revised Row Type Indicator = Service Code Detail
+Saving Row 3 Info [nil, nil, 99212.0, "OFFICE CALL - ESTABLISHED PATIENT", "CPT", 2.0, 2.0, "Approved", 91.0, "CPT", "C4", nil, nil]
+
+Processing New Row [nil, nil, 99213.0, "OFFICE CALL - ESTABLISHED PATIENT", "CPT", 2.0, 2.0, "Approved", 91.0, "CPT", "C4", nil, nil]
+Initial Row Type Indicator = Service Code Detail
+Row[2] = 99213.0
+Second Detail Record
+Revised Row Type Indicator = Service Code Detail
+Saving Row 3 Info [nil, nil, 99213.0, "OFFICE CALL - ESTABLISHED PATIENT", "CPT", 2.0, 2.0, "Approved", 91.0, "CPT", "C4", nil, nil]
+
+Processing New Row [nil, nil, 99214.0, "OFFICE CALL - ESTABLISHED PATIENT", "CPT", 2.0, 2.0, "Approved", 91.0, "CPT", "C4", nil, nil]
+Initial Row Type Indicator = Service Code Detail
+Row[2] = 99214.0
+Second Detail Record
+Revised Row Type Indicator = Service Code Detail
+Saving Row 3 Info [nil, nil, 99214.0, "OFFICE CALL - ESTABLISHED PATIENT", "CPT", 2.0, 2.0, "Approved", 91.0, "CPT", "C4", nil, nil]
+
+Processing New Row [nil, nil, 99215.0, "OFFICE CALL - ESTABLISHED PATIENT", "CPT", 2.0, 2.0, "Approved", 91.0, "CPT", "C4", nil, nil]
+Initial Row Type Indicator = Service Code Detail
+Row[2] = 99215.0
+Second Detail Record
+Revised Row Type Indicator = Service Code Detail
+Saving Row 3 Info [nil, nil, 99215.0, "OFFICE CALL - ESTABLISHED PATIENT", "CPT", 2.0, 2.0, "Approved", 91.0, "CPT", "C4", nil, nil]
+
+Processing New Row [nil, nil, "G0463", "HOSPITAL OUTPT CLINIC VISIT", "HCPCS", 3.0, 3.0, "Approved", 91.0, "HCPCS", "HC", nil, nil]
+Initial Row Type Indicator = Service Code Detail
+Row[2] = G0463
+Second Detail Record
+Revised Row Type Indicator = Service Code Detail
+Saving Row 3 Info [nil, nil, "G0463", "HOSPITAL OUTPT CLINIC VISIT", "HCPCS", 3.0, 3.0, "Approved", 91.0, "HCPCS", "HC", nil, nil]
+
+Processing New Row [nil, nil, "Note", nil, nil]
+Initial Row Type Indicator = Service Code Detail
+Row[2] = Note
+Revised Row Type Indicator = Note
+Just wrote entire row 3
+["99201, 99202, 99203, 99204, 99205, 99211, 99212, 99213, 99214, 99215, G0463", "HOSPITAL OUTPT CLINIC VISIT", "HCPCS", "1, 1, 1, 1, 1, 2, 2, 2, 2, 2, 3", "1, 1, 1, 1, 1, 2, 2, 2, 2, 2, 3", "Approved, Approved, Approved, Approved, Approved, Approved, Approved, Approved, Approved, Approved, Approved", "91, 91, 91, 91, 91, 91, 91, 91, 91, 91, 91", "HCPCS", "HC"]
+
+
+Processing New Row [nil, "No child records to display.", nil, nil, nil]
+Initial Row Type Indicator = Note
+Row[2] = 
+Revised Row Type Indicator = Note Detail
+Saving Row 4 Info [nil, "No child records to display.", nil, nil, nil]
+
+Processing New Row [nil, nil, "Care Date", "Actual Level of Care", "Approved Level of Care", "Determination", "Auth Approval Days", nil, nil]
+Initial Row Type Indicator = Note Detail
+Row[2] = Care Date
+Revised Row Type Indicator = Care Date
+Just wrote entire row 4 and ended Example
+[""]
+
+
+Processing New Row [nil, "No child records to display.", nil, nil, nil, nil, nil, nil, nil]
+Initial Row Type Indicator = Care Date
+Row[2] = 
+Revised Row Type Indicator = Care Date Detail
+Saving Row 5 Info [nil, "No child records to display.", nil, nil, nil, nil, nil, nil, nil]
+Just wrote entire row 5 and ended Example
+["", "", "", "", "0"]
+
+Just appended new example
+| 12202017 | 2017-12-20T11:19:54+00:00 |  | 000096277-01 | Beverly | Callander | OSU OTOLARYNGOLOGISTS LL | 907810 | ENVER | OZER | 1689626285 | JAMES CANCER HOSPITAL | 936501 | 1124127683 | JAMES CANCER HOSPITAL | 1124127683 | Out of Network Services | OONS | Pre-Service | PRE |  | JAMES CANCER HOSPITAL | 12262017 | Approved | MediGold Essential Care | Fax | Services Not Available In-Network | Outpatient | 12202017 | 03202018 | Standard |  |  |  |  |  |  |  |  |  |  |  | Pre-Service | Approved | X171220122 | C089 | Malignant neoplasm of major salivary gland, unspecified | ICD10 | 12262017 | 99201, 99202, 99203, 99204, 99205, 99211, 99212, 99213, 99214, 99215, G0463 | HOSPITAL OUTPT CLINIC VISIT | HCPCS | 1, 1, 1, 1, 1, 2, 2, 2, 2, 2, 3 | 1, 1, 1, 1, 1, 2, 2, 2, 2, 2, 3 | Approved, Approved, Approved, Approved, Approved, Approved, Approved, Approved, Approved, Approved, Approved | 91, 91, 91, 91, 91, 91, 91, 91, 91, 91, 91 | HCPCS | HC |  |  |  |  |  | 0 |
+
