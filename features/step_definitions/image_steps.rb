@@ -878,6 +878,8 @@ def determine_ex_code (essette_sub_class, status, status_reason)
     ex_code = "A1"
   elsif essette_sub_class == "OP Behavioral Health" && status == "Approved" && status_reason == "With Additional Info"
     ex_code = "A1"
+  elsif essette_sub_class == "OP Behavioral Health" && status == "Approved" && status_reason == "Services Not Available In-Network"
+    ex_code = "A7"
   elsif essette_sub_class == "OP Substance Abuse" && status == "Approved" && status_reason == "Medical Criteria Met"
     ex_code = "A1"
   elsif essette_sub_class == "OP Substance Abuse" && status == "Approved" && status_reason == "PPO-In-Network Rate"
