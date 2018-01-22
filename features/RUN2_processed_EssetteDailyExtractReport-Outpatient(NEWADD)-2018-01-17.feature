@@ -1,9 +1,9 @@
-Feature: Process Essette Extract EssetteDailyExtractReport-Outpatient(NEWADD)-2018-01-17
+Feature: RUN 2 Process Essette Extract EssetteDailyExtractReport-Outpatient(NEWADD)-2018-01-17
 	As an auth entering person
 	I want the ability to add all types of authorizations
 	so that I know that information is entered correctly
 
-Scenario Outline: EssetteDailyExtractReport-Outpatient(NEWADD)-2018-01-17
+Scenario Outline: RUN2_EssetteDailyExtractReport-Outpatient(NEWADD)-2018-01-17
 	Given I save the auth class "<auth_class>" to a variable
 	And I sign in to the application
 	When in the "Home" page I click on "Authorizations/Medical Management"
