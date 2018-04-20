@@ -22,8 +22,12 @@ def process_template_file (new_feature_file_essette)
   end
   @old_template_file.close
 
+  @skip_line = 0
   @it_extract_file.each_line do |line|
-    new_feature_file_essette.puts line
+    if @skip_line > 0
+      new_feature_file_essette.puts line
+    end
+    @skip_line = 1
   end
 
   @old_template_file.close
