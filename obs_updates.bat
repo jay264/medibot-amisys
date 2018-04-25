@@ -1,3 +1,2 @@
-call jruby -S cucumber URL=PROD features/processed_Essette_OBS_Inpatient_New_Adds_04142018.feature
-call jruby -S cucumber URL=PROD features/processed_Essette_OBS_Inpatient_New_Adds_04152018.feature
-call jruby -S cucumber URL=PROD features/processed_Essette_OBS_Inpatient_New_Adds_04162018.feature
+call jruby -S cucumber URL=PROD features/processed_EssetteDailyExtractReport-Inpatient(NEWADD)-2018-04-18_obs.feature
+call jruby -S cucumber URL=PROD features/processed_EssetteDailyExtractReport-Inpatient(NEWADD)-2018-04-19_obs.feature
